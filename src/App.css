@@ -1,0 +1,35 @@
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  @media (width <= 1024px) {
+    display: block;
+  }
+}
+
+.header__title {
+  display: inline-block;
+  margin: auto;
+  
+  @media (width <= 1024px) {
+    display: block;
+    text-align: center;
+  }
+}
+
+.footer::before,
+.footer::after {
+  content: "";
+  height: 48px;
+  width: 48px;
+  background-image: url("./images/footer-logo.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  left: 16px;
+}
+.footer::after {
+  left: initial;
+  right: 16px;
+  transform: scaleX(-1);
+}

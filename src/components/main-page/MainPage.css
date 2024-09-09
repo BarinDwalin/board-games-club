@@ -1,0 +1,32 @@
+.page {
+  display: grid;
+  grid-template-rows: 1fr;
+  min-height: 100%;
+}
+
+.page-header {
+  text-align: center;
+}
+
+.content {
+  /* background-image: url('../images/banner.png');
+  background-repeat: no-repeat;  
+  background-size: contain;
+  background-position-x: center; */
+
+  @media (width <= 1024px) {
+    /* background-size: cover; */
+  }
+}
+
+.banner {
+  display: block;
+  margin: auto;
+  width: 100%;
+  max-width: 920px;
+  height: initial;
+
+  @media (width <= 1024px) {
+    font-size: 16px;
+  }
+}
