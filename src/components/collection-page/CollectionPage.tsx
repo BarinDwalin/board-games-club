@@ -15,7 +15,7 @@ export function CollectionPage({ collection }: CollectionPageProps) {
       <div className="collection-list">
         {collection.map(({ game, owner }, i) => (
           <div key={game.id} className="game-card">
-            <img className="image" src={game.photoUrl} />
+            <img className="image" src={game.photoUrl} alt="изображение коробки с игрой"/>
             <div className="description">
               <div className="description__title">{game.title}</div>
               <div className="description__sub-title">

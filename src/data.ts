@@ -1,6 +1,6 @@
 // https://api.tesera.ru/collections/base/own/1872664?v=1&limit=100
 
-import { Game, GameRecord } from "./interfaces";
+import { GameRecord } from "./interfaces";
 
 const collectionJohn: GameRecord[] = [
   {
@@ -4578,48 +4578,49 @@ const collectionSergei: GameRecord[] = [
 
 const collectionGuests: GameRecord[] = [
   {
-    "relationId": 91646490,
-    "creationDateUtc": "2020-03-16T20:19:29",
-    "game": {
-        "id": 53145,
-        "teseraId": 159232,
-        "title": "Спартак. Кровь и песок",
-        "title2": "Spartacus: A Game of Blood and Treachery",
-        "alias": "Spartacus-A-Game-of-Blood-and-Treachery",
-        "descriptionShort": "Спартак. Кровь и песок - игра о политических интригах и гладиаторских боях в Древнем Риме. Игроки являются главами разных влиятельных семей города Капуа, ведущих борьбу за власть.",
-        "creationDateUtc": "2012-08-22T07:26:15",
-        "photoUrl": "https://s.tesera.ru/images/items/159232,3/photo1.jpg",
-        "year": 2012,
-        "numVotes": 751,
-        "ratingUser": 8.02,
-        "n10Rating": 8.0,
-        "n20Rating": 7.98,
-        "bggRating": 7.47,
-        "bggGeekRating": 7.01,
-        "bggNumVotes": 0,
-        "ratingMy": 10.0,
-        "commentsTotal": 1213,
-        "commentsTotalNew": 0,
-        "teseraUrl": "https://tesera.ru/game/159232",
-        "isAddition": false
-    }
-},
-]
+    relationId: 91646490,
+    creationDateUtc: "2020-03-16T20:19:29",
+    game: {
+      id: 53145,
+      teseraId: 159232,
+      title: "Спартак. Кровь и песок",
+      title2: "Spartacus: A Game of Blood and Treachery",
+      alias: "Spartacus-A-Game-of-Blood-and-Treachery",
+      descriptionShort:
+        "Спартак. Кровь и песок - игра о политических интригах и гладиаторских боях в Древнем Риме. Игроки являются главами разных влиятельных семей города Капуа, ведущих борьбу за власть.",
+      creationDateUtc: "2012-08-22T07:26:15",
+      photoUrl: "https://s.tesera.ru/images/items/159232,3/photo1.jpg",
+      year: 2012,
+      numVotes: 751,
+      ratingUser: 8.02,
+      n10Rating: 8.0,
+      n20Rating: 7.98,
+      bggRating: 7.47,
+      bggGeekRating: 7.01,
+      bggNumVotes: 0,
+      ratingMy: 10.0,
+      commentsTotal: 1213,
+      commentsTotalNew: 0,
+      teseraUrl: "https://tesera.ru/game/159232",
+      isAddition: false,
+    },
+  },
+];
 
 export const clubCollections = {
   collectionJohn,
   collectionSergei,
   collectionGuests,
-}
+};
 
-export const allGames = [
-  ...addOwner(collectionJohn, 'John'),
-  ...addOwner(collectionSergei, 'Сергей'),
-  ...addOwner(collectionGuests, 'Гостевая'),
-].sort(sortGame);
+export const allGames = distinctGame([
+  ...addOwner(collectionJohn, "John"),
+  ...addOwner(collectionSergei, "Сергей"),
+  ...addOwner(collectionGuests, "Гостевая"),
+]).sort(sortGame);
 
 function addOwner(collection: GameRecord[], owner: string): GameRecord[] {
-  return collection.map(boardGame => ({...boardGame, owner}));
+  return collection.map((boardGame) => ({ ...boardGame, owner }));
 }
 
 function sortGame(a: GameRecord, b: GameRecord) {
@@ -4633,4 +4634,18 @@ function sortGame(a: GameRecord, b: GameRecord) {
   }
 
   return 0;
-};
+}
+
+function distinctGame(records: GameRecord[]) {
+  const unicGamesId = new Set();
+  const unicGames: GameRecord[] = [];
+
+  records.forEach((record) => {
+    if (!unicGamesId.has(record.game.id)) {
+      unicGamesId.add(record.game.id);
+      unicGames.push(record);
+    }
+  });
+
+  return unicGames;
+}

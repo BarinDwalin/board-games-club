@@ -26,7 +26,7 @@ type MenuItem = Required<MenuProps>["items"][number];
 const App: React.FC<AppProps> = ({ clubCollections, allGames }: AppProps) => {
   const [collapsed, setCollapsed] = useState(false);
   const [page, setPage] = React.useState(AppRoute.Collection);
-  const [collections, setCollections] = React.useState(clubCollections);
+  // const [collections, setCollections] = React.useState(clubCollections);
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
