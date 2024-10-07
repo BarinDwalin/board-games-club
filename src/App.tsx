@@ -1,4 +1,4 @@
-import { Box, createTheme } from "@mui/material";
+import { Box } from "@mui/material";
 import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
@@ -33,22 +33,9 @@ const App: React.FC<AppProps> = ({ clubCollections, allGames }: AppProps) => {
     },
   ]);
 
-  const getPage = (page: string) => {
-    switch (page) {
-      case AppRoute.Main:
-        return <MainPage />;
-      case AppRoute.Collection:
-        return <CollectionPage collection={allGames} />;
-
-      case AppRoute.Events:
-      default:
-        return null;
-    }
-  };
   const getTitle = (route: string) => {
     return Pages[route]?.title;
   };
-  const theme = createTheme({});
 
   return (
     <div

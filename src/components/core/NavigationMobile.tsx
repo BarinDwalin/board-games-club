@@ -147,6 +147,7 @@ export function NavigationMobile(props: {
                             top: "50%",
                             transform: "translateY(-50%)",
                           }}
+                          alt={route.key}
                           src={route.mobileIcon}
                         />
                       </div>
