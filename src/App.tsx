@@ -1,72 +1,37 @@
+import { Box, createTheme } from "@mui/material";
+import React from "react";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "./App.css";
-import React, { useState } from "react";
-import { useMediaQuery } from "react-responsive";
-import { MenuFoldOutlined, MenuUnfoldOutlined } from "@ant-design/icons";
-import {
-  Button,
-  ConfigProvider,
-  Layout,
-  Menu,
-  MenuProps,
-  Typography,
-  theme,
-} from "antd";
 import { GameRecord } from "./interfaces";
 import { AppRoute, Pages } from "./settings";
-import { CollectionPage, MainPage } from "./components";
+import { CollectionPage, Footer, Header, MainPage, Tournament } from "./components";
 
-const { Header, Footer, Sider, Content } = Layout;
-const { Title } = Typography;
 interface AppProps {
   clubCollections: { [key: string]: GameRecord[] };
   allGames: GameRecord[];
 }
-type MenuItem = Required<MenuProps>["items"][number];
 
 const App: React.FC<AppProps> = ({ clubCollections, allGames }: AppProps) => {
-  const [collapsed, setCollapsed] = useState(false);
-  const [page, setPage] = React.useState(AppRoute.Collection);
+  const [page, setPage] = React.useState(AppRoute.Main);
   // const [collections, setCollections] = React.useState(clubCollections);
-  const {
-    token: { colorBgContainer, borderRadiusLG },
-  } = theme.useToken();
-  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1024px)" });
-  const items: MenuItem[] = [
+  const router = createBrowserRouter([
     {
-      key: AppRoute.Main,
-      icon: React.createElement("img", {
-        height: "40px",
-        width: "40px",
-        src: "./images/main.png",
-        style: { left: "-12px", position: "relative" },
-      }),
-      label: "Главная",
+      path: "/",
+      element: <MainPage />,
     },
     {
-      key: AppRoute.Collection,
-      icon: React.createElement("img", {
-        height: "40px",
-        width: "40px",
-        src: "./images/collection.png",
-        style: { left: "-12px", position: "relative" },
-      }),
-      label: "Игры клуба",
+      path: AppRoute.Main,
+      element: <MainPage />,
     },
     {
-      key: AppRoute.Events,
-      icon: React.createElement("img", {
-        height: "40px",
-        width: "40px",
-        src: "./images/tournament.png",
-        style: { left: "-12px", position: "relative" },
-      }),
-      label: "Турниры",
+      path: AppRoute.Collection,
+      element: <CollectionPage collection={allGames} />,
     },
-  ];
-
-  const onClickMenu: MenuProps["onClick"] = (e) => {
-    setPage(e.key);
-  };
+    {
+      path: AppRoute.Events,
+      element: <Tournament></Tournament>,
+    },
+  ]);
 
   const getPage = (page: string) => {
     switch (page) {
@@ -81,80 +46,39 @@ const App: React.FC<AppProps> = ({ clubCollections, allGames }: AppProps) => {
     }
   };
   const getTitle = (route: string) => {
-    return <>{Pages[route]?.title}</>;
+    return Pages[route]?.title;
   };
+  const theme = createTheme({});
 
   return (
-    <ConfigProvider
-      theme={{
-        components: {
-          Menu: {
-            //collapsedIconSize: 32,
-          },
-        },
+    <div
+      className="layout"
+      style={{
+        minHeight: "100%",
+        minWidth: "320px",
+        width: "100%",
       }}
     >
-      <Layout style={{ minHeight: "100vh", maxHeight: "100vh" }}>
-        <Sider
-          trigger={null}
-          collapsible
-          collapsed={isTabletOrMobile ? true : collapsed}
-          collapsedWidth={80}
-        >
-          <div className="demo-logo-vertical" />
-          <Menu
-            theme="dark"
-            mode="inline"
-            defaultSelectedKeys={["1"]}
-            items={items}
-            onClick={onClickMenu}
-          />
-        </Sider>
-        <Layout>
-          <Header
-            className="header"
-            style={{ padding: 0, background: colorBgContainer }}
-          >
-            {!isTabletOrMobile && (
-              <Button
-                type="text"
-                icon={collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-                onClick={() => setCollapsed(!collapsed)}
-                style={{
-                  fontSize: "16px",
-                  width: 64,
-                  height: 64,
-                }}
-              />
-            )}
-            <Title className="header__title" level={isTabletOrMobile ? 4 : 2}>
-              {getTitle(page)}
-            </Title>
-          </Header>
-          <Content
-            style={{
-              margin: "24px 16px",
-              padding: 0,
-              minHeight: 280,
-              background: colorBgContainer,
-              borderRadius: borderRadiusLG,
-              overflow: "scroll",
-            }}
-          >
-            {getPage(page)}
-          </Content>
-          <Footer
-            className="footer"
-            style={{ textAlign: "center", position: "relative" }}
-          >
-            <div>
-              Клуб настольных игр Кинь&nbsp;Двинь ©{new Date().getFullYear()}{" "}
-              Астана
-            </div>
-          </Footer>
-        </Layout>
-      </Layout>
-    </ConfigProvider>
+      <Header
+        title={getTitle(page)}
+        setPage={(item) => {
+          setPage(item.key);
+        }}
+        toggleSearch={() => {
+          console.log("TODO: TOGGLE SEARCH");
+        }}
+      ></Header>
+      <Box
+        component="main"
+        className="main"
+        sx={{
+          overflow: "initial",
+        }}
+      >
+        <RouterProvider router={router} />
+      </Box>
+      <Footer></Footer>
+    </div>
   );
 };
 
