@@ -4,17 +4,62 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
+import {
+  Navigate,
+  RouterProvider,
+  createBrowserRouter,
+} from "react-router-dom";
 import "./index.css";
-import reportWebVitals from "./reportWebVitals";
+import App from "./App";
+import {
+  CollectionPage,
+  ErrorPage,
+  MainPage,
+  NotFoundPage,
+  Tournament,
+  eventsLoader,
+} from "./components";
 import { allGames, clubCollections } from "./data";
+import reportWebVitals from "./reportWebVitals";
+import { AppRoute } from "./settings";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App clubCollections={clubCollections} allGames={allGames} />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        errorElement: <ErrorPage />,
+        children: [
+          { index: true, element: <MainPage /> },
+          {
+            path: AppRoute.Main,
+            element: <MainPage />,
+          },
+          {
+            path: AppRoute.Collection,
+            element: <CollectionPage collection={allGames} />,
+          },
+          {
+            loader: eventsLoader,
+            path: AppRoute.Events,
+            element: <Tournament></Tournament>,
+          },
+          { path: "404", element: <NotFoundPage /> },
+          { path: "*", element: <Navigate replace to="/404" /> },
+        ],
+      },
+    ],
+  },
+]);
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App clubCollections={clubCollections} allGames={allGames} />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

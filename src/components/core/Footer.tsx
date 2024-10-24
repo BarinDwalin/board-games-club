@@ -43,7 +43,7 @@ export function Footer() {
             content: '""',
             height: 48,
             width: 48,
-            backgroundImage: `url("./images/footer-logo.svg")`,
+            backgroundImage: `url("/images/footer-logo.svg")`,
             backgroundRepeat: "no-repeat",
             position: "absolute",
             top: 16,
@@ -77,7 +77,7 @@ export function Footer() {
             <img
               width="32"
               height="32"
-              src="./images/club-logo.png"
+              src="/images/club-logo.png"
               alt="логотип клуба в виде мипла"
             />
             <Typography
@@ -180,7 +180,7 @@ export function Footer() {
               <img
                 width="32"
                 height="32"
-                src="./images/footer/kaspi-logo.png"
+                src="/images/footer/kaspi-logo.png"
                 alt="логотип kaspi qr"
               />
             </Box>

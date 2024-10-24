@@ -1,10 +1,10 @@
 import { Box } from "@mui/material";
 import React from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./App.css";
 import { GameRecord } from "./interfaces";
 import { AppRoute, Pages } from "./settings";
-import { CollectionPage, Footer, Header, MainPage, Tournament } from "./components";
+import { Footer, Header } from "./components";
 
 interface AppProps {
   clubCollections: { [key: string]: GameRecord[] };
@@ -14,24 +14,6 @@ interface AppProps {
 const App: React.FC<AppProps> = ({ clubCollections, allGames }: AppProps) => {
   const [page, setPage] = React.useState(AppRoute.Main);
   // const [collections, setCollections] = React.useState(clubCollections);
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <MainPage />,
-    },
-    {
-      path: AppRoute.Main,
-      element: <MainPage />,
-    },
-    {
-      path: AppRoute.Collection,
-      element: <CollectionPage collection={allGames} />,
-    },
-    {
-      path: AppRoute.Events,
-      element: <Tournament></Tournament>,
-    },
-  ]);
 
   const getTitle = (route: string) => {
     return Pages[route]?.title;
@@ -62,7 +44,7 @@ const App: React.FC<AppProps> = ({ clubCollections, allGames }: AppProps) => {
           overflow: "initial",
         }}
       >
-        <RouterProvider router={router} />
+        <Outlet />
       </Box>
       <Footer></Footer>
     </div>

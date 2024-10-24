@@ -1,28 +1,16 @@
 import { Box, Typography, createTheme } from "@mui/material";
+import { useLoaderData } from "react-router-dom";
+import { getEvents } from "../../data/events";
+import { Event } from "../../interfaces";
+
+export async function eventsLoader() {
+  const events = await getEvents();
+  return { events };
+}
 
 export function Tournament() {
-  const events = [
-    {
-      date: "2023-10-19T00:00:00.00Z",
-      title: "Турнир по Лоскутному Королевству от Стиля Жизни",
-    },
-    {
-      date: "2024-01-11T00:00:00.00Z",
-      title: "Тунир по Новым Римлянам от Стиля Жизни",
-    },
-    {
-      date: "2023-10-26T00:00:00.00Z",
-      title: "Турнир по Гномам-вредителям от Стиля Жизни",
-    },
-    {
-      date: "2023-11-10T00:00:00.00Z",
-      title: "Турнир по Королевским Хроникам от Эврикус",
-    },
-    {
-      date: "2024-01-25T00:00:00.00Z",
-      title: "Турнир по Unmatched от GaGa",
-    },
-  ];
+  const { events } = useLoaderData() as { events: Event[] } || [];
+
   let theme = createTheme({});
 
   return (

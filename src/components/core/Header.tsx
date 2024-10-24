@@ -21,17 +21,17 @@ export interface MenuItem {
 const routes: MenuItem[] = [
   {
     key: AppRoute.Main,
-    mobileIcon: "./images/navigation/about.svg",
+    mobileIcon: "/images/navigation/about.svg",
     label: "О клубе",
   },
   {
     key: AppRoute.Collection,
-    mobileIcon: "./images/navigation/collection.svg",
+    mobileIcon: "/images/navigation/collection.svg",
     label: "Во что играем",
   },
   {
     key: AppRoute.Events,
-    mobileIcon: "./images/navigation/tournament.svg",
+    mobileIcon: "/images/navigation/tournament.svg",
     label: "Турниры",
   },
 ];
@@ -224,7 +224,7 @@ export function Header(props: {
                 width: "inherit",
                 height: "inherit",
               }}
-              src="./images/club-logo.png"
+              src="/images/club-logo.png"
               alt="логотип клуба в виде мипла"
             />
           </Link>
@@ -286,7 +286,7 @@ export function Header(props: {
                   width: "inherit",
                   height: "inherit",
                 }}
-                src="./images/club-logo.png"
+                src="/images/club-logo.png"
                 alt="логотип клуба в виде мипла"
               />
             </Link>

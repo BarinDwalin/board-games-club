@@ -5,6 +5,7 @@ import {
   createTheme,
   Link,
 } from "@mui/material";
+import { Link as RouterLink } from "react-router-dom";
 import { MenuItem } from "./Header";
 
 export function NavigationDesktop(props: {
@@ -95,7 +96,8 @@ export function NavigationDesktop(props: {
             {props.routes.map((route) => (
               <li key={route.key} onClick={() => onClickMenu(route)}>
                 <Link
-                  href={route.key}
+                  component={RouterLink}
+                  to={route.key}
                   sx={{
                     display: "inline-flex",
                     px: "18px",
