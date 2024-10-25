@@ -4,9 +4,10 @@ interface HeaderProps {
   title: string;
   navigation: string;
   imageSource: string;
+  imageAlt: string;
 }
 
-export function Header({ title, navigation, imageSource }: HeaderProps) {
+export function Header({ title, navigation, imageSource, imageAlt }: HeaderProps) {
   let theme = createTheme({});
 
   return (
@@ -32,6 +33,7 @@ export function Header({ title, navigation, imageSource }: HeaderProps) {
         >
           <img
             src={imageSource}
+            alt={imageAlt}
             style={{
               height: "100%",
               objectFit: "cover",

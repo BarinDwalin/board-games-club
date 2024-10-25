@@ -27,6 +27,7 @@ export function CollectionPage({ collection }: CollectionPageProps) {
         title="во что поиграть"
         navigation="крошки / навигации"
         imageSource="/images/banners/club-1.jpg"
+        imageAlt="помещение клуба"
       ></Header>
 
       <CategoriesPanel></CategoriesPanel>

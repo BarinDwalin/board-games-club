@@ -1,4 +1,4 @@
-import { Box, createTheme } from "@mui/material";
+import { Box } from "@mui/material";
 import { getNoun } from "../../../../utils";
 import { CatalogViewToggle } from "./CatalogViewToggle";
 
@@ -13,8 +13,6 @@ export function SettingsPanel({
   isDefaultView,
   onToggleView,
 }: SettingsPanelProps) {
-  let theme = createTheme({});
-
   return (
     <Box
       sx={{

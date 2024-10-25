@@ -1,5 +1,4 @@
-import { Box, createTheme } from "@mui/material";
-//import "./MasonryCatalog.css";
+import { Box } from "@mui/material";
 import { GameRecord } from "../../../../interfaces";
 
 interface MasonryCatalogProps {
@@ -7,8 +6,6 @@ interface MasonryCatalogProps {
 }
 
 export function MasonryCatalog({ collection }: MasonryCatalogProps) {
-  let theme = createTheme({});
-
   return (
     <Box sx={{ position: "relative", paddingX: "24px", minHeight: "265px" }}>
       <div className="collection-list">
