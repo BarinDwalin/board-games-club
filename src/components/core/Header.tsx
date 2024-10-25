@@ -312,7 +312,10 @@ export function Header(props: {
         <NavigationMobile
           collapsed={collapsedMobileMenu}
           routes={routes}
-          setPage={props.setPage}
+          setPage={(page) => {
+            props.setPage(page);
+            onToggleMenu();
+          }}
         ></NavigationMobile>
       </Box>
     </ThemeProvider>

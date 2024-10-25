@@ -1,0 +1,18 @@
+.icon-button {
+  height: 20px;
+  width: 20px;
+  vertical-align: top;
+  color: #b3b3b3;
+  fill: currentcolor;
+  stroke: currentcolor;
+}
+
+.icon-button_selected {
+  color: #000;
+}
+
+.icon-button > * {
+  display: block;
+  height: 100%;
+  width: 100%;
+}

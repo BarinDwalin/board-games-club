@@ -1,41 +1,70 @@
-import React from "react";
+import { Box, createTheme } from "@mui/material";
+import React, { useState } from "react";
+import "./CollectionPage.css";
 import { GameRecord } from "../../interfaces";
-import './CollectionPage.css';
+import {
+  CategoriesPanel,
+  GridCatalog,
+  Header,
+  MasonryCatalog,
+  SettingsPanel,
+} from "./components";
 
 interface CollectionPageProps {
   collection: GameRecord[];
 }
 
 export function CollectionPage({ collection }: CollectionPageProps) {
+  let theme = createTheme({});
+  const [defaultView, setDefaultView] = useState(true);
+  const onToggleView = () => {
+    setDefaultView((value) => !value);
+  };
+
   return (
     <>
-      {/* <h1 className="page-header">Коллекция клуба</h1> */}
-      {/* <img className="logo" width="204" height="144" src="img/logo.jpg" /> */}
+      <Header
+        title="во что поиграть"
+        navigation="крошки / навигации"
+        imageSource="/images/banners/club-1.jpg"
+      ></Header>
 
-      <div className="collection-list">
-        {collection.map(({ game, owner }, i) => (
-          <div key={game.id} className="game-card">
-            <img className="image" src={game.photoUrl} alt="изображение коробки с игрой"/>
-            <div className="description">
-              <div className="description__title">{game.title}</div>
-              <div className="description__sub-title">
-                <span className="description__sub-title_primary">
-                  {game.year}
-                </span>
-                <span>{game.title2}</span>
-              </div>
-              <div className="description__sub-title">
-                {game.bggRating ? (
-                  <span>bggRating: {game.bggRating}</span>
-                ) : (
-                  <></>
-                )}
-                <span>{owner}</span>
-              </div>
-            </div>
-          </div>
-        ))}
-      </div>
+      <CategoriesPanel></CategoriesPanel>
+
+      <SettingsPanel
+        count={collection.length}
+        isDefaultView={defaultView}
+        onToggleView={onToggleView}
+      ></SettingsPanel>
+
+      <Box
+        sx={{
+          margin: "0 auto",
+          maxWidth: "1530px",
+          minHeight: "50vh",
+          [theme.breakpoints.up("lg")]: {
+            padding: "0 40px 50px",
+          },
+          [theme.breakpoints.between("md", "lg")]: {
+            padding: "0 45px 50px",
+          },
+          [theme.breakpoints.down("md")]: {
+            paddingBottom: "50px",
+          },
+        }}
+      >
+        <Box
+          sx={{
+            position: "relative",
+          }}
+        >
+          {defaultView ? (
+            <GridCatalog collection={collection}></GridCatalog>
+          ) : (
+            <MasonryCatalog collection={collection}></MasonryCatalog>
+          )}
+        </Box>
+      </Box>
     </>
   );
 }

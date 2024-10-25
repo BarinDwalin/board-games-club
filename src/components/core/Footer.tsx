@@ -171,7 +171,7 @@ export function Footer() {
               component="div"
               sx={{ my: 4, color: "#4d4d4d", fontSize: 12 }}
             >
-              Клуб настольных игр «Кинь&nbsp;Двинь» совместно с&nbsp;сообществом
+              Клуб настольных игр «Кинь-Двинь» совместно с&nbsp;сообществом
               НРИ и&nbsp;Вархаммер {new Date().getFullYear()}
               <br />
               Астана, Проспект Туран, 40/2, НП&nbsp;7, ЖК&nbsp;"Alma&nbsp;Park"
