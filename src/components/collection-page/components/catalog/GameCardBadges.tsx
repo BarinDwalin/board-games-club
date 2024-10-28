@@ -7,6 +7,7 @@ interface GameCardBadgesProps {
 export enum GameBadge {
   Hot,
   Hit,
+  Guest,
 }
 
 export function GameCardBadges({ badges }: GameCardBadgesProps) {
@@ -28,15 +29,23 @@ export function GameCardBadges({ badges }: GameCardBadgesProps) {
         }}
       >
         {badges.map((badge) => {
-          const backgroundColor =
-            badge === GameBadge.Hit ? "#fffd02" : "#ff3d5d";
+          let backgroundColor = "#666e75";
           let text = "";
+          let isShortTitle = true;
+
           switch (badge) {
             case GameBadge.Hit:
               text = "Hit!";
+              backgroundColor = "#fffd02";
               break;
             case GameBadge.Hot:
+              backgroundColor = "#ff3d5d";
               text = "Hot";
+              break;
+            case GameBadge.Guest:
+              backgroundColor = "#a7b2bb";
+              text = "Временно";
+              isShortTitle = false;
               break;
           }
 
@@ -47,7 +56,7 @@ export function GameCardBadges({ badges }: GameCardBadgesProps) {
                 alignItems: "center",
                 justifyContent: "center",
                 height: "30px",
-                width: "30px",
+                width: isShortTitle ?  "30px" : "80px",
                 backgroundColor: backgroundColor,
                 fontSize: "13px",
                 fontWeight: "bold",

@@ -29,10 +29,11 @@ export function GridCatalog({ collection }: GridCatalogProps) {
           sx={{
             boxSizing: "border-box",
             display: "inline-flex",
-            [theme.breakpoints.up("lg")]: {
-              margin: "0 0 100px",
-              padding: "0 20px",
-              width: "calc(25% - 10px)",
+            [theme.breakpoints.up("xl")]: {
+              margin: "0 0 120px",
+              marginRight: i % 4 === 1 ? "50px" : "0px",
+              padding: "0 25px",
+              width: "calc(25% - 12.5px)",
             },
             [theme.breakpoints.between("lg", "xl")]: {
               margin: "0 0 80px",

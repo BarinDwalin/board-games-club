@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+import "./MasonryCatalog.css";
 import { GameRecord } from "../../../../interfaces";
 
 interface MasonryCatalogProps {
@@ -8,6 +9,7 @@ interface MasonryCatalogProps {
 export function MasonryCatalog({ collection }: MasonryCatalogProps) {
   return (
     <Box sx={{ position: "relative", paddingX: "24px", minHeight: "265px" }}>
+      <div style={{ fontSize: "24px", margin: "24px" }}>TODO: Раздел в разработке</div>
       <div className="collection-list">
         {collection.map(({ game, owner }, i) => (
           <div key={game.id} className="game-card">
