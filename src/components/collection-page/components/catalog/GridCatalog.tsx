@@ -1,7 +1,7 @@
 import { Box, createTheme } from "@mui/material";
 import "./GridCatalog.css";
 import { GameRecord } from "../../../../interfaces";
-import { GameCard } from "./GameCard";
+import { GameCard } from "./game-card";
 
 interface GridCatalogProps {
   collection: GameRecord[];
@@ -51,9 +51,23 @@ export function GridCatalog({ collection }: GridCatalogProps) {
               marginRight: i % 2 === 1 ? "0px" : "20px",
               width: "calc(50% - 10px)",
             },
+            ".game-description": {
+              [theme.breakpoints.down("md")]: {
+                paddingLeft: i % 2 === 1 ? "0px" : "20px",
+                paddingRight: i % 2 === 0 ? "0px" : "20px",
+              },
+              [theme.breakpoints.up("lg")]: {
+                textAlign: i % 4 < 2 ? "right" : "left",
+              },
+            },
+            ".game-description .game-description__badges": {
+              [theme.breakpoints.up("lg")]: {
+                flexDirection: i % 4 < 2 ? "row-reverse" : "row",
+              },
+            },
           }}
         >
-          <GameCard isLeftCards={i % 4 < 2} game={game} owner={owner}></GameCard>
+          <GameCard game={game} owner={owner}></GameCard>
         </Box>
       ))}
     </Box>

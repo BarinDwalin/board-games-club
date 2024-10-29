@@ -1,16 +1,16 @@
 import { Box, Link, createTheme } from "@mui/material";
 import { Link as RouterLink } from "react-router-dom";
-import { Game } from "../../../../interfaces";
+import { Game } from "../../../../../interfaces";
 import { BggRaitingBadge } from "./BggRaitingBadge";
 import { GameBadge, GameCardBadges } from "./GameCardBadges";
+import { GameCardSecondaryDescription } from "./GameCardSecondaryDescription";
 
 interface GameCardProps {
-  isLeftCards?: boolean;
   game: Game;
   owner?: string;
 }
 
-export function GameCard({ isLeftCards, game, owner }: GameCardProps) {
+export function GameCard({ game, owner }: GameCardProps) {
   let theme = createTheme({});
   const badges: GameBadge[] = [];
   if (game.bggRating > 8) {
@@ -19,7 +19,7 @@ export function GameCard({ isLeftCards, game, owner }: GameCardProps) {
   if (game.numVotes > 100) {
     badges.push(GameBadge.Hit);
   }
-  if (game.id %10 === 0) {
+  if (game.id % 10 === 0) {
     badges.push(GameBadge.Guest);
   }
 
@@ -34,12 +34,12 @@ export function GameCard({ isLeftCards, game, owner }: GameCardProps) {
     transitionDuration: ".15s",
     transitionProperty: "opacity",
     transitionTimingFunction: "ease-in-out",
-  }
+  };
   const transitionColorStyle = {
     transitionDuration: ".15s",
     transitionProperty: "color",
     transitionTimingFunction: "ease-in-out",
-  }
+  };
 
   return (
     <Box
@@ -47,10 +47,11 @@ export function GameCard({ isLeftCards, game, owner }: GameCardProps) {
       sx={{
         width: "100%",
         position: "relative",
-        "&:hover .card-secondary-layout .card-secondary-layout__wrapper::before": {
-          opacity: .8,
-          backgroundColor: "#b6b6b6",
-        },
+        "&:hover .card-secondary-layout .card-secondary-layout__wrapper::before":
+          {
+            opacity: 0.8,
+            background: "linear-gradient(-60deg,  #fff, 30%, #464646)",
+          },
         "&:hover .secondary-description": {
           opacity: 1,
         },
@@ -109,12 +110,12 @@ export function GameCard({ isLeftCards, game, owner }: GameCardProps) {
                   ...absoluteStyle,
                 }}
               >
-                <div 
+                <div
                   style={{
                     flexGrow: 1,
                   }}
                 >
-                  <Box 
+                  <Box
                     sx={{
                       ...absoluteStyle,
                       zIndex: -1,
@@ -125,7 +126,7 @@ export function GameCard({ isLeftCards, game, owner }: GameCardProps) {
                       opacity: 0; */
                     }}
                   >
-                    <picture 
+                    <picture
                       style={{
                         position: "absolute",
                         left: 0,
@@ -159,24 +160,20 @@ export function GameCard({ isLeftCards, game, owner }: GameCardProps) {
         </Box>
 
         <Box
+          className="game-description"
           sx={{
             textAlign: "left",
             marginTop: "15px",
             ...transitionColorStyle,
-            [theme.breakpoints.up("lg")]: {
-              textAlign: isLeftCards ? "right" : "left",
-            },
           }}
         >
           <Box
+            className="game-description__badges"
             sx={{
               display: "flex",
               justifyContent: "flex-start",
               alignItems: "center",
               columnGap: "8px",
-              [theme.breakpoints.up("lg")]: {
-                flexDirection: isLeftCards ? "row-reverse" : "row",
-              },
             }}
           >
             <BggRaitingBadge value={game.bggRating}></BggRaitingBadge>
@@ -227,8 +224,8 @@ export function GameCard({ isLeftCards, game, owner }: GameCardProps) {
               content: '""',
               display: "block",
               paddingBottom: "100%",
-              ...transitionOpacityStyle,
-              transitionProperty: "opacity, background-color",
+              opacity: 0,
+              ...transitionOpacityStyle, 
             },
           }}
         >
@@ -260,27 +257,13 @@ export function GameCard({ isLeftCards, game, owner }: GameCardProps) {
           ) : (
             <></>
           )}
-          <Box
-            className="secondary-description"
+          <GameCardSecondaryDescription
+            game={game}
             sx={{
               opacity: 0,
-              display: "flex",
-              flexDirection: "column",
-              position: "absolute",
-              right: "15px",
-              bottom: "15px",
-              alignItems: "flex-end",
               ...transitionOpacityStyle,
-              fontSize: "15px",
-              lineHeight: "25px",
-              fontWeight: "bold", 
             }}
-          >
-            <Box>Игроков: 2-4</Box>
-            <Box>Возраст: 12+</Box>
-            <Box>Время партии: 30-60</Box>
-            <Box>Сложность: 2.7/5</Box>
-          </Box>
+          ></GameCardSecondaryDescription>
         </Box>
       </Box>
     </Box>

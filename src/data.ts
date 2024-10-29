@@ -1,6 +1,109 @@
 // https://api.tesera.ru/collections/base/own/1872664?v=1&limit=100
 
-import { GameRecord } from "./interfaces";
+import { Game, GameNastolio, GameRecord } from "./interfaces";
+
+// https://nastol.io/api/v2/users/BarinDwalin/collections/collection/games?page=1&per_page=96&sort=date&order=desc
+const collectionSergeiNastolio: GameRecord[] = ([
+  {
+    "name_original": "Sagrada",
+    "name_russian": "Саграда",
+    "slug": "sagrada",
+    "year": 2017,
+    "players_min": 1,
+    "players_max": 4,
+    "time_min": 30,
+    "time_max": 45,
+    "age": 13,
+    "height": 75,
+    "length": 295,
+    "width": 225,
+    "weight": 950,
+    "logo": {
+      "original": "https://nastol.io/storage/games/images/sagrada/657370/саграда.jpg",
+      "thumb": "https://nastol.io/storage/games/images/sagrada/657370/conversions/саграда-thumb.jpg"
+    },
+    "type_string": "game",
+    "scores": {
+      "average": "7.50",
+      "votes": 529
+    },
+    "bgg": {
+      "bgg_id": 199561,
+      "rating": {
+        "votes": 39776,
+        "average": 7.5,
+        "rank": 191,
+        "synced_at": "2024-01-19T20:05:18.000000Z"
+      }
+    },
+  },
+  {
+    "name_original": "Champions of Midgard: Valhalla + Champions of Midgard: The Dark Mountains",
+    "name_russian": "Чемпионы Мидгарда. Вальхалла и Темные горы",
+    "slug": "champions_of_midgard_valhalla_champions_of_midgard_the_dark_mountains",
+    "year": 2020,
+    "players_min": 2,
+    "players_max": 5,
+    "time_min": 60,
+    "time_max": 120,
+    "age": 10,
+    "height": null,
+    "length": null,
+    "width": null,
+    "weight": null,
+    "logo": {
+      "original": "https://nastol.io/storage/games/images/champions_of_midgard_valhalla_champions_of_midgard_the_dark_mountains/661596/4ccb0eda6a78c6d636471243563d921f.png",
+      "thumb": "https://nastol.io/storage/games/images/champions_of_midgard_valhalla_champions_of_midgard_the_dark_mountains/661596/conversions/4ccb0eda6a78c6d636471243563d921f-thumb.jpg"
+    },
+      "type_string": "expansion",
+      "scores": {
+      "average": "7.88",
+      "votes": 60
+    },
+    "bgg": {
+      "bgg_id": 344719,
+      "rating": {
+        "votes": 13,
+        "average": 8,
+        "rank": null,
+        "synced_at": "2022-10-21T00:11:49.000000Z"
+      }
+    },
+  },
+  {
+    "name_original": "Celestia",
+    "name_russian": "Селестия",
+    "slug": "celestia",
+    "year": 2015,
+    "players_min": 2,
+    "players_max": 6,
+    "time_min": 30,
+    "time_max": 30,
+    "age": 8,
+    "height": 57,
+    "length": 200,
+    "width": 200,
+    "weight": 715,
+    "logo": {
+      "original": "https://nastol.io/storage/games/images/celestia/648635/cover.jpg",
+      "thumb": "https://nastol.io/storage/games/images/celestia/648635/conversions/cover-thumb.jpg"
+    },
+    "type_string": "game",
+    "scores": {
+      "average": "6.88",
+      "votes": 287
+    },
+    "bgg": {
+      "bgg_id": 175117,
+      "rating": {
+        "votes": 11170,
+        "average": 6.9,
+        "rank": 875,
+        "synced_at": "2024-01-19T20:05:40.000000Z"
+      }
+    },
+  }
+] as GameNastolio[]).map(gameN => ({game: convertToGame(gameN)} as GameRecord));
 
 const collectionJohn: GameRecord[] = [
   {
@@ -4619,6 +4722,11 @@ export const allGames = distinctGame([
   ...addOwner(collectionGuests, "Гостевая"),
 ]).sort(sortGame);
 
+export const allGamesNastolio = distinctGame([
+  ...addOwner(collectionSergeiNastolio, "Сергей"),
+]).sort(sortGame);
+
+
 function addOwner(collection: GameRecord[], owner: string): GameRecord[] {
   return collection.map((boardGame) => ({ ...boardGame, owner }));
 }
@@ -4648,4 +4756,29 @@ function distinctGame(records: GameRecord[]) {
   });
 
   return unicGames;
+}
+
+function convertToGame(gameN: GameNastolio): Game {
+  return {
+    ...gameN,
+    id: gameN.bgg.bgg_id,
+    teseraId: 0,
+    title: gameN.name_russian,
+    alias: gameN.name_original,
+    descriptionShort: '',
+    creationDateUtc: '',
+    photoUrl: gameN.logo.original,
+    year: gameN.year,
+    numVotes: gameN.scores.votes,
+    ratingUser: Number.parseFloat(gameN.scores.average),
+    n10Rating: 0,
+    n20Rating: 0,
+    bggRating: gameN.bgg.rating.average,
+    bggGeekRating: 0,
+    bggNumVotes: gameN.bgg.rating.votes,
+    commentsTotal: 0,
+    commentsTotalNew: 0,
+    teseraUrl: '',
+    isAddition: gameN.type_string === 'expansion',
+  };
 }
