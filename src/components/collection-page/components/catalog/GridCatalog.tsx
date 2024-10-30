@@ -24,6 +24,7 @@ export function GridCatalog({ collection }: GridCatalogProps) {
     >
       {collection.map(({ game, owner }, i) => (
         <Box
+          key={game.id}
           itemScope
           itemType="http://schema.org/Product"
           sx={{

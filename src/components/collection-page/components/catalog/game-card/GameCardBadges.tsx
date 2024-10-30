@@ -51,6 +51,7 @@ export function GameCardBadges({ badges }: GameCardBadgesProps) {
 
           return (
             <Box
+              key={badge}
               sx={{
                 display: "flex",
                 alignItems: "center",
