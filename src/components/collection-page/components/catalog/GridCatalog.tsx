@@ -1,4 +1,5 @@
 import { Box, createTheme } from "@mui/material";
+import { useState } from "react";
 import "./GridCatalog.css";
 import { GameRecord } from "../../../../interfaces";
 import { GameCard } from "./game-card";
@@ -9,6 +10,10 @@ interface GridCatalogProps {
 
 export function GridCatalog({ collection }: GridCatalogProps) {
   let theme = createTheme({});
+  const [selectedCardId, setSelectedCardId] = useState<number>();
+  const handleClick = (id: number) => {
+    setSelectedCardId((value) => (value !== id ? id : undefined));
+  }; 
 
   return (
     <Box
@@ -27,6 +32,7 @@ export function GridCatalog({ collection }: GridCatalogProps) {
           key={game.id}
           itemScope
           itemType="http://schema.org/Product"
+          onClick={() => handleClick(game.id)}
           sx={{
             boxSizing: "border-box",
             display: "inline-flex",
@@ -68,7 +74,11 @@ export function GridCatalog({ collection }: GridCatalogProps) {
             },
           }}
         >
-          <GameCard game={game} owner={owner}></GameCard>
+          <GameCard
+            game={game}
+            owner={owner}
+            isSelected={selectedCardId === game.id}
+          ></GameCard>
         </Box>
       ))}
     </Box>

@@ -8,9 +8,10 @@ import { GameCardSecondaryDescription } from "./GameCardSecondaryDescription";
 interface GameCardProps {
   game: Game;
   owner?: string;
+  isSelected?: boolean;
 }
 
-export function GameCard({ game, owner }: GameCardProps) {
+export function GameCard({ game, owner, isSelected }: GameCardProps) {
   let theme = createTheme({});
   const badges: GameBadge[] = [];
   if (game.bggRating > 8) {
@@ -40,6 +41,10 @@ export function GameCard({ game, owner }: GameCardProps) {
     transitionProperty: "color",
     transitionTimingFunction: "ease-in-out",
   };
+  const cardSecondaryLayoutWrapperSelectedStyle = {
+    opacity: 0.8,
+    background: "linear-gradient(-60deg,  #fff, 30%, #464646)",
+  };
 
   return (
     <Box
@@ -49,8 +54,7 @@ export function GameCard({ game, owner }: GameCardProps) {
         position: "relative",
         "&:hover .card-secondary-layout .card-secondary-layout__wrapper::before":
           {
-            opacity: 0.8,
-            background: "linear-gradient(-60deg,  #fff, 30%, #464646)",
+            ...cardSecondaryLayoutWrapperSelectedStyle,
           },
         "&:hover .secondary-description": {
           opacity: 1,
@@ -58,10 +62,10 @@ export function GameCard({ game, owner }: GameCardProps) {
       }}
     >
       <meta content={game.id.toString()} itemProp="sku"></meta>
-      <Link
-        component={RouterLink}
-        to={`/game/${game.id}`}
-        underline="none"
+      <Box
+        //component={RouterLink}
+        //to={`/`}
+        //underline="none"
         sx={{
           display: "block",
           width: "100%",
@@ -207,7 +211,7 @@ export function GameCard({ game, owner }: GameCardProps) {
             {game.title}
           </Box>
         </Box>
-      </Link>
+      </Box>
 
       <Box
         className="card-secondary-layout"
@@ -224,8 +228,10 @@ export function GameCard({ game, owner }: GameCardProps) {
               content: '""',
               display: "block",
               paddingBottom: "100%",
-              opacity: 0,
-              ...transitionOpacityStyle, 
+              ...(isSelected
+                ? cardSecondaryLayoutWrapperSelectedStyle
+                : { opacity: 0 }),
+              ...transitionOpacityStyle,
             },
           }}
         >
@@ -260,7 +266,7 @@ export function GameCard({ game, owner }: GameCardProps) {
           <GameCardSecondaryDescription
             game={game}
             sx={{
-              opacity: 0,
+              opacity: isSelected ? 1 : 0,
               ...transitionOpacityStyle,
             }}
           ></GameCardSecondaryDescription>

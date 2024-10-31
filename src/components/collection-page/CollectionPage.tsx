@@ -9,6 +9,7 @@ import {
   MasonryCatalog,
   SettingsPanel,
 } from "./components";
+import { Category } from "./models";
 
 interface CollectionPageProps {
   collection: GameRecord[];
@@ -20,6 +21,9 @@ export function CollectionPage({ collection }: CollectionPageProps) {
   const onToggleView = () => {
     setDefaultView((value) => !value);
   };
+  const handleSelectCategory = (category: Category) => {
+    console.info(`select category: ${category.category}`);
+  };
 
   return (
     <>
@@ -30,7 +34,9 @@ export function CollectionPage({ collection }: CollectionPageProps) {
         imageAlt="помещение клуба"
       ></Header>
 
-      <CategoriesPanel></CategoriesPanel>
+      <CategoriesPanel
+        onSelectCategory={handleSelectCategory}
+      ></CategoriesPanel>
 
       <SettingsPanel
         count={collection.length}
