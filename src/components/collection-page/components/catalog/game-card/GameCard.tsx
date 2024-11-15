@@ -30,7 +30,7 @@ const cardSecondaryLayoutWrapperSelectedStyle = {
   background: "linear-gradient(-60deg,  #fff, 30%, #464646)",
 };
 
-const Article = styled("article")(({}) => ({
+const Article = styled("article")(() => ({
   width: "100%",
   position: "relative",
   "&:hover .card-secondary-layout .card-secondary-layout__inner::before": {
