@@ -28,7 +28,7 @@ export const categories: readonly Category[] = [
   },
   {
     category: "children",
-    title: "десткие",
+    title: "детские",
     image: "/images/categories/children.svg",
   },
   {

@@ -25,11 +25,11 @@ export function GameCardSecondaryDescription({
         fontSize: "15px",
         lineHeight: "25px",
         fontWeight: "bold",
-        ...sx,
         [theme.breakpoints.down("sm")]: {
           fontSize: "12px",
           lineHeight: "17px",
         },
+        ...sx,
       }}
     >
       <Box>Игроков: {game.players_min || '?'}-{game.players_max || '?'}</Box>

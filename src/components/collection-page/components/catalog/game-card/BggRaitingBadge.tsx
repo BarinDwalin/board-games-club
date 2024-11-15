@@ -16,37 +16,37 @@ export function BggRaitingBadge({ value }: BggRaitingBadgeProps) {
         textAlign: "center",
         position: "relative",
         pointerEvents: "none",
-        width: "24px",
-        height: "14px",
-        marginY: "6px",
-        lineHeight: "15px",
+        width: "28px",
+        height: "16px",
+        marginY: "8px",
+        lineHeight: "17px",
+        fontSize: "12px",
         fontWeight: 600,
         color: "#fff",
-        fontSize: "10px",
         backgroundColor,
 
-        [theme.breakpoints.up("lg")]: {
-          width: "28px",
-          height: "16px",
-          marginY: "8px",
-          lineHeight: "17px",
-          fontSize: "12px",
+        [theme.breakpoints.between("md", "lg")]: {
+          width: "24px",
+          height: "14px",
+          marginY: "6px",
+          lineHeight: "15px",
+          fontSize: "10px",
         },
 
         "&::before": {
-          top: "-6px",
-          borderBottom: `6px solid ${backgroundColor}`,
-          [theme.breakpoints.up("lg")]: {
-            top: "-8px",
-            borderBottom: `8px solid ${backgroundColor}`,
+          top: "-8px",
+          borderBottom: `8px solid ${backgroundColor}`,
+          [theme.breakpoints.between("md", "lg")]: {
+            top: "-6px",
+            borderBottom: `6px solid ${backgroundColor}`,
           },
         },
         "&::after": {
-          bottom: "-6px",
-          borderTop: `6px solid ${backgroundColor}`,
-          [theme.breakpoints.up("lg")]: {
-            bottom: "-8px",
-            borderTop: `8px solid ${backgroundColor}`,
+          bottom: "-8px",
+          borderTop: `8px solid ${backgroundColor}`,
+          [theme.breakpoints.between("md", "lg")]: {
+            bottom: "-6px",
+            borderTop: `6px solid ${backgroundColor}`,
           },
         },
         "&::after,&::before": {
@@ -55,11 +55,11 @@ export function BggRaitingBadge({ value }: BggRaitingBadgeProps) {
           left: 0,
           width: 0,
           height: 0,
-          borderLeft: "12px solid transparent",
-          borderRight: "12px solid transparent",
-          [theme.breakpoints.up("lg")]: {
-            borderLeft: "14px solid transparent",
-            borderRight: "14px solid transparent",
+          borderLeft: "14px solid transparent",
+          borderRight: "14px solid transparent",
+          [theme.breakpoints.between("md", "lg")]: {
+            borderLeft: "12px solid transparent",
+            borderRight: "12px solid transparent",
           },
         },
       }}

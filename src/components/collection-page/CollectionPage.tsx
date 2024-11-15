@@ -66,9 +66,9 @@ export function CollectionPage({ collection }: CollectionPageProps) {
           }}
         >
           {defaultView ? (
-            <GridCatalog collection={collection}></GridCatalog>
-          ) : (
             <MasonryCatalog collection={collection}></MasonryCatalog>
+          ) : (
+            <GridCatalog collection={collection}></GridCatalog>
           )}
         </Box>
       </Box>

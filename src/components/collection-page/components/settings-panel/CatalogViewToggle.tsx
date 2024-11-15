@@ -56,12 +56,12 @@ export function CatalogViewToggle({
         <Box
           component="i"
           className={`icon-button ${
-            !isDefaultView ? "icon-button_selected" : ""
+            isDefaultView ? "icon-button_selected" : ""
           }`}
           sx={{
             display: "inline-block",
             [theme.breakpoints.down("md")]: {
-              display: isDefaultView ? "none" : "inline-block",
+              display: isDefaultView ? "inline-block" : "none",
             },
           }}
         >
@@ -74,15 +74,16 @@ export function CatalogViewToggle({
             ></path>
           </svg>
         </Box>
+
         <Box
           component="i"
           className={`icon-button ${
-            isDefaultView ? "icon-button_selected" : ""
+            !isDefaultView ? "icon-button_selected" : ""
           }`}
           sx={{
             display: "inline-block",
             [theme.breakpoints.down("md")]: {
-              display: isDefaultView ? "inline-block" : "none",
+              display: !isDefaultView ? "inline-block" : "none",
             },
           }}
         >
