@@ -39,6 +39,9 @@ const Article = styled("article")(() => ({
   "&:hover .secondary-description": {
     opacity: 1,
   },
+  "&:focus .game-description, &:hover .game-description": {
+    color: "#c6b09f",
+  },
 }));
 
 const LinkWrapper = (props: PropsWithChildren) => (

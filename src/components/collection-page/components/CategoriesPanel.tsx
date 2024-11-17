@@ -122,22 +122,20 @@ export function CategoriesPanel({ onSelectCategory }: CategoriesPanelProps) {
             onSelectItem={() => handleClick(category)}
           >
             <ImageWrapper>
-              <Box>
-                <picture>
-                  <img
-                    alt={category.title}
-                    title={category.title}
-                    src={category.image}
-                    loading="lazy"
-                    style={{
-                      height: "100%",
-                      width: "100%",
-                      maxWidth: "100%",
-                      objectFit: "cover",
-                    }}
-                  />
-                </picture>
-              </Box>
+              <picture>
+                <img
+                  alt={category.title}
+                  title={category.title}
+                  src={category.image}
+                  loading="lazy"
+                  style={{
+                    height: "100%",
+                    width: "100%",
+                    maxWidth: "100%",
+                    objectFit: "cover",
+                  }}
+                />
+              </picture>
             </ImageWrapper>
             <Title>{category.title}</Title>
           </PanelCategoriesItem>
