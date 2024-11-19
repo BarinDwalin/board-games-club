@@ -46,7 +46,7 @@ export function Tournament() {
       >
         {events
           .sort((a, b) => {
-            return new Date(a.date).valueOf() - new Date(b.date).valueOf();
+            return new Date(b.date).valueOf() - new Date(a.date).valueOf();
           })
           .map((event, i) => (
             <Box
