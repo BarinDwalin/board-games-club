@@ -19,14 +19,13 @@ import {
   Tournament,
   eventsLoader,
 } from "./components";
-import { allGames, clubCollections } from "./data";
 import reportWebVitals from "./reportWebVitals";
 import { AppRoute } from "./settings";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App clubCollections={clubCollections} allGames={allGames} />,
+    element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
@@ -39,7 +38,7 @@ const router = createBrowserRouter([
           },
           {
             path: AppRoute.Collection,
-            element: <CollectionPage collection={allGames} />,
+            element: <CollectionPage />,
           },
           {
             loader: eventsLoader,

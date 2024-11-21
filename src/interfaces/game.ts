@@ -1,4 +1,38 @@
+import { GameTag } from "./game-tag";
+
 export interface Game {
+  id: number;
+  /**  for tesera search addons */
+  alias: string;
+  teseraId?: number;
+  nastolioId?: number;
+  bggId?: number;
+  title: string;
+  titleOriginal?: string;
+  photoUrl?: string;
+  year: number;
+  rating: {
+    bggRank?: number | null;
+    bggRating?: number;
+    bggNumVotes?: number;
+    teseraRating?: number;
+    teseraNumVotes?: number;
+    nastolioRating?: number;
+    nastolioNumVotes?: number;
+  };
+  playersMin?: number;
+  playersMax?: number;
+  timeMin?: number;
+  timeMax?: number;
+  age?: number;
+  tags?: GameTag[];
+
+  isAddition: boolean;
+  parentId?: number;
+  addons?: Game[];
+}
+
+export interface GameTesera {
   id: number;
   teseraId: number;
   title: string;
@@ -21,7 +55,7 @@ export interface Game {
   commentsTotalNew: number;
   teseraUrl: string;
   isAddition: boolean;
-  
+
   players_min?: number;
   players_max?: number;
   time_min?: number;

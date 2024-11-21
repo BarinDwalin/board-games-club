@@ -32,11 +32,11 @@ export function GameCardSecondaryDescription({
         ...sx,
       }}
     >
-      <Box>Игроков: {game.players_min || '?'}-{game.players_max || '?'}</Box>
+      <Box>Игроков: {game.playersMin || '?'}-{game.playersMax || '?'}</Box>
       <Box>Возраст: {game.age}+</Box>
-      <Box>Время партии: {getTimeBoundary(game.time_min, game.time_max)}</Box>
-      <Box>Рейтинг Т: {game.ratingUser || '--'}</Box>
-      <Box>Оценок: {game.numVotes || '--'}</Box>
+      <Box>Время партии: {getTimeBoundary(game.timeMin, game.timeMax)}</Box>
+      <Box>Рейтинг Т: {game.rating.teseraRating || '--'}</Box>
+      <Box>Оценок: {game.rating.teseraNumVotes || '--'}</Box>
     </Box>
   );
 }

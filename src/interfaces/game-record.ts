@@ -1,10 +1,10 @@
-import { Game } from "./game";
-
-export interface GameRecord {
+export interface GameRecord<T> {
   relationId?: number;
   creationDateUtc?: string;
-  eventDate?: string;
   comment?: string;
-  game: Game;
+  game: T;
   owner?: string;
+
+  // extention
+  eventDate?: string;
 }

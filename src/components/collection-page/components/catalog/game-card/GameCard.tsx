@@ -337,10 +337,10 @@ export function GameCard({
 }: GameCardProps) {
   let theme = createTheme({});
   const badges: GameBadge[] = [];
-  if (game.bggRating > 8) {
+  if (game.rating.bggRating || 0 > 8) {
     badges.push(GameBadge.Hot);
   }
-  if (game.numVotes > 100) {
+  if (game.rating.bggNumVotes || 0 > 100) {
     badges.push(GameBadge.Hit);
   }
   if (game.id % 10 === 0) {
@@ -371,7 +371,7 @@ export function GameCard({
             isWide={isWide}
             isInverseAlign={isInverseAlign}
           >
-            <BggRaitingBadge value={game.bggRating}></BggRaitingBadge>
+            <BggRaitingBadge value={game.rating.bggRating}></BggRaitingBadge>
             <BlockYear isWide2Col={isWide2Col}>{game.year}</BlockYear>
           </GameDescriptionBadges>
           <Title isWide2Col={isWide2Col}>{game.title}</Title>

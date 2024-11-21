@@ -1,0 +1,1472 @@
+[
+  {
+    "relationId": 95593946,
+    "creationDateUtc": "2024-07-19T16:39:05",
+    "game": {
+      "id": 71469,
+      "alias": "heroes-of-might-magic-iii-the-board-game",
+      "teseraId": 1958493,
+      "title": "Heroes of Might & Magic III - The board game",
+      "titleOriginal": "Heroes of Might & Magic III: The Board Game",
+      "photoUrl": "https://s.tesera.ru/images/items/1958493,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 8.21,
+        "bggNumVotes": 0,
+        "teseraRating": 4.01,
+        "teseraNumVotes": 42
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 95355118,
+    "creationDateUtc": "2024-02-09T17:55:55",
+    "game": {
+      "id": 72041,
+      "alias": "volfyirion-guilds",
+      "teseraId": 2000758,
+      "title": "Volfyirion Guilds",
+      "photoUrl": "https://s.tesera.ru/images/items/2000758,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 9.13,
+        "teseraNumVotes": 2
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 95355117,
+          "creationDateUtc": "2024-02-09T17:55:47",
+          "game": {
+            "id": 65493,
+            "alias": "Volfyirion",
+            "teseraId": 1335393,
+            "title": "Volfyirion",
+            "photoUrl": "https://s.tesera.ru/images/items/1335393,3/photo1.jpg",
+            "year": 2018,
+            "rating": {
+              "bggRating": 7.278,
+              "bggNumVotes": 0,
+              "teseraRating": 6.88,
+              "teseraNumVotes": 6
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 72041
+          }
+        }
+      ]
+    }
+  },
+  {
+    "relationId": 95355115,
+    "creationDateUtc": "2024-02-09T17:55:37",
+    "game": {
+      "id": 72356,
+      "alias": "candy-lab",
+      "teseraId": 2014428,
+      "title": "Candy Lab",
+      "photoUrl": "https://s.tesera.ru/images/items/2014428,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7,
+        "teseraNumVotes": 1
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 95267335,
+    "creationDateUtc": "2024-01-01T12:29:04",
+    "game": {
+      "id": 71925,
+      "alias": "beatthat",
+      "teseraId": 1994190,
+      "title": "Beat That!",
+      "titleOriginal": "Сумасшедше весёлые челленджи",
+      "photoUrl": "https://s.tesera.ru/images/items/1994190,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 6.55,
+        "bggNumVotes": 0,
+        "teseraRating": 7,
+        "teseraNumVotes": 28
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 95174160,
+    "creationDateUtc": "2023-11-15T09:16:02",
+    "game": {
+      "id": 65172,
+      "alias": "The-Table-Is-Lava",
+      "teseraId": 1308293,
+      "title": "The Table Is Lava",
+      "photoUrl": "https://s.tesera.ru/images/items/1308293,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 6.21,
+        "bggNumVotes": 0,
+        "teseraRating": 6.95,
+        "teseraNumVotes": 14
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 95040649,
+    "creationDateUtc": "2023-09-03T06:18:56",
+    "game": {
+      "id": 49486,
+      "alias": "pokemon-trading-card-game",
+      "teseraId": 6642,
+      "title": "Pokemon Trading Card Game",
+      "photoUrl": "https://s.tesera.ru/images/items/6642,3/photo1.png",
+      "year": 1996,
+      "rating": {
+        "bggRating": 6.383,
+        "bggNumVotes": 0,
+        "teseraRating": 7.04,
+        "teseraNumVotes": 62
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 95040648,
+    "creationDateUtc": "2023-09-03T06:18:37",
+    "game": {
+      "id": 48664,
+      "alias": "magic-the-gathering",
+      "teseraId": 433,
+      "title": "Magic: The Gathering",
+      "photoUrl": "https://s.tesera.ru/images/items/433,3/photo1.jpg",
+      "year": 1993,
+      "rating": {
+        "bggRating": 7.58,
+        "bggNumVotes": 0,
+        "teseraRating": 7.59,
+        "teseraNumVotes": 547
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 95040647,
+    "creationDateUtc": "2023-09-03T06:18:24",
+    "game": {
+      "id": 48665,
+      "alias": "berserk",
+      "teseraId": 454,
+      "title": "Берсерк",
+      "titleOriginal": "Berserk",
+      "photoUrl": "https://s.tesera.ru/images/items/454,3/photo1.jpg",
+      "year": 2003,
+      "rating": {
+        "bggRating": 7.25,
+        "bggNumVotes": 0,
+        "teseraRating": 6.81,
+        "teseraNumVotes": 276
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 94798771,
+    "creationDateUtc": "2023-04-26T15:46:03",
+    "game": {
+      "id": 70049,
+      "alias": "sonora",
+      "teseraId": 1817466,
+      "title": "Сонора",
+      "titleOriginal": "Sonora",
+      "photoUrl": "https://s.tesera.ru/images/items/1817466,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.848,
+        "bggNumVotes": 0,
+        "teseraRating": 7.04,
+        "teseraNumVotes": 30
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 94798769,
+    "creationDateUtc": "2023-04-26T15:45:48",
+    "game": {
+      "id": 74072,
+      "alias": "similo-animals",
+      "teseraId": 2158306,
+      "title": "Similo: Животные",
+      "titleOriginal": "Similo: Animals",
+      "photoUrl": "https://s.tesera.ru/images/items/2158306,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 6.82,
+        "bggNumVotes": 0,
+        "teseraRating": 7.05,
+        "teseraNumVotes": 74
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 94798768,
+    "creationDateUtc": "2023-04-26T15:45:31",
+    "game": {
+      "id": 73670,
+      "alias": "objasni",
+      "teseraId": 2118131,
+      "title": "Объяснярий",
+      "titleOriginal": "Тысяча слов ради одного",
+      "photoUrl": "https://s.tesera.ru/images/items/2118131,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.02,
+        "bggNumVotes": 0,
+        "teseraRating": 6.79,
+        "teseraNumVotes": 29
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 94139039,
+    "creationDateUtc": "2023-03-26T04:19:16",
+    "comment": "Предзаказ KS",
+    "game": {
+      "id": 69959,
+      "alias": "slay-the-spire-the-board-game",
+      "teseraId": 1806864,
+      "title": "Slay the Spire: The Board Game",
+      "photoUrl": "https://s.tesera.ru/images/items/1806864,3/photo1.png",
+      "year": 2021,
+      "rating": {
+        "bggRating": 8.85,
+        "bggNumVotes": 0,
+        "teseraRating": 9.09,
+        "teseraNumVotes": 6
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 93735135,
+    "creationDateUtc": "2022-08-27T10:07:31",
+    "game": {
+      "id": 49778,
+      "alias": "epoha-bitv",
+      "teseraId": 8885,
+      "title": "Эпоха битв",
+      "photoUrl": "https://s.tesera.ru/images/items/8885,3/photo1.gif",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 5.5,
+        "teseraNumVotes": 11
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 93719328,
+    "creationDateUtc": "2022-08-19T11:15:45",
+    "comment": "Предзаказ LG",
+    "game": {
+      "id": 59042,
+      "alias": "Too-Many-Bones",
+      "teseraId": 722478,
+      "title": "Слишком много костей",
+      "titleOriginal": "Too Many Bones",
+      "photoUrl": "https://s.tesera.ru/images/items/722478,3/photo1.png",
+      "year": 2016,
+      "rating": {
+        "bggRating": 8.34,
+        "bggNumVotes": 0,
+        "teseraRating": 8.39,
+        "teseraNumVotes": 120
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 93618023,
+    "creationDateUtc": "2022-07-01T11:49:06",
+    "game": {
+      "id": 49545,
+      "alias": "galaxy-trucker",
+      "teseraId": 6974,
+      "title": "Космические дальнобойщики",
+      "titleOriginal": "Galaxy Trucker",
+      "photoUrl": "https://s.tesera.ru/images/items/6974,3/photo1.jpg",
+      "year": 2007,
+      "rating": {
+        "bggRating": 7.35,
+        "bggNumVotes": 0,
+        "teseraRating": 7.76,
+        "teseraNumVotes": 523
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 93557593,
+    "creationDateUtc": "2022-06-04T12:33:07",
+    "game": {
+      "id": 58125,
+      "alias": "codenames",
+      "teseraId": 594874,
+      "title": "Кодовые имена",
+      "titleOriginal": "Codenames",
+      "photoUrl": "https://s.tesera.ru/images/items/594874,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 7.54,
+        "bggNumVotes": 0,
+        "teseraRating": 7.47,
+        "teseraNumVotes": 1216
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 93326226,
+    "creationDateUtc": "2022-02-16T20:08:03",
+    "comment": "Предзаказ GaGa",
+    "game": {
+      "id": 68711,
+      "alias": "under-falling-skies",
+      "teseraId": 1666558,
+      "title": "Вторжение с небес",
+      "titleOriginal": "Under Falling Skies",
+      "photoUrl": "https://s.tesera.ru/images/items/1666558,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.66,
+        "bggNumVotes": 0,
+        "teseraRating": 7.58,
+        "teseraNumVotes": 83
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 93259268,
+    "creationDateUtc": "2022-01-21T19:22:28",
+    "game": {
+      "id": 68669,
+      "alias": "chempiony-midgarda-valkhalla-i-temnyye-gory",
+      "teseraId": 1661185,
+      "title": "Чемпионы Мидгарда. Вальхалла и Темные горы",
+      "photoUrl": "https://s.tesera.ru/images/items/1661185,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 8.27,
+        "teseraNumVotes": 78
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 93217268,
+    "creationDateUtc": "2022-01-09T21:38:12",
+    "game": {
+      "id": 56389,
+      "alias": "patchwork",
+      "teseraId": 464568,
+      "title": "Пэчворк",
+      "titleOriginal": "Patchwork",
+      "photoUrl": "https://s.tesera.ru/images/items/464568,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 7.6,
+        "bggNumVotes": 0,
+        "teseraRating": 7.72,
+        "teseraNumVotes": 1657
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 93079460,
+    "creationDateUtc": "2021-11-17T21:55:52",
+    "comment": "Предзаказ LG",
+    "game": {
+      "id": 68379,
+      "alias": "Cubitos",
+      "teseraId": 1621035,
+      "title": "Кубитос",
+      "titleOriginal": "Cubitos",
+      "photoUrl": "https://s.tesera.ru/images/items/1621035,3/photo1.png",
+      "year": 2021,
+      "rating": {
+        "bggRating": 7.42,
+        "bggNumVotes": 0,
+        "teseraRating": 7.24,
+        "teseraNumVotes": 182
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 93066934,
+    "creationDateUtc": "2021-11-13T10:21:32",
+    "game": {
+      "id": 69068,
+      "alias": "bezumnaya-kukhnya",
+      "teseraId": 1713322,
+      "title": "Безумная кухня",
+      "photoUrl": "https://s.tesera.ru/images/items/1713322,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.91,
+        "bggNumVotes": 0,
+        "teseraRating": 7.15,
+        "teseraNumVotes": 54
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92978308,
+    "creationDateUtc": "2021-10-10T14:14:32",
+    "comment": "Предзаказ LG",
+    "game": {
+      "id": 59245,
+      "alias": "aeons-end",
+      "teseraId": 746582,
+      "title": "Конец вечности",
+      "titleOriginal": "Aeon's End",
+      "photoUrl": "https://s.tesera.ru/images/items/746582,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 7.9,
+        "bggNumVotes": 0,
+        "teseraRating": 7.76,
+        "teseraNumVotes": 254
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92862212,
+    "creationDateUtc": "2021-08-23T08:00:19",
+    "game": {
+      "id": 68336,
+      "alias": "colt-super-express",
+      "teseraId": 1616287,
+      "title": "Кольт Суперэкспресс",
+      "titleOriginal": "Colt Super Express",
+      "photoUrl": "https://s.tesera.ru/images/items/1616287,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.82,
+        "bggNumVotes": 0,
+        "teseraRating": 6.62,
+        "teseraNumVotes": 83
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92776647,
+    "creationDateUtc": "2021-07-15T15:30:17",
+    "game": {
+      "id": 70375,
+      "alias": "odnazhdyvchicago",
+      "teseraId": 1853311,
+      "title": "Однажды в Чикаго",
+      "photoUrl": "https://s.tesera.ru/images/items/1853311,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 6.67,
+        "bggNumVotes": 0,
+        "teseraRating": 7.18,
+        "teseraNumVotes": 44
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92752415,
+    "creationDateUtc": "2021-07-05T17:11:09",
+    "game": {
+      "id": 61534,
+      "alias": "detective-mcb",
+      "teseraId": 958147,
+      "title": "Детектив. Игра о современном расследовании",
+      "photoUrl": "https://s.tesera.ru/images/items/958147,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 7.66,
+        "bggNumVotes": 0,
+        "teseraRating": 8.08,
+        "teseraNumVotes": 380
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92752412,
+    "creationDateUtc": "2021-07-05T17:10:35",
+    "game": {
+      "id": 61943,
+      "alias": "3-secrets",
+      "teseraId": 995745,
+      "title": "3 секрета",
+      "titleOriginal": "3 Secrets",
+      "photoUrl": "https://s.tesera.ru/images/items/995745,3/photo1.png",
+      "year": 2017,
+      "rating": {
+        "bggRating": 6.02,
+        "bggNumVotes": 0,
+        "teseraRating": 4.75,
+        "teseraNumVotes": 11
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92702477,
+    "creationDateUtc": "2021-06-10T20:50:01",
+    "game": {
+      "id": 57945,
+      "alias": "Champions-of-Midgard",
+      "teseraId": 579830,
+      "title": "Чемпионы Мидгарда",
+      "titleOriginal": "Champions of Midgard",
+      "photoUrl": "https://s.tesera.ru/images/items/579830,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 7.72,
+        "bggNumVotes": 0,
+        "teseraRating": 7.64,
+        "teseraNumVotes": 448
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92699596,
+    "creationDateUtc": "2021-06-09T15:44:13",
+    "game": {
+      "id": 63232,
+      "alias": "root",
+      "teseraId": 1119987,
+      "title": "Корни",
+      "photoUrl": "https://s.tesera.ru/images/items/1119987,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 8.07,
+        "bggNumVotes": 0,
+        "teseraRating": 8.27,
+        "teseraNumVotes": 1124
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92699594,
+    "creationDateUtc": "2021-06-09T15:43:47",
+    "game": {
+      "id": 52456,
+      "alias": "robinson-crusoe-adventures-cursed-island",
+      "teseraId": 103323,
+      "title": "Робинзон Крузо: Приключения на таинственном острове. Вторая редакция",
+      "titleOriginal": "Robinson Crusoe: Adventures on the Cursed Island",
+      "photoUrl": "https://s.tesera.ru/images/items/103323,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 7.74,
+        "bggNumVotes": 0,
+        "teseraRating": 8.05,
+        "teseraNumVotes": 1165
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92671987,
+    "creationDateUtc": "2021-05-27T18:51:02",
+    "game": {
+      "id": 60148,
+      "alias": "sagrada",
+      "teseraId": 839820,
+      "title": "Саграда",
+      "titleOriginal": "Sagrada",
+      "photoUrl": "https://s.tesera.ru/images/items/839820,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.48,
+        "bggNumVotes": 0,
+        "teseraRating": 7.72,
+        "teseraNumVotes": 829
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 92671988,
+          "creationDateUtc": "2021-05-27T18:51:21",
+          "game": {
+            "id": 64951,
+            "alias": "sagrada-5-6-player-expansion",
+            "teseraId": 1293694,
+            "title": "Саграда. Дополнение для 5-6 игроков",
+            "titleOriginal": "Sagrada: 5 & 6 Player Expansion",
+            "photoUrl": "https://s.tesera.ru/images/items/1293694,3/photo1.png",
+            "year": 2018,
+            "rating": {
+              "bggRating": 7.69,
+              "bggNumVotes": 0,
+              "teseraRating": 7.86,
+              "teseraNumVotes": 61
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 60148
+          }
+        }
+      ]
+    }
+  },
+  {
+    "relationId": 92650136,
+    "creationDateUtc": "2021-05-18T11:19:27",
+    "comment": "Электронная книга",
+    "game": {
+      "id": 67092,
+      "alias": "mutants-year-zero",
+      "teseraId": 1491343,
+      "title": "Mutant: Year Zero",
+      "titleOriginal": "Мутанты: Точка отсчёта",
+      "photoUrl": "https://s.tesera.ru/images/items/1491343,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.69,
+        "teseraNumVotes": 13
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92537293,
+    "creationDateUtc": "2021-03-28T13:26:16",
+    "game": {
+      "id": 61657,
+      "alias": "brass-birmingham",
+      "teseraId": 969547,
+      "title": "Brass: Бирмингем",
+      "titleOriginal": "Brass: Birmingham",
+      "photoUrl": "https://s.tesera.ru/images/items/969547,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 8.6,
+        "bggNumVotes": 0,
+        "teseraRating": 8.65,
+        "teseraNumVotes": 993
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92486631,
+    "creationDateUtc": "2021-03-07T08:19:36",
+    "game": {
+      "id": 64170,
+      "alias": "the-mind",
+      "teseraId": 1227927,
+      "title": "Разум",
+      "titleOriginal": "The Mind",
+      "photoUrl": "https://s.tesera.ru/images/items/1227927,3/photo1.png",
+      "year": 2018,
+      "rating": {
+        "bggRating": 6.76,
+        "bggNumVotes": 0,
+        "teseraRating": 7.03,
+        "teseraNumVotes": 318
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92486630,
+    "creationDateUtc": "2021-03-07T08:19:26",
+    "game": {
+      "id": 64858,
+      "alias": "illusion",
+      "teseraId": 1286058,
+      "title": "Иллюзия",
+      "titleOriginal": "Illusion",
+      "photoUrl": "https://s.tesera.ru/images/items/1286058,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 6.728,
+        "bggNumVotes": 0,
+        "teseraRating": 6.55,
+        "teseraNumVotes": 100
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92362288,
+    "creationDateUtc": "2021-01-16T21:47:40",
+    "game": {
+      "id": 67738,
+      "alias": "trails-of-tucana",
+      "teseraId": 1552672,
+      "title": "Тропы Туканы",
+      "titleOriginal": "Trails of Tucana",
+      "photoUrl": "https://s.tesera.ru/images/items/1552672,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.39,
+        "bggNumVotes": 0,
+        "teseraRating": 7.18,
+        "teseraNumVotes": 253
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92362284,
+    "creationDateUtc": "2021-01-16T21:47:11",
+    "game": {
+      "id": 64962,
+      "alias": "Trapwords",
+      "teseraId": 1295260,
+      "title": "Опасные слова",
+      "titleOriginal": "Trapwords",
+      "photoUrl": "https://s.tesera.ru/images/items/1295260,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 6.98,
+        "bggNumVotes": 0,
+        "teseraRating": 7.28,
+        "teseraNumVotes": 294
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92252708,
+    "creationDateUtc": "2020-12-04T18:21:38",
+    "comment": "Предзаказ LG",
+    "game": {
+      "id": 68234,
+      "alias": "clash-of-cultures-monumental-edition",
+      "teseraId": 1604775,
+      "title": "Столкновение цивилизаций. Монументальное издание",
+      "titleOriginal": "Clash of Cultures: Monumental Edition",
+      "photoUrl": "https://s.tesera.ru/images/items/1604775,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 8.35,
+        "bggNumVotes": 0,
+        "teseraRating": 8.42,
+        "teseraNumVotes": 267
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92242920,
+    "creationDateUtc": "2020-11-30T21:00:36",
+    "game": {
+      "id": 64412,
+      "alias": "Welcome-To",
+      "teseraId": 1251670,
+      "title": "Бумажные кварталы",
+      "titleOriginal": "Welcome To...",
+      "photoUrl": "https://s.tesera.ru/images/items/1251670,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 7.54,
+        "bggNumVotes": 0,
+        "teseraRating": 7.52,
+        "teseraNumVotes": 577
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92217387,
+    "creationDateUtc": "2020-11-19T20:31:46",
+    "game": {
+      "id": 58478,
+      "alias": "celestia",
+      "teseraId": 630860,
+      "title": "Селестия",
+      "titleOriginal": "Celestia",
+      "photoUrl": "https://s.tesera.ru/images/items/630860,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 6.94,
+        "bggNumVotes": 0,
+        "teseraRating": 7.19,
+        "teseraNumVotes": 554
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 92362277,
+          "creationDateUtc": "2021-01-16T21:45:42",
+          "game": {
+            "id": 60558,
+            "alias": "celestia-a-little-help",
+            "teseraId": 868834,
+            "title": "Селестия. Рука помощи",
+            "titleOriginal": "Celestia: A Little Help",
+            "photoUrl": "https://s.tesera.ru/images/items/868834,3/photo1.jpg",
+            "year": 2016,
+            "rating": {
+              "bggRating": 7.28,
+              "bggNumVotes": 0,
+              "teseraRating": 7.48,
+              "teseraNumVotes": 84
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 58478
+          }
+        },
+        {
+          "relationId": 92362279,
+          "creationDateUtc": "2021-01-16T21:45:50",
+          "game": {
+            "id": 65858,
+            "alias": "Celestia-A-Little-Initiative",
+            "teseraId": 1353452,
+            "title": "Селестия: Бунт на корабле",
+            "titleOriginal": "Celestia: A Little Initiative",
+            "photoUrl": "https://s.tesera.ru/images/items/1353452,3/photo1.png",
+            "year": 2018,
+            "rating": {
+              "bggRating": 7.37,
+              "bggNumVotes": 0,
+              "teseraRating": 7.47,
+              "teseraNumVotes": 45
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 58478
+          }
+        }
+      ]
+    }
+  },
+  {
+    "relationId": 92166191,
+    "creationDateUtc": "2020-10-29T19:27:37",
+    "game": {
+      "id": 50219,
+      "alias": "Gloom",
+      "teseraId": 14212,
+      "title": "Gloom",
+      "photoUrl": "https://s.tesera.ru/images/items/14212,3/photo1.jpg",
+      "year": 2005,
+      "rating": {
+        "bggRating": 6.32,
+        "bggNumVotes": 0,
+        "teseraRating": 7.56,
+        "teseraNumVotes": 64
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92145366,
+    "creationDateUtc": "2020-10-21T19:52:39",
+    "comment": "Предзаказ KS",
+    "game": {
+      "id": 69167,
+      "alias": "frostpunk-the-board-game",
+      "teseraId": 1719684,
+      "title": "Frostpunk: The Board Game",
+      "photoUrl": "https://s.tesera.ru/images/items/1719684,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 8.25,
+        "bggNumVotes": 0,
+        "teseraRating": 8.25,
+        "teseraNumVotes": 18
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135175,
+    "creationDateUtc": "2020-10-18T15:10:52",
+    "game": {
+      "id": 67535,
+      "alias": "za-bortom-2-izdaniye",
+      "teseraId": 1532665,
+      "title": "За бортом. 2-е издание",
+      "titleOriginal": "Lifeboat",
+      "photoUrl": "https://s.tesera.ru/images/items/1532665,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.07,
+        "teseraNumVotes": 102
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 92135176,
+          "creationDateUtc": "2020-10-18T15:11:02",
+          "game": {
+            "id": 68917,
+            "alias": "za-bortom-dopolneniye-vtoroye-izdaniye",
+            "teseraId": 1691284,
+            "title": "За бортом. Дополнение. Второе издание",
+            "photoUrl": "https://s.tesera.ru/images/items/1691284,3/photo1.jpg",
+            "year": 0,
+            "rating": {
+              "bggRating": 0,
+              "bggNumVotes": 0,
+              "teseraRating": 7.23,
+              "teseraNumVotes": 26
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 67535
+          }
+        }
+      ]
+    }
+  },
+  {
+    "relationId": 92135171,
+    "creationDateUtc": "2020-10-18T15:10:36",
+    "game": {
+      "id": 56818,
+      "alias": "GoodCopBadCop",
+      "teseraId": 514663,
+      "title": "Бешеные псы",
+      "titleOriginal": "Good Cop Bad Cop",
+      "photoUrl": "https://s.tesera.ru/images/items/514663,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 6.56,
+        "bggNumVotes": 0,
+        "teseraRating": 6.61,
+        "teseraNumVotes": 52
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135170,
+    "creationDateUtc": "2020-10-18T15:10:29",
+    "game": {
+      "id": 55427,
+      "alias": "imperial-settlers",
+      "teseraId": 378237,
+      "title": "Поселенцы",
+      "titleOriginal": "Imperial Settlers",
+      "photoUrl": "https://s.tesera.ru/images/items/378237,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 7.32,
+        "bggNumVotes": 0,
+        "teseraRating": 7.56,
+        "teseraNumVotes": 781
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135167,
+    "creationDateUtc": "2020-10-18T15:10:05",
+    "game": {
+      "id": 48715,
+      "alias": "the-settlers-of-catan",
+      "teseraId": 1002,
+      "title": "Колонизаторы",
+      "titleOriginal": "The Settlers of Catan",
+      "photoUrl": "https://s.tesera.ru/images/items/1002,3/photo1.jpg",
+      "year": 1995,
+      "rating": {
+        "bggRating": 7.1,
+        "bggNumVotes": 0,
+        "teseraRating": 7.13,
+        "teseraNumVotes": 1876
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 92135168,
+          "creationDateUtc": "2020-10-18T15:10:11",
+          "game": {
+            "id": 48643,
+            "alias": "catan-cities-knights",
+            "teseraId": 12,
+            "title": "Колонизаторы: Города и рыцари. Четвёртое издание",
+            "titleOriginal": "Catan: Cities & Knights",
+            "photoUrl": "https://s.tesera.ru/images/items/12,3/photo1.jpg",
+            "year": 1998,
+            "rating": {
+              "bggRating": 7.45,
+              "bggNumVotes": 0,
+              "teseraRating": 7.55,
+              "teseraNumVotes": 246
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 48715
+          }
+        },
+        {
+          "relationId": 92135169,
+          "creationDateUtc": "2020-10-18T15:10:21",
+          "game": {
+            "id": 48716,
+            "alias": "catan-seafarers",
+            "teseraId": 1081,
+            "title": "Колонизаторы. Мореходы",
+            "titleOriginal": "Catan: Seafarers",
+            "photoUrl": "https://s.tesera.ru/images/items/1081,3/photo1.png",
+            "year": 1997,
+            "rating": {
+              "bggRating": 7.15,
+              "bggNumVotes": 0,
+              "teseraRating": 7.29,
+              "teseraNumVotes": 232
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 48715
+          }
+        }
+      ]
+    }
+  },
+  {
+    "relationId": 92135165,
+    "creationDateUtc": "2020-10-18T15:09:51",
+    "game": {
+      "id": 48728,
+      "alias": "beowulf",
+      "teseraId": 1212,
+      "title": "Beowulf: The Movie Board Game",
+      "titleOriginal": "Беовульф. настольная игра",
+      "photoUrl": "https://s.tesera.ru/images/items/1212,3/photo1.jpg",
+      "year": 2007,
+      "rating": {
+        "bggRating": 6.09,
+        "bggNumVotes": 0,
+        "teseraRating": 6.85,
+        "teseraNumVotes": 40
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135164,
+    "creationDateUtc": "2020-10-18T15:09:41",
+    "game": {
+      "id": 48647,
+      "alias": "svintus",
+      "teseraId": 11,
+      "title": "Свинтус",
+      "titleOriginal": "Piggihru",
+      "photoUrl": "https://s.tesera.ru/images/items/11,3/photo1.jpg",
+      "year": 2006,
+      "rating": {
+        "bggRating": 5.49,
+        "bggNumVotes": 0,
+        "teseraRating": 5.17,
+        "teseraNumVotes": 585
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135162,
+    "creationDateUtc": "2020-10-18T15:09:14",
+    "comment": "на хранении",
+    "game": {
+      "id": 52042,
+      "alias": "imaginarium",
+      "teseraId": 75336,
+      "title": "Имаджинариум",
+      "photoUrl": "https://s.tesera.ru/images/items/75336,3/photo1.jpg",
+      "year": 2011,
+      "rating": {
+        "bggRating": 6.44,
+        "bggNumVotes": 0,
+        "teseraRating": 6.06,
+        "teseraNumVotes": 1050
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135159,
+    "creationDateUtc": "2020-10-18T15:08:51",
+    "game": {
+      "id": 53180,
+      "alias": "Love-Letter",
+      "teseraId": 160815,
+      "title": "Тайное послание",
+      "titleOriginal": "Love Letter",
+      "photoUrl": "https://s.tesera.ru/images/items/160815,3/photo1.jpg",
+      "year": 2012,
+      "rating": {
+        "bggRating": 7.23,
+        "bggNumVotes": 0,
+        "teseraRating": 7.21,
+        "teseraNumVotes": 1173
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135157,
+    "creationDateUtc": "2020-10-18T15:08:37",
+    "game": {
+      "id": 48683,
+      "alias": "citadels",
+      "teseraId": 684,
+      "title": "Цитадели",
+      "titleOriginal": "Citadels",
+      "photoUrl": "https://s.tesera.ru/images/items/684,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 7.06,
+        "bggNumVotes": 0,
+        "teseraRating": 7.31,
+        "teseraNumVotes": 2090
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135154,
+    "creationDateUtc": "2020-10-18T15:08:07",
+    "comment": "Eng",
+    "game": {
+      "id": 50720,
+      "alias": "ankh-morpork",
+      "teseraId": 23404,
+      "title": "Плоский мир: Анк-Морпорк",
+      "titleOriginal": "Discworld: Ankh-Morpork",
+      "photoUrl": "https://s.tesera.ru/images/items/23404,3/photo1.jpg",
+      "year": 2011,
+      "rating": {
+        "bggRating": 7.25,
+        "bggNumVotes": 0,
+        "teseraRating": 7.98,
+        "teseraNumVotes": 872
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135152,
+    "creationDateUtc": "2020-10-18T15:07:48",
+    "game": {
+      "id": 66061,
+      "alias": "lord-rings-journeys-middle-earth",
+      "teseraId": 1383161,
+      "title": "Властелин колец: Странствия в Средиземье",
+      "titleOriginal": "The Lord of the Rings: Journeys in Middle-Earth",
+      "photoUrl": "https://s.tesera.ru/images/items/1383161,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.92,
+        "bggNumVotes": 0,
+        "teseraRating": 7.9,
+        "teseraNumVotes": 433
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 92487425,
+          "creationDateUtc": "2021-03-07T14:48:27",
+          "game": {
+            "id": 67479,
+            "alias": "lord-rings-journeys-middle-earth-villains-eriador",
+            "teseraId": 1525212,
+            "title": "Властелин колец: Странствия в Средиземье - Злодеи Эриадора",
+            "titleOriginal": "The Lord of the Rings: Journeys in Middle-earth - Villains of Eriador Figure Pack",
+            "photoUrl": "https://s.tesera.ru/images/items/1525212,3/photo1.jpg",
+            "year": 2019,
+            "rating": {
+              "bggRating": 7.94,
+              "bggNumVotes": 0,
+              "teseraRating": 7.86,
+              "teseraNumVotes": 50
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 66061
+          }
+        },
+        {
+          "relationId": 92487424,
+          "creationDateUtc": "2021-03-07T14:48:10",
+          "game": {
+            "id": 68245,
+            "alias": "lord-rings-journeys-middle-earth-shadowed-paths-expansion",
+            "teseraId": 1606343,
+            "title": "Властелин колец: Странствия в Средиземье - Тёмные тропы",
+            "titleOriginal": "The Lord of the Rings: Journeys in Middle-earth – Shadowed Paths Expansion",
+            "photoUrl": "https://s.tesera.ru/images/items/1606343,3/photo1.jpg",
+            "year": 2020,
+            "rating": {
+              "bggRating": 8.62,
+              "bggNumVotes": 0,
+              "teseraRating": 8.56,
+              "teseraNumVotes": 70
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 66061
+          }
+        },
+        {
+          "relationId": 92487426,
+          "creationDateUtc": "2021-03-07T14:48:39",
+          "game": {
+            "id": 70272,
+            "alias": "lord-rings-journeys-middle-earth-dwellers-darkness",
+            "teseraId": 1840480,
+            "title": "Властелин колец: Странствия в Средиземье - Обитатели тьмы",
+            "titleOriginal": "The Lord of the Rings: Journeys in Middle-earth – Dwellers in Darkness Figure Pack",
+            "photoUrl": "https://s.tesera.ru/images/items/1840480,3/photo1.jpg",
+            "year": 2020,
+            "rating": {
+              "bggRating": 8.16,
+              "bggNumVotes": 0,
+              "teseraRating": 7.65,
+              "teseraNumVotes": 33
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 66061
+          }
+        }
+      ]
+    }
+  },
+  {
+    "relationId": 92135150,
+    "creationDateUtc": "2020-10-18T15:07:36",
+    "game": {
+      "id": 59831,
+      "alias": "Mansions-of-Madness-Second-Edition",
+      "teseraId": 807928,
+      "title": "Особняки безумия (второе издание)",
+      "titleOriginal": "Mansions of Madness Second Edition",
+      "photoUrl": "https://s.tesera.ru/images/items/807928,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 7.95,
+        "bggNumVotes": 0,
+        "teseraRating": 8.21,
+        "teseraNumVotes": 989
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135148,
+    "creationDateUtc": "2020-10-18T15:07:22",
+    "game": {
+      "id": 48913,
+      "alias": "small-world",
+      "teseraId": 2386,
+      "title": "Маленький мир",
+      "titleOriginal": "Small World",
+      "photoUrl": "https://s.tesera.ru/images/items/2386,3/photo1.jpg",
+      "year": 2009,
+      "rating": {
+        "bggRating": 7.21,
+        "bggNumVotes": 0,
+        "teseraRating": 7.67,
+        "teseraNumVotes": 1752
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135143,
+    "creationDateUtc": "2020-10-18T15:06:42",
+    "game": {
+      "id": 59926,
+      "alias": "clank",
+      "teseraId": 817382,
+      "title": "Кланк! Подземное приключение",
+      "titleOriginal": "Clank!",
+      "photoUrl": "https://s.tesera.ru/images/items/817382,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 7.78,
+        "bggNumVotes": 0,
+        "teseraRating": 7.69,
+        "teseraNumVotes": 740
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 92359917,
+          "creationDateUtc": "2021-01-15T17:40:57",
+          "comment": "Предзаказ LG",
+          "game": {
+            "id": 66997,
+            "alias": "clank-expeditions-temple-of-the-ape-lords",
+            "teseraId": 1479416,
+            "title": "Кланк! Экспедиция: Храм повелителей обезьян",
+            "titleOriginal": "Clank! Expeditions: Temple of the Ape Lords",
+            "photoUrl": "https://s.tesera.ru/images/items/1479416,3/photo1.png",
+            "year": 2019,
+            "rating": {
+              "bggRating": 8.06,
+              "bggNumVotes": 0,
+              "teseraRating": 8.05,
+              "teseraNumVotes": 38
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 59926
+          }
+        },
+        {
+          "relationId": 92359915,
+          "creationDateUtc": "2021-01-15T17:40:27",
+          "comment": "Предзаказ LG",
+          "game": {
+            "id": 69462,
+            "alias": "clank-adventuring-party",
+            "teseraId": 1746763,
+            "title": "Кланк! Шайка авантюристов",
+            "titleOriginal": "Clank! Adventuring Party",
+            "photoUrl": "https://s.tesera.ru/images/items/1746763,3/photo1.jpg",
+            "year": 2020,
+            "rating": {
+              "bggRating": 8.22,
+              "bggNumVotes": 0,
+              "teseraRating": 8.18,
+              "teseraNumVotes": 76
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 59926
+          }
+        }
+      ]
+    }
+  },
+
+  {
+    "relationId": 92135161,
+    "creationDateUtc": "2020-10-18T15:09:02",
+    "game": {
+      "id": 55234,
+      "alias": "500ZlobnyhKart",
+      "teseraId": 359046,
+      "title": "500 злобных карт",
+      "photoUrl": "https://s.tesera.ru/images/items/359046,3/photo1.jpg",
+      "year": 2013,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 3.72,
+        "teseraNumVotes": 182
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 92135156,
+    "creationDateUtc": "2020-10-18T15:08:29",
+    "game": {
+      "id": 48695,
+      "alias": "munchkin-fu",
+      "teseraId": 768,
+      "title": "Манчкин Фу",
+      "titleOriginal": "Munchkin Fu",
+      "photoUrl": "https://s.tesera.ru/images/items/768,3/photo1.jpg",
+      "year": 2003,
+      "rating": {
+        "bggRating": 5.86,
+        "bggNumVotes": 0,
+        "teseraRating": 5.89,
+        "teseraNumVotes": 162
+      },
+      "tags": [],
+      "isAddition": false
+    }
+  }
+]

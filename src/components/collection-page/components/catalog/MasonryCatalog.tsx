@@ -1,7 +1,7 @@
 import { Box, Theme, createTheme, styled } from "@mui/material";
 import { PropsWithChildren, useState } from "react";
 import "./MasonryCatalog.css";
-import { GameRecord } from "../../../../interfaces";
+import { Game, GameRecord } from "../../../../interfaces";
 import { GameCard } from "./game-card";
 
 const CatalogWrapper = styled(Box)(({ theme }) => ({
@@ -88,7 +88,7 @@ const CatalogItem = (
 };
 
 interface MasonryCatalogProps {
-  collection: GameRecord[];
+  collection: GameRecord<Game>[];
 }
 
 export function MasonryCatalog({ collection }: MasonryCatalogProps) {

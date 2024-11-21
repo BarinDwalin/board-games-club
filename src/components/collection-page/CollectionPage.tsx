@@ -1,7 +1,7 @@
 import { Box, createTheme } from "@mui/material";
-import React, { useState } from "react";
+import { useEffect, useState } from "react";
 import "./CollectionPage.css";
-import { GameRecord } from "../../interfaces";
+import { Game, GameRecord } from "../../interfaces";
 import {
   CategoriesPanel,
   GridCatalog,
@@ -10,20 +10,30 @@ import {
   SettingsPanel,
 } from "./components";
 import { Category } from "./models";
+import { DataService } from "../../services";
 
-interface CollectionPageProps {
-  collection: GameRecord[];
-}
-
-export function CollectionPage({ collection }: CollectionPageProps) {
+export function CollectionPage() {
   let theme = createTheme({});
+  const [collection, setCollection] = useState<GameRecord<Game>[]>([]);
   const [defaultView, setDefaultView] = useState(true);
+  const dataService = new DataService();
+
   const onToggleView = () => {
     setDefaultView((value) => !value);
   };
   const handleSelectCategory = (category: Category) => {
     console.info(`select category: ${category.category}`);
   };
+
+  useEffect(() => {
+    if (collection.length === 0) {
+      dataService.getGames().then((data) => {
+        if (data && data.length) {
+          setCollection(data);
+        }
+      });
+    }
+  }, [collection]);
 
   return (
     <>

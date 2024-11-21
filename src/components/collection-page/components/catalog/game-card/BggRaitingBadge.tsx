@@ -1,7 +1,7 @@
 import { Box, createTheme } from "@mui/material";
 
 interface BggRaitingBadgeProps {
-  value: number;
+  value?: number;
 }
 
 export function BggRaitingBadge({ value }: BggRaitingBadgeProps) {
