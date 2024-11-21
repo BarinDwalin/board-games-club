@@ -1,6 +1,11 @@
 import { Box } from "@mui/material";
+import { getNoun } from "../../../../../utils";
 
-export function BadgeAddon() {
+interface BadgeAddonProps {
+  count: number;
+}
+
+export function BadgeAddon({ count }: BadgeAddonProps) {
   return (
     <Box
       sx={{
@@ -15,7 +20,7 @@ export function BadgeAddon() {
         fontWeight: "bold",
       }}
     >
-      Дополнение
+      +{count} {getNoun(count, "дополнение", "дополнения", "дополнений")}
     </Box>
   );
 }

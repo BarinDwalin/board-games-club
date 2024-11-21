@@ -1,5 +1,5 @@
 import { Box, createTheme } from "@mui/material";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import "./CollectionPage.css";
 import { Game, GameRecord } from "../../interfaces";
 import {
@@ -16,7 +16,7 @@ export function CollectionPage() {
   let theme = createTheme({});
   const [collection, setCollection] = useState<GameRecord<Game>[]>([]);
   const [defaultView, setDefaultView] = useState(true);
-  const dataService = new DataService();
+  const dataService = useMemo(() => new DataService(), []);
 
   const onToggleView = () => {
     setDefaultView((value) => !value);
@@ -33,7 +33,7 @@ export function CollectionPage() {
         }
       });
     }
-  }, [collection]);
+  }, [collection, dataService]);
 
   return (
     <>

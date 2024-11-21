@@ -343,7 +343,7 @@ export function GameCard({
   if (game.rating.bggNumVotes || 0 > 100) {
     badges.push(GameBadge.Hit);
   }
-  if (game.id % 10 === 0) {
+  if (game.id % 17 === 0) {
     badges.push(GameBadge.Guest);
   }
 
@@ -386,7 +386,7 @@ export function GameCard({
         isInverseAlign={isInverseAlign}
       >
         <GameCardBadges badges={badges}></GameCardBadges>
-        {game.isAddition ? (
+        {game.addons?.length ?? 0 > 0 ? (
           <Box
             sx={{
               position: "absolute",
@@ -394,7 +394,7 @@ export function GameCard({
               right: "0px",
             }}
           >
-            <BadgeAddon></BadgeAddon>
+            <BadgeAddon count={game.addons!.length}></BadgeAddon>
           </Box>
         ) : (
           <></>

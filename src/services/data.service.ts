@@ -15,8 +15,6 @@ export class DataService {
     },
   ];
 
-  constructor() {}
-
   async getGames(): Promise<GameRecord<Game>[]> {
     let allRecords: GameRecord<Game>[] = [];
 
