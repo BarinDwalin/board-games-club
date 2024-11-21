@@ -336,6 +336,7 @@ export function GameCard({
   isRightPosition4Col,
 }: GameCardProps) {
   let theme = createTheme({});
+  const addonsCount = game.addons?.length ?? 0;
   const badges: GameBadge[] = [];
   if (game.rating.bggRating || 0 > 8) {
     badges.push(GameBadge.Hot);
@@ -386,7 +387,7 @@ export function GameCard({
         isInverseAlign={isInverseAlign}
       >
         <GameCardBadges badges={badges}></GameCardBadges>
-        {game.addons?.length ?? 0 > 0 ? (
+        {addonsCount > 0 ? (
           <Box
             sx={{
               position: "absolute",
@@ -394,7 +395,7 @@ export function GameCard({
               right: "0px",
             }}
           >
-            <BadgeAddon count={game.addons!.length}></BadgeAddon>
+            <BadgeAddon count={addonsCount}></BadgeAddon>
           </Box>
         ) : (
           <></>
