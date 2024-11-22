@@ -182,43 +182,65 @@
     }
   },
   {
-    "relationId": 95663608,
-    "creationDateUtc": "2024-09-18T15:05:15",
+    "relationId": 94100820,
+    "creationDateUtc": "2023-03-05T16:18:02",
     "game": {
-      "id": 65693,
-      "alias": "hero-realms-character-pack-fighter",
-      "teseraId": 1343853,
-      "title": "Hero Realms: Character Pack – Fighter",
-      "photoUrl": "https://s.tesera.ru/images/items/1343853,3/photo1.jpg",
+      "id": 59135,
+      "alias": "bitvy-geroyev",
+      "teseraId": 733719,
+      "title": "Битвы героев",
+      "photoUrl": "https://s.tesera.ru/images/items/733719,3/photo1.jpg",
       "year": 2016,
       "rating": {
-        "bggRating": 0,
+        "bggRating": 7.52,
         "bggNumVotes": 0,
-        "teseraRating": 7.79,
-        "teseraNumVotes": 6
+        "teseraRating": 7.13,
+        "teseraNumVotes": 377
       },
       "tags": [],
       "isAddition": false,
       "addons": [
         {
-          "relationId": 94100820,
-          "creationDateUtc": "2023-03-05T16:18:02",
+          "relationId": 95081280,
+          "creationDateUtc": "2023-09-24T13:52:25",
           "game": {
-            "id": 59135,
-            "alias": "bitvy-geroyev",
-            "teseraId": 733719,
-            "title": "Битвы героев",
-            "photoUrl": "https://s.tesera.ru/images/items/733719,3/photo1.jpg",
-            "year": 2016,
+            "id": 76432,
+            "alias": "bitvy-geroyev-stranstviya",
+            "teseraId": 2273606,
+            "title": "Битвы героев. Странствия",
+            "titleOriginal": "Hero Realms: Journeys",
+            "photoUrl": "https://s.tesera.ru/images/items/2273606,3/photo1.jpg",
+            "year": 2023,
             "rating": {
-              "bggRating": 7.52,
+              "bggRating": 8.06,
               "bggNumVotes": 0,
-              "teseraRating": 7.13,
-              "teseraNumVotes": 377
+              "teseraRating": 7.64,
+              "teseraNumVotes": 11
             },
             "tags": [],
             "isAddition": true,
-            "parentId": 58718
+            "parentId": 59135
+          }
+        },
+        {
+          "relationId": 95663608,
+          "creationDateUtc": "2024-09-18T15:05:15",
+          "game": {
+            "id": 65693,
+            "alias": "hero-realms-character-pack-fighter",
+            "teseraId": 1343853,
+            "title": "Hero Realms: Character Pack – Fighter",
+            "photoUrl": "https://s.tesera.ru/images/items/1343853,3/photo1.jpg",
+            "year": 2016,
+            "rating": {
+              "bggRating": 0,
+              "bggNumVotes": 0,
+              "teseraRating": 7.79,
+              "teseraNumVotes": 6
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 59135
           }
         },
         {
@@ -239,135 +261,49 @@
             },
             "tags": [],
             "isAddition": true,
-            "parentId": 65696
-          }
-        }
-      ]
-    }
-  },
-  {
-    "relationId": 95663607,
-    "creationDateUtc": "2024-09-18T15:04:39",
-    "game": {
-      "id": 65694,
-      "alias": "hero-realms-character-pack-ranger",
-      "teseraId": 1343862,
-      "title": "Hero Realms: Character Pack – Ranger",
-      "photoUrl": "https://s.tesera.ru/images/items/1343862,3/photo1.jpg",
-      "year": 2016,
-      "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
-        "teseraRating": 8.13,
-        "teseraNumVotes": 6
-      },
-      "tags": [],
-      "isAddition": false,
-      "addons": [
-        {
-          "relationId": 94100820,
-          "creationDateUtc": "2023-03-05T16:18:02",
-          "game": {
-            "id": 59135,
-            "alias": "bitvy-geroyev",
-            "teseraId": 733719,
-            "title": "Битвы героев",
-            "photoUrl": "https://s.tesera.ru/images/items/733719,3/photo1.jpg",
-            "year": 2016,
-            "rating": {
-              "bggRating": 7.52,
-              "bggNumVotes": 0,
-              "teseraRating": 7.13,
-              "teseraNumVotes": 377
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 58718
+            "parentId": 59135
           }
         },
         {
-          "relationId": 95663611,
-          "creationDateUtc": "2024-09-18T15:06:11",
+          "relationId": 95663607,
+          "creationDateUtc": "2024-09-18T15:04:39",
           "game": {
-            "id": 65691,
-            "alias": "hero-realms-character-pack-cleric",
-            "teseraId": 1343821,
-            "title": "Hero Realms: Character Pack – Cleric",
-            "photoUrl": "https://s.tesera.ru/images/items/1343821,3/photo1.jpg",
+            "id": 65694,
+            "alias": "hero-realms-character-pack-ranger",
+            "teseraId": 1343862,
+            "title": "Hero Realms: Character Pack – Ranger",
+            "photoUrl": "https://s.tesera.ru/images/items/1343862,3/photo1.jpg",
             "year": 2016,
             "rating": {
               "bggRating": 0,
               "bggNumVotes": 0,
-              "teseraRating": 8.25,
-              "teseraNumVotes": 5
+              "teseraRating": 8.13,
+              "teseraNumVotes": 6
             },
             "tags": [],
             "isAddition": true,
-            "parentId": 65696
-          }
-        }
-      ]
-    }
-  },
-  {
-    "relationId": 95663606,
-    "creationDateUtc": "2024-09-18T15:03:03",
-    "game": {
-      "id": 65696,
-      "alias": "hero-realms-character-pack-wizard",
-      "teseraId": 1343872,
-      "title": "Hero Realms: Character Pack – Wizard",
-      "photoUrl": "https://s.tesera.ru/images/items/1343872,3/photo1.jpg",
-      "year": 2016,
-      "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
-        "teseraRating": 7.68,
-        "teseraNumVotes": 7
-      },
-      "tags": [],
-      "isAddition": false,
-      "addons": [
-        {
-          "relationId": 94100820,
-          "creationDateUtc": "2023-03-05T16:18:02",
-          "game": {
-            "id": 59135,
-            "alias": "bitvy-geroyev",
-            "teseraId": 733719,
-            "title": "Битвы героев",
-            "photoUrl": "https://s.tesera.ru/images/items/733719,3/photo1.jpg",
-            "year": 2016,
-            "rating": {
-              "bggRating": 7.52,
-              "bggNumVotes": 0,
-              "teseraRating": 7.13,
-              "teseraNumVotes": 377
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 58718
+            "parentId": 59135
           }
         },
         {
-          "relationId": 95663611,
-          "creationDateUtc": "2024-09-18T15:06:11",
+          "relationId": 95663606,
+          "creationDateUtc": "2024-09-18T15:03:03",
           "game": {
-            "id": 65691,
-            "alias": "hero-realms-character-pack-cleric",
-            "teseraId": 1343821,
-            "title": "Hero Realms: Character Pack – Cleric",
-            "photoUrl": "https://s.tesera.ru/images/items/1343821,3/photo1.jpg",
+            "id": 65696,
+            "alias": "hero-realms-character-pack-wizard",
+            "teseraId": 1343872,
+            "title": "Hero Realms: Character Pack – Wizard",
+            "photoUrl": "https://s.tesera.ru/images/items/1343872,3/photo1.jpg",
             "year": 2016,
             "rating": {
               "bggRating": 0,
               "bggNumVotes": 0,
-              "teseraRating": 8.25,
-              "teseraNumVotes": 5
+              "teseraRating": 7.68,
+              "teseraNumVotes": 7
             },
             "tags": [],
             "isAddition": true,
-            "parentId": 65696
+            "parentId": 59135
           }
         }
       ]
@@ -995,7 +931,7 @@
       "teseraId": 37349,
       "title": "Зельеварение. Подарочное издание",
       "photoUrl": "https://s.tesera.ru/images/items/37349,3/photo1.jpg",
-      "year": 0,
+      "year": 2024,
       "rating": {
         "bggRating": 6.11,
         "bggNumVotes": 0,
@@ -1242,50 +1178,6 @@
       },
       "tags": [],
       "isAddition": false
-    }
-  },
-  {
-    "relationId": 95081280,
-    "creationDateUtc": "2023-09-24T13:52:25",
-    "game": {
-      "id": 76432,
-      "alias": "bitvy-geroyev-stranstviya",
-      "teseraId": 2273606,
-      "title": "Битвы героев. Странствия",
-      "titleOriginal": "Hero Realms: Journeys",
-      "photoUrl": "https://s.tesera.ru/images/items/2273606,3/photo1.jpg",
-      "year": 2023,
-      "rating": {
-        "bggRating": 8.06,
-        "bggNumVotes": 0,
-        "teseraRating": 7.64,
-        "teseraNumVotes": 11
-      },
-      "tags": [],
-      "isAddition": false,
-      "addons": [
-        {
-          "relationId": 94100820,
-          "creationDateUtc": "2023-03-05T16:18:02",
-          "game": {
-            "id": 59135,
-            "alias": "bitvy-geroyev",
-            "teseraId": 733719,
-            "title": "Битвы героев",
-            "photoUrl": "https://s.tesera.ru/images/items/733719,3/photo1.jpg",
-            "year": 2016,
-            "rating": {
-              "bggRating": 7.52,
-              "bggNumVotes": 0,
-              "teseraRating": 7.13,
-              "teseraNumVotes": 377
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 58718
-          }
-        }
-      ]
     }
   },
   {
@@ -1557,31 +1449,28 @@
         "teseraNumVotes": 39
       },
       "tags": [],
-      "isAddition": false,
-      "addons": [
-        {
-          "relationId": 94907872,
-          "creationDateUtc": "2023-06-23T04:52:37",
-          "game": {
-            "id": 74396,
-            "alias": "similo-history",
-            "teseraId": 2175473,
-            "title": "Similo: История",
-            "titleOriginal": "Similo: History",
-            "photoUrl": "https://s.tesera.ru/images/items/2175473,3/photo1.jpg",
-            "year": 0,
-            "rating": {
-              "bggRating": 0,
-              "bggNumVotes": 0,
-              "teseraRating": 7.01,
-              "teseraNumVotes": 58
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 74604
-          }
-        }
-      ]
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 94907872,
+    "creationDateUtc": "2023-06-23T04:52:37",
+    "game": {
+      "id": 74396,
+      "alias": "similo-history",
+      "teseraId": 2175473,
+      "title": "Similo: История",
+      "titleOriginal": "Similo: History",
+      "photoUrl": "https://s.tesera.ru/images/items/2175473,3/photo1.jpg",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.01,
+        "teseraNumVotes": 58
+      },
+      "tags": [],
+      "isAddition": false
     }
   },
   {
@@ -1689,45 +1578,45 @@
     }
   },
   {
-    "relationId": 94907858,
-    "creationDateUtc": "2023-06-23T04:33:28",
+    "relationId": 94907859,
+    "creationDateUtc": "2023-06-23T04:33:49",
     "game": {
-      "id": 59720,
-      "alias": "cash-n-guns-team-spirit",
-      "teseraId": 800084,
-      "title": "Ca$h 'N Gun$: Team Spirit",
-      "titleOriginal": "Cash 'N Guns: Team Spirit",
-      "photoUrl": "https://s.tesera.ru/images/items/800084,3/photo1.png",
-      "year": 2016,
+      "id": 56129,
+      "alias": "cash-and-guns-second-edition",
+      "teseraId": 442670,
+      "title": "Cash 'N Guns 2nd Edition",
+      "titleOriginal": "Ca$h 'N Guns 2nd Edition",
+      "photoUrl": "https://s.tesera.ru/images/items/442670,3/photo1.jpg",
+      "year": 2014,
       "rating": {
-        "bggRating": 7.258,
+        "bggRating": 6.83,
         "bggNumVotes": 0,
-        "teseraRating": 6.56,
-        "teseraNumVotes": 4
+        "teseraRating": 7.25,
+        "teseraNumVotes": 79
       },
       "tags": [],
       "isAddition": false,
       "addons": [
         {
-          "relationId": 94907859,
-          "creationDateUtc": "2023-06-23T04:33:49",
+          "relationId": 94907858,
+          "creationDateUtc": "2023-06-23T04:33:28",
           "game": {
-            "id": 56129,
-            "alias": "cash-and-guns-second-edition",
-            "teseraId": 442670,
-            "title": "Cash 'N Guns 2nd Edition",
-            "titleOriginal": "Ca$h 'N Guns 2nd Edition",
-            "photoUrl": "https://s.tesera.ru/images/items/442670,3/photo1.jpg",
-            "year": 2014,
+            "id": 59720,
+            "alias": "cash-n-guns-team-spirit",
+            "teseraId": 800084,
+            "title": "Ca$h 'N Gun$: Team Spirit",
+            "titleOriginal": "Cash 'N Guns: Team Spirit",
+            "photoUrl": "https://s.tesera.ru/images/items/800084,3/photo1.png",
+            "year": 2016,
             "rating": {
-              "bggRating": 6.83,
+              "bggRating": 7.258,
               "bggNumVotes": 0,
-              "teseraRating": 7.25,
-              "teseraNumVotes": 79
+              "teseraRating": 6.56,
+              "teseraNumVotes": 4
             },
             "tags": [],
-            "isAddition": true,
-            "parentId": 59720
+            "isAddition": false,
+            "parentId": 56129
           }
         }
       ]
@@ -2252,11 +2141,12 @@
     "relationId": 94100823,
     "creationDateUtc": "2023-03-05T16:19:16",
     "game": {
-      "id": 72155,
-      "alias": "golubyatnya",
-      "teseraId": 2006512,
+      "id": 78782,
+      "alias": "1golubyatnya",
+      "teseraId": 2385655,
       "title": "Голубятня",
-      "year": 0,
+      "photoUrl": "https://s.tesera.ru/images/items/2385655,3/photo1.jpg",
+      "year": 2023,
       "rating": {
         "bggRating": 0,
         "bggNumVotes": 0,
@@ -5864,27 +5754,6 @@
               "bggNumVotes": 0,
               "teseraRating": 7.63,
               "teseraNumVotes": 233
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 58718
-          }
-        },
-        {
-          "relationId": 94100820,
-          "creationDateUtc": "2023-03-05T16:18:02",
-          "game": {
-            "id": 59135,
-            "alias": "bitvy-geroyev",
-            "teseraId": 733719,
-            "title": "Битвы героев",
-            "photoUrl": "https://s.tesera.ru/images/items/733719,3/photo1.jpg",
-            "year": 2016,
-            "rating": {
-              "bggRating": 7.52,
-              "bggNumVotes": 0,
-              "teseraRating": 7.13,
-              "teseraNumVotes": 377
             },
             "tags": [],
             "isAddition": true,
