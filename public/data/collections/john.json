@@ -685,27 +685,30 @@
         "teseraNumVotes": 177
       },
       "tags": [],
-      "isAddition": false
-    }
-  },
-  {
-    "relationId": 95593026,
-    "creationDateUtc": "2024-07-18T18:46:11",
-    "game": {
-      "id": 72090,
-      "alias": "mortum-ubeghishe",
-      "teseraId": 2002649,
-      "title": "Мортум. Убежище",
-      "photoUrl": "https://s.tesera.ru/images/items/2002649,3/photo1.jpg",
-      "year": 2021,
-      "rating": {
-        "bggRating": 8.1,
-        "bggNumVotes": 0,
-        "teseraRating": 8.23,
-        "teseraNumVotes": 77
-      },
-      "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 95593026,
+          "creationDateUtc": "2024-07-18T18:46:11",
+          "game": {
+            "id": 72090,
+            "alias": "mortum-ubeghishe",
+            "teseraId": 2002649,
+            "title": "Мортум. Убежище",
+            "photoUrl": "https://s.tesera.ru/images/items/2002649,3/photo1.jpg",
+            "year": 2021,
+            "rating": {
+              "bggRating": 8.1,
+              "bggNumVotes": 0,
+              "teseraRating": 8.23,
+              "teseraNumVotes": 77
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 71426
+          }
+        }
+      ]
     }
   },
   {
@@ -2004,110 +2007,22 @@
             "isAddition": true,
             "parentId": 72927
           }
-        }
-      ]
-    }
-  },
-  {
-    "relationId": 94100836,
-    "creationDateUtc": "2023-03-05T16:27:10",
-    "game": {
-      "id": 72927,
-      "alias": "maksimum-apokalipsis-sudny-den",
-      "teseraId": 2056847,
-      "title": "Максимум Апокалипсис: Судный день",
-      "photoUrl": "https://s.tesera.ru/images/items/2056847,3/photo1.jpg",
-      "year": 0,
-      "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
-        "teseraRating": 8,
-        "teseraNumVotes": 2
-      },
-      "tags": [],
-      "isAddition": false,
-      "addons": [
-        {
-          "relationId": 94100847,
-          "creationDateUtc": "2023-03-05T16:28:21",
-          "game": {
-            "id": 66686,
-            "alias": "maximum-apocalypse-jurassic-perils",
-            "teseraId": 1445381,
-            "title": "Максимум Апокалипсис: Юрский период",
-            "titleOriginal": "Maximum Apocalypse: Jurassic Perils",
-            "photoUrl": "https://s.tesera.ru/images/items/1445381,3/photo1.jpg",
-            "year": 2019,
-            "rating": {
-              "bggRating": 7.81,
-              "bggNumVotes": 0,
-              "teseraRating": 7.5,
-              "teseraNumVotes": 11
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 72927
-          }
         },
         {
-          "relationId": 94100845,
-          "creationDateUtc": "2023-03-05T16:28:05",
+          "relationId": 94100836,
+          "creationDateUtc": "2023-03-05T16:27:10",
           "game": {
-            "id": 66780,
-            "alias": "maximum-apocalypse-bugpocalypse",
-            "teseraId": 1456057,
-            "title": "Максимум Апокалипсис: Жукогеддон",
-            "titleOriginal": "Maximum Apocalypse: The Bugpocalypse",
-            "photoUrl": "https://s.tesera.ru/images/items/1456057,3/photo1.jpg",
-            "year": 2020,
+            "id": 72927,
+            "alias": "maksimum-apokalipsis-sudny-den",
+            "teseraId": 2056847,
+            "title": "Максимум Апокалипсис: Судный день",
+            "photoUrl": "https://s.tesera.ru/images/items/2056847,3/photo1.jpg",
+            "year": 0,
             "rating": {
-              "bggRating": 7.73,
+              "bggRating": 0,
               "bggNumVotes": 0,
-              "teseraRating": 7.43,
-              "teseraNumVotes": 10
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 72927
-          }
-        },
-        {
-          "relationId": 94100849,
-          "creationDateUtc": "2023-03-05T16:28:37",
-          "game": {
-            "id": 67633,
-            "alias": "maximum-apocalypse-gothic-horrors",
-            "teseraId": 1545178,
-            "title": "Максимум Апокалипсис: Готические ужасы",
-            "titleOriginal": "Maximum Apocalypse: Gothic Horrors",
-            "photoUrl": "https://s.tesera.ru/images/items/1545178,3/photo1.jpg",
-            "year": 2019,
-            "rating": {
-              "bggRating": 8,
-              "bggNumVotes": 0,
-              "teseraRating": 7.51,
-              "teseraNumVotes": 22
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 72927
-          }
-        },
-        {
-          "relationId": 94100839,
-          "creationDateUtc": "2023-03-05T16:27:29",
-          "game": {
-            "id": 72923,
-            "alias": "maximum-apocalypse-kaiju-rising",
-            "teseraId": 2056586,
-            "title": "Максимум Апокалипсис: Кайдзю атакуют!",
-            "photoUrl": "https://s.tesera.ru/images/items/2056586,3/photo1.jpg",
-            "year": 2018,
-            "rating": {
-              "bggRating": 7.675,
-              "bggNumVotes": 0,
-              "teseraRating": 7.28,
-              "teseraNumVotes": 8
+              "teseraRating": 8,
+              "teseraNumVotes": 2
             },
             "tags": [],
             "isAddition": true,

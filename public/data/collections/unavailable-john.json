@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id": 58944,
+    "alias": "moia-pervaia-igra-alias"
+  },
+  {
+    "id": 59281,
+    "alias": "Dream-Home"
+  },
+  {
+    "id": 60003,
+    "alias": "Outfoxed"
+  },
+  {
+    "id": 49083,
+    "alias": "labirint-zmeya"
+  },
+  {
+    "id": 68834,
+    "alias": "memo-mir-dinozavrov"
+  },
+  {
+    "alias": "memo-flagi",
+    "teseraId": 997943
+  },
+  {
+    "id": 61833,
+    "alias": "memo-udivitelnyye-zhivotnyye"
+  },
+  {
+    "id": 57559,
+    "alias": "memo-kosmos"
+  },
+  {
+    "id": 52941,
+    "alias": "memo-ves-mir"
+  },
+  {
+    "id": 58255,
+    "alias": "monopoly-card"
+  },
+  {
+    "id": 63671,
+    "alias": "unstable-unicorns"
+  },
+  {
+    "id": 54107,
+    "alias": "piratskaya-monopoliya"
+  },
+  {
+    "id": 48835,
+    "alias": "the-castle-of-appenzell"
+  },
+  {
+    "id": 62822,
+    "alias": "tarakany-v-kholodilnike"
+  },
+  {
+    "id": 48658,
+    "alias": "uno"
+  },
+  {
+    "id": 63589,
+    "alias": "everdell"
+  }
+]

@@ -29,14 +29,14 @@ export class DataService {
             `${this.collectionsPath}${collection.unavailableFile}`
           )
         ).map((value) => value.id) || [];
+      const availableRecords = records.filter(
+        (record) => !unavailableGames.includes(record.game.id)
+      );
+      availableRecords.forEach((record) => {
+        record.owner = collection.owner;
+      });
 
-      records
-        .filter((record) => !unavailableGames.includes(record.game.id))
-        .forEach((record) => {
-          record.owner = collection.owner;
-        });
-
-      allRecords = [...allRecords, ...records];
+      allRecords = [...allRecords, ...availableRecords];
     }
 
     return this.distinctGame(allRecords.sort(this.sortGame));

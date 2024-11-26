@@ -312,21 +312,21 @@
     }
   },
   {
-    "relationId": 93618023,
-    "creationDateUtc": "2022-07-01T11:49:06",
+    "relationId": 93779251,
+    "creationDateUtc": "2022-09-19T19:13:22",
     "game": {
-      "id": 49545,
-      "alias": "galaxy-trucker",
-      "teseraId": 6974,
-      "title": "Космические дальнобойщики",
+      "id": 70778,
+      "alias": "1galaxy-trucker",
+      "teseraId": 1891772,
+      "title": "Космические дальнобойщики (новое издание)",
       "titleOriginal": "Galaxy Trucker",
-      "photoUrl": "https://s.tesera.ru/images/items/6974,3/photo1.jpg",
-      "year": 2007,
+      "photoUrl": "https://s.tesera.ru/images/items/1891772,3/photo1.png",
+      "year": 2021,
       "rating": {
-        "bggRating": 7.35,
+        "bggRating": 7.47,
         "bggNumVotes": 0,
-        "teseraRating": 7.76,
-        "teseraNumVotes": 523
+        "teseraRating": 7.68,
+        "teseraNumVotes": 182
       },
       "tags": [],
       "isAddition": false
@@ -370,26 +370,6 @@
         "bggNumVotes": 0,
         "teseraRating": 7.58,
         "teseraNumVotes": 83
-      },
-      "tags": [],
-      "isAddition": false
-    }
-  },
-  {
-    "relationId": 93259268,
-    "creationDateUtc": "2022-01-21T19:22:28",
-    "game": {
-      "id": 68669,
-      "alias": "chempiony-midgarda-valkhalla-i-temnyye-gory",
-      "teseraId": 1661185,
-      "title": "Чемпионы Мидгарда. Вальхалла и Темные горы",
-      "photoUrl": "https://s.tesera.ru/images/items/1661185,3/photo1.jpg",
-      "year": 2020,
-      "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
-        "teseraRating": 8.27,
-        "teseraNumVotes": 78
       },
       "tags": [],
       "isAddition": false
@@ -580,7 +560,30 @@
         "teseraNumVotes": 448
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 93259268,
+          "creationDateUtc": "2022-01-21T19:22:28",
+          "game": {
+            "id": 68669,
+            "alias": "chempiony-midgarda-valkhalla-i-temnyye-gory",
+            "teseraId": 1661185,
+            "title": "Чемпионы Мидгарда. Вальхалла и Темные горы",
+            "photoUrl": "https://s.tesera.ru/images/items/1661185,3/photo1.jpg",
+            "year": 2020,
+            "rating": {
+              "bggRating": 0,
+              "bggNumVotes": 0,
+              "teseraRating": 8.27,
+              "teseraNumVotes": 78
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 57945
+          }
+        }
+      ]
     }
   },
   {
