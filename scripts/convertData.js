@@ -18,6 +18,38 @@ const dataPath = "./public/data/collections/source/";
 //addAddonsLink("john-bases.json", "john-addons.json");
 //addAddonsLink("sergei-bases.json", "sergei-addons.json");
 
+/** читаем свой формат и дополняем данные */
+//updateData("sergei.json", "sergei-2.json");
+//updateData("john.json", "john-2.json");
+
+async function updateData(source, destination) {
+  const records = await read(`${dataPath}${source}`).then((response) =>
+    JSON.parse(response)
+  );
+  let count = 0;
+  for (const record of records.slice(0, 1000)) {
+    const game = record.game;
+    const info = (await getGameInfo(game.alias)).game;
+    count++;
+    game.bggId = game.bggId || info.bggId || 0;
+    game.year = game.year || info.year || 0;
+    game.playersMin = game.playersMin || info.playersMin || 0;
+    game.playersMax = game.playersMax || info.playersMax || 0;
+    game.age = game.age || info.playersAgeMin || 0;
+    game.timeMin = game.timeMin || info.playtimeMin || 0; 
+    game.timeMax = game.timeMax || info.playtimeMax || 0;
+    game.rating = {...game.rating, ...{
+      bggRating: game.rating.bggRating || info.bggRating || 0,
+      bggNumVotes: game.rating.bggNumVotes || info.bggNumVotes || 0,
+      teseraRating: game.rating.teseraRating || info.ratingUser || 0,
+      teseraNumVotes: game.rating.teseraNumVotes || info.numVotes || 0,
+    }}
+    console.log(`${count}/${records.length}` ,game.alias);
+  }
+
+  save(JSON.stringify(records), `${dataPath}${destination}`);
+}
+
 async function addAddonsLink(sourceBases, sourceAddons) {
   let bases = await read(`${dataPath}${sourceBases}`).then((response) =>
     JSON.parse(response)
@@ -69,8 +101,14 @@ function convertTeseraGames(source, destination) {
       const recordsBases = records.filter((record) => !record.game.isAddition);
       const recordsAddons = records.filter((record) => record.game.isAddition);
 
-      save(JSON.stringify(recordsBases), `${dataPath}${destination}-bases.json`);
-      save(JSON.stringify(recordsAddons), `${dataPath}${destination}-addons.json`);
+      save(
+        JSON.stringify(recordsBases),
+        `${dataPath}${destination}-bases.json`
+      );
+      save(
+        JSON.stringify(recordsAddons),
+        `${dataPath}${destination}-addons.json`
+      );
     });
 }
 

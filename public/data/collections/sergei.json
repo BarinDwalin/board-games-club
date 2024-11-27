@@ -12,12 +12,18 @@
       "year": 2022,
       "rating": {
         "bggRating": 8.21,
-        "bggNumVotes": 0,
+        "bggNumVotes": 1015,
         "teseraRating": 4.01,
         "teseraNumVotes": 42
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 355326,
+      "playersMin": 0,
+      "playersMax": 0,
+      "age": 0,
+      "timeMin": 0,
+      "timeMax": 0
     }
   },
   {
@@ -60,7 +66,13 @@
             "parentId": 72041
           }
         }
-      ]
+      ],
+      "bggId": 0,
+      "playersMin": 1,
+      "playersMax": 2,
+      "age": 14,
+      "timeMin": 20,
+      "timeMax": 40
     }
   },
   {
@@ -80,7 +92,13 @@
         "teseraNumVotes": 1
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 15,
+      "timeMax": 0
     }
   },
   {
@@ -96,12 +114,18 @@
       "year": 2019,
       "rating": {
         "bggRating": 6.55,
-        "bggNumVotes": 0,
+        "bggNumVotes": 316,
         "teseraRating": 7,
         "teseraNumVotes": 28
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 290610,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 9,
+      "timeMin": 30,
+      "timeMax": 90
     }
   },
   {
@@ -116,12 +140,18 @@
       "year": 2018,
       "rating": {
         "bggRating": 6.21,
-        "bggNumVotes": 0,
+        "bggNumVotes": 529,
         "teseraRating": 6.95,
         "teseraNumVotes": 14
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 260298,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 20,
+      "timeMax": 20
     }
   },
   {
@@ -136,12 +166,18 @@
       "year": 1996,
       "rating": {
         "bggRating": 6.383,
-        "bggNumVotes": 0,
+        "bggNumVotes": 4730,
         "teseraRating": 7.04,
         "teseraNumVotes": 62
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 2165,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 12,
+      "timeMin": 15,
+      "timeMax": 30
     }
   },
   {
@@ -156,12 +192,18 @@
       "year": 1993,
       "rating": {
         "bggRating": 7.58,
-        "bggNumVotes": 0,
+        "bggNumVotes": 39806,
         "teseraRating": 7.59,
         "teseraNumVotes": 547
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 463,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 13,
+      "timeMin": 20,
+      "timeMax": 0
     }
   },
   {
@@ -177,12 +219,18 @@
       "year": 2003,
       "rating": {
         "bggRating": 7.25,
-        "bggNumVotes": 0,
+        "bggNumVotes": 198,
         "teseraRating": 6.81,
         "teseraNumVotes": 276
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 19544,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 13,
+      "timeMin": 20,
+      "timeMax": 40
     }
   },
   {
@@ -198,12 +246,18 @@
       "year": 2020,
       "rating": {
         "bggRating": 6.848,
-        "bggNumVotes": 0,
+        "bggNumVotes": 1568,
         "teseraRating": 7.04,
         "teseraNumVotes": 30
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 296626,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 45
     }
   },
   {
@@ -219,12 +273,18 @@
       "year": 2022,
       "rating": {
         "bggRating": 6.82,
-        "bggNumVotes": 0,
+        "bggNumVotes": 5753,
         "teseraRating": 7.05,
         "teseraNumVotes": 74
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 268620,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 0,
+      "timeMin": 10,
+      "timeMax": 15
     }
   },
   {
@@ -240,12 +300,18 @@
       "year": 2022,
       "rating": {
         "bggRating": 7.02,
-        "bggNumVotes": 0,
+        "bggNumVotes": 25,
         "teseraRating": 6.79,
         "teseraNumVotes": 29
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 370555,
+      "playersMin": 2,
+      "playersMax": 10,
+      "age": 6,
+      "timeMin": 30,
+      "timeMax": 45
     }
   },
   {
@@ -261,12 +327,18 @@
       "year": 2021,
       "rating": {
         "bggRating": 8.85,
-        "bggNumVotes": 0,
+        "bggNumVotes": 1652,
         "teseraRating": 9.09,
         "teseraNumVotes": 6
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 338960,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 45,
+      "timeMax": 180
     }
   },
   {
@@ -286,7 +358,13 @@
         "teseraNumVotes": 11
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 0,
+      "timeMin": 0,
+      "timeMax": 0
     }
   },
   {
@@ -303,12 +381,18 @@
       "year": 2016,
       "rating": {
         "bggRating": 8.34,
-        "bggNumVotes": 0,
+        "bggNumVotes": 13292,
         "teseraRating": 8.39,
         "teseraNumVotes": 120
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 192135,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 75
     }
   },
   {
@@ -324,12 +408,18 @@
       "year": 2021,
       "rating": {
         "bggRating": 7.47,
-        "bggNumVotes": 0,
+        "bggNumVotes": 4797,
         "teseraRating": 7.68,
         "teseraNumVotes": 182
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 336794,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 40
     }
   },
   {
@@ -345,12 +435,18 @@
       "year": 2015,
       "rating": {
         "bggRating": 7.54,
-        "bggNumVotes": 0,
+        "bggNumVotes": 92003,
         "teseraRating": 7.47,
         "teseraNumVotes": 1216
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 178900,
+      "playersMin": 2,
+      "playersMax": 12,
+      "age": 12,
+      "timeMin": 15,
+      "timeMax": 0
     }
   },
   {
@@ -367,12 +463,18 @@
       "year": 2020,
       "rating": {
         "bggRating": 7.66,
-        "bggNumVotes": 0,
+        "bggNumVotes": 11330,
         "teseraRating": 7.58,
         "teseraNumVotes": 83
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 306735,
+      "playersMin": 1,
+      "playersMax": 1,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 40
     }
   },
   {
@@ -388,12 +490,18 @@
       "year": 2014,
       "rating": {
         "bggRating": 7.6,
-        "bggNumVotes": 0,
+        "bggNumVotes": 66008,
         "teseraRating": 7.72,
         "teseraNumVotes": 1657
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 163412,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 6,
+      "timeMin": 15,
+      "timeMax": 20
     }
   },
   {
@@ -410,12 +518,18 @@
       "year": 2021,
       "rating": {
         "bggRating": 7.42,
-        "bggNumVotes": 0,
+        "bggNumVotes": 8645,
         "teseraRating": 7.24,
         "teseraNumVotes": 182
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 298069,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 30,
+      "timeMax": 60
     }
   },
   {
@@ -430,12 +544,18 @@
       "year": 2020,
       "rating": {
         "bggRating": 6.91,
-        "bggNumVotes": 0,
+        "bggNumVotes": 49,
         "teseraRating": 7.15,
         "teseraNumVotes": 54
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 322759,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 10,
+      "timeMin": 20,
+      "timeMax": 30
     }
   },
   {
@@ -452,12 +572,18 @@
       "year": 2016,
       "rating": {
         "bggRating": 7.9,
-        "bggNumVotes": 0,
+        "bggNumVotes": 20653,
         "teseraRating": 7.76,
         "teseraNumVotes": 254
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 191189,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 60,
+      "timeMax": 90
     }
   },
   {
@@ -473,12 +599,18 @@
       "year": 2020,
       "rating": {
         "bggRating": 6.82,
-        "bggNumVotes": 0,
+        "bggNumVotes": 1600,
         "teseraRating": 6.62,
         "teseraNumVotes": 83
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 299027,
+      "playersMin": 3,
+      "playersMax": 7,
+      "age": 8,
+      "timeMin": 15,
+      "timeMax": 20
     }
   },
   {
@@ -493,12 +625,18 @@
       "year": 2021,
       "rating": {
         "bggRating": 6.67,
-        "bggNumVotes": 0,
+        "bggNumVotes": 35,
         "teseraRating": 7.18,
         "teseraNumVotes": 44
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 343507,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 18,
+      "timeMin": 0,
+      "timeMax": 0
     }
   },
   {
@@ -513,12 +651,18 @@
       "year": 2018,
       "rating": {
         "bggRating": 7.66,
-        "bggNumVotes": 0,
+        "bggNumVotes": 10591,
         "teseraRating": 8.08,
         "teseraNumVotes": 380
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 223321,
+      "playersMin": 1,
+      "playersMax": 5,
+      "age": 16,
+      "timeMin": 120,
+      "timeMax": 180
     }
   },
   {
@@ -534,12 +678,18 @@
       "year": 2017,
       "rating": {
         "bggRating": 6.02,
-        "bggNumVotes": 0,
+        "bggNumVotes": 428,
         "teseraRating": 4.75,
         "teseraNumVotes": 11
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 218314,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 14,
+      "timeMin": 10,
+      "timeMax": 15
     }
   },
   {
@@ -555,7 +705,7 @@
       "year": 2015,
       "rating": {
         "bggRating": 7.72,
-        "bggNumVotes": 0,
+        "bggNumVotes": 17518,
         "teseraRating": 7.64,
         "teseraNumVotes": 448
       },
@@ -583,7 +733,13 @@
             "parentId": 57945
           }
         }
-      ]
+      ],
+      "bggId": 172287,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 90
     }
   },
   {
@@ -598,12 +754,18 @@
       "year": 2018,
       "rating": {
         "bggRating": 8.07,
-        "bggNumVotes": 0,
+        "bggNumVotes": 51246,
         "teseraRating": 8.27,
         "teseraNumVotes": 1124
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 237182,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 90
     }
   },
   {
@@ -619,12 +781,18 @@
       "year": 2016,
       "rating": {
         "bggRating": 7.74,
-        "bggNumVotes": 0,
+        "bggNumVotes": 43421,
         "teseraRating": 8.05,
         "teseraNumVotes": 1165
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 121921,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 90
     }
   },
   {
@@ -640,7 +808,7 @@
       "year": 2017,
       "rating": {
         "bggRating": 7.48,
-        "bggNumVotes": 0,
+        "bggNumVotes": 41394,
         "teseraRating": 7.72,
         "teseraNumVotes": 829
       },
@@ -669,7 +837,13 @@
             "parentId": 60148
           }
         }
-      ]
+      ],
+      "bggId": 199561,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 13,
+      "timeMin": 30,
+      "timeMax": 45
     }
   },
   {
@@ -691,7 +865,13 @@
         "teseraNumVotes": 13
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 16,
+      "timeMin": 60,
+      "timeMax": 0
     }
   },
   {
@@ -707,12 +887,18 @@
       "year": 2018,
       "rating": {
         "bggRating": 8.6,
-        "bggNumVotes": 0,
+        "bggNumVotes": 45839,
         "teseraRating": 8.65,
         "teseraNumVotes": 993
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 224517,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 120,
+      "timeMax": 180
     }
   },
   {
@@ -728,12 +914,18 @@
       "year": 2018,
       "rating": {
         "bggRating": 6.76,
-        "bggNumVotes": 0,
+        "bggNumVotes": 31482,
         "teseraRating": 7.03,
         "teseraNumVotes": 318
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 244992,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 0,
+      "timeMin": 15,
+      "timeMax": 15
     }
   },
   {
@@ -749,12 +941,18 @@
       "year": 2018,
       "rating": {
         "bggRating": 6.728,
-        "bggNumVotes": 0,
+        "bggNumVotes": 4993,
         "teseraRating": 6.55,
         "teseraNumVotes": 100
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 244995,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 8,
+      "timeMin": 15,
+      "timeMax": 15
     }
   },
   {
@@ -770,12 +968,18 @@
       "year": 2019,
       "rating": {
         "bggRating": 7.39,
-        "bggNumVotes": 0,
+        "bggNumVotes": 4519,
         "teseraRating": 7.18,
         "teseraNumVotes": 253
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 283864,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 8,
+      "timeMin": 15,
+      "timeMax": 0
     }
   },
   {
@@ -791,12 +995,18 @@
       "year": 2018,
       "rating": {
         "bggRating": 6.98,
-        "bggNumVotes": 0,
+        "bggNumVotes": 3153,
         "teseraRating": 7.28,
         "teseraNumVotes": 294
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 257527,
+      "playersMin": 4,
+      "playersMax": 12,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 45
     }
   },
   {
@@ -813,12 +1023,18 @@
       "year": 2021,
       "rating": {
         "bggRating": 8.35,
-        "bggNumVotes": 0,
+        "bggNumVotes": 3835,
         "teseraRating": 8.42,
         "teseraNumVotes": 267
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 299659,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 180,
+      "timeMax": 240
     }
   },
   {
@@ -834,12 +1050,18 @@
       "year": 2018,
       "rating": {
         "bggRating": 7.54,
-        "bggNumVotes": 0,
+        "bggNumVotes": 30943,
         "teseraRating": 7.52,
         "teseraNumVotes": 577
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 233867,
+      "playersMin": 1,
+      "playersMax": 12,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 30
     }
   },
   {
@@ -855,7 +1077,7 @@
       "year": 2015,
       "rating": {
         "bggRating": 6.94,
-        "bggNumVotes": 0,
+        "bggNumVotes": 11478,
         "teseraRating": 7.19,
         "teseraNumVotes": 554
       },
@@ -906,7 +1128,13 @@
             "parentId": 58478
           }
         }
-      ]
+      ],
+      "bggId": 175117,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 40
     }
   },
   {
@@ -921,12 +1149,18 @@
       "year": 2005,
       "rating": {
         "bggRating": 6.32,
-        "bggNumVotes": 0,
+        "bggNumVotes": 15806,
         "teseraRating": 7.56,
         "teseraNumVotes": 64
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 12692,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 13,
+      "timeMin": 45,
+      "timeMax": 60
     }
   },
   {
@@ -942,12 +1176,18 @@
       "year": 2021,
       "rating": {
         "bggRating": 8.25,
-        "bggNumVotes": 0,
+        "bggNumVotes": 3124,
         "teseraRating": 8.25,
         "teseraNumVotes": 18
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 311988,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 120,
+      "timeMax": 150
     }
   },
   {
@@ -991,7 +1231,13 @@
             "parentId": 67535
           }
         }
-      ]
+      ],
+      "bggId": 477191,
+      "playersMin": 4,
+      "playersMax": 6,
+      "age": 16,
+      "timeMin": 0,
+      "timeMax": 40
     }
   },
   {
@@ -1007,12 +1253,18 @@
       "year": 2014,
       "rating": {
         "bggRating": 6.56,
-        "bggNumVotes": 0,
+        "bggNumVotes": 3328,
         "teseraRating": 6.61,
         "teseraNumVotes": 52
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 153064,
+      "playersMin": 4,
+      "playersMax": 8,
+      "age": 12,
+      "timeMin": 5,
+      "timeMax": 15
     }
   },
   {
@@ -1028,12 +1280,18 @@
       "year": 2014,
       "rating": {
         "bggRating": 7.32,
-        "bggNumVotes": 0,
+        "bggNumVotes": 24421,
         "teseraRating": 7.56,
         "teseraNumVotes": 781
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 154203,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 80
     }
   },
   {
@@ -1049,7 +1307,7 @@
       "year": 1995,
       "rating": {
         "bggRating": 7.1,
-        "bggNumVotes": 0,
+        "bggNumVotes": 127765,
         "teseraRating": 7.13,
         "teseraNumVotes": 1876
       },
@@ -1100,7 +1358,13 @@
             "parentId": 48715
           }
         }
-      ]
+      ],
+      "bggId": 13,
+      "playersMin": 3,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 90
     }
   },
   {
@@ -1121,7 +1385,13 @@
         "teseraNumVotes": 40
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 40
     }
   },
   {
@@ -1137,12 +1407,18 @@
       "year": 2006,
       "rating": {
         "bggRating": 5.49,
-        "bggNumVotes": 0,
+        "bggNumVotes": 337,
         "teseraRating": 5.17,
         "teseraNumVotes": 585
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 46147,
+      "playersMin": 2,
+      "playersMax": 10,
+      "age": 5,
+      "timeMin": 10,
+      "timeMax": 20
     }
   },
   {
@@ -1158,12 +1434,18 @@
       "year": 2011,
       "rating": {
         "bggRating": 6.44,
-        "bggNumVotes": 0,
+        "bggNumVotes": 700,
         "teseraRating": 6.06,
         "teseraNumVotes": 1050
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 146548,
+      "playersMin": 4,
+      "playersMax": 7,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 50
     }
   },
   {
@@ -1179,12 +1461,18 @@
       "year": 2012,
       "rating": {
         "bggRating": 7.23,
-        "bggNumVotes": 0,
+        "bggNumVotes": 67618,
         "teseraRating": 7.21,
         "teseraNumVotes": 1173
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 129622,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 10,
+      "timeMax": 20
     }
   },
   {
@@ -1200,12 +1488,18 @@
       "year": 2016,
       "rating": {
         "bggRating": 7.06,
-        "bggNumVotes": 0,
+        "bggNumVotes": 54647,
         "teseraRating": 7.31,
         "teseraNumVotes": 2090
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 478,
+      "playersMin": 2,
+      "playersMax": 7,
+      "age": 10,
+      "timeMin": 20,
+      "timeMax": 60
     }
   },
   {
@@ -1222,12 +1516,18 @@
       "year": 2011,
       "rating": {
         "bggRating": 7.25,
-        "bggNumVotes": 0,
+        "bggNumVotes": 10467,
         "teseraRating": 7.98,
         "teseraNumVotes": 872
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 91312,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 30,
+      "timeMax": 60
     }
   },
   {
@@ -1243,7 +1543,7 @@
       "year": 2019,
       "rating": {
         "bggRating": 7.92,
-        "bggNumVotes": 0,
+        "bggNumVotes": 16336,
         "teseraRating": 7.9,
         "teseraNumVotes": 433
       },
@@ -1316,7 +1616,13 @@
             "parentId": 66061
           }
         }
-      ]
+      ],
+      "bggId": 269385,
+      "playersMin": 1,
+      "playersMax": 5,
+      "age": 0,
+      "timeMin": 60,
+      "timeMax": 120
     }
   },
   {
@@ -1332,12 +1638,18 @@
       "year": 2016,
       "rating": {
         "bggRating": 7.95,
-        "bggNumVotes": 0,
+        "bggNumVotes": 36365,
         "teseraRating": 8.21,
         "teseraNumVotes": 989
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 205059,
+      "playersMin": 1,
+      "playersMax": 5,
+      "age": 14,
+      "timeMin": 120,
+      "timeMax": 180
     }
   },
   {
@@ -1353,12 +1665,18 @@
       "year": 2009,
       "rating": {
         "bggRating": 7.21,
-        "bggNumVotes": 0,
+        "bggNumVotes": 71306,
         "teseraRating": 7.67,
         "teseraNumVotes": 1752
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 40692,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 8,
+      "timeMin": 40,
+      "timeMax": 90
     }
   },
   {
@@ -1374,7 +1692,7 @@
       "year": 2016,
       "rating": {
         "bggRating": 7.78,
-        "bggNumVotes": 0,
+        "bggNumVotes": 42268,
         "teseraRating": 7.69,
         "teseraNumVotes": 740
       },
@@ -1427,10 +1745,15 @@
             "parentId": 59926
           }
         }
-      ]
+      ],
+      "bggId": 201808,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 90
     }
   },
-
   {
     "relationId": 92135161,
     "creationDateUtc": "2020-10-18T15:09:02",
@@ -1448,7 +1771,13 @@
         "teseraNumVotes": 182
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 3,
+      "playersMax": 20,
+      "age": 18,
+      "timeMin": 15,
+      "timeMax": 120
     }
   },
   {
@@ -1464,12 +1793,18 @@
       "year": 2003,
       "rating": {
         "bggRating": 5.86,
-        "bggNumVotes": 0,
+        "bggNumVotes": 2417,
         "teseraRating": 5.89,
         "teseraNumVotes": 162
       },
       "tags": [],
-      "isAddition": false
+      "isAddition": false,
+      "bggId": 6607,
+      "playersMin": 3,
+      "playersMax": 6,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 60
     }
   }
 ]
