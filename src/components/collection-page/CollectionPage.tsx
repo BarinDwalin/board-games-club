@@ -48,7 +48,7 @@ export function CollectionPage() {
     } else {
       setFilteredCollection(collection);
     }
-  });
+  }, [categoriesGames, selectedCategoryId, collection]);
 
   useEffect(() => {
     if (collection.length === 0) {
@@ -66,7 +66,7 @@ export function CollectionPage() {
         }
       });
     }
-  }, [collection, dataService]);
+  }, [categoriesGames, collection, dataService]);
 
   return (
     <>
