@@ -22,6 +22,24 @@ const dataPath = "./public/data/collections/source/";
 //updateData("sergei.json", "sergei-2.json");
 //updateData("john.json", "john-2.json");
 
+/** загрузка топ 100 https://api.tesera.ru/games?offset=0&limit=100&sort=-ratinggeekbgg */
+//loadBggTop("top-bgg.json");
+
+function loadBggTop(destination) {
+  return fetch(
+    "https://api.tesera.ru/games?offset=0&limit=100&sort=-ratinggeekbgg"
+  )
+    .then((response) => response.json())
+    .then((response) => {
+      const links = response.map((record) => ({
+        id: record.id,
+        alias: record.alias,
+      }));
+
+      save(JSON.stringify(links), `${dataPath}${destination}`);
+    });
+}
+
 async function updateData(source, destination) {
   const records = await read(`${dataPath}${source}`).then((response) =>
     JSON.parse(response)
@@ -36,15 +54,18 @@ async function updateData(source, destination) {
     game.playersMin = game.playersMin || info.playersMin || 0;
     game.playersMax = game.playersMax || info.playersMax || 0;
     game.age = game.age || info.playersAgeMin || 0;
-    game.timeMin = game.timeMin || info.playtimeMin || 0; 
+    game.timeMin = game.timeMin || info.playtimeMin || 0;
     game.timeMax = game.timeMax || info.playtimeMax || 0;
-    game.rating = {...game.rating, ...{
-      bggRating: game.rating.bggRating || info.bggRating || 0,
-      bggNumVotes: game.rating.bggNumVotes || info.bggNumVotes || 0,
-      teseraRating: game.rating.teseraRating || info.ratingUser || 0,
-      teseraNumVotes: game.rating.teseraNumVotes || info.numVotes || 0,
-    }}
-    console.log(`${count}/${records.length}` ,game.alias);
+    game.rating = {
+      ...game.rating,
+      ...{
+        bggRating: game.rating.bggRating || info.bggRating || 0,
+        bggNumVotes: game.rating.bggNumVotes || info.bggNumVotes || 0,
+        teseraRating: game.rating.teseraRating || info.ratingUser || 0,
+        teseraNumVotes: game.rating.teseraNumVotes || info.numVotes || 0,
+      },
+    };
+    console.log(`${count}/${records.length}`, game.alias);
   }
 
   save(JSON.stringify(records), `${dataPath}${destination}`);

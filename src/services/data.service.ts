@@ -1,4 +1,4 @@
-import { Game, GameRecord, GameTesera } from "../interfaces";
+import { Category, Game, GameRecord, GameTesera } from "../interfaces";
 
 export class DataService {
   private collectionsPath = "/data/collections/";
@@ -14,6 +14,69 @@ export class DataService {
       owner: "Sergei",
     },
   ];
+
+  categories: readonly Category[] = [
+    {
+      id: "hotness",
+      title: "горячие",
+      image: "/images/categories/hotness.svg",
+      file: "",
+    },
+    {
+      id: "top",
+      title: "топ 100",
+      image: "/images/categories/top.svg",
+      file: "top-bgg.json",
+    },
+    {
+      id: "party",
+      title: "вечериночные",
+      image: "/images/categories/party.svg",
+      file: "",
+    },
+    {
+      id: "family",
+      title: "семейные",
+      image: "/images/categories/family.svg",
+      file: "",
+    },
+    {
+      id: "children",
+      title: "детские",
+      image: "/images/categories/children.svg",
+      file: "",
+    },
+    {
+      id: "hardcore",
+      title: "хардкор",
+      image: "/images/categories/hardcore.svg",
+      file: "",
+    },
+  ] as const;
+
+  async getCategoriesGames(): Promise<
+    { categoryId: string; gamesIds: number[] }[]
+  > {
+    const categoriesGames: { categoryId: string; gamesIds: number[] }[] = [];
+
+    for (const settings of this.categories.filter(
+      (settings) => settings.file
+    )) {
+      const games =
+        (await this.getData<{ id: number }>(
+          `${this.collectionsPath}categories/${settings.file}`
+        )) || [];
+
+      if (games.length > 0) {
+        categoriesGames.push({
+          categoryId: settings.id,
+          gamesIds: games.map((game) => game.id),
+        });
+      }
+    }
+
+    return categoriesGames;
+  }
 
   async getGames(): Promise<GameRecord<Game>[]> {
     let allRecords: GameRecord<Game>[] = [];

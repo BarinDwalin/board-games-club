@@ -37,7 +37,9 @@ export function SettingsPanel({
         TODO: фильтры
       </Box>
       <Box component="span" sx={{ fontSize: "16px" }}>
-        {count || 0} {getNoun(count, "игра", "игры", "игр")}
+        {!count
+          ? "Loading..."
+          : `${count} ${getNoun(count, "игра", "игры", "игр")}`}
       </Box>
       <Box
         sx={{

@@ -1,6 +1,6 @@
 import { Box, Theme, createTheme, styled } from "@mui/material";
 import { PropsWithChildren } from "react";
-import { Category, categories } from "../models";
+import { Category } from "../../../interfaces";
 
 const PanelCategories = styled(Box)(({ theme }) => ({
   display: "flex",
@@ -33,6 +33,7 @@ const PanelCategoriesItem = (
   props: PropsWithChildren & {
     theme: Theme;
     category: Category;
+    isSelected: boolean;
     onSelectItem: () => void;
   }
 ) => (
@@ -47,7 +48,7 @@ const PanelCategoriesItem = (
       boxSizing: "border-box",
       alignItems: "center",
       justifyContent: "center",
-      color: "#000",
+      color: props.isSelected ? "#c6b09f" : "#000",
       background: "none",
       cursor: "pointer",
       border: "1px solid #e6e6e6",
@@ -101,14 +102,24 @@ const Title = styled("span")(({ theme }) => ({
 }));
 
 interface CategoriesPanelProps {
-  onSelectCategory: (category: Category) => void;
+  categories: readonly Category[];
+  selectedCategoryId: string | null;
+  onSelectCategory: (category: Category | null) => void;
 }
 
-export function CategoriesPanel({ onSelectCategory }: CategoriesPanelProps) {
+export function CategoriesPanel({
+  categories,
+  selectedCategoryId,
+  onSelectCategory,
+}: CategoriesPanelProps) {
   let theme = createTheme({});
 
   const handleClick = (category: Category) => {
-    onSelectCategory(category);
+    if (category.id === selectedCategoryId) {
+      onSelectCategory(null);
+    } else {
+      onSelectCategory(category);
+    }
   };
 
   return (
@@ -116,9 +127,10 @@ export function CategoriesPanel({ onSelectCategory }: CategoriesPanelProps) {
       <PanelCategoriesInner>
         {categories.map((category) => (
           <PanelCategoriesItem
-            key={category.category}
+            key={category.id}
             theme={theme}
             category={category}
+            isSelected={category.id === selectedCategoryId}
             onSelectItem={() => handleClick(category)}
           >
             <ImageWrapper>
