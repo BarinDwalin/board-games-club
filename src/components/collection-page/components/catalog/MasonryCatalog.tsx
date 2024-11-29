@@ -94,8 +94,8 @@ interface MasonryCatalogProps {
 export function MasonryCatalog({ collection }: MasonryCatalogProps) {
   let theme = createTheme({});
   const [selectedCardId, setSelectedCardId] = useState<number>();
-  const handleClick = (id: number) => {
-    setSelectedCardId((value) => (value !== id ? id : undefined));
+  const handleClick = (game: Game) => {
+    setSelectedCardId((value) => (value !== game.id ? game.id : undefined));
   };
 
   return (
@@ -123,7 +123,7 @@ export function MasonryCatalog({ collection }: MasonryCatalogProps) {
             isWide2Col={isWide2Col}
             isMarginRight4Col={isMarginRight4Col}
             isMarginRight2Col={isMarginRight2Col}
-            onSelectItem={() => handleClick(game.id)}
+            onSelectItem={() => handleClick(game)}
           >
             <GameCard
               game={game}

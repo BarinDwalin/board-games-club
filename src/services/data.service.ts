@@ -32,25 +32,25 @@ export class DataService {
       id: "party",
       title: "вечериночные",
       image: "/images/categories/party.svg",
-      file: "",
+      file: "party.json",
     },
     {
       id: "family",
       title: "семейные",
       image: "/images/categories/family.svg",
-      file: "",
+      file: "family.json",
     },
     {
       id: "children",
       title: "детские",
       image: "/images/categories/children.svg",
-      file: "",
+      file: "children.json",
     },
     {
       id: "hardcore",
       title: "хардкор",
       image: "/images/categories/hardcore.svg",
-      file: "",
+      file: "hardcore.json",
     },
   ] as const;
 

@@ -75,8 +75,8 @@ interface GridCatalogProps {
 export function GridCatalog({ collection }: GridCatalogProps) {
   let theme = createTheme({});
   const [selectedCardId, setSelectedCardId] = useState<number>();
-  const handleClick = (id: number) => {
-    setSelectedCardId((value) => (value !== id ? id : undefined));
+  const handleClick = (game: Game) => {
+    setSelectedCardId((value) => (value !== game.id ? game.id : undefined));
   };
 
   return (
@@ -86,7 +86,7 @@ export function GridCatalog({ collection }: GridCatalogProps) {
           key={game.id}
           index={i}
           theme={theme}
-          onSelectItem={() => handleClick(game.id)}
+          onSelectItem={() => handleClick(game)}
         >
           <GameCard
             game={game}
