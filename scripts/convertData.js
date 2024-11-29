@@ -22,13 +22,20 @@ const dataPath = "./public/data/collections/source/";
 //updateData("sergei.json", "sergei-2.json");
 //updateData("john.json", "john-2.json");
 
-/** загрузка топ 100 https://api.tesera.ru/games?offset=0&limit=100&sort=-ratinggeekbgg */
-//loadBggTop("top-bgg.json");
+/** загрузка топ 100 BGG */
+/* loadBggTop(
+  "https://api.tesera.ru/games?offset=0&limit=100&sort=-ratinggeekbgg",
+  "top-bgg.json"
+); */
 
-function loadBggTop(destination) {
-  return fetch(
-    "https://api.tesera.ru/games?offset=0&limit=100&sort=-ratinggeekbgg"
-  )
+/** загрузка Hotness BGG */
+/* loadBggTop(
+  "https://api.tesera.ru/games?offset=0&limit=100&sort=-ratingn10",
+  "hotness-bgg.json"
+); */
+
+function loadBggTop(source, destination) {
+  return fetch(source)
     .then((response) => response.json())
     .then((response) => {
       const links = response.map((record) => ({

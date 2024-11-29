@@ -20,7 +20,7 @@ export class DataService {
       id: "hotness",
       title: "горячие",
       image: "/images/categories/hotness.svg",
-      file: "",
+      file: "hotness-bgg.json",
     },
     {
       id: "top",
