@@ -1,7 +1,7 @@
 import { Box, createTheme } from "@mui/material";
 import { useEffect, useMemo, useState } from "react";
 import "./CollectionPage.css";
-import { Category, Game, GameRecord } from "../../interfaces";
+import { Category, Game, GameBadgeType, GameRecord } from "../../interfaces";
 import {
   CategoriesPanel,
   GridCatalog,
@@ -67,6 +67,29 @@ export function CollectionPage() {
       });
     }
   }, [categoriesGames, collection, dataService]);
+
+  useEffect(() => {
+    if (collection.length !== 0 && categoriesGames.length !== 0) {
+      const topGames = categoriesGames.find(
+        (category) => category.categoryId === "top"
+      )?.gamesIds;
+
+      for (let index = 0; index < (topGames?.length ?? 0); index++) {
+        const topGame = collection.find(
+          (record) => record.game.id === topGames![index]
+        )?.game;
+        if (
+          topGame &&
+          !topGame.badges?.find((badge) => badge.type === GameBadgeType.Top)
+        ) {
+          topGame.badges = [
+            ...(topGame?.badges ?? []),
+            { type: GameBadgeType.Top, value: index + 1 },
+          ];
+        }
+      }
+    }
+  }, [categoriesGames, collection]);
 
   return (
     <>

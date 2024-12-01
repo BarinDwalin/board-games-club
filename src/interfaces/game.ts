@@ -1,3 +1,4 @@
+import { GameBadge } from "./badge";
 import { GameTag } from "./game-tag";
 
 export interface Game {
@@ -26,6 +27,7 @@ export interface Game {
   timeMax?: number;
   age?: number;
   tags?: GameTag[];
+  badges?: GameBadge[];
 
   isAddition: boolean;
   parentId?: number;

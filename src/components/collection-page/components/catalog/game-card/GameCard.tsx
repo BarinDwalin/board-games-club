@@ -1,8 +1,8 @@
 import { Box, Theme, /* Link, */ createTheme, styled } from "@mui/material";
 // import { Link as RouterLink } from "react-router-dom";
-import { Game } from "../../../../../interfaces";
+import { Game, GameBadge, GameBadgeType } from "../../../../../interfaces";
 import { BggRaitingBadge } from "./BggRaitingBadge";
-import { GameBadge, GameCardBadges } from "./GameCardBadges";
+import { GameCardBadges } from "./GameCardBadges";
 import { GameCardSecondaryDescription } from "./GameCardSecondaryDescription";
 import { PropsWithChildren } from "react";
 import { BadgeAddon } from "./BadgeAddon";
@@ -337,16 +337,21 @@ export function GameCard({
 }: GameCardProps) {
   let theme = createTheme({});
   const addonsCount = game.addons?.length ?? 0;
-  const badges: GameBadge[] = [];
+  const tempBadges: GameBadgeType[] = [];
   if (game.rating.bggRating || 0 > 8) {
-    badges.push(GameBadge.Hot);
+    tempBadges.push(GameBadgeType.Hot);
   }
   if (game.rating.bggNumVotes || 0 > 100) {
-    badges.push(GameBadge.Hit);
+    tempBadges.push(GameBadgeType.Hit);
   }
   if (game.id % 17 === 0) {
-    badges.push(GameBadge.Guest);
+    tempBadges.push(GameBadgeType.Guest);
   }
+
+  const gameBadges: GameBadge[] = [
+    ...(game.badges ?? []),
+    ...tempBadges.map((type) => ({ type })),
+  ];
 
   return (
     <Article>
@@ -386,7 +391,11 @@ export function GameCard({
         isWide2Col={isWide2Col}
         isInverseAlign={isInverseAlign}
       >
-        <GameCardBadges badges={badges}></GameCardBadges>
+        {gameBadges.length > 0 ? (
+          <GameCardBadges badges={gameBadges}></GameCardBadges>
+        ) : (
+          <></>
+        )}
         {addonsCount > 0 ? (
           <Box
             sx={{

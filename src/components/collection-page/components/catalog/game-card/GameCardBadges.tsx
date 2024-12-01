@@ -1,13 +1,9 @@
 import { Box } from "@mui/material";
+import { GameBadge, GameBadgeType } from "../../../../../interfaces";
+import { BadgeTopPosition } from "./BadgeTopPosition";
 
-interface GameCardBadgesProps {
+export interface GameCardBadgesProps {
   badges: GameBadge[];
-}
-
-export enum GameBadge {
-  Hot,
-  Hit,
-  Guest,
 }
 
 export function GameCardBadges({ badges }: GameCardBadgesProps) {
@@ -33,31 +29,35 @@ export function GameCardBadges({ badges }: GameCardBadgesProps) {
           let text = "";
           let isShortTitle = true;
 
-          switch (badge) {
-            case GameBadge.Hit:
+          switch (badge.type) {
+            case GameBadgeType.Hit:
               text = "Hit!";
               backgroundColor = "#fffd02";
               break;
-            case GameBadge.Hot:
+            case GameBadgeType.Hot:
               backgroundColor = "#ff3d5d";
               text = "Hot";
               break;
-            case GameBadge.Guest:
+            case GameBadgeType.Guest:
               backgroundColor = "#a7b2bb";
               text = "Временно";
               isShortTitle = false;
               break;
+            case GameBadgeType.Top:
+              return (
+                <BadgeTopPosition position={badge.value!}></BadgeTopPosition>
+              );
           }
 
           return (
             <Box
-              key={badge}
+              key={badge.type}
               sx={{
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
                 height: "30px",
-                width: isShortTitle ?  "30px" : "80px",
+                width: isShortTitle ? "30px" : "80px",
                 backgroundColor: backgroundColor,
                 fontSize: "13px",
                 fontWeight: "bold",
