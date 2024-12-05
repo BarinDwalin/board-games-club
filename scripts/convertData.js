@@ -12,15 +12,18 @@ const dataPath = "./public/data/collections/source/";
 //convertTeseraGames("tesera-test.json", "test");
 //convertTeseraGames("tesera-john.json", "john");
 //convertTeseraGames("tesera-sergei.json", "sergei");
+//convertTeseraGames("tesera-club.json", "club"); // https://api.tesera.ru/collections/custom/4916/gamesclear?v=1&limit=100
 
 /** читаем свой формат и ищем связь элементов */
 //addAddonsLink("test-bases.json", "test-addons.json");
 //addAddonsLink("john-bases.json", "john-addons.json");
 //addAddonsLink("sergei-bases.json", "sergei-addons.json");
+//addAddonsLink("club-bases.json", "club-addons.json");
 
 /** читаем свой формат и дополняем данные */
 //updateData("sergei.json", "sergei-2.json");
 //updateData("john.json", "john-2.json");
+//updateData("club.json", "club-2.json");
 
 /** загрузка топ 100 BGG */
 /* loadBggTop(

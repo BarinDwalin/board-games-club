@@ -1,0 +1,1867 @@
+[
+  {
+    "creationDateUtc": "2024-12-04T14:53:50.971404",
+    "game": {
+      "id": 79122,
+      "alias": "1timeline-twist",
+      "teseraId": 2394136,
+      "title": "Таймлайн Твист: Сквозь века",
+      "titleOriginal": "Timeline Twist",
+      "photoUrl": "https://s.tesera.ru/images/items/2394136,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.25,
+        "teseraNumVotes": 2
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:53:41.886871",
+    "game": {
+      "id": 79119,
+      "alias": "timeline-twist",
+      "teseraId": 2394125,
+      "title": "Таймлайн Твист: Популярная культура",
+      "titleOriginal": "Timeline Twist: Pop Culture",
+      "photoUrl": "https://s.tesera.ru/images/items/2394125,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.17,
+        "teseraNumVotes": 3
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:52:03.84898",
+    "game": {
+      "id": 77999,
+      "alias": "decktective-secrets-in-the-sand",
+      "teseraId": 2348327,
+      "title": "Детективные хроники: Тайны песков",
+      "titleOriginal": "Decktective: Secrets in the Sand",
+      "photoUrl": "https://s.tesera.ru/images/items/2348327,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.5,
+        "teseraNumVotes": 9
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 12,
+      "timeMin": 40,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:51:52.413506",
+    "game": {
+      "id": 74847,
+      "alias": "detektivnie-hroniki-casino-mrachni-znech",
+      "teseraId": 2200454,
+      "title": "Детективные хроники: Казино",
+      "titleOriginal": "Decktective: You Can't Cheat Death",
+      "photoUrl": "https://s.tesera.ru/images/items/2200454,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.15,
+        "bggNumVotes": 120,
+        "teseraRating": 6.92,
+        "teseraNumVotes": 16
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 361637,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:51:47.806938",
+    "game": {
+      "id": 73834,
+      "alias": "detektivnie-hroniki-flamandskoe-zaveshhanie",
+      "teseraId": 2138066,
+      "title": "Детективные хроники: Фламандское завещание",
+      "titleOriginal": "Decktective: Der letzte Wille",
+      "photoUrl": "https://s.tesera.ru/images/items/2138066,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 6.85,
+        "bggNumVotes": 184,
+        "teseraRating": 7.15,
+        "teseraNumVotes": 20
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 343386,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:51:42.204005",
+    "game": {
+      "id": 72860,
+      "alias": "detektivnyye-khroniki-smert-v-otrazhenii",
+      "teseraId": 2049216,
+      "title": "Детективные хроники: Смерть в отражении",
+      "photoUrl": "https://s.tesera.ru/images/items/2049216,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 6.98,
+        "bggNumVotes": 281,
+        "teseraRating": 6.79,
+        "teseraNumVotes": 22
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 319899,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 13,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:51:36.584301",
+    "game": {
+      "id": 70562,
+      "alias": "detektivnyye-khroniki-prizrak-v-muzeye",
+      "teseraId": 1874250,
+      "title": "Детективные хроники: Призрак в музее",
+      "photoUrl": "https://s.tesera.ru/images/items/1874250,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.42,
+        "bggNumVotes": 534,
+        "teseraRating": 6.57,
+        "teseraNumVotes": 31
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 298701,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 13,
+      "timeMin": 60,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:51:30.553718",
+    "game": {
+      "id": 67928,
+      "alias": "decktective-bloody-red-roses",
+      "teseraId": 1572424,
+      "title": "Детективные хроники: Букет в багровых тонах",
+      "titleOriginal": "Decktective: Bloody-Red Roses",
+      "photoUrl": "https://s.tesera.ru/images/items/1572424,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 6.53,
+        "bggNumVotes": 783,
+        "teseraRating": 6.68,
+        "teseraNumVotes": 71
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 286827,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:51:11.998571",
+    "game": {
+      "id": 59848,
+      "alias": "codenames-deep-undercover",
+      "teseraId": 809560,
+      "title": "Кодовые Имена. Глубоко под Прикрытием",
+      "titleOriginal": "Codenames: Deep Undercover",
+      "photoUrl": "https://s.tesera.ru/images/items/809560,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 6.58,
+        "bggNumVotes": 3601,
+        "teseraRating": 7.08,
+        "teseraNumVotes": 106
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 205158,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 18,
+      "timeMin": 15,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:50:56.231616",
+    "game": {
+      "id": 70312,
+      "alias": "john-company-second-edition",
+      "teseraId": 1845096,
+      "title": "Джон Компани. Второе издание",
+      "photoUrl": "https://s.tesera.ru/images/items/1845096,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 8.33,
+        "bggNumVotes": 3376,
+        "teseraRating": 8.64,
+        "teseraNumVotes": 87
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 332686,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 14,
+      "timeMin": 90,
+      "timeMax": 300
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:50:46.178185",
+    "game": {
+      "id": 48951,
+      "alias": "dice-town",
+      "teseraId": 2640,
+      "title": "Дайс Таун",
+      "titleOriginal": "Dice Town",
+      "photoUrl": "https://s.tesera.ru/images/items/2640,3/photo1.jpg",
+      "year": 2009,
+      "rating": {
+        "bggRating": 6.86,
+        "bggNumVotes": 7755,
+        "teseraRating": 7.01,
+        "teseraNumVotes": 221
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 40793,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 8,
+      "timeMin": 45,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:49:55.076088",
+    "game": {
+      "id": 70509,
+      "alias": "long-shot-the-dice-game",
+      "teseraId": 1868779,
+      "title": "Счастливое число",
+      "titleOriginal": "Long Shot: The Dice Game",
+      "photoUrl": "https://s.tesera.ru/images/items/1868779,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 7.64,
+        "bggNumVotes": 7614,
+        "teseraRating": 7.45,
+        "teseraNumVotes": 52
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 295374,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 14,
+      "timeMin": 20,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:48:56.212241",
+    "game": {
+      "id": 54358,
+      "alias": "xia",
+      "teseraId": 273117,
+      "title": "Ксиа. Тайны дрейфующей системы",
+      "titleOriginal": "Xia: Legends of a Drift System",
+      "photoUrl": "https://s.tesera.ru/images/items/273117,3/photo1.png",
+      "year": 2014,
+      "rating": {
+        "bggRating": 7.86,
+        "bggNumVotes": 10010,
+        "teseraRating": 8.01,
+        "teseraNumVotes": 261
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 82222,
+      "playersMin": 3,
+      "playersMax": 5,
+      "age": 12,
+      "timeMin": 120,
+      "timeMax": 180
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:48:45.597745",
+    "game": {
+      "id": 61182,
+      "alias": "wind-the-film",
+      "teseraId": 928412,
+      "title": "Фотограф",
+      "titleOriginal": "Wind the Film!",
+      "photoUrl": "https://s.tesera.ru/images/items/928412,3/photo1.png",
+      "year": 2016,
+      "rating": {
+        "bggRating": 7.42,
+        "bggNumVotes": 1457,
+        "teseraRating": 7.33,
+        "teseraNumVotes": 42
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 215471,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 20,
+      "timeMax": 20
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:48:38.085641",
+    "game": {
+      "id": 69233,
+      "alias": "rolling-realms",
+      "teseraId": 1724484,
+      "title": "Грани миров",
+      "titleOriginal": "Rolling Realms",
+      "photoUrl": "https://s.tesera.ru/images/items/1724484,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.152,
+        "bggNumVotes": 3960,
+        "teseraRating": 6.67,
+        "teseraNumVotes": 47
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 305682,
+      "playersMin": 1,
+      "playersMax": 99,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:48:30.07663",
+    "game": {
+      "id": 69627,
+      "alias": "duck",
+      "teseraId": 1764032,
+      "title": "Утки",
+      "photoUrl": "https://s.tesera.ru/images/items/1764032,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.6,
+        "bggNumVotes": 238,
+        "teseraRating": 6.32,
+        "teseraNumVotes": 54
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 312463,
+      "playersMin": 3,
+      "playersMax": 5,
+      "age": 8,
+      "timeMin": 15,
+      "timeMax": 25
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:48:21.97256",
+    "game": {
+      "id": 72869,
+      "alias": "my-island",
+      "teseraId": 2051245,
+      "title": "Мой остров",
+      "titleOriginal": "My Island",
+      "photoUrl": "https://s.tesera.ru/images/items/2051245,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.41,
+        "bggNumVotes": 934,
+        "teseraRating": 7.58,
+        "teseraNumVotes": 29
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 359394,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:48:15.194797",
+    "game": {
+      "id": 70062,
+      "alias": "5211-azul",
+      "teseraId": 1818187,
+      "title": "5211: Азул",
+      "titleOriginal": "5211. Azul",
+      "photoUrl": "https://s.tesera.ru/images/items/1818187,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 6.04,
+        "teseraNumVotes": 35
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:47:58.8637",
+    "game": {
+      "id": 67372,
+      "alias": "azul-summer-pavilion",
+      "teseraId": 1518653,
+      "title": "Azul. Летний дворец",
+      "titleOriginal": "Azul: Summer Pavilion",
+      "photoUrl": "https://s.tesera.ru/images/items/1518653,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.63,
+        "bggNumVotes": 15675,
+        "teseraRating": 7.81,
+        "teseraNumVotes": 376
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 287954,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 45
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:47:48.431047",
+    "game": {
+      "id": 70532,
+      "alias": "its-a-wonderful-kingdom",
+      "teseraId": 1870751,
+      "title": "Это безумное королевство",
+      "titleOriginal": "It's a Wonderful Kingdom",
+      "photoUrl": "https://s.tesera.ru/images/items/1870751,3/photo1.png",
+      "year": 2021,
+      "rating": {
+        "bggRating": 7.21,
+        "bggNumVotes": 2847,
+        "teseraRating": 7.49,
+        "teseraNumVotes": 75
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 327711,
+      "playersMin": 1,
+      "playersMax": 2,
+      "age": 14,
+      "timeMin": 45,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:47:40.963148",
+    "game": {
+      "id": 71491,
+      "alias": "doodle-dash",
+      "teseraId": 1961583,
+      "title": "Скоростные каракули",
+      "titleOriginal": "Doodle Dash",
+      "photoUrl": "https://s.tesera.ru/images/items/1961583,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 7.27,
+        "bggNumVotes": 570,
+        "teseraRating": 7,
+        "teseraNumVotes": 47
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 334379,
+      "playersMin": 3,
+      "playersMax": 7,
+      "age": 10,
+      "timeMin": 15,
+      "timeMax": 20
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:47:31.723284",
+    "game": {
+      "id": 77892,
+      "alias": "chpok-chmok",
+      "teseraId": 2341007,
+      "title": "ЧПОК ЧМОК",
+      "photoUrl": "https://s.tesera.ru/images/items/2341007,3/photo1.jpg",
+      "year": 2024,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 6,
+        "teseraNumVotes": 1
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 18,
+      "timeMin": 15,
+      "timeMax": 20
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:47:16.198391",
+    "game": {
+      "id": 72216,
+      "alias": "get-board-new-york-london",
+      "teseraId": 2008184,
+      "title": "Счастливый билет",
+      "titleOriginal": "Get on Board: New York & London",
+      "photoUrl": "https://s.tesera.ru/images/items/2008184,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 6.98,
+        "bggNumVotes": 2697,
+        "teseraRating": 7.35,
+        "teseraNumVotes": 47
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 347013,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 8,
+      "timeMin": 0,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:47:06.322687",
+    "game": {
+      "id": 76518,
+      "alias": "bitva-desertov",
+      "teseraId": 2277021,
+      "title": "Битва Десертов",
+      "photoUrl": "https://s.tesera.ru/images/items/2277021,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.96,
+        "teseraNumVotes": 13
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:46:58.411034",
+    "game": {
+      "id": 72633,
+      "alias": "king-of-monster-island",
+      "teseraId": 2031647,
+      "title": "Повелитель Острова Монстров",
+      "photoUrl": "https://s.tesera.ru/images/items/2031647,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.2,
+        "bggNumVotes": 0,
+        "teseraRating": 6.81,
+        "teseraNumVotes": 13
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 350755,
+      "playersMin": 1,
+      "playersMax": 5,
+      "age": 10,
+      "timeMin": 45,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:46:48.565608",
+    "game": {
+      "id": 67386,
+      "alias": "Troll-n-Dragon",
+      "teseraId": 1520024,
+      "title": "Тролль и дракон",
+      "titleOriginal": "Troll & Dragon",
+      "photoUrl": "https://s.tesera.ru/images/items/1520024,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 6.4,
+        "bggNumVotes": 296,
+        "teseraRating": 6.61,
+        "teseraNumVotes": 68
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 245085,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 7,
+      "timeMin": 20,
+      "timeMax": 20
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:46:15.684959",
+    "game": {
+      "id": 69516,
+      "alias": "fiesta-de-los-muertos",
+      "teseraId": 1753240,
+      "title": "Фиеста. Карнавал мёртвых",
+      "titleOriginal": "Fiesta de los Muertos",
+      "photoUrl": "https://s.tesera.ru/images/items/1753240,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.04,
+        "bggNumVotes": 1363,
+        "teseraRating": 6.95,
+        "teseraNumVotes": 97
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 285253,
+      "playersMin": 4,
+      "playersMax": 8,
+      "age": 12,
+      "timeMin": 15,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:46:08.944278",
+    "game": {
+      "id": 64293,
+      "alias": "Shards-of-Infinity",
+      "teseraId": 1241114,
+      "title": "Осколки Бесконечности",
+      "titleOriginal": "Shards of Infinity",
+      "photoUrl": "https://s.tesera.ru/images/items/1241114,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 7.47,
+        "bggNumVotes": 4925,
+        "teseraRating": 7.27,
+        "teseraNumVotes": 87
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 244115,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:46:01.689384",
+    "game": {
+      "id": 74544,
+      "alias": "moon-river",
+      "teseraId": 2182173,
+      "title": "Лоскутное ранчо",
+      "titleOriginal": "Moon River",
+      "photoUrl": "https://s.tesera.ru/images/items/2182173,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 6.58,
+        "bggNumVotes": 576,
+        "teseraRating": 6.6,
+        "teseraNumVotes": 30
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 378001,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 45,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:45:49.012554",
+    "game": {
+      "id": 58125,
+      "alias": "codenames",
+      "teseraId": 594874,
+      "title": "Кодовые имена",
+      "titleOriginal": "Codenames",
+      "photoUrl": "https://s.tesera.ru/images/items/594874,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 7.54,
+        "bggNumVotes": 92003,
+        "teseraRating": 7.47,
+        "teseraNumVotes": 1220
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 178900,
+      "playersMin": 2,
+      "playersMax": 12,
+      "age": 12,
+      "timeMin": 15,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:45:35.632973",
+    "game": {
+      "id": 74067,
+      "alias": "Cheese-Master",
+      "teseraId": 2157531,
+      "title": "Сырный Переполох",
+      "titleOriginal": "Cheese Master",
+      "photoUrl": "https://s.tesera.ru/images/items/2157531,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 6.57,
+        "bggNumVotes": 139,
+        "teseraRating": 6.77,
+        "teseraNumVotes": 19
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 368168,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 8,
+      "timeMin": 10,
+      "timeMax": 20
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:45:23.68366",
+    "game": {
+      "id": 76185,
+      "alias": "Lata",
+      "teseraId": 2262025,
+      "title": "Рыба",
+      "titleOriginal": "Lata",
+      "photoUrl": "https://s.tesera.ru/images/items/2262025,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.21,
+        "bggNumVotes": 249,
+        "teseraRating": 7.28,
+        "teseraNumVotes": 52
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 374201,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 45
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:45:11.904529",
+    "game": {
+      "id": 74210,
+      "alias": "Fliptown",
+      "teseraId": 2168667,
+      "title": "Покертаун",
+      "titleOriginal": "Fliptown",
+      "photoUrl": "https://s.tesera.ru/images/items/2168667,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.82,
+        "bggNumVotes": 1044,
+        "teseraRating": 7.84,
+        "teseraNumVotes": 31
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 352418,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 30,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:45:03.067366",
+    "game": {
+      "id": 75536,
+      "alias": "okhotniki-za-relikviyami",
+      "teseraId": 2234925,
+      "title": "Охотники за реликвиями",
+      "titleOriginal": "Relic Hunters",
+      "photoUrl": "https://s.tesera.ru/images/items/2234925,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.39,
+        "bggNumVotes": 213,
+        "teseraRating": 7.15,
+        "teseraNumVotes": 33
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 368413,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 50,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:44:40.548106",
+    "game": {
+      "id": 74848,
+      "alias": "1dungeon-fighter-second-edition",
+      "teseraId": 2200482,
+      "title": "Герои подземелий (второе издание)",
+      "titleOriginal": "Dungeon Fighter (second edition)",
+      "photoUrl": "https://s.tesera.ru/images/items/2200482,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 7.47,
+        "bggNumVotes": 1124,
+        "teseraRating": 7.42,
+        "teseraNumVotes": 75
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 357028,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 8,
+      "timeMin": 45,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:44:25.181465",
+    "game": {
+      "id": 63055,
+      "alias": "Paper-Tales",
+      "teseraId": 1103974,
+      "title": "Королевские хроники",
+      "titleOriginal": "Paper Tales",
+      "photoUrl": "https://s.tesera.ru/images/items/1103974,3/photo1.png",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.02,
+        "bggNumVotes": 5111,
+        "teseraRating": 7.07,
+        "teseraNumVotes": 136
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 217861,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 12,
+      "timeMin": 30,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:44:17.404489",
+    "game": {
+      "id": 73384,
+      "alias": "paper-tales-lintgrale",
+      "teseraId": 2096046,
+      "title": "Королевские хроники. Полное издание",
+      "titleOriginal": "Paper Tales: Edition integrale",
+      "photoUrl": "https://s.tesera.ru/images/items/2096046,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.97,
+        "bggNumVotes": 94,
+        "teseraRating": 7.83,
+        "teseraNumVotes": 36
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 365128,
+      "playersMin": 1,
+      "playersMax": 7,
+      "age": 12,
+      "timeMin": 30,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:44:00.011679",
+    "game": {
+      "id": 71565,
+      "alias": "ensemble",
+      "teseraId": 1971007,
+      "title": "Ансамбль",
+      "titleOriginal": "Ensemble",
+      "photoUrl": "https://s.tesera.ru/images/items/1971007,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 6.91,
+        "bggNumVotes": 462,
+        "teseraRating": 6.7,
+        "teseraNumVotes": 69
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 293665,
+      "playersMin": 2,
+      "playersMax": 10,
+      "age": 0,
+      "timeMin": 15,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:43:48.995215",
+    "game": {
+      "id": 71207,
+      "alias": "cartaventura-oklahoma",
+      "teseraId": 1934897,
+      "title": "Картавентура: Оклахома",
+      "titleOriginal": "Cartaventura: Oklahoma",
+      "photoUrl": "https://s.tesera.ru/images/items/1934897,3/photo1.png",
+      "year": 2021,
+      "rating": {
+        "bggRating": 6.84,
+        "bggNumVotes": 369,
+        "teseraRating": 7.22,
+        "teseraNumVotes": 13
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 344405,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:43:43.670306",
+    "game": {
+      "id": 71206,
+      "alias": "cartaventura-vinland",
+      "teseraId": 1934875,
+      "title": "Картавентура: Винланд",
+      "titleOriginal": "Cartaventura: Vinland",
+      "photoUrl": "https://s.tesera.ru/images/items/1934875,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 6.34,
+        "bggNumVotes": 937,
+        "teseraRating": 6.34,
+        "teseraNumVotes": 39
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 327077,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 10,
+      "timeMin": 45,
+      "timeMax": 45
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:43:30.394075",
+    "game": {
+      "id": 71918,
+      "alias": "micromacro-full-house-nadzemka",
+      "teseraId": 1993550,
+      "title": "МикроМакро: Город улик. Надземка",
+      "titleOriginal": "MicroMacro: Crime City – Full House",
+      "photoUrl": "https://s.tesera.ru/images/items/1993550,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 7.68,
+        "bggNumVotes": 4107,
+        "teseraRating": 7.55,
+        "teseraNumVotes": 42
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 338834,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 15,
+      "timeMax": 45
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:43:03.752052",
+    "game": {
+      "id": 70910,
+      "alias": "mig-na-svyaz",
+      "teseraId": 1904143,
+      "title": "МИГ на связь",
+      "photoUrl": "https://s.tesera.ru/images/items/1904143,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 6.74,
+        "bggNumVotes": 74,
+        "teseraRating": 6.84,
+        "teseraNumVotes": 17
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 320383,
+      "playersMin": 4,
+      "playersMax": 8,
+      "age": 8,
+      "timeMin": 0,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:42:41.286957",
+    "game": {
+      "id": 62077,
+      "alias": "tenno",
+      "teseraId": 1005456,
+      "title": "Тэнно",
+      "titleOriginal": "Tenno",
+      "photoUrl": "https://s.tesera.ru/images/items/1005456,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 6.02,
+        "bggNumVotes": 211,
+        "teseraRating": 6.38,
+        "teseraNumVotes": 139
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 217424,
+      "playersMin": 2,
+      "playersMax": 7,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:42:31.11709",
+    "game": {
+      "id": 72362,
+      "alias": "oriflamme-alliance",
+      "teseraId": 2014979,
+      "title": "Орифламма. Альянс",
+      "titleOriginal": "Oriflamme: Alliance",
+      "photoUrl": "https://s.tesera.ru/images/items/2014979,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.23,
+        "bggNumVotes": 127,
+        "teseraRating": 7.7,
+        "teseraNumVotes": 14
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 352981,
+      "playersMin": 3,
+      "playersMax": 5,
+      "age": 10,
+      "timeMin": 15,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:42:25.838346",
+    "game": {
+      "id": 70141,
+      "alias": "oriflamme-embrasement",
+      "teseraId": 1826223,
+      "title": "Орифламма. Пламя войны",
+      "titleOriginal": "Oriflamme: Ablaze",
+      "photoUrl": "https://s.tesera.ru/images/items/1826223,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.29,
+        "bggNumVotes": 619,
+        "teseraRating": 7.5,
+        "teseraNumVotes": 68
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 313261,
+      "playersMin": 3,
+      "playersMax": 5,
+      "age": 10,
+      "timeMin": 15,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:42:12.661188",
+    "game": {
+      "id": 60179,
+      "alias": "steel-arena",
+      "teseraId": 841502,
+      "title": "Стальная Арена. Бои Роботов по Пятницам",
+      "titleOriginal": "Steel Arena: Friday Night Robot Fight",
+      "photoUrl": "https://s.tesera.ru/images/items/841502,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 6.74,
+        "bggNumVotes": 242,
+        "teseraRating": 6.8,
+        "teseraNumVotes": 269
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 205774,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:40:54.937595",
+    "game": {
+      "id": 58348,
+      "alias": "noir",
+      "teseraId": 617758,
+      "title": "Нуар",
+      "titleOriginal": "NOIR: Deductive Mystery Game",
+      "photoUrl": "https://s.tesera.ru/images/items/617758,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 6.45,
+        "bggNumVotes": 1673,
+        "teseraRating": 6.7,
+        "teseraNumVotes": 535
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 102148,
+      "playersMin": 2,
+      "playersMax": 9,
+      "age": 8,
+      "timeMin": 15,
+      "timeMax": 45
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:40:49.081607",
+    "game": {
+      "id": 73111,
+      "alias": "vaalbara",
+      "teseraId": 2066278,
+      "title": "Ваальбара",
+      "titleOriginal": "Vaalbara",
+      "photoUrl": "https://s.tesera.ru/images/items/2066278,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.25,
+        "bggNumVotes": 1835,
+        "teseraRating": 7.08,
+        "teseraNumVotes": 92
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 361241,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 10,
+      "timeMin": 20,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:40:42.413795",
+    "game": {
+      "id": 66452,
+      "alias": "Letter-Jam",
+      "teseraId": 1422439,
+      "title": "Букводжем",
+      "titleOriginal": "Letter Jam",
+      "photoUrl": "https://s.tesera.ru/images/items/1422439,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.19,
+        "bggNumVotes": 4881,
+        "teseraRating": 6.99,
+        "teseraNumVotes": 97
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 275467,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:39:48.066214",
+    "game": {
+      "id": 66458,
+      "alias": "Unmatched-Battle-of-Legends-Volume-1",
+      "teseraId": 1422509,
+      "title": "Unmatched: Битва легенд. Том I",
+      "titleOriginal": "Unmatched: Battle of Legends, Volume One",
+      "photoUrl": "https://s.tesera.ru/images/items/1422509,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.74,
+        "bggNumVotes": 9029,
+        "teseraRating": 7.91,
+        "teseraNumVotes": 574
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 274637,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:39:40.297418",
+    "game": {
+      "id": 68727,
+      "alias": "UnmatchedCF",
+      "teseraId": 1668239,
+      "title": "Unmatched: Туман над мостовой",
+      "titleOriginal": "Unmatched: Cobble & Fog",
+      "photoUrl": "https://s.tesera.ru/images/items/1668239,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.98,
+        "bggNumVotes": 7508,
+        "teseraRating": 8.14,
+        "teseraNumVotes": 423
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2024-12-04T14:39:29.498738",
+          "game": {
+            "id": 66459,
+            "alias": "Unmatched-Robin-Hood-vs-Bigfoot",
+            "teseraId": 1422534,
+            "title": "Unmatched: Робин Гуд vs. Бигфут",
+            "titleOriginal": "Unmatched: Robin Hood vs. Bigfoot",
+            "photoUrl": "https://s.tesera.ru/images/items/1422534,3/photo1.jpg",
+            "year": 2019,
+            "rating": {
+              "bggRating": 7.94,
+              "bggNumVotes": 0,
+              "teseraRating": 8.06,
+              "teseraNumVotes": 244
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 73385
+          }
+        },
+        {
+          "creationDateUtc": "2024-12-04T14:40:03.513703",
+          "game": {
+            "id": 74842,
+            "alias": "unmatched-adventures-tales-to-amaze",
+            "teseraId": 2199596,
+            "title": "Unmatched. Приключения: Удивительные Истории",
+            "photoUrl": "https://s.tesera.ru/images/items/2199596,3/photo1.jpg",
+            "year": 2023,
+            "rating": {
+              "bggRating": 8.18,
+              "bggNumVotes": 0,
+              "teseraRating": 7.96,
+              "teseraNumVotes": 47
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 68727
+          }
+        }
+      ],
+      "bggId": 294484,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:39:21.762811",
+    "game": {
+      "id": 70966,
+      "alias": "unmatched-battle-of-legends-volume-two",
+      "teseraId": 1909043,
+      "title": "Unmatched: Битва Легенд. Том 2",
+      "titleOriginal": "Unmatched: Battle of Legends, Volume Two",
+      "photoUrl": "https://s.tesera.ru/images/items/1909043,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 8.33,
+        "teseraNumVotes": 97
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2024-12-04T14:39:29.498738",
+          "game": {
+            "id": 66459,
+            "alias": "Unmatched-Robin-Hood-vs-Bigfoot",
+            "teseraId": 1422534,
+            "title": "Unmatched: Робин Гуд vs. Бигфут",
+            "titleOriginal": "Unmatched: Robin Hood vs. Bigfoot",
+            "photoUrl": "https://s.tesera.ru/images/items/1422534,3/photo1.jpg",
+            "year": 2019,
+            "rating": {
+              "bggRating": 7.94,
+              "bggNumVotes": 0,
+              "teseraRating": 8.06,
+              "teseraNumVotes": 244
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 73385
+          }
+        }
+      ],
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:39:05.04603",
+    "game": {
+      "id": 73385,
+      "alias": "Unmatched13",
+      "teseraId": 2096132,
+      "title": "Unmatched: Гудини vs. Джинн",
+      "photoUrl": "https://s.tesera.ru/images/items/2096132,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 8.26,
+        "teseraNumVotes": 65
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2024-12-04T14:39:29.498738",
+          "game": {
+            "id": 66459,
+            "alias": "Unmatched-Robin-Hood-vs-Bigfoot",
+            "teseraId": 1422534,
+            "title": "Unmatched: Робин Гуд vs. Бигфут",
+            "titleOriginal": "Unmatched: Robin Hood vs. Bigfoot",
+            "photoUrl": "https://s.tesera.ru/images/items/1422534,3/photo1.jpg",
+            "year": 2019,
+            "rating": {
+              "bggRating": 7.94,
+              "bggNumVotes": 0,
+              "teseraRating": 8.06,
+              "teseraNumVotes": 244
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 73385
+          }
+        }
+      ],
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 0,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:38:53.224611",
+    "game": {
+      "id": 70003,
+      "alias": "unmatched-little-red-riding-hood-vs-beowulf",
+      "teseraId": 1813453,
+      "title": "Unmatched: Красная Шапочка vs. Беовульф",
+      "titleOriginal": "Unmatched: Little Red Riding Hood vs. Beowulf",
+      "photoUrl": "https://s.tesera.ru/images/items/1813453,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 8.15,
+        "bggNumVotes": 2725,
+        "teseraRating": 8.3,
+        "teseraNumVotes": 162
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 325635,
+      "playersMin": 2,
+      "playersMax": 0,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:38:35.067378",
+    "game": {
+      "id": 73350,
+      "alias": "joan-of-arc-the-orleans-draw-and-write-game",
+      "teseraId": 2093589,
+      "title": "Орлеан: Жанна д’Арк",
+      "titleOriginal": "Joan of Arc: The Orleans Draw & Write",
+      "photoUrl": "https://s.tesera.ru/images/items/2093589,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.26,
+        "bggNumVotes": 1146,
+        "teseraRating": 7.34,
+        "teseraNumVotes": 32
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 364641,
+      "playersMin": 1,
+      "playersMax": 5,
+      "age": 12,
+      "timeMin": 30,
+      "timeMax": 45
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:38:26.517433",
+    "game": {
+      "id": 73567,
+      "alias": "deal-with-the-devil",
+      "teseraId": 2111526,
+      "title": "Сделка с Дьяволом",
+      "titleOriginal": "Deal with the Devil",
+      "photoUrl": "https://s.tesera.ru/images/items/2111526,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.08,
+        "bggNumVotes": 1026,
+        "teseraRating": 7.76,
+        "teseraNumVotes": 42
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 367379,
+      "playersMin": 4,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 180,
+      "timeMax": 240
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:37:36.814931",
+    "game": {
+      "id": 74477,
+      "alias": "dany-goes-to-hollywood",
+      "teseraId": 2178706,
+      "title": "Дэни Едет в Голливуд",
+      "photoUrl": "https://s.tesera.ru/images/items/2178706,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 2,
+        "bggNumVotes": 1,
+        "teseraRating": 6.5,
+        "teseraNumVotes": 7
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 34239,
+      "playersMin": 3,
+      "playersMax": 8,
+      "age": 14,
+      "timeMin": 15,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:37:25.877057",
+    "game": {
+      "id": 68648,
+      "alias": "dany",
+      "teseraId": 1657708,
+      "title": "Дэни. Голоса в голове",
+      "titleOriginal": "Dany",
+      "photoUrl": "https://s.tesera.ru/images/items/1657708,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 6.74,
+        "bggNumVotes": 595,
+        "teseraRating": 6.59,
+        "teseraNumVotes": 97
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 265381,
+      "playersMin": 3,
+      "playersMax": 8,
+      "age": 18,
+      "timeMin": 20,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:36:57.010551",
+    "game": {
+      "id": 58478,
+      "alias": "celestia",
+      "teseraId": 630860,
+      "title": "Селестия",
+      "titleOriginal": "Celestia",
+      "photoUrl": "https://s.tesera.ru/images/items/630860,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 6.94,
+        "bggNumVotes": 11478,
+        "teseraRating": 7.19,
+        "teseraNumVotes": 556
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2024-12-04T14:37:08.186615",
+          "game": {
+            "id": 60558,
+            "alias": "celestia-a-little-help",
+            "teseraId": 868834,
+            "title": "Селестия. Рука помощи",
+            "titleOriginal": "Celestia: A Little Help",
+            "photoUrl": "https://s.tesera.ru/images/items/868834,3/photo1.jpg",
+            "year": 2016,
+            "rating": {
+              "bggRating": 7.28,
+              "bggNumVotes": 0,
+              "teseraRating": 7.46,
+              "teseraNumVotes": 84
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 58478
+          }
+        },
+        {
+          "creationDateUtc": "2024-12-04T14:37:16.020443",
+          "game": {
+            "id": 65858,
+            "alias": "Celestia-A-Little-Initiative",
+            "teseraId": 1353452,
+            "title": "Селестия: Бунт на корабле",
+            "titleOriginal": "Celestia: A Little Initiative",
+            "photoUrl": "https://s.tesera.ru/images/items/1353452,3/photo1.png",
+            "year": 2018,
+            "rating": {
+              "bggRating": 7.37,
+              "bggNumVotes": 0,
+              "teseraRating": 7.44,
+              "teseraNumVotes": 45
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 58478
+          }
+        }
+      ],
+      "bggId": 175117,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:36:49.491054",
+    "game": {
+      "id": 50633,
+      "alias": "dixit-odyssey",
+      "teseraId": 22383,
+      "title": "Диксит Одиссея",
+      "titleOriginal": "Dixit Odyssey",
+      "photoUrl": "https://s.tesera.ru/images/items/22383,3/photo1.jpg",
+      "year": 2011,
+      "rating": {
+        "bggRating": 7.4,
+        "bggNumVotes": 21121,
+        "teseraRating": 7.21,
+        "teseraNumVotes": 340
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 92828,
+      "playersMin": 3,
+      "playersMax": 12,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:36:37.153272",
+    "game": {
+      "id": 71941,
+      "alias": "lotta-rome",
+      "teseraId": 1995744,
+      "title": "Новые римляне",
+      "titleOriginal": "Lotta Rome",
+      "photoUrl": "https://s.tesera.ru/images/items/1995744,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.03,
+        "bggNumVotes": 484,
+        "teseraRating": 6.71,
+        "teseraNumVotes": 46
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 358284,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 8,
+      "timeMin": 15,
+      "timeMax": 20
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:36:29.688396",
+    "game": {
+      "id": 74478,
+      "alias": "the-white-castle",
+      "teseraId": 2178717,
+      "title": "Белый Замок",
+      "titleOriginal": "The White Castle",
+      "photoUrl": "https://s.tesera.ru/images/items/2178717,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.98,
+        "bggNumVotes": 7987,
+        "teseraRating": 8.09,
+        "teseraNumVotes": 206
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 371942,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 70,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2024-10-29T20:16:28.944201",
+    "game": {
+      "id": 65924,
+      "alias": "kariba",
+      "teseraId": 1361134,
+      "title": "Лимпопо",
+      "titleOriginal": "Kariba",
+      "photoUrl": "https://s.tesera.ru/images/items/1361134,3/photo1.jpg",
+      "year": 2010,
+      "rating": {
+        "bggRating": 7.01,
+        "bggNumVotes": 1888,
+        "teseraRating": 6.7,
+        "teseraNumVotes": 56
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 84732,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 7,
+      "timeMin": 20,
+      "timeMax": 20
+    }
+  },
+  {
+    "creationDateUtc": "2024-10-29T20:14:53.971412",
+    "game": {
+      "id": 72583,
+      "alias": "passengers",
+      "teseraId": 2028026,
+      "title": "Пассажиры",
+      "titleOriginal": "Passengers",
+      "photoUrl": "https://s.tesera.ru/images/items/2028026,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 6.8,
+        "bggNumVotes": 94,
+        "teseraRating": 6.13,
+        "teseraNumVotes": 8
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 338902,
+      "playersMin": 4,
+      "playersMax": 8,
+      "age": 12,
+      "timeMin": 45,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2024-10-29T20:14:48.116518",
+    "game": {
+      "id": 70771,
+      "alias": "earthborne-rangers",
+      "teseraId": 1891486,
+      "title": "Earthborne Рейнджеры",
+      "titleOriginal": "Earthborne Rangers",
+      "photoUrl": "https://s.tesera.ru/images/items/1891486,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 8.21,
+        "bggNumVotes": 1601,
+        "teseraRating": 7.44,
+        "teseraNumVotes": 41
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 342900,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 240
+    }
+  },
+  {
+    "creationDateUtc": "2024-10-29T20:14:36.201855",
+    "game": {
+      "id": 75606,
+      "alias": "knarr",
+      "teseraId": 2239320,
+      "title": "Кнорр",
+      "titleOriginal": "Knarr",
+      "photoUrl": "https://s.tesera.ru/images/items/2239320,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.49,
+        "bggNumVotes": 3132,
+        "teseraRating": 6.86,
+        "teseraNumVotes": 31
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 379629,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2023-07-04T06:45:22",
+    "game": {
+      "id": 75804,
+      "alias": "broad-lines",
+      "teseraId": 2248144,
+      "title": "В Общих Чертах",
+      "titleOriginal": "Broad Lines",
+      "photoUrl": "https://s.tesera.ru/images/items/2248144,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 6.63,
+        "bggNumVotes": 64,
+        "teseraRating": 6.64,
+        "teseraNumVotes": 13
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 379395,
+      "playersMin": 3,
+      "playersMax": 8,
+      "age": 8,
+      "timeMin": 15,
+      "timeMax": 0
+    }
+  }
+]
