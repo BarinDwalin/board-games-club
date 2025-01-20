@@ -13,6 +13,7 @@ const dataPath = "./public/data/collections/source/";
 //convertTeseraGames("tesera-john.json", "john");
 //convertTeseraGames("tesera-sergei.json", "sergei");
 //convertTeseraGames("tesera-club.json", "club"); // https://api.tesera.ru/collections/custom/4916/gamesclear?v=1&limit=100
+//convertTeseraGames("tesera-andrew.json", "andrew");
 
 /** читаем свой формат и ищем связь элементов */
 //addAddonsLink("test-bases.json", "test-addons.json");

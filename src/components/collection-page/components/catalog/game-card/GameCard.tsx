@@ -240,15 +240,15 @@ const GameDescriptionBadges = (
     {props.children}
   </Box>
 );
-const Title = styled(Box)<{ isWide2Col?: boolean }>(
-  ({ theme, isWide2Col }) => ({
+const Title = styled(Box)<{ isWide?: boolean, isWide2Col?: boolean }>(
+  ({ theme, isWide, isWide2Col }) => ({
     fontSize: "16px",
     fontStyle: "normal",
     fontWeight: 500,
     lineHeight: 1.4,
     zIndex: 999,
     [theme.breakpoints.up("lg")]: {
-      fontSize: "20px",
+      fontSize: isWide ? "24px" : "20px",
     },
     [theme.breakpoints.down("md")]: {
       fontSize: isWide2Col ? "22px" : "16px",
@@ -380,7 +380,9 @@ export function GameCard({
             <BggRaitingBadge value={game.rating.bggRating}></BggRaitingBadge>
             <BlockYear isWide2Col={isWide2Col}>{game.year}</BlockYear>
           </GameDescriptionBadges>
-          <Title isWide2Col={isWide2Col}>{game.title}</Title>
+          <Title isWide={isWide} isWide2Col={isWide2Col}>
+            {game.title}
+          </Title>
         </GameDescription>
       </LinkWrapper>
 

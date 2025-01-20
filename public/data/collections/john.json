@@ -6535,29 +6535,34 @@
       },
       "tags": [],
       "isAddition": false,
+      "bggId": 9209,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 45
+    }
+  },
+  {
+    "relationId": 92606456,
+    "creationDateUtc": "2021-04-28T16:11:57",
+    "game": {
+      "id": 48760,
+      "alias": "ticket-ride-europe",
+      "teseraId": 1700,
+      "title": "Билет на поезд: Европа",
+      "titleOriginal": "Ticket to Ride: Europe",
+      "photoUrl": "https://s.tesera.ru/images/items/1700,3/photo1.jpg",
+      "year": 2005,
+      "rating": {
+        "bggRating": 7.53,
+        "bggNumVotes": 0,
+        "teseraRating": 7.7,
+        "teseraNumVotes": 1943
+      },
+      "tags": [],
+      "isAddition": false,
       "addons": [
-        {
-          "relationId": 92606456,
-          "creationDateUtc": "2021-04-28T16:11:57",
-          "game": {
-            "id": 48760,
-            "alias": "ticket-ride-europe",
-            "teseraId": 1700,
-            "title": "Билет на поезд: Европа",
-            "titleOriginal": "Ticket to Ride: Europe",
-            "photoUrl": "https://s.tesera.ru/images/items/1700,3/photo1.jpg",
-            "year": 2005,
-            "rating": {
-              "bggRating": 7.53,
-              "bggNumVotes": 0,
-              "teseraRating": 7.7,
-              "teseraNumVotes": 1943
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 48686
-          }
-        },
         {
           "relationId": 92606462,
           "creationDateUtc": "2021-04-28T16:14:29",
@@ -6580,12 +6585,12 @@
           }
         }
       ],
-      "bggId": 9209,
+      "bggId": 14996,
       "playersMin": 2,
       "playersMax": 5,
       "age": 8,
-      "timeMin": 30,
-      "timeMax": 45
+      "timeMin": 40,
+      "timeMax": 60
     }
   },
   {

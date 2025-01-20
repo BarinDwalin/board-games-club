@@ -19,8 +19,8 @@
       "tags": [],
       "isAddition": false,
       "bggId": 355326,
-      "playersMin": 0,
-      "playersMax": 0,
+      "playersMin": 1,
+      "playersMax": 4,
       "age": 0,
       "timeMin": 0,
       "timeMax": 0
@@ -1805,6 +1805,138 @@
       "age": 10,
       "timeMin": 30,
       "timeMax": 60
+    }
+  },
+  {
+    "relationId": 95879256,
+    "creationDateUtc": "2025-01-20T17:32:59",
+    "game": {
+      "id": 68737,
+      "alias": "ttr-amsterdam",
+      "teseraId": 1669484,
+      "title": "Билет на поезд: Амстердам",
+      "titleOriginal": "Ticket to Ride: Amsterdam",
+      "photoUrl": "https://s.tesera.ru/images/items/1669484,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.961,
+        "bggNumVotes": 1447,
+        "teseraRating": 6.88,
+        "teseraNumVotes": 12
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 309113,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 10,
+      "timeMax": 20
+    }
+  },
+  {
+    "relationId": 95879257,
+    "creationDateUtc": "2025-01-20T17:33:23",
+    "game": {
+      "id": 73157,
+      "alias": "ticket-to-ride-san-francisco",
+      "teseraId": 2073962,
+      "title": "Билет на поезд: Сан-Франциско",
+      "titleOriginal": "Ticket to Ride: San Francisco",
+      "photoUrl": "https://s.tesera.ru/images/items/2073962,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 0,
+        "teseraNumVotes": 0
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 309113,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 10,
+      "timeMax": 15
+    }
+  },
+  {
+    "relationId": 95879258,
+    "creationDateUtc": "2025-01-20T17:33:35",
+    "game": {
+      "id": 67317,
+      "alias": "TickettoRide15thAnniversaryEdition",
+      "teseraId": 1510976,
+      "title": "Билет на Поезд Юбилейное Издание",
+      "titleOriginal": "Ticket to Ride: 15th Anniversary Edition",
+      "photoUrl": "https://s.tesera.ru/images/items/1510976,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 0,
+        "teseraNumVotes": 0
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 60
+    }
+  },
+  {
+    "relationId": 95879261,
+    "creationDateUtc": "2025-01-20T17:36:25.116847",
+    "game": {
+      "id": 68235,
+      "alias": "for-glory",
+      "teseraId": 1605153,
+      "title": "Во имя славы",
+      "titleOriginal": "For Glory",
+      "photoUrl": "https://s.tesera.ru/images/items/1605153,3/photo1.png",
+      "year": 2020,
+      "rating": {
+        "bggRating": 8,
+        "bggNumVotes": 495,
+        "teseraRating": 0,
+        "teseraNumVotes": 0
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 95879262,
+          "creationDateUtc": "2025-01-20T17:36:37.66703",
+          "game": {
+            "id": 71541,
+            "alias": "for-glory-champions-expansion",
+            "teseraId": 1969033,
+            "title": "Во имя славы: Чемпионы",
+            "titleOriginal": "For Glory: Champions Expansion",
+            "photoUrl": "https://s.tesera.ru/images/items/1969033,3/photo1.jpg",
+            "year": 2018,
+            "rating": {
+              "bggRating": 8.24,
+              "bggNumVotes": 95,
+              "teseraRating": 0,
+              "teseraNumVotes": 0
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 72041
+          }
+        }
+      ],
+      "bggId": 227212,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 60,
+      "timeMax": 120
     }
   }
 ]
