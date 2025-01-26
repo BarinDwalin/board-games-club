@@ -240,7 +240,7 @@ const GameDescriptionBadges = (
     {props.children}
   </Box>
 );
-const Title = styled(Box)<{ isWide?: boolean, isWide2Col?: boolean }>(
+const Title = styled(Box)<{ isWide?: boolean; isWide2Col?: boolean }>(
   ({ theme, isWide, isWide2Col }) => ({
     fontSize: "16px",
     fontStyle: "normal",

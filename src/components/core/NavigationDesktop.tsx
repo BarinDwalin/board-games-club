@@ -11,6 +11,7 @@ import { MenuItem } from "./Header";
 export function NavigationDesktop(props: {
   collapsed: boolean;
   routes: MenuItem[];
+  shownSearchPanel: boolean;
   setPage: (item: MenuItem) => void;
 }) {
   const collapsed = props.collapsed;
@@ -76,7 +77,12 @@ export function NavigationDesktop(props: {
           },
         }}
       >
-        <nav style={{ width: "100%" }}>
+        <nav
+          style={{
+            width: "100%",
+            paddingRight: props.shownSearchPanel ? "15px" : "0px",
+          }}
+        >
           <ul
             style={{
               margin: 0,

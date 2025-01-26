@@ -3,10 +3,12 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import "./App.css";
 import { AppRoute, Pages } from "./settings";
-import { Footer, Header } from "./components";
+import { Footer, Header, SearchPanel } from "./components";
 
 const App: React.FC = () => {
   const [page, setPage] = React.useState(AppRoute.Main);
+  const [shownSearchPanel, setShownSearchPanel] = React.useState(false);
+  const [collapsedDesktopMenu, setCollapsedDesktopMenu] = React.useState(false);
 
   const getTitle = (route: string) => {
     return Pages[route]?.title;
@@ -26,8 +28,12 @@ const App: React.FC = () => {
         setPage={(item) => {
           setPage(item.key);
         }}
+        shownSearchPanel={shownSearchPanel}
         toggleSearch={() => {
-          console.log("TODO: TOGGLE SEARCH");
+          setShownSearchPanel((value) => !value);
+        }}
+        toggleCollapsedDesktopMenu={(collapsed) => {
+          setCollapsedDesktopMenu(collapsed);
         }}
       ></Header>
       <Box
@@ -40,6 +46,10 @@ const App: React.FC = () => {
         <Outlet />
       </Box>
       <Footer></Footer>
+      <SearchPanel
+        shown={shownSearchPanel}
+        collapsedDesktopMenu={collapsedDesktopMenu}
+      ></SearchPanel>
     </div>
   );
 };

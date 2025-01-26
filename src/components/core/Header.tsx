@@ -39,8 +39,10 @@ const routes: MenuItem[] = [
 export function Header(props: {
   children?: JSX.Element;
   title: string;
+  shownSearchPanel: boolean;
   setPage: (item: MenuItem) => void;
   toggleSearch: () => void;
+  toggleCollapsedDesktopMenu: (collapsed: boolean) => void;
 }) {
   const [collapsedDesktopMenu, setCollapsedDesktopMenu] = useState(false);
   const [collapsedMobileMenu, setCollapsedMobileMenu] = useState(false);
@@ -53,8 +55,11 @@ export function Header(props: {
     const newCollapsed = scroll > 50;
     if (newCollapsed !== collapsedDesktopMenu) {
       setCollapsedDesktopMenu(newCollapsed);
+      props.toggleCollapsedDesktopMenu(newCollapsed);
     }
   };
+
+  props.toggleCollapsedDesktopMenu(collapsedDesktopMenu);
 
   window.addEventListener("scroll", changeCss, false);
 
@@ -100,19 +105,12 @@ export function Header(props: {
           top: 0,
           left: 0,
           right: 0,
+          paddingRight: props.shownSearchPanel ? "15px" : "0px",
           [theme.breakpoints.up("md")]: {
             height: "60px",
           },
         }}
       >
-        {/*  <Container
-          maxWidth={false}
-          sx={{ 
-            "@media (width <= 1024px)": {
-              display: "block",
-            },
-          }}
-        > */}
         <Box
           sx={{
             display: "none",
@@ -290,7 +288,12 @@ export function Header(props: {
                 alt="логотип клуба в виде мипла"
               />
             </Link>
-            <IconButton aria-label="поиск" size="large" sx={{}}>
+            <IconButton
+              aria-label="поиск"
+              size="large"
+              sx={{}}
+              onClick={() => props.toggleSearch()}
+            >
               <SearchIcon />
             </IconButton>
           </Box>
@@ -306,6 +309,7 @@ export function Header(props: {
           <NavigationDesktop
             collapsed={collapsedDesktopMenu}
             routes={routes}
+            shownSearchPanel={props.shownSearchPanel}
             setPage={props.setPage}
           ></NavigationDesktop>
         </Box>
