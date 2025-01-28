@@ -1,7 +1,13 @@
 import { Box, createTheme } from "@mui/material";
 import { useEffect, useMemo, useState } from "react";
 import "./CollectionPage.css";
-import { Category, Game, GameBadgeType, GameRecord } from "../../interfaces";
+import {
+  Category,
+  Game,
+  GameBadge,
+  GameBadgeType,
+  GameRecord,
+} from "../../interfaces";
 import {
   CategoriesPanel,
   GridCatalog,
@@ -68,26 +74,36 @@ export function CollectionPage() {
     }
   }, [categoriesGames, collection, dataService]);
 
+  const setBadge = (
+    categoryId: string,
+    badgeType: GameBadgeType,
+    createBadge: (index: number) => GameBadge
+  ) => {
+    const games = categoriesGames.find(
+      (category) => category.categoryId === categoryId
+    )?.gamesIds;
+
+    for (let index = 0; index < (games?.length ?? 0); index++) {
+      const game = collection.find(
+        (record) => record.game.id === games![index]
+      )?.game;
+      if (game && !game.badges?.find((badge) => badge.type === badgeType)) {
+        game.badges = [...(game?.badges ?? []), createBadge(index)];
+      }
+    }
+  };
+
   useEffect(() => {
     if (collection.length !== 0 && categoriesGames.length !== 0) {
-      const topGames = categoriesGames.find(
-        (category) => category.categoryId === "top"
-      )?.gamesIds;
+      console.info(`____LOAD TOP RAIT:`);
 
-      for (let index = 0; index < (topGames?.length ?? 0); index++) {
-        const topGame = collection.find(
-          (record) => record.game.id === topGames![index]
-        )?.game;
-        if (
-          topGame &&
-          !topGame.badges?.find((badge) => badge.type === GameBadgeType.Top)
-        ) {
-          topGame.badges = [
-            ...(topGame?.badges ?? []),
-            { type: GameBadgeType.Top, value: index + 1 },
-          ];
-        }
-      }
+      setBadge("top", GameBadgeType.Top, (index) => ({
+        type: GameBadgeType.Top,
+        value: index + 1,
+      }));
+      setBadge("hotness", GameBadgeType.Hot, () => ({
+        type: GameBadgeType.Hot,
+      }));
     }
   }, [categoriesGames, collection]);
 

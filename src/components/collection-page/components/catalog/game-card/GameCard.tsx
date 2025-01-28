@@ -341,15 +341,6 @@ export function GameCard({
   if (game.language === 'eng') {
     tempBadges.push(GameBadgeType.Eng);
   }
-  if (game.rating.bggRating || 0 > 8) {
-    tempBadges.push(GameBadgeType.Hot);
-  }
-  if (game.rating.bggNumVotes || 0 > 100) {
-    tempBadges.push(GameBadgeType.Hit);
-  }
-  if (game.id % 17 === 0) {
-    tempBadges.push(GameBadgeType.Guest);
-  }
 
   const gameBadges: GameBadge[] = [
     ...(game.badges ?? []),
