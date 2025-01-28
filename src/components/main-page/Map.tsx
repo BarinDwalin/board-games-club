@@ -1,3 +1,4 @@
+import { Box, createTheme } from "@mui/material";
 import { useEffect } from "react";
 
 const info =
@@ -5,6 +6,8 @@ const info =
 
 // https://makemap.2gis.ru/
 export function Map() {
+  let theme = createTheme({});
+
   useEffect(() => {
     (function (e, t) {
       var r = document.getElementById(e) as HTMLIFrameElement;
@@ -20,14 +23,20 @@ export function Map() {
         margin: "24px 0px",
       }}
     >
-      <iframe
+      <Box
+        component="iframe"
         id="map_940106606"
         title="карта проезда"
         frameBorder="0"
         width="100%"
         height="300px"
         sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"
-      ></iframe>
+        sx={{
+          [theme.breakpoints.down("md")]: {
+            height: "200px",
+          },
+        }}
+      ></Box>
       <div
         style={{
           padding: "12px 20px 24px",

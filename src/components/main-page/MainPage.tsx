@@ -12,7 +12,7 @@ export function MainPage() {
           className="banner"
           width="320"
           height="320"
-          src="./images/banner.png"
+          src="./images/banner.svg"
           alt="расписание клуба"
         />
 
