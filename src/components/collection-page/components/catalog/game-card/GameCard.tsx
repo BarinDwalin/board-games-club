@@ -338,6 +338,9 @@ export function GameCard({
   let theme = createTheme({});
   const addonsCount = game.addons?.length ?? 0;
   const tempBadges: GameBadgeType[] = [];
+  if (game.language === 'eng') {
+    tempBadges.push(GameBadgeType.Eng);
+  }
   if (game.rating.bggRating || 0 > 8) {
     tempBadges.push(GameBadgeType.Hot);
   }

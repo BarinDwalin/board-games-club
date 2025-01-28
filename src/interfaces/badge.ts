@@ -8,4 +8,5 @@ export enum GameBadgeType {
   Hit,
   Guest,
   Top,
+  Eng,
 }

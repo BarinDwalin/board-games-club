@@ -32,6 +32,7 @@ export interface Game {
   isAddition: boolean;
   parentId?: number;
   addons?: Game[];
+  language?: 'eng';
 }
 
 export interface GameTesera {

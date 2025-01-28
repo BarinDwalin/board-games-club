@@ -1,55 +1,110 @@
 [
   {
-      "creationDateUtc": "2025-01-02T20:51:10.815888",
-      "game": {
-          "id": 61257,
-          "alias": "tortuga-1667",
-          "teseraId": 934240,
-          "title": "Tortuga 1667",
-          "titleOriginal": "Tortuga 1667",
-          "photoUrl": "https://s.tesera.ru/images/items/934240,3/photo1.png",
-          "year": 2017,
-          "rating": {
-            "bggRating": 6.9,
-            "bggNumVotes": 3618,
-            "teseraRating": 6.55,
-            "teseraNumVotes": 27
-          },
-          "tags": [],
-          "isAddition": false,
-          "bggId": 218530,
-          "playersMin": 2,
-          "playersMax": 9,
-          "age": 12,
-          "timeMin": 20,
-          "timeMax": 40 
-      }
+    "creationDateUtc": "2025-01-28T18:18:40.912015",
+    "game": {
+      "id": 78508,
+      "alias": "the-gang",
+      "teseraId": 2374794,
+      "title": "The Gang",
+      "titleOriginal": "The Gang",
+      "photoUrl": "https://s.tesera.ru/images/items/2374794,3/photo1.jpg",
+      "year": 2024,
+      "rating": {
+        "bggRating": 8.1,
+        "bggNumVotes": 0,
+        "teseraRating": 0,
+        "teseraNumVotes": 0
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 411567,
+      "playersMin": 3,
+      "playersMax": 6,
+      "age": 10,
+      "timeMin": 20,
+      "timeMax": 20
+    }
   },
   {
-      "creationDateUtc": "2025-01-02T20:50:28.947855",
-      "game": {
-          "id": 55909,
-          "alias": "Colt-Express",
-          "teseraId": 422064,
-          "title": "Кольт Экспресс",
-          "titleOriginal": "Colt Express",
-          "photoUrl": "https://s.tesera.ru/images/items/422064,3/photo1.jpg",
-          "year": 2014,
-          "rating": {
-            "bggRating": 7.09,
-            "bggNumVotes": 32280,
-            "teseraRating": 7.66,
-            "teseraNumVotes": 1096
-          },
-          "tags": [],
-          "isAddition": false,
-          "bggId": 158899,
-          "playersMin": 3,
-          "playersMax": 6,
-          "age": 12,
-          "timeMin": 30,
-          "timeMax": 40  
-      }
+    "creationDateUtc": "2025-01-28T18:18:48.075284",
+    "game": {
+      "id": 61333,
+      "alias": "werewords",
+      "teseraId": 940499,
+      "title": "Слово волка",
+      "titleOriginal": "Werewords",
+      "photoUrl": "https://s.tesera.ru/images/items/940499,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.12,
+        "bggNumVotes": 5269,
+        "teseraRating": 6.72,
+        "teseraNumVotes": 18
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 219215,
+      "playersMin": 4,
+      "playersMax": 10,
+      "age": 0,
+      "timeMin": 10,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-02T20:51:10.815888",
+    "game": {
+      "id": 61257,
+      "alias": "tortuga-1667",
+      "teseraId": 934240,
+      "title": "Tortuga 1667",
+      "titleOriginal": "Tortuga 1667",
+      "photoUrl": "https://s.tesera.ru/images/items/934240,3/photo1.png",
+      "year": 2017,
+      "rating": {
+        "bggRating": 6.9,
+        "bggNumVotes": 3618,
+        "teseraRating": 6.55,
+        "teseraNumVotes": 27
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 218530,
+      "playersMin": 2,
+      "playersMax": 9,
+      "age": 12,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-02T20:50:28.947855",
+    "game": {
+      "id": 55909,
+      "alias": "Colt-Express",
+      "teseraId": 422064,
+      "title": "Кольт Экспресс",
+      "titleOriginal": "Colt Express",
+      "photoUrl": "https://s.tesera.ru/images/items/422064,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 7.09,
+        "bggNumVotes": 32280,
+        "teseraRating": 7.66,
+        "teseraNumVotes": 1096
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 158899,
+      "playersMin": 3,
+      "playersMax": 6,
+      "age": 12,
+      "timeMin": 30,
+      "timeMax": 40
+    }
   },
   {
     "creationDateUtc": "2024-12-04T14:53:50.971404",

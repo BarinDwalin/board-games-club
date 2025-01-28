@@ -18,6 +18,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 355326,
       "playersMin": 1,
       "playersMax": 4,
@@ -44,6 +45,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "addons": [
         {
           "relationId": 95355117,
@@ -93,6 +95,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 0,
       "playersMin": 2,
       "playersMax": 4,
@@ -146,6 +149,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 260298,
       "playersMin": 2,
       "playersMax": 4,
@@ -172,6 +176,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 2165,
       "playersMin": 2,
       "playersMax": 2,
@@ -333,6 +338,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 338960,
       "playersMin": 1,
       "playersMax": 4,
@@ -1155,6 +1161,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 12692,
       "playersMin": 2,
       "playersMax": 4,
@@ -1522,6 +1529,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 91312,
       "playersMin": 2,
       "playersMax": 4,
@@ -1826,6 +1834,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 309113,
       "playersMin": 2,
       "playersMax": 4,
@@ -1853,6 +1862,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 309113,
       "playersMin": 2,
       "playersMax": 4,
@@ -1937,6 +1947,32 @@
       "age": 14,
       "timeMin": 60,
       "timeMax": 120
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-28T18:34:04.871683",
+    "game": {
+      "id": 65924,
+      "alias": "kariba",
+      "teseraId": 1361134,
+      "title": "Лимпопо",
+      "titleOriginal": "Kariba",
+      "photoUrl": "https://s.tesera.ru/images/items/1361134,3/photo1.jpg",
+      "year": 2010,
+      "rating": {
+        "bggRating": 7.01,
+        "bggNumVotes": 1888,
+        "teseraRating": 6.7,
+        "teseraNumVotes": 56
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 84732,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 7,
+      "timeMin": 20,
+      "timeMax": 20
     }
   }
 ]

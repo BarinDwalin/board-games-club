@@ -43,6 +43,10 @@ export function GameCardBadges({ badges }: GameCardBadgesProps) {
               text = "Временно";
               isShortTitle = false;
               break;
+            case GameBadgeType.Eng:
+              backgroundColor = "#a7b2bb";
+              text = "Eng"; 
+              break;
             case GameBadgeType.Top:
               return (
                 <BadgeTopPosition position={badge.value!}></BadgeTopPosition>
