@@ -109,7 +109,7 @@ export function CollectionPage() {
     <>
       <Header
         title="во что поиграть"
-        navigation="крошки / навигации"
+        navigation="" // "крошки / навигации"
         imageSource="/images/banners/club-1.jpg"
         imageAlt="помещение клуба"
       ></Header>

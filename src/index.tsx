@@ -62,6 +62,11 @@ root.render(
   </React.StrictMode>
 );
 
+console.info(
+  "%c Хочешь помочь сделать лучше? Присылай свой PR: https://github.com/BarinDwalin/board-games-club/pulls",
+  "color:green; font-size:16px;"
+);
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals

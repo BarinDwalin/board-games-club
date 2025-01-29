@@ -20,11 +20,13 @@ const dataPath = "./public/data/collections/source/";
 //addAddonsLink("john-bases.json", "john-addons.json");
 //addAddonsLink("sergei-bases.json", "sergei-addons.json");
 //addAddonsLink("club-bases.json", "club-addons.json");
+//addAddonsLink("andrew-bases.json", "andrew-addons.json");
 
 /** читаем свой формат и дополняем данные */
 //updateData("sergei.json", "sergei-2.json");
 //updateData("john.json", "john-2.json");
 //updateData("club.json", "club-2.json");
+//updateData("andrew.json", "andrew-2.json");
 
 /** загрузка топ 100 BGG */
 /* loadBggTop(

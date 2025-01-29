@@ -65,8 +65,8 @@ export function CommonSuggestion(props: { theme: Theme }) {
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
           </div>)
-        ].map((item) => (
-          <div>{item}</div>
+        ].map((item, index) => (
+          <div key={'suggestion' + index}>{item}</div>
         ))}
       </Box>
       <Box
@@ -88,8 +88,8 @@ export function CommonSuggestion(props: { theme: Theme }) {
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
           </div>)
-        ].map((item) => (
-          <div style={{whiteSpace: "pre"}}>{item}</div>
+        ].map((item, index) => (
+          <div key={'suggestion' + index} style={{whiteSpace: "pre"}}>{item}</div>
         ))}
       </Box>
     </Box>
