@@ -7216,57 +7216,6 @@
     }
   },
   {
-    "relationId": 92672252,
-    "creationDateUtc": "2021-05-27T19:58:55",
-    "game": {
-      "id": 53398,
-      "alias": "Eight-Minute-Empire",
-      "teseraId": 178557,
-      "title": "Восьмиминутная империя",
-      "titleOriginal": "Eight-Minute Empire",
-      "photoUrl": "https://s.tesera.ru/images/items/178557,3/photo1.jpg",
-      "year": 2013,
-      "rating": {
-        "bggRating": 6.56,
-        "bggNumVotes": 8631,
-        "teseraRating": 6.61,
-        "teseraNumVotes": 350
-      },
-      "tags": [],
-      "isAddition": false,
-      "addons": [
-        {
-          "relationId": 92672253,
-          "creationDateUtc": "2021-05-27T19:59:10",
-          "game": {
-            "id": 54410,
-            "alias": "Eight-Minute-Empire-Legends",
-            "teseraId": 278477,
-            "title": "Восьмиминутная империя: Легенды",
-            "titleOriginal": "Eight-Minute Empire: Legends",
-            "photoUrl": "https://s.tesera.ru/images/items/278477,3/photo1.jpg",
-            "year": 2013,
-            "rating": {
-              "bggRating": 6.92,
-              "bggNumVotes": 0,
-              "teseraRating": 7.23,
-              "teseraNumVotes": 231
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 53398
-          }
-        }
-      ],
-      "bggId": 131366,
-      "playersMin": 2,
-      "playersMax": 5,
-      "age": 13,
-      "timeMin": 8,
-      "timeMax": 20
-    }
-  },
-  {
     "relationId": 92672240,
     "creationDateUtc": "2021-05-27T19:56:14",
     "game": {

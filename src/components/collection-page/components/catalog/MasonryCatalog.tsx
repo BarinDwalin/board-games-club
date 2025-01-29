@@ -31,7 +31,7 @@ const CatalogItem = (
   }
 ) => {
   let bigItem = false;
-  const bigItemWithMargin = props.index === 333;
+  const bigItemWithMargin = false; // TODO specific 2 first rows
   switch (props.index % 24) {
     case 2:
     case 3:
