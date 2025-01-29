@@ -246,7 +246,7 @@ const Title = styled(Box)<{ isWide?: boolean; isWide2Col?: boolean }>(
     fontStyle: "normal",
     fontWeight: 500,
     lineHeight: 1.4,
-    zIndex: 999,
+    zIndex: 2,
     [theme.breakpoints.up("lg")]: {
       fontSize: isWide ? "24px" : "20px",
     },

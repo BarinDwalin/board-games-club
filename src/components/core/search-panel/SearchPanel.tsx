@@ -147,13 +147,11 @@ export function SearchPanel(props: {
     if (props.shown) {
       bodyStyle.width = "100vw";
       bodyStyle.overflow = "hidden";
-      bodyStyle.paddingRight = "15px";
     }
 
     return () => {
       bodyStyle.width = "initial";
       bodyStyle.overflow = "initial";
-      bodyStyle.paddingRight = "initial";
     };
   }, [props.shown]);
 

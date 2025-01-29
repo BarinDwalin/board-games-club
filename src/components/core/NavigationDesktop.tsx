@@ -80,7 +80,6 @@ export function NavigationDesktop(props: {
         <nav
           style={{
             width: "100%",
-            paddingRight: props.shownSearchPanel ? "15px" : "0px",
           }}
         >
           <ul

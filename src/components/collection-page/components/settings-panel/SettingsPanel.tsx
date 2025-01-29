@@ -34,7 +34,7 @@ export function SettingsPanel({
           flexShrink: 0,
         }}
       >
-        TODO: фильтры
+        {/* TODO: фильтры */}
       </Box>
       <Box component="span" sx={{ fontSize: "16px" }}>
         {!count

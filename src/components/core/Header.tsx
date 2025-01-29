@@ -105,7 +105,6 @@ export function Header(props: {
           top: 0,
           left: 0,
           right: 0,
-          paddingRight: props.shownSearchPanel ? "15px" : "0px",
           [theme.breakpoints.up("md")]: {
             height: "60px",
           },
