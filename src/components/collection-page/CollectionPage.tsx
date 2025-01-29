@@ -74,29 +74,27 @@ export function CollectionPage() {
     }
   }, [categoriesGames, collection, dataService]);
 
-  const setBadge = (
-    categoryId: string,
-    badgeType: GameBadgeType,
-    createBadge: (index: number) => GameBadge
-  ) => {
-    const games = categoriesGames.find(
-      (category) => category.categoryId === categoryId
-    )?.gamesIds;
-
-    for (let index = 0; index < (games?.length ?? 0); index++) {
-      const game = collection.find(
-        (record) => record.game.id === games![index]
-      )?.game;
-      if (game && !game.badges?.find((badge) => badge.type === badgeType)) {
-        game.badges = [...(game?.badges ?? []), createBadge(index)];
-      }
-    }
-  };
-
   useEffect(() => {
+    const setBadge = (
+      categoryId: string,
+      badgeType: GameBadgeType,
+      createBadge: (index: number) => GameBadge
+    ) => {
+      const games = categoriesGames.find(
+        (category) => category.categoryId === categoryId
+      )?.gamesIds;
+  
+      for (let index = 0; index < (games?.length ?? 0); index++) {
+        const game = collection.find(
+          (record) => record.game.id === games![index]
+        )?.game;
+        if (game && !game.badges?.find((badge) => badge.type === badgeType)) {
+          game.badges = [...(game?.badges ?? []), createBadge(index)];
+        }
+      }
+    };
+  
     if (collection.length !== 0 && categoriesGames.length !== 0) {
-      console.info(`____LOAD TOP RAIT:`);
-
       setBadge("top", GameBadgeType.Top, (index) => ({
         type: GameBadgeType.Top,
         value: index + 1,
