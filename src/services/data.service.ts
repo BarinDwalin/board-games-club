@@ -23,6 +23,11 @@ export class DataService {
       unavailableFile: "unavailable-andrew.json",
       owner: "Andrew",
     },
+    {
+      file: "guests.json",
+      unavailableFile: "unavailable-guests.json",
+      owner: "Guests",
+    },
   ];
 
   categories: readonly Category[] = [

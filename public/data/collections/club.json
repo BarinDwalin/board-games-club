@@ -1932,5 +1932,387 @@
       "timeMin": 15,
       "timeMax": 0
     }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:48:18.524747",
+    "game": {
+      "id": 71182,
+      "alias": "elementarno-givopisnaya-afera",
+      "teseraId": 1932242,
+      "title": "Элементарно! Живописная афера",
+      "titleOriginal": "Sherlock: La copia",
+      "photoUrl": "https://s.tesera.ru/images/items/1932242,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.1,
+        "bggNumVotes": 123,
+        "teseraRating": 6.4,
+        "teseraNumVotes": 35
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 325679,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:48:09.169314",
+    "game": {
+      "id": 71181,
+      "alias": "elementarno-fabianskoe-esse",
+      "teseraId": 1932240,
+      "title": "Элементарно! Фабианские эссе",
+      "titleOriginal": "Sherlock: Ensayos Fabianos",
+      "photoUrl": "https://s.tesera.ru/images/items/1932240,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.88,
+        "bggNumVotes": 132,
+        "teseraRating": 6.63,
+        "teseraNumVotes": 33
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 325678,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:47:58.959988",
+    "game": {
+      "id": 71180,
+      "alias": "elementarno-bilet-v-odin-konec",
+      "teseraId": 1932235,
+      "title": "Элементарно! Билет в один конец",
+      "titleOriginal": "Sherlock: Asesinato en el Sind Mail",
+      "photoUrl": "https://s.tesera.ru/images/items/1932235,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.87,
+        "bggNumVotes": 143,
+        "teseraRating": 6.24,
+        "teseraNumVotes": 37
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 325681,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:47:54.659076",
+    "game": {
+      "id": 68622,
+      "alias": "elementarno-proklyataya-shakhta",
+      "teseraId": 1653665,
+      "title": "Элементарно! Проклятая шахта",
+      "photoUrl": "https://s.tesera.ru/images/items/1653665,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.94,
+        "bggNumVotes": 198,
+        "teseraRating": 6.59,
+        "teseraNumVotes": 68
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 310610,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:47:48.246662",
+    "game": {
+      "id": 68588,
+      "alias": "elementarno-narushenny-pokoy",
+      "teseraId": 1649821,
+      "title": "Элементарно! Нарушенный покой",
+      "photoUrl": "https://s.tesera.ru/images/items/1649821,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.93,
+        "bggNumVotes": 186,
+        "teseraRating": 6.48,
+        "teseraNumVotes": 61
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 310612,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:47:37.332776",
+    "game": {
+      "id": 68574,
+      "alias": "elementarno-vystrely-na-rassvete",
+      "teseraId": 1648683,
+      "title": "Элементарно! Выстрелы на рассвете",
+      "photoUrl": "https://s.tesera.ru/images/items/1648683,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.88,
+        "bggNumVotes": 197,
+        "teseraRating": 6.79,
+        "teseraNumVotes": 59
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 310611,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:47:32.624896",
+    "game": {
+      "id": 68298,
+      "alias": "sherlock-entre-tumbas",
+      "teseraId": 1611803,
+      "title": "Элементарно! Гробовое молчание",
+      "titleOriginal": "Sherlock: Entre tumbas",
+      "photoUrl": "https://s.tesera.ru/images/items/1611803,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 6.92,
+        "bggNumVotes": 318,
+        "teseraRating": 6.54,
+        "teseraNumVotes": 76
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 296986,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:47:28.393306",
+    "game": {
+      "id": 68297,
+      "alias": "elementarno-sekrety-millionera",
+      "teseraId": 1611793,
+      "title": "Элементарно! Секреты миллионера",
+      "photoUrl": "https://s.tesera.ru/images/items/1611793,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 6.79,
+        "bggNumVotes": 238,
+        "teseraRating": 6.3,
+        "teseraNumVotes": 62
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 296987,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:47:22.911766",
+    "game": {
+      "id": 68296,
+      "alias": "sherlock-el-mayordomo",
+      "teseraId": 1611769,
+      "title": "Элементарно! Смерть дворецкого",
+      "titleOriginal": "Sherlock: El mayordomo",
+      "photoUrl": "https://s.tesera.ru/images/items/1611769,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 6.83,
+        "bggNumVotes": 269,
+        "teseraRating": 6.49,
+        "teseraNumVotes": 67
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 296985,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:47:16.956769",
+    "game": {
+      "id": 67037,
+      "alias": "elementarno-13-zalozhnikov",
+      "teseraId": 1484081,
+      "title": "Элементарно! 13 заложников",
+      "photoUrl": "https://s.tesera.ru/images/items/1484081,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 6.65,
+        "bggNumVotes": 530,
+        "teseraRating": 6.29,
+        "teseraNumVotes": 122
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 266444,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 8,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:47:05.116581",
+    "game": {
+      "id": 67036,
+      "alias": "elementarno-propavshy-bez-vesti",
+      "teseraId": 1484077,
+      "title": "Элементарно! Пропавший без вести",
+      "photoUrl": "https://s.tesera.ru/images/items/1484077,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 6.81,
+        "bggNumVotes": 433,
+        "teseraRating": 6.68,
+        "teseraNumVotes": 115
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 266446,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 8,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:47:00.034052",
+    "game": {
+      "id": 67035,
+      "alias": "elementarno-pozhar-v-laboratorii",
+      "teseraId": 1484074,
+      "title": "Элементарно! Пожар в лаборатории",
+      "photoUrl": "https://s.tesera.ru/images/items/1484074,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 6.752,
+        "bggNumVotes": 528,
+        "teseraRating": 6.35,
+        "teseraNumVotes": 112
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 266445,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 8,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:46:46.15793",
+    "game": {
+      "id": 65720,
+      "alias": "sherlock-death-on-the-4th-of-july-",
+      "teseraId": 1344928,
+      "title": "Элементарно! Убийство в День независимости",
+      "titleOriginal": "Sherlock: Death on the 4th of July",
+      "photoUrl": "https://s.tesera.ru/images/items/1344928,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 6.44,
+        "bggNumVotes": 946,
+        "teseraRating": 6.64,
+        "teseraNumVotes": 179
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 250779,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 8,
+      "timeMin": 40,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:46:37.911756",
+    "game": {
+      "id": 65719,
+      "alias": "sherlock-last-call",
+      "teseraId": 1344921,
+      "title": "Элементарно! Последний шанс",
+      "titleOriginal": "Sherlock: Last Call",
+      "photoUrl": "https://s.tesera.ru/images/items/1344921,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 6.72,
+        "bggNumVotes": 1325,
+        "teseraRating": 6.76,
+        "teseraNumVotes": 211
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 250780,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 8,
+      "timeMin": 60,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:06:27.901595",
+    "game": {
+      "id": 73261,
+      "alias": "great-western-trail-argentina",
+      "teseraId": 2087961,
+      "title": "Великий Западный Путь. Аргентина",
+      "photoUrl": "https://s.tesera.ru/images/items/2087961,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 8.36,
+        "bggNumVotes": 3681,
+        "teseraRating": 8.38,
+        "teseraNumVotes": 118
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 364011,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 75,
+      "timeMax": 150
+    }
   }
 ]
