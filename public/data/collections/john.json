@@ -122,6 +122,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 0,
       "playersMin": 2,
       "playersMax": 5,
@@ -148,6 +149,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 307963,
       "playersMin": 2,
       "playersMax": 7,
@@ -200,6 +202,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 360896,
       "playersMin": 1,
       "playersMax": 4,
@@ -353,6 +356,28 @@
               "bggRating": 0,
               "bggNumVotes": 0,
               "teseraRating": 7.68,
+              "teseraNumVotes": 7
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 59135
+          }
+        },
+        {
+          "relationId": 95886450,
+          "creationDateUtc": "2025-01-24T12:07:29",
+          "game": {
+            "id": 65695,
+            "alias": "hero-realms-character-pack-thief",
+            "teseraId": 1343869,
+            "title": "Hero Realms: Character Pack – Thief",
+            "titleOriginal": "Hero Realms: Character Pack – Thief",
+            "photoUrl": "https://s.tesera.ru/images/items/1343869,3/photo1.jpg",
+            "year": 2016,
+            "rating": {
+              "bggRating": 0,
+              "bggNumVotes": 0,
+              "teseraRating": 8,
               "teseraNumVotes": 7
             },
             "tags": [],
@@ -704,6 +729,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 363622,
       "playersMin": 1,
       "playersMax": 4,
@@ -730,6 +756,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 150145,
       "playersMin": 2,
       "playersMax": 6,
@@ -929,6 +956,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 291453,
       "playersMin": 3,
       "playersMax": 5,
@@ -955,6 +983,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 296108,
       "playersMin": 1,
       "playersMax": 4,
@@ -1109,6 +1138,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 364073,
       "playersMin": 2,
       "playersMax": 2,
@@ -1444,6 +1474,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 331787,
       "playersMin": 1,
       "playersMax": 4,
@@ -1470,6 +1501,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 291508,
       "playersMin": 1,
       "playersMax": 4,
@@ -1534,6 +1566,27 @@
               "bggNumVotes": 0,
               "teseraRating": 7.28,
               "teseraNumVotes": 10
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 69962
+          }
+        },
+        {
+          "relationId": 95865924,
+          "creationDateUtc": "2025-01-14T07:12:14",
+          "game": {
+            "id": 72838,
+            "alias": "terraforming-mars-ares-expedition-crisis",
+            "teseraId": 2045309,
+            "title": "Покорение Марса. Экспедиция «Арес». Кризис",
+            "photoUrl": "https://s.tesera.ru/images/items/2045309,3/photo1.png",
+            "year": 2022,
+            "rating": {
+              "bggRating": 7.98,
+              "bggNumVotes": 497,
+              "teseraRating": 8.16,
+              "teseraNumVotes": 14
             },
             "tags": [],
             "isAddition": true,
@@ -1917,6 +1970,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "addons": [
         {
           "relationId": 94907858,
@@ -4943,6 +4997,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 309630,
       "playersMin": 2,
       "playersMax": 5,
@@ -8841,6 +8896,34 @@
       "age": 7,
       "timeMin": 20,
       "timeMax": 40
+    }
+  },
+  {
+    "relationId": 95841240,
+    "creationDateUtc": "2025-01-01T18:20:36",
+    "game": {
+      "id": 62770,
+      "alias": "castles-burgundy-dice-game",
+      "teseraId": 1071707,
+      "title": "The Castles of Burgundy: The Dice Game",
+      "titleOriginal": "The Castles of Burgundy: The Dice Game",
+      "photoUrl": "https://s.tesera.ru/images/items/1071707,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 6.87,
+        "bggNumVotes": 4105,
+        "teseraRating": 6.83,
+        "teseraNumVotes": 37
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 232988,
+      "playersMin": 1,
+      "playersMax": 5,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 0
     }
   }
 ]

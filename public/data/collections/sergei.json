@@ -392,6 +392,113 @@
         "teseraNumVotes": 120
       },
       "tags": [],
+      "addons": [
+        {
+          "relationId": 95895783,
+          "creationDateUtc": "2025-01-29T17:14:04.77919",
+          "game": {
+            "id": 68519,
+            "alias": "too-many-bones-age-of-tyranny",
+            "teseraId": 1640953,
+            "title": "Too Many Bones: Age of Tyranny",
+            "photoUrl": "https://s.tesera.ru/images/items/1640953,3/photo1.jpg",
+            "year": 2018,
+            "rating": {
+              "bggRating": 8.57,
+              "bggNumVotes": 821,
+              "teseraRating": 8.5,
+              "teseraNumVotes": 2
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 59042
+          }
+        },
+        {
+          "relationId": 95895779,
+          "creationDateUtc": "2025-01-29T17:13:44.247629",
+          "game": {
+            "id": 68518,
+            "alias": "too-many-bones-40-days-in-daelore",
+            "teseraId": 1640947,
+            "title": "Too Many Bones: 40 Days in Daelore",
+            "photoUrl": "https://s.tesera.ru/images/items/1640947,3/photo1.jpg",
+            "year": 2018,
+            "rating": {
+              "bggRating": 0,
+              "bggNumVotes": 0,
+              "teseraRating": 8.63,
+              "teseraNumVotes": 4
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 59042
+          }
+        },
+        {
+          "relationId": 95895778,
+          "creationDateUtc": "2025-01-29T17:13:37.542535",
+          "game": {
+            "id": 70606,
+            "alias": "too-many-bones-tink",
+            "teseraId": 1876651,
+            "title": "Too Many Bones: Tink",
+            "photoUrl": "https://s.tesera.ru/images/items/1876651,3/photo1.jpg",
+            "year": 2017,
+            "rating": {
+              "bggRating": 8.53,
+              "bggNumVotes": 749,
+              "teseraRating": 8.5,
+              "teseraNumVotes": 2
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 59042
+          }
+        },
+        {
+          "relationId": 95895775,
+          "creationDateUtc": "2025-01-29T17:13:25.590348",
+          "game": {
+            "id": 67910,
+            "alias": "too-many-bones-ghillie",
+            "teseraId": 1570035,
+            "title": "Too Many Bones: Ghillie",
+            "photoUrl": "https://s.tesera.ru/images/items/1570035,3/photo1.jpg",
+            "year": 2017,
+            "rating": {
+              "bggRating": 8.76,
+              "bggNumVotes": 1129,
+              "teseraRating": 8.67,
+              "teseraNumVotes": 3
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 59042
+          }
+        },
+        {
+          "relationId": 95895774,
+          "creationDateUtc": "2025-01-29T17:13:14.48873",
+          "game": {
+            "id": 70604,
+            "alias": "Too-Many-Bones-Nugget",
+            "teseraId": 1876610,
+            "title": "Too Many Bones: Nugget",
+            "photoUrl": "https://s.tesera.ru/images/items/1876610,3/photo1.jpg",
+            "year": 2017,
+            "rating": {
+              "bggRating": 0,
+              "bggNumVotes": 0,
+              "teseraRating": 8.75,
+              "teseraNumVotes": 4
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 59042
+          }
+        }
+      ],
       "isAddition": false,
       "bggId": 192135,
       "playersMin": 1,

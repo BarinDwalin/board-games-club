@@ -1416,50 +1416,32 @@
       },
       "tags": [],
       "isAddition": false,
-      "addons": [
-        {
-          "creationDateUtc": "2024-12-04T14:39:29.498738",
-          "game": {
-            "id": 66459,
-            "alias": "Unmatched-Robin-Hood-vs-Bigfoot",
-            "teseraId": 1422534,
-            "title": "Unmatched: Робин Гуд vs. Бигфут",
-            "titleOriginal": "Unmatched: Robin Hood vs. Bigfoot",
-            "photoUrl": "https://s.tesera.ru/images/items/1422534,3/photo1.jpg",
-            "year": 2019,
-            "rating": {
-              "bggRating": 7.94,
-              "bggNumVotes": 0,
-              "teseraRating": 8.06,
-              "teseraNumVotes": 244
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 73385
-          }
-        },
-        {
-          "creationDateUtc": "2024-12-04T14:40:03.513703",
-          "game": {
-            "id": 74842,
-            "alias": "unmatched-adventures-tales-to-amaze",
-            "teseraId": 2199596,
-            "title": "Unmatched. Приключения: Удивительные Истории",
-            "photoUrl": "https://s.tesera.ru/images/items/2199596,3/photo1.jpg",
-            "year": 2023,
-            "rating": {
-              "bggRating": 8.18,
-              "bggNumVotes": 0,
-              "teseraRating": 7.96,
-              "teseraNumVotes": 47
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 68727
-          }
-        }
-      ],
       "bggId": 294484,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:39:40.297418",
+    "game": {
+      "id": 74842,
+      "alias": "unmatched-adventures-tales-to-amaze",
+      "teseraId": 2199596,
+      "title": "Unmatched. Приключения: Удивительные Истории",
+      "photoUrl": "https://s.tesera.ru/images/items/2199596,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 8.18,
+        "bggNumVotes": 2018,
+        "teseraRating": 7.96,
+        "teseraNumVotes": 47
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 381297,
       "playersMin": 2,
       "playersMax": 4,
       "age": 9,
@@ -1485,30 +1467,33 @@
       },
       "tags": [],
       "isAddition": false,
-      "addons": [
-        {
-          "creationDateUtc": "2024-12-04T14:39:29.498738",
-          "game": {
-            "id": 66459,
-            "alias": "Unmatched-Robin-Hood-vs-Bigfoot",
-            "teseraId": 1422534,
-            "title": "Unmatched: Робин Гуд vs. Бигфут",
-            "titleOriginal": "Unmatched: Robin Hood vs. Bigfoot",
-            "photoUrl": "https://s.tesera.ru/images/items/1422534,3/photo1.jpg",
-            "year": 2019,
-            "rating": {
-              "bggRating": 7.94,
-              "bggNumVotes": 0,
-              "teseraRating": 8.06,
-              "teseraNumVotes": 244
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 73385
-          }
-        }
-      ],
       "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2024-12-04T14:39:21.762811",
+    "game": {
+      "id": 66459,
+      "alias": "Unmatched-Robin-Hood-vs-Bigfoot",
+      "teseraId": 1422534,
+      "title": "Unmatched: Робин Гуд vs. Бигфут",
+      "titleOriginal": "Unmatched: Robin Hood vs. Bigfoot",
+      "photoUrl": "https://s.tesera.ru/images/items/1422534,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.94,
+        "bggNumVotes": 4128,
+        "teseraRating": 8.06,
+        "teseraNumVotes": 244
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 274638,
       "playersMin": 2,
       "playersMax": 4,
       "age": 9,
@@ -1533,29 +1518,6 @@
       },
       "tags": [],
       "isAddition": false,
-      "addons": [
-        {
-          "creationDateUtc": "2024-12-04T14:39:29.498738",
-          "game": {
-            "id": 66459,
-            "alias": "Unmatched-Robin-Hood-vs-Bigfoot",
-            "teseraId": 1422534,
-            "title": "Unmatched: Робин Гуд vs. Бигфут",
-            "titleOriginal": "Unmatched: Robin Hood vs. Bigfoot",
-            "photoUrl": "https://s.tesera.ru/images/items/1422534,3/photo1.jpg",
-            "year": 2019,
-            "rating": {
-              "bggRating": 7.94,
-              "bggNumVotes": 0,
-              "teseraRating": 8.06,
-              "teseraNumVotes": 244
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 73385
-          }
-        }
-      ],
       "bggId": 0,
       "playersMin": 2,
       "playersMax": 0,
