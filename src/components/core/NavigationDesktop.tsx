@@ -11,7 +11,7 @@ import { MenuItem } from "./Header";
 export function NavigationDesktop(props: {
   collapsed: boolean;
   routes: MenuItem[];
-  shownSearchPanel: boolean;
+  scrollBarWidth: number;
   setPage: (item: MenuItem) => void;
 }) {
   const collapsed = props.collapsed;
@@ -80,6 +80,7 @@ export function NavigationDesktop(props: {
         <nav
           style={{
             width: "100%",
+            paddingRight:  `${props.scrollBarWidth}px`,
           }}
         >
           <ul

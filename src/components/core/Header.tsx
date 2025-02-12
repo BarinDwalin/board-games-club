@@ -39,7 +39,7 @@ const routes: MenuItem[] = [
 export function Header(props: {
   children?: JSX.Element;
   title: string;
-  shownSearchPanel: boolean;
+  scrollBarWidth: number;
   setPage: (item: MenuItem) => void;
   toggleSearch: () => void;
   toggleCollapsedDesktopMenu: (collapsed: boolean) => void;
@@ -105,6 +105,7 @@ export function Header(props: {
           top: 0,
           left: 0,
           right: 0,
+          paddingRight: `${props.scrollBarWidth}px`,
           [theme.breakpoints.up("md")]: {
             height: "60px",
           },
@@ -308,7 +309,7 @@ export function Header(props: {
           <NavigationDesktop
             collapsed={collapsedDesktopMenu}
             routes={routes}
-            shownSearchPanel={props.shownSearchPanel}
+            scrollBarWidth={props.scrollBarWidth}
             setPage={props.setPage}
           ></NavigationDesktop>
         </Box>

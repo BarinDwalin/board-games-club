@@ -27,7 +27,7 @@ const SearchPanelWrapper = (
     <Box
       component="aside"
       sx={{
-        zIndex: props.shown ? 10000 : 1,
+        zIndex: 10000,
         visibility: props.shown ? "visible" : "hidden",
 
         position: "fixed",
@@ -130,7 +130,7 @@ export function SearchPanel(props: {
     GameRecord<Game>[]
   >([]);
   const dataService = useMemo(() => new DataService(), []);
-
+ 
   useEffect(() => {
     if (collection.length === 0) {
       dataService.getGames().then((data) => {
@@ -141,19 +141,6 @@ export function SearchPanel(props: {
       });
     }
   }, [collection, dataService]);
-
-  useEffect(() => {
-    const bodyStyle = document.body.style;
-    if (props.shown) {
-      bodyStyle.width = "100vw";
-      bodyStyle.overflow = "hidden";
-    }
-
-    return () => {
-      bodyStyle.width = "initial";
-      bodyStyle.overflow = "initial";
-    };
-  }, [props.shown]);
 
   const handleSearchChange = (value: string) => {
     const searchValue = value.trim().toLowerCase();
