@@ -1,5 +1,7 @@
+import { SvgIcon } from "@mui/material";
 import "./MainPage.css";
 import React from "react";
+import { ReactComponent as BannerImage } from "../../images/banner.svg";
 import { Map } from "./Map";
 
 export function MainPage() {
@@ -8,14 +10,18 @@ export function MainPage() {
       {/* <h1 className="page-header">Добро пожаловать, авантюрист</h1> */}
 
       <div className="content">
-        <img
+        <SvgIcon
+          component={BannerImage}
           className="banner"
-          width="320"
-          height="320"
-          src="./images/banner.svg"
-          alt="расписание клуба"
+          inheritViewBox
+          sx={{
+            display: "block",
+            width: "100%",
+            height: "initial",
+            margin: "auto",
+            maxWidth: "920px",
+          }}
         />
-
         <Map></Map>
       </div>
     </div>

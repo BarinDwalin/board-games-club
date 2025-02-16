@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+<svg id="banner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
   <defs>
     <style>
       .cls-1 {
@@ -163,7 +163,6 @@
       </g>
       <g class="star star__lottery">
         <polygon class="cls-13" points="1013.89 735.57 946.41 729.65 886.32 760.91 871.1 694.91 822.8 647.42 880.87 612.55 911.11 551.94 962.22 596.39 1029.21 606.42 1002.72 668.76 1013.89 735.57"/>
-          hjpjd
         <text class="cls-10" transform="translate(875 670) rotate(-13)"><tspan x="0" y="0">Розыгрыши</tspan><tspan x="22" y="28">призов</tspan></text>
       </g>
       <g class="star star__benefits">
@@ -178,7 +177,7 @@
       </g>
       <g class="title">
         <text class="cls-4" transform="translate(539.64 173.97)"><tspan x="0" y="0">M</tspan><tspan class="cls-15" x="137.34" y="0">O</tspan><tspan x="259.45" y="0">VE</tspan></text>
-        <text class="cls-2" transform="translate(448.47 175.9)"><tspan x="0" y="0">&amp;</tspan></text>
+        <text class="cls-2" transform="translate(448.47 175.9)"><tspan x="0" y="0">&</tspan></text>
       <text class="cls-4" transform="translate(70.86 173.97)"><tspan class="cls-16" x="0" y="0">R</tspan><tspan class="cls-1" x="110.15" y="0">OLL</tspan></text>
       </g>
     </g>
