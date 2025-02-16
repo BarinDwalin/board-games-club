@@ -1,5 +1,83 @@
 [
   {
+    "relationId": 95925385,
+    "creationDateUtc": "2025-02-15T11:00:14",
+    "game": {
+      "id": 51513,
+      "alias": "sequence",
+      "teseraId": 51404,
+      "title": "Sequence",
+      "photoUrl": "https://s.tesera.ru/images/items/51404,3/photo1.jpg",
+      "year": 1982,
+      "rating": {
+        "bggRating": 6.12,
+        "bggNumVotes": 10524,
+        "teseraRating": 5.94,
+        "teseraNumVotes": 17
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 2375,
+      "playersMin": 2,
+      "playersMax": 12,
+      "age": 7,
+      "timeMin": 15,
+      "timeMax": 0
+    }
+  },
+  {
+    "relationId": 95925383,
+    "creationDateUtc": "2025-02-15T10:59:42",
+    "game": {
+      "id": 58515,
+      "alias": "tiny-epic-western",
+      "teseraId": 633529,
+      "title": "Tiny Epic Western",
+      "photoUrl": "https://s.tesera.ru/images/items/633529,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 6.63,
+        "bggNumVotes": 4252,
+        "teseraRating": 6.95,
+        "teseraNumVotes": 15
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 180852,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 30,
+      "timeMax": 45
+    }
+  },
+  {
+    "relationId": 95925380,
+    "creationDateUtc": "2025-02-15T10:59:27",
+    "game": {
+      "id": 68764,
+      "alias": "TinyEpicPirates",
+      "teseraId": 1672582,
+      "title": "Tiny Epic Pirates",
+      "photoUrl": "https://s.tesera.ru/images/items/1672582,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.04,
+        "bggNumVotes": 2151,
+        "teseraRating": 6.66,
+        "teseraNumVotes": 17
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 309430,
+      "playersMin": 3,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 45,
+      "timeMax": 60
+    }
+  },
+  {
     "relationId": 95665359,
     "creationDateUtc": "2024-09-19T16:23:08",
     "game": {

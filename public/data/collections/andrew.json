@@ -824,5 +824,82 @@
       "timeMin": 90,
       "timeMax": 150
     }
+  },
+  {
+    "creationDateUtc": "2025-02-16T14:52:11.430766",
+    "game": {
+      "id": 75063,
+      "alias": "unmatched-suns-origin",
+      "teseraId": 2213246,
+      "title": "Unmatched: Родина солнца",
+      "titleOriginal": "Unmatched: Sun's Origin",
+      "photoUrl": "https://s.tesera.ru/images/items/2213246,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 8.374,
+        "bggNumVotes": 605,
+        "teseraRating": 8.47,
+        "teseraNumVotes": 9
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 383469,
+      "playersMin": 2,
+      "playersMax": 0,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-02-16T14:51:23.78598",
+    "game": {
+      "id": 77988,
+      "alias": "Unmatched-Slings-and-Arrows",
+      "teseraId": 2347260,
+      "title": "Unmatched: Удары Судьбы",
+      "titleOriginal": "Unmatched: Slings and Arrows",
+      "photoUrl": "https://s.tesera.ru/images/items/2347260,3/photo1.jpg",
+      "year": 2024,
+      "rating": {
+        "bggRating": 8.622,
+        "bggNumVotes": 488,
+        "teseraRating": 8.27,
+        "teseraNumVotes": 14
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 415945,
+      "playersMin": 2,
+      "playersMax": 0,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-02-16T14:51:07.065171",
+    "game": {
+      "id": 62506,
+      "alias": "heroes-of-black-reach",
+      "teseraId": 1047741,
+      "title": "Heroes of Black Reach",
+      "photoUrl": "https://s.tesera.ru/images/items/1047741,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 7.913,
+        "bggNumVotes": 448,
+        "teseraRating": 7.56,
+        "teseraNumVotes": 4
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 331106,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 14,
+      "timeMin": 30,
+      "timeMax": 120
+    }
   }
 ]

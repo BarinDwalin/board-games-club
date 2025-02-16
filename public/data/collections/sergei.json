@@ -2081,5 +2081,83 @@
       "timeMin": 20,
       "timeMax": 20
     }
+  },
+  {
+    "relationId": 95926987,
+    "creationDateUtc": "2025-02-16T14:39:59",
+    "game": {
+      "id": 63023,
+      "alias": "maskmen",
+      "teseraId": 1100308,
+      "title": "maskmen",
+      "photoUrl": "https://s.tesera.ru/images/items/1100308,3/photo1.png",
+      "year": 2014,
+      "rating": {
+        "bggRating": 6.925,
+        "bggNumVotes": 1842,
+        "teseraRating": 6.86,
+        "teseraNumVotes": 35
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 159581,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 20
+    }
+  },
+  {
+    "relationId": 95926986,
+    "creationDateUtc": "2025-02-16T14:39:38",
+    "game": {
+      "id": 70622,
+      "alias": "durian",
+      "teseraId": 1878732,
+      "title": "Durian",
+      "photoUrl": "https://s.tesera.ru/images/items/1878732,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.929,
+        "bggNumVotes": 1410,
+        "teseraRating": 7.12,
+        "teseraNumVotes": 88
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 307963,
+      "playersMin": 2,
+      "playersMax": 7,
+      "age": 7,
+      "timeMin": 20,
+      "timeMax": 20
+    }
+  },
+  {
+    "relationId": 95926988,
+    "creationDateUtc": "2025-02-16T14:40:07.159109",
+    "game": {
+      "id": 67929,
+      "alias": "Mnbgs",
+      "teseraId": 1572792,
+      "title": "Moneybags",
+      "photoUrl": "https://s.tesera.ru/images/items/1572792,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 5.73,
+        "bggNumVotes": 304,
+        "teseraRating": 5.75,
+        "teseraNumVotes": 8
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 84732,
+      "playersMin": 3,
+      "playersMax": 6,
+      "age": 14,
+      "timeMin": 15,
+      "timeMax": 20
+    }
   }
 ]
