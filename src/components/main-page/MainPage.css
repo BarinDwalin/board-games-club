@@ -33,6 +33,9 @@
     transform-origin: center;
     transition: 0.5s;
   }
+  .star__lottery {
+    scale: 0.8;
+  }
   .star__description,
   .star__lottery {
     --rotation-value: 20deg;

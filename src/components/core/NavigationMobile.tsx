@@ -123,6 +123,8 @@ export function NavigationMobile(props: {
                     to={route.key}
                     sx={{
                       display: "inline-flex",
+                      alignItems: "center",
+                      columnGap: "10px",
                       width: "100%",
                       boxSizing: "border-box",
                       padding: "12px 32px",
@@ -136,14 +138,15 @@ export function NavigationMobile(props: {
                     ) : (
                       <div
                         style={{
-                          width: "52px",
+                          width: "42px",
+                          height: "42px",
                           position: "relative",
                         }}
                       >
                         <img
                           style={{
-                            width: "42px",
-                            height: "42px",
+                            width: "100%",
+                            height: "100%",
                             position: "absolute",
                             left: 0,
                             top: "50%",

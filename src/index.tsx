@@ -16,6 +16,7 @@ import {
   ErrorPage,
   MainPage,
   NotFoundPage,
+  RulesPage,
   Tournament,
   eventsLoader,
 } from "./components";
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
             loader: eventsLoader,
             path: AppRoute.Events,
             element: <Tournament></Tournament>,
+          },
+          {
+            path: AppRoute.Rules,
+            element: <RulesPage />,
           },
           { path: "404", element: <NotFoundPage /> },
           { path: "*", element: <Navigate replace to="/404" /> },

@@ -338,7 +338,7 @@ export function GameCard({
   let theme = createTheme({});
   const addonsCount = game.addons?.length ?? 0;
   const tempBadges: GameBadgeType[] = [];
-  if (game.language === 'eng') {
+  if (game.language === "eng") {
     tempBadges.push(GameBadgeType.Eng);
   }
 
@@ -372,7 +372,7 @@ export function GameCard({
             isInverseAlign={isInverseAlign}
           >
             <BggRaitingBadge value={game.rating.bggRating}></BggRaitingBadge>
-            <BlockYear isWide2Col={isWide2Col}>{game.year}</BlockYear>
+            <BlockYear isWide2Col={isWide2Col}>{game.year || ""}</BlockYear>
           </GameDescriptionBadges>
           <Title isWide={isWide} isWide2Col={isWide2Col}>
             {game.title}

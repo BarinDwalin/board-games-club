@@ -5,4 +5,5 @@ export * from "./core/Header";
 export * from "./core/NotFoundPage";
 export * from "./core/search-panel";
 export * from "./main-page/MainPage";
+export * from "./rules-page/RulesPage";
 export * from "./tournaments/Tournament";

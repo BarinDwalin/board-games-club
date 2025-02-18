@@ -34,6 +34,11 @@ const routes: MenuItem[] = [
     mobileIcon: "/images/navigation/tournament.svg",
     label: "Турниры",
   },
+  {
+    key: AppRoute.Rules,
+    mobileIcon: "/images/navigation/rules.svg",
+    label: "Правила посещения",
+  },
 ];
 
 export function Header(props: {

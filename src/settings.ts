@@ -2,6 +2,7 @@ export const AppRoute = {
   Collection: "collection",
   Events: "events",
   Main: "main",
+  Rules: "rules",
 };
 
 export const Pages = {
