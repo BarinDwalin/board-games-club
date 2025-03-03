@@ -30,15 +30,7 @@ export function MainPage() {
             textAlign: "center",
           }}
         >
-          <Typography
-            variant="subtitle2"
-            component="span"
-            sx={{
-              [theme.breakpoints.down("md")]: {
-                fontSize: "1.625rem",
-              },
-            }}
-          >
+          <Typography variant="subtitle2" component="span">
             * Время работы клуба и стоимость посещения в праздничные дни может
             быть изменено
           </Typography>

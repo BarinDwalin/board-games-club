@@ -1,6 +1,12 @@
 import { Box, Link, SxProps, Typography } from "@mui/material";
 
-export function Contacts({ sx }: { sx: SxProps }) {
+export function Contacts({
+  sx,
+  title = "Остались вопросы? Пишите нам в чат",
+}: {
+  sx: SxProps;
+  title?: string;
+}) {
   return (
     <Box
       sx={{
@@ -16,7 +22,7 @@ export function Contacts({ sx }: { sx: SxProps }) {
           textAlign: "center",
         }}
       >
-        Остались вопросы? Пишите нам в чат{" "}
+        {title}&nbsp;
         <Link
           href="https://t.me/RollMove"
           underline="none"
@@ -26,7 +32,7 @@ export function Contacts({ sx }: { sx: SxProps }) {
         >
           Telegram
         </Link>{" "}
-        или в{" "}
+        или в&nbsp;
         <Link
           href="https://www.instagram.com/roll.move/"
           underline="none"

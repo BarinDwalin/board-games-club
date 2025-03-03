@@ -44,7 +44,7 @@ export function RulesPage() {
     },
     {
       title: "Можно приносить свои игры",
-      description: "Можно оставлять в клубе в общем доступе или на хранении",
+      description: "Можно оставлять в клубе в общем доступе или на хранение",
     },
     {
       title: "Бережно относимся к играм",
@@ -112,6 +112,7 @@ export function RulesPage() {
               style={{
                 display: "flex",
                 flexDirection: "column",
+                overflow: "auto",
               }}
             >
               <Typography variant="h5" component="span" sx={{}}>

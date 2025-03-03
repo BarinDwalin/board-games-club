@@ -35,6 +35,11 @@ const routes: MenuItem[] = [
     label: "Турниры",
   },
   {
+    key: AppRoute.Feedback,
+    mobileIcon: "/images/navigation/feedback.svg",
+    label: "Обратная связь",
+  },
+  {
     key: AppRoute.Rules,
     mobileIcon: "/images/navigation/rules.svg",
     label: "Правила посещения",

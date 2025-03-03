@@ -16,6 +16,7 @@ import {
   ErrorPage,
   MainPage,
   NotFoundPage,
+  FeedbackPage,
   RulesPage,
   Tournament,
   eventsLoader,
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
             loader: eventsLoader,
             path: AppRoute.Events,
             element: <Tournament></Tournament>,
+          },
+          {
+            path: AppRoute.Feedback,
+            element: <FeedbackPage />,
           },
           {
             path: AppRoute.Rules,

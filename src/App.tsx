@@ -54,6 +54,7 @@ const App: React.FC = () => {
         component="main"
         className="main"
         sx={{
+          minHeight: "100vh",
           overflow: "initial",
         }}
       >

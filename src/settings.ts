@@ -1,6 +1,7 @@
 export const AppRoute = {
   Collection: "collection",
   Events: "events",
+  Feedback: "feedback",
   Main: "main",
   Rules: "rules",
 };
