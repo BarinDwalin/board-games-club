@@ -37,22 +37,13 @@ export function CommonSuggestion(props: { theme: Theme }) {
           "The Gang 🃏🃏🃏🃏🃏",
           "The Gang 🃏🃏🃏🃏🃏",
           "The Gang 🃏🃏🃏🃏🃏",
-          "Покорение Марса Арес 🚀 🪐",
-          "🕵🏻🕵🏻 Омерта 🕵🏻🕵🏻",
           "The Gang 🃏🃏🃏🃏🃏",
           "The Gang 🃏🃏🃏🃏",
           "The Gang 🃏🃏🃏",
-          "Покорение Марса Арес 🚀 🪐",
-          "🕵🏻🕵🏻 Омерта 🕵🏻🕵🏻",
           "The Gang 🃏🃏",
-          "Покорение Марса Арес 🚀 🪐",
           "🕵🏻🕵🏻 Омерта 🕵🏻🕵🏻",
           "Покорение Марса Арес 🚀 🪐",
-          "Покорение Марса Арес 🚀 🪐",
-          "Slay the Spire",
-          "Покорение Марса Арес 🚀 🪐",
-          "Slay the Spire",
-          "Покорение Марса Арес 🚀 🪐",
+          "Gloomhaven",
           "Slay the Spire",
           "Slay the Spire",
           "Slay the Spire",
@@ -64,7 +55,8 @@ export function CommonSuggestion(props: { theme: Theme }) {
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
-          </div>)
+          </div>),
+          "WAAAAGH!"
         ].map((item, index) => (
           <div key={'suggestion' + index}>{item}</div>
         ))}

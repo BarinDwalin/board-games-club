@@ -51,6 +51,10 @@ export function RulesPage() {
       description:
         "Если что-то произошло во время партии, сообщите администратору, чтобы мы знали и смогли исправить",
     },
+    {
+      title: "Оплата при входе",
+      description: "Kaspi или наличные",
+    },
   ];
 
   let theme = createTheme({});

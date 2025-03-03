@@ -51,7 +51,7 @@
     animation: rotate-move 4.0s ease-in-out infinite;
   }
   .small-stars *:nth-child(3), .small-stars *:nth-child(4) {
-    --rotation-value: 360deg;
+    --rotation-value: 720deg;
     animation: rotate-move 12.0s ease-in-out infinite;
   }
 }
