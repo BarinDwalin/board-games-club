@@ -1,0 +1,905 @@
+[
+  {
+    "creationDateUtc": "2025-01-29T07:53:16.401839",
+    "game": {
+      "id": 77819,
+      "alias": "thats-not-a-hat",
+      "teseraId": 2336142,
+      "title": "That's Not a Hat",
+      "titleOriginal": "To (ne)chceš!",
+      "photoUrl": "https://s.tesera.ru/images/items/2336142,3/photo1.png",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.15,
+        "bggNumVotes": 2491,
+        "teseraRating": 7.72,
+        "teseraNumVotes": 8
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 375651,
+      "playersMin": 3,
+      "playersMax": 8,
+      "age": 8,
+      "timeMin": 15,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:52:44.31026",
+    "game": {
+      "id": 64902,
+      "alias": "gen7-a-crossroads-game",
+      "teseraId": 1290964,
+      "title": "Седьмое поколение",
+      "titleOriginal": "Gen7: A Crossroads Game",
+      "photoUrl": "https://s.tesera.ru/images/items/1290964,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 6.34,
+        "bggNumVotes": 645,
+        "teseraRating": 6.77,
+        "teseraNumVotes": 69
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 257321,
+      "playersMin": 3,
+      "playersMax": 4,
+      "age": 18,
+      "timeMin": 60,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:52:31.80567",
+    "game": {
+      "id": 56299,
+      "alias": "Quartermaster",
+      "teseraId": 456525,
+      "title": "Генералы: Вторая мировая",
+      "titleOriginal": "Quartermaster General",
+      "photoUrl": "https://s.tesera.ru/images/items/456525,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 7.28,
+        "bggNumVotes": 2749,
+        "teseraRating": 7.01,
+        "teseraNumVotes": 178
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 159473,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 12,
+      "timeMin": 90,
+      "timeMax": 100
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:52:23.461417",
+    "game": {
+      "id": 68258,
+      "alias": "Vienna-Connection",
+      "teseraId": 1608088,
+      "title": "Венский связной",
+      "titleOriginal": "Vienna Connection",
+      "photoUrl": "https://s.tesera.ru/images/items/1608088,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 7.23,
+        "bggNumVotes": 844,
+        "teseraRating": 7.01,
+        "teseraNumVotes": 52
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 299255,
+      "playersMin": 1,
+      "playersMax": 5,
+      "age": 16,
+      "timeMin": 120,
+      "timeMax": 180
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:51:40.415204",
+    "game": {
+      "id": 48989,
+      "alias": "battles-of-westeros",
+      "teseraId": 3123,
+      "title": "Battles of Westeros",
+      "titleOriginal": "Битвы Вестероса",
+      "photoUrl": "https://s.tesera.ru/images/items/3123,3/photo1.jpg",
+      "year": 2010,
+      "rating": {
+        "bggRating": 7.24,
+        "bggNumVotes": 3005,
+        "teseraRating": 7.74,
+        "teseraNumVotes": 125
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 67492,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:50:19.928222",
+    "game": {
+      "id": 51604,
+      "alias": "a-game-of-thrones-the-board-game-second-edition",
+      "teseraId": 54636,
+      "title": "Игра Престолов. Второе издание",
+      "titleOriginal": "A Game of Thrones: The Board Game (Second Edition)",
+      "photoUrl": "https://s.tesera.ru/images/items/54636,3/photo1.png",
+      "year": 2011,
+      "rating": {
+        "bggRating": 7.54,
+        "bggNumVotes": 34601,
+        "teseraRating": 8.12,
+        "teseraNumVotes": 1398
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 103343,
+      "playersMin": 3,
+      "playersMax": 6,
+      "age": 14,
+      "timeMin": 120,
+      "timeMax": 240
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:49:05.24238",
+    "game": {
+      "id": 66876,
+      "alias": "titans",
+      "teseraId": 1465057,
+      "title": "Titans",
+      "photoUrl": "https://s.tesera.ru/images/items/1465057,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.51,
+        "bggNumVotes": 597,
+        "teseraRating": 7.84,
+        "teseraNumVotes": 40
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 277080,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 13,
+      "timeMin": 80,
+      "timeMax": 160
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:48:09.991643",
+    "game": {
+      "id": 56560,
+      "alias": "blood-rage",
+      "teseraId": 480450,
+      "title": "Кровь и ярость",
+      "titleOriginal": "Blood Rage",
+      "photoUrl": "https://s.tesera.ru/images/items/480450,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 7.93,
+        "bggNumVotes": 47106,
+        "teseraRating": 8.06,
+        "teseraNumVotes": 1206
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 170216,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 60,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:46:57.618184",
+    "game": {
+      "id": 65612,
+      "alias": "valhalla",
+      "teseraId": 1340848,
+      "title": "Вальхалла",
+      "titleOriginal": "Valhalla",
+      "photoUrl": "https://s.tesera.ru/images/items/1340848,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 7.16,
+        "bggNumVotes": 1491,
+        "teseraRating": 6.9,
+        "teseraNumVotes": 121
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 237211,
+      "playersMin": 1,
+      "playersMax": 6,
+      "age": 13,
+      "timeMin": 30,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:46:48.484163",
+    "game": {
+      "id": 48683,
+      "alias": "citadels",
+      "teseraId": 684,
+      "title": "Цитадели",
+      "titleOriginal": "Citadels",
+      "photoUrl": "https://s.tesera.ru/images/items/684,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 7.06,
+        "bggNumVotes": 54647,
+        "teseraRating": 7.31,
+        "teseraNumVotes": 2106
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 478,
+      "playersMin": 2,
+      "playersMax": 7,
+      "age": 10,
+      "timeMin": 20,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:46:41.775829",
+    "game": {
+      "id": 62850,
+      "alias": "battle-for-rokugan",
+      "teseraId": 1078358,
+      "title": "Битва за Рокуган",
+      "titleOriginal": "Battle for Rokugan",
+      "photoUrl": "https://s.tesera.ru/images/items/1078358,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.41,
+        "bggNumVotes": 3729,
+        "teseraRating": 7.58,
+        "teseraNumVotes": 624
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 234477,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 14,
+      "timeMin": 60,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:46:33.336535",
+    "game": {
+      "id": 68768,
+      "alias": "smallworldofwarcraft",
+      "teseraId": 1673130,
+      "title": "Small World of Warcraft",
+      "titleOriginal": "Маленький мир Варкрафта",
+      "photoUrl": "https://s.tesera.ru/images/items/1673130,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.31,
+        "bggNumVotes": 3655,
+        "teseraRating": 7.46,
+        "teseraNumVotes": 135
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 309630,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 10,
+      "timeMin": 40,
+      "timeMax": 80
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:46:21.139389",
+    "game": {
+      "id": 70957,
+      "alias": "pandemic-world-of-warcraft",
+      "teseraId": 1908085,
+      "title": "Пандемия: World of Warcraft",
+      "titleOriginal": "World of Warcraft: Wrath of the Lich King",
+      "photoUrl": "https://s.tesera.ru/images/items/1908085,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 7.42,
+        "bggNumVotes": 2960,
+        "teseraRating": 7.29,
+        "teseraNumVotes": 101
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 342848,
+      "playersMin": 1,
+      "playersMax": 5,
+      "age": 14,
+      "timeMin": 45,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:46:06.870278",
+    "game": {
+      "id": 57813,
+      "alias": "7-wonders-duel",
+      "teseraId": 563105,
+      "title": "7 чудес: Дуэль",
+      "titleOriginal": "7 Wonders Duel",
+      "photoUrl": "https://s.tesera.ru/images/items/563105,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 8.1,
+        "bggNumVotes": 94547,
+        "teseraRating": 8.29,
+        "teseraNumVotes": 2049
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 173346,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:44:34.91781",
+    "game": {
+      "id": 68852,
+      "alias": "northgard-uncharted-lands",
+      "teseraId": 1685052,
+      "title": "Нордгард: Новые земли",
+      "titleOriginal": "Northgard: Uncharted Lands",
+      "photoUrl": "https://s.tesera.ru/images/items/1685052,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.68,
+        "bggNumVotes": 2093,
+        "teseraRating": 7.82,
+        "teseraNumVotes": 164
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 274124,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 13,
+      "timeMin": 45,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:43:15.68996",
+    "game": {
+      "id": 51645,
+      "alias": "Descent-Journeys-in-the-Dark-Second-Edition",
+      "teseraId": 56708,
+      "title": "Descent: Странствия во тьме (вторая редакция)",
+      "titleOriginal": "Descent: Journeys in the Dark (Second Edition)",
+      "photoUrl": "https://s.tesera.ru/images/items/56708,3/photo1.jpg",
+      "year": 2012,
+      "rating": {
+        "bggRating": 7.62,
+        "bggNumVotes": 25296,
+        "teseraRating": 8.05,
+        "teseraNumVotes": 835
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 104162,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 14,
+      "timeMin": 60,
+      "timeMax": 120
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:42:29.300089",
+    "game": {
+      "id": 73665,
+      "alias": "unmatched-for-king-and-country",
+      "teseraId": 2117301,
+      "title": "Unmatched: For King and Country",
+      "photoUrl": "https://s.tesera.ru/images/items/2117301,3/photo1.jpg",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 8.8,
+        "teseraNumVotes": 11
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 3,
+      "age": 14,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:42:18.6466",
+    "game": {
+      "id": 73656,
+      "alias": "unmatched-teen-spirit",
+      "teseraId": 2117101,
+      "title": "Unmatched: Teen Spirit",
+      "photoUrl": "https://s.tesera.ru/images/items/2117101,3/photo1.png",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 6.92,
+        "teseraNumVotes": 12
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 3,
+      "age": 14,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:41:50.872342",
+    "game": {
+      "id": 71651,
+      "alias": "unmatched-redemption-row",
+      "teseraId": 1980377,
+      "title": "Unmatched: Redemption Row",
+      "photoUrl": "https://s.tesera.ru/images/items/1980377,3/photo1.png",
+      "year": 2021,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.99,
+        "teseraNumVotes": 37
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 3,
+      "age": 14,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:41:43.51171",
+    "game": {
+      "id": 72450,
+      "alias": "unmatched-jurassic-park-sattler-vs-t-rex",
+      "teseraId": 2021553,
+      "title": "Unmatched: Jurassic Park - Sattler vs. T-Rex",
+      "photoUrl": "https://s.tesera.ru/images/items/2021553,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 8.19,
+        "teseraNumVotes": 59
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 14,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:41:07.866341",
+    "game": {
+      "id": 68755,
+      "alias": "unmatched-jurassic-park",
+      "teseraId": 1670892,
+      "title": "Unmatched: Jurassic Park",
+      "photoUrl": "https://s.tesera.ru/images/items/1670892,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 8.13,
+        "bggNumVotes": 2315,
+        "teseraRating": 8.33,
+        "teseraNumVotes": 75
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 284777,
+      "playersMin": 0,
+      "playersMax": 0,
+      "age": 0,
+      "timeMin": 0,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:40:58.20768",
+    "game": {
+      "id": 73385,
+      "alias": "Unmatched13",
+      "teseraId": 2096132,
+      "title": "Unmatched: Гудини vs. Джинн",
+      "photoUrl": "https://s.tesera.ru/images/items/2096132,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 8.26,
+        "teseraNumVotes": 70
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 0,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:40:51.23388",
+    "game": {
+      "id": 70003,
+      "alias": "unmatched-little-red-riding-hood-vs-beowulf",
+      "teseraId": 1813453,
+      "title": "Unmatched: Красная Шапочка vs. Беовульф",
+      "titleOriginal": "Unmatched: Little Red Riding Hood vs. Beowulf",
+      "photoUrl": "https://s.tesera.ru/images/items/1813453,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 8.15,
+        "bggNumVotes": 2725,
+        "teseraRating": 8.28,
+        "teseraNumVotes": 164
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 325635,
+      "playersMin": 2,
+      "playersMax": 0,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 0
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:40:45.993912",
+    "game": {
+      "id": 70966,
+      "alias": "unmatched-battle-of-legends-volume-two",
+      "teseraId": 1909043,
+      "title": "Unmatched: Битва Легенд. Том 2",
+      "titleOriginal": "Unmatched: Battle of Legends, Volume Two",
+      "photoUrl": "https://s.tesera.ru/images/items/1909043,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 8.31,
+        "teseraNumVotes": 103
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 0,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:40:40.836909",
+    "game": {
+      "id": 66458,
+      "alias": "Unmatched-Battle-of-Legends-Volume-1",
+      "teseraId": 1422509,
+      "title": "Unmatched: Битва легенд. Том I",
+      "titleOriginal": "Unmatched: Battle of Legends, Volume One",
+      "photoUrl": "https://s.tesera.ru/images/items/1422509,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.74,
+        "bggNumVotes": 9029,
+        "teseraRating": 7.89,
+        "teseraNumVotes": 582
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 274637,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:40:36.281106",
+    "game": {
+      "id": 68727,
+      "alias": "UnmatchedCF",
+      "teseraId": 1668239,
+      "title": "Unmatched: Туман над мостовой",
+      "titleOriginal": "Unmatched: Cobble & Fog",
+      "photoUrl": "https://s.tesera.ru/images/items/1668239,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.98,
+        "bggNumVotes": 7508,
+        "teseraRating": 8.15,
+        "teseraNumVotes": 425
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 294484,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:39:24.293211",
+    "game": {
+      "id": 71169,
+      "alias": "senjutsu-battle-for-japan",
+      "teseraId": 1930655,
+      "title": "Senjutsu. Битва за Японию",
+      "titleOriginal": "Senjutsu: Battle For Japan",
+      "photoUrl": "https://s.tesera.ru/images/items/1930655,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 7.43,
+        "bggNumVotes": 684,
+        "teseraRating": 7.81,
+        "teseraNumVotes": 37
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 343900,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 15,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:38:56.888493",
+    "game": {
+      "id": 56923,
+      "alias": "Forbidden-Stars",
+      "teseraId": 526880,
+      "title": "Forbidden Stars",
+      "photoUrl": "https://s.tesera.ru/images/items/526880,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 7.98,
+        "bggNumVotes": 9271,
+        "teseraRating": 8.77,
+        "teseraNumVotes": 542
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 175155,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 60,
+      "timeMax": 180
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:38:18.665958",
+    "game": {
+      "id": 54628,
+      "alias": "battlelore-second-edition",
+      "teseraId": 300898,
+      "title": "Battlelore (Вторая редакция)",
+      "titleOriginal": "BattleLore (Second Edition)",
+      "photoUrl": "https://s.tesera.ru/images/items/300898,3/photo1.jpg",
+      "year": 2013,
+      "rating": {
+        "bggRating": 7.68,
+        "bggNumVotes": 6387,
+        "teseraRating": 7.97,
+        "teseraNumVotes": 334
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 146439,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 10,
+      "timeMin": 60,
+      "timeMax": 120
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:37:52.377234",
+    "game": {
+      "id": 48896,
+      "alias": "runewars",
+      "teseraId": 2275,
+      "title": "Runewars",
+      "photoUrl": "https://s.tesera.ru/images/items/2275,3/photo1.jpg",
+      "year": 2010,
+      "rating": {
+        "bggRating": 7.61,
+        "bggNumVotes": 8389,
+        "teseraRating": 8.22,
+        "teseraNumVotes": 200
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 59294,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 180,
+      "timeMax": 240
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:37:00.220582",
+    "game": {
+      "id": 58080,
+      "alias": "Runebound-Third-Edition",
+      "teseraId": 591609,
+      "title": "Runebound: Третья редакция",
+      "titleOriginal": "Runebound Третья редакция",
+      "photoUrl": "https://s.tesera.ru/images/items/591609,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 7.47,
+        "bggNumVotes": 6201,
+        "teseraRating": 7.81,
+        "teseraNumVotes": 826
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 181530,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 120,
+      "timeMax": 180
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T07:35:24.736311",
+    "game": {
+      "id": 70151,
+      "alias": "the-witcher-old-world",
+      "teseraId": 1827224,
+      "title": "Ведьмак: Старый мир",
+      "titleOriginal": "The Witcher: Old World",
+      "photoUrl": "https://s.tesera.ru/images/items/1827224,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 8.01,
+        "bggNumVotes": 5725,
+        "teseraRating": 7.69,
+        "teseraNumVotes": 278
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 331106,
+      "playersMin": 1,
+      "playersMax": 5,
+      "age": 14,
+      "timeMin": 90,
+      "timeMax": 150
+    }
+  },
+  {
+    "creationDateUtc": "2025-02-16T14:52:11.430766",
+    "game": {
+      "id": 75063,
+      "alias": "unmatched-suns-origin",
+      "teseraId": 2213246,
+      "title": "Unmatched: Родина солнца",
+      "titleOriginal": "Unmatched: Sun's Origin",
+      "photoUrl": "https://s.tesera.ru/images/items/2213246,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 8.374,
+        "bggNumVotes": 605,
+        "teseraRating": 8.47,
+        "teseraNumVotes": 9
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 383469,
+      "playersMin": 2,
+      "playersMax": 0,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-02-16T14:51:23.78598",
+    "game": {
+      "id": 77988,
+      "alias": "Unmatched-Slings-and-Arrows",
+      "teseraId": 2347260,
+      "title": "Unmatched: Удары Судьбы",
+      "titleOriginal": "Unmatched: Slings and Arrows",
+      "photoUrl": "https://s.tesera.ru/images/items/2347260,3/photo1.jpg",
+      "year": 2024,
+      "rating": {
+        "bggRating": 8.622,
+        "bggNumVotes": 488,
+        "teseraRating": 8.27,
+        "teseraNumVotes": 14
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 415945,
+      "playersMin": 2,
+      "playersMax": 0,
+      "age": 9,
+      "timeMin": 20,
+      "timeMax": 40
+    }
+  },
+  {
+    "creationDateUtc": "2025-02-16T14:51:07.065171",
+    "game": {
+      "id": 62506,
+      "alias": "heroes-of-black-reach",
+      "teseraId": 1047741,
+      "title": "Heroes of Black Reach",
+      "photoUrl": "https://s.tesera.ru/images/items/1047741,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 7.913,
+        "bggNumVotes": 448,
+        "teseraRating": 7.56,
+        "teseraNumVotes": 4
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 331106,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 14,
+      "timeMin": 30,
+      "timeMax": 120
+    }
+  }
+]

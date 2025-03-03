@@ -1,0 +1,457 @@
+[
+  {
+    "creationDateUtc": "2025-01-29T19:03:05.777731",
+    "game": {
+      "id": 56445,
+      "alias": "medieval-academy",
+      "teseraId": 469355,
+      "title": "Средневековая академия",
+      "titleOriginal": "Medieval Academy",
+      "photoUrl": "https://s.tesera.ru/images/items/469355,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 6.93,
+        "bggNumVotes": 4045,
+        "teseraRating": 7.34,
+        "teseraNumVotes": 309
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 154386,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:02:19.469734",
+    "game": {
+      "id": 59931,
+      "alias": "great-western-trail",
+      "teseraId": 818622,
+      "title": "Великий западный путь (первое издание)",
+      "titleOriginal": "Great Western Trail",
+      "photoUrl": "https://s.tesera.ru/images/items/818622,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 8.19,
+        "bggNumVotes": 40841,
+        "teseraRating": 8.36,
+        "teseraNumVotes": 686
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 193738,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 75,
+      "timeMax": 150
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:02:08.176711",
+    "game": {
+      "id": 70924,
+      "alias": "dog-park",
+      "teseraId": 1905416,
+      "title": "Прогулки с собаками",
+      "titleOriginal": "Dog Park",
+      "photoUrl": "https://s.tesera.ru/images/items/1905416,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 6.97,
+        "bggNumVotes": 2813,
+        "teseraRating": 6.86,
+        "teseraNumVotes": 81
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 331401,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 40,
+      "timeMax": 80
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:01:58.347421",
+    "game": {
+      "id": 49583,
+      "alias": "Dungeoneer-Tomb-of-the-Lich-Lord",
+      "teseraId": 7135,
+      "title": "Подземелье. Гробница повелителя мёртвых",
+      "titleOriginal": "Dungeoneer: Tomb of the Lich Lord",
+      "photoUrl": "https://s.tesera.ru/images/items/7135,3/photo1.jpg",
+      "year": 2003,
+      "rating": {
+        "bggRating": 6.1,
+        "bggNumVotes": 2778,
+        "teseraRating": 6.4,
+        "teseraNumVotes": 484
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 5576,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 45,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:01:42.665295",
+    "game": {
+      "id": 50812,
+      "alias": "podzemelye-tsarstvo-ledyanoy-vedmy",
+      "teseraId": 24996,
+      "title": "Подземелье: Царство Ледяной ведьмы",
+      "photoUrl": "https://s.tesera.ru/images/items/24996,3/photo1.jpg",
+      "year": 2005,
+      "rating": {
+        "bggRating": 6.33,
+        "bggNumVotes": 520,
+        "teseraRating": 6.72,
+        "teseraNumVotes": 146
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 19187,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:01:20.638225",
+    "game": {
+      "id": 66196,
+      "alias": "Cartographers-A-Roll-Player-Tale",
+      "teseraId": 1396932,
+      "title": "Картографы",
+      "titleOriginal": "Cartographers: A Roll Player Tale",
+      "photoUrl": "https://s.tesera.ru/images/items/1396932,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.6,
+        "bggNumVotes": 29417,
+        "teseraRating": 7.46,
+        "teseraNumVotes": 778
+      },
+      "tags": [],
+      "addons": [
+        {
+          "creationDateUtc": "2025-01-29T19:01:25.038414",
+          "game": {
+            "id": 70896,
+            "alias": "cartographers-heroes",
+            "teseraId": 1902581,
+            "title": "Картографы Герои",
+            "titleOriginal": "Cartographers Heroes",
+            "photoUrl": "https://s.tesera.ru/images/items/1902581,3/photo1.png",
+            "year": 2021,
+            "rating": {
+              "bggRating": 7.76,
+              "bggNumVotes": 0,
+              "teseraRating": 7.53,
+              "teseraNumVotes": 112
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 66196
+          }
+        }
+      ],
+      "isAddition": false,
+      "bggId": 263918,
+      "playersMin": 1,
+      "playersMax": 99,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 45
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:01:09.822926",
+    "game": {
+      "id": 63870,
+      "alias": "IceCool2",
+      "teseraId": 1186022,
+      "title": "Айс-класс 2",
+      "titleOriginal": "Ice Cool 2",
+      "photoUrl": "https://s.tesera.ru/images/items/1186022,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 7.15,
+        "bggNumVotes": 1850,
+        "teseraRating": 7.22,
+        "teseraNumVotes": 35
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 244513,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 0,
+      "timeMin": 15,
+      "timeMax": 20
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:00:56.992186",
+    "game": {
+      "id": 48659,
+      "alias": "tikal",
+      "teseraId": 364,
+      "title": "Тикаль",
+      "titleOriginal": "Tikal",
+      "photoUrl": "https://s.tesera.ru/images/items/364,3/photo1.jpg",
+      "year": 1999,
+      "rating": {
+        "bggRating": 7.33,
+        "bggNumVotes": 20221,
+        "teseraRating": 7.55,
+        "teseraNumVotes": 136
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 54,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 90,
+      "timeMax": 120
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:00:46.121119",
+    "game": {
+      "id": 49507,
+      "alias": "king-of-tokyo",
+      "teseraId": 6799,
+      "title": "Повелитель Токио",
+      "titleOriginal": "King of Tokyo",
+      "photoUrl": "https://s.tesera.ru/images/items/6799,3/photo1.jpg",
+      "year": 2010,
+      "rating": {
+        "bggRating": 7.13,
+        "bggNumVotes": 70718,
+        "teseraRating": 7.09,
+        "teseraNumVotes": 1125
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 70323,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 8,
+      "timeMin": 20,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:00:31.240193",
+    "game": {
+      "id": 62759,
+      "alias": "korolevstvo-krolikov",
+      "teseraId": 1070335,
+      "title": "Королевство кроликов",
+      "photoUrl": "https://s.tesera.ru/images/items/1070335,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.43,
+        "bggNumVotes": 12921,
+        "teseraRating": 7.76,
+        "teseraNumVotes": 391
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 184921,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 40,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T19:00:08.061402",
+    "game": {
+      "id": 68674,
+      "alias": "nidavellir",
+      "teseraId": 1661957,
+      "title": "Нидавеллир",
+      "titleOriginal": "Nidavellir",
+      "photoUrl": "https://s.tesera.ru/images/items/1661957,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.6,
+        "bggNumVotes": 13518,
+        "teseraRating": 7.68,
+        "teseraNumVotes": 341
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2025-01-29T19:02:33.993806",
+          "game": {
+            "id": 69942,
+            "alias": "nidavellir-thingvellir",
+            "teseraId": 1804927,
+            "title": "Нидавеллир: Тингвеллир",
+            "titleOriginal": "Nidavellir: Thingvellir",
+            "photoUrl": "https://s.tesera.ru/images/items/1804927,3/photo1.jpg",
+            "year": 2020,
+            "rating": {
+              "bggRating": 7.82,
+              "bggNumVotes": 0,
+              "teseraRating": 7.51,
+              "teseraNumVotes": 39
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 68674
+          }
+        },
+        {
+          "creationDateUtc": "2025-01-29T19:00:21.726491",
+          "game": {
+            "id": 72725,
+            "alias": "nidavellir-idavoll",
+            "teseraId": 2039101,
+            "title": "Нидавеллир: Идавёлль",
+            "titleOriginal": "Nidavellir: Idavoll",
+            "photoUrl": "https://s.tesera.ru/images/items/2039101,3/photo1.jpg",
+            "year": 2022,
+            "rating": {
+              "bggRating": 7.74,
+              "bggNumVotes": 0,
+              "teseraRating": 7.75,
+              "teseraNumVotes": 12
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 68674
+          }
+        }
+      ],
+      "bggId": 293014,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 45
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:59:58.326512",
+    "game": {
+      "id": 62850,
+      "alias": "battle-for-rokugan",
+      "teseraId": 1078358,
+      "title": "Битва за Рокуган",
+      "titleOriginal": "Battle for Rokugan",
+      "photoUrl": "https://s.tesera.ru/images/items/1078358,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.41,
+        "bggNumVotes": 3729,
+        "teseraRating": 7.58,
+        "teseraNumVotes": 624
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 234477,
+      "playersMin": 2,
+      "playersMax": 5,
+      "age": 14,
+      "timeMin": 60,
+      "timeMax": 90
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:59:47.771308",
+    "game": {
+      "id": 56746,
+      "alias": "Stay-Away",
+      "teseraId": 505328,
+      "title": "Нечто из глубокой бездны",
+      "titleOriginal": "Stay Away",
+      "photoUrl": "https://s.tesera.ru/images/items/505328,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 6.12,
+        "bggNumVotes": 1318,
+        "teseraRating": 6.26,
+        "teseraNumVotes": 523
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 158392,
+      "playersMin": 4,
+      "playersMax": 12,
+      "age": 12,
+      "timeMin": 15,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:59:22.384921",
+    "game": {
+      "id": 50815,
+      "alias": "quarriors",
+      "teseraId": 25012,
+      "title": "Кворриорс",
+      "titleOriginal": "Quarriors!",
+      "photoUrl": "https://s.tesera.ru/images/items/25012,3/photo1.jpg",
+      "year": 2011,
+      "rating": {
+        "bggRating": 6.74,
+        "bggNumVotes": 13863,
+        "teseraRating": 7.13,
+        "teseraNumVotes": 399
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 91536,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 13,
+      "timeMin": 30,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-01-29T18:59:10.394723",
+    "game": {
+      "id": 54343,
+      "alias": "viticulture",
+      "teseraId": 269920,
+      "title": "Виноделие",
+      "titleOriginal": "Viticulture",
+      "photoUrl": "https://s.tesera.ru/images/items/269920,3/photo1.png",
+      "year": 2013,
+      "rating": {
+        "bggRating": 7.49,
+        "bggNumVotes": 13918,
+        "teseraRating": 7.55,
+        "teseraNumVotes": 205
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 128621,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 60
+    }
+  }
+]

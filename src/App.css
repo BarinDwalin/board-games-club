@@ -1,0 +1,26 @@
+.main {
+  display: block;
+}
+
+.main::before {
+  content: "";
+  display: block;
+}
+
+@media screen and (min-width: 1200px) {
+  .main::before {
+    height: 120px;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1199px) {
+  .main::before {
+    height: 60px;
+  }
+}
+
+@media screen and (max-width: 899px) {
+  .main::before {
+    height: 48px;
+  }
+}
