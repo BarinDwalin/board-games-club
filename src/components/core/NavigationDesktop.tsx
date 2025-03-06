@@ -5,7 +5,7 @@ import {
   createTheme,
   Link,
 } from "@mui/material";
-import { Link as RouterLink } from "react-router-dom";
+import { Link as RouterLink } from "react-router";
 import { MenuItem } from "./Header";
 
 export function NavigationDesktop(props: {

@@ -4,11 +4,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import {
-  Navigate,
-  RouterProvider,
-  createBrowserRouter,
-} from "react-router-dom";
+import { Navigate, RouterProvider, createBrowserRouter } from "react-router";
 import "./index.css";
 import App from "./App";
 import {

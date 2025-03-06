@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router";
 import "./App.css";
 import { AppRoute, Pages } from "./settings";
 import { Footer, Header, SearchPanel } from "./components";
