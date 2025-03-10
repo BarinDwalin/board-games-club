@@ -45,6 +45,7 @@ const App: React.FC = () => {
           setPage(item.key);
         }}
         scrollBarWidth={scrollBarWidth}
+        shownSearchPanel={shownSearchPanel}
         toggleSearch={handleToggleSearch}
         toggleCollapsedDesktopMenu={(collapsed) => {
           setCollapsedDesktopMenu(collapsed);

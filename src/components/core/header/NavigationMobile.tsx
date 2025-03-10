@@ -6,7 +6,7 @@ import {
   Link,
 } from "@mui/material";
 import { Link as RouterLink } from "react-router";
-import { MenuItem } from "./Header";
+import { MenuItem } from "./menu-item";
 
 export function NavigationMobile(props: {
   collapsed: boolean;
