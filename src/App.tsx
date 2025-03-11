@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet } from "react-router";
 import "./App.css";
 import { AppRoute, Pages } from "./settings";
 import { Footer, Header, SearchPanel } from "./components";
@@ -45,6 +45,7 @@ const App: React.FC = () => {
           setPage(item.key);
         }}
         scrollBarWidth={scrollBarWidth}
+        shownSearchPanel={shownSearchPanel}
         toggleSearch={handleToggleSearch}
         toggleCollapsedDesktopMenu={(collapsed) => {
           setCollapsedDesktopMenu(collapsed);

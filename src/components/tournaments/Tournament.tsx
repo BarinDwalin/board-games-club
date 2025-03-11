@@ -1,5 +1,5 @@
 import { Box, Link, Typography, createTheme } from "@mui/material";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router";
 import { getEvents } from "../../data/events";
 import { Event } from "../../interfaces";
 

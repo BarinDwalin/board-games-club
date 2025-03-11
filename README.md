@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1e2aa139-50c0-4ab9-874d-5eb5d212f5e9/deploy-status)](https://app.netlify.com/sites/rollmove/deploys)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

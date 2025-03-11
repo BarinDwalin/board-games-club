@@ -8,56 +8,47 @@ import {
 import SearchIcon from "@mui/icons-material/Search";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
-import { AppRoute } from "../../settings";
 import { NavigationMobile } from "./NavigationMobile";
 import { NavigationDesktop } from "./NavigationDesktop";
-
-export interface MenuItem {
-  key: string;
-  label: string;
-  mobileIcon?: string;
-}
-
-const routes: MenuItem[] = [
-  {
-    key: AppRoute.Main,
-    mobileIcon: "/images/navigation/about.svg",
-    label: "О клубе",
-  },
-  {
-    key: AppRoute.Collection,
-    mobileIcon: "/images/navigation/collection.svg",
-    label: "Во что играем",
-  },
-  {
-    key: AppRoute.Events,
-    mobileIcon: "/images/navigation/tournament.svg",
-    label: "Турниры",
-  },
-  {
-    key: AppRoute.Feedback,
-    mobileIcon: "/images/navigation/feedback.svg",
-    label: "Обратная связь",
-  },
-  {
-    key: AppRoute.Rules,
-    mobileIcon: "/images/navigation/rules.svg",
-    label: "Правила посещения",
-  },
-];
+import { MenuItem } from "./menu-item";
+import { routes } from "./routes";
 
 export function Header(props: {
   children?: JSX.Element;
   title: string;
   scrollBarWidth: number;
+  shownSearchPanel: boolean;
   setPage: (item: MenuItem) => void;
   toggleSearch: () => void;
   toggleCollapsedDesktopMenu: (collapsed: boolean) => void;
 }) {
   const [collapsedDesktopMenu, setCollapsedDesktopMenu] = useState(false);
   const [collapsedMobileMenu, setCollapsedMobileMenu] = useState(false);
+  const onClickBackgroundMenu = () => {
+    setCollapsedMobileMenu(false);
+  };
   const onToggleMenu = () => {
+    closeSearchPanel();
     setCollapsedMobileMenu((value) => !value);
+  };
+  const onToggleSearch = () => {
+    if (collapsedMobileMenu) {
+      setCollapsedMobileMenu(false);
+    }
+    props.toggleSearch();
+  };
+  const onSetPageMobile = (page: MenuItem) => {
+    props.setPage(page);
+    setCollapsedMobileMenu(false);
+  };
+  const onSetPageDesktop = (page: MenuItem) => {
+    closeSearchPanel();
+    props.setPage(page);
+  };
+  const closeSearchPanel = () => {
+    if (props.shownSearchPanel) {
+      props.toggleSearch();
+    }
   };
 
   const changeCss = () => {
@@ -139,7 +130,7 @@ export function Header(props: {
               display: "block",
             },
           }}
-          onClick={() => onToggleMenu()}
+          onClick={() => onClickBackgroundMenu()}
         ></Box>
         <Box
           sx={{
@@ -248,7 +239,7 @@ export function Header(props: {
             }}
           >
             <IconButton
-              aria-label="поиск"
+              aria-label="меню"
               size="large"
               sx={{
                 marginRight: "auto",
@@ -302,7 +293,7 @@ export function Header(props: {
               aria-label="поиск"
               size="large"
               sx={{}}
-              onClick={() => props.toggleSearch()}
+              onClick={() => onToggleSearch()}
             >
               <SearchIcon />
             </IconButton>
@@ -320,16 +311,13 @@ export function Header(props: {
             collapsed={collapsedDesktopMenu}
             routes={routes}
             scrollBarWidth={props.scrollBarWidth}
-            setPage={props.setPage}
+            setPage={onSetPageDesktop}
           ></NavigationDesktop>
         </Box>
         <NavigationMobile
           collapsed={collapsedMobileMenu}
           routes={routes}
-          setPage={(page) => {
-            props.setPage(page);
-            onToggleMenu();
-          }}
+          setPage={onSetPageMobile}
         ></NavigationMobile>
       </Box>
     </ThemeProvider>
