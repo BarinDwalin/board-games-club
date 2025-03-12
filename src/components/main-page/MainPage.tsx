@@ -17,6 +17,7 @@ function Banner() {
     >
       <img
         src="/images/banner-meeple.png"
+        alt="banner meeple"
         loading="lazy"
         style={{
           position: "absolute",
