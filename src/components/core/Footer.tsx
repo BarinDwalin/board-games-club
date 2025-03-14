@@ -100,7 +100,7 @@ export function Footer() {
         >
           <Box sx={{ mb: 4 }}>
             <Link
-              href="tel:77778828122"
+              href="tel:77775338095"
               underline="none"
               sx={{
                 display: "block",
@@ -110,7 +110,7 @@ export function Footer() {
               }}
             >
               <Typography variant="h5" component="div">
-                +7 777 882-81-22
+                +7 777 533-80-95
               </Typography>
               <Typography
                 variant="body1"
