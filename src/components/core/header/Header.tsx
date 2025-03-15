@@ -220,8 +220,8 @@ export function Header(props: {
           >
             <img
               style={{
-                width: "inherit",
-                height: "inherit",
+                width: "100%",
+                height: "100%",
               }}
               src="/images/club-logo.png"
               alt="логотип клуба в виде мипла"
@@ -282,8 +282,8 @@ export function Header(props: {
             >
               <img
                 style={{
-                  width: "inherit",
-                  height: "inherit",
+                  width: "100%",
+                  height: "100%",
                 }}
                 src="/images/club-logo.png"
                 alt="логотип клуба в виде мипла"
