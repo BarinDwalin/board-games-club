@@ -15,17 +15,25 @@ function Banner() {
         position: "relative",
       }}
     >
-      <img
-        src="/images/banner-meeple.png"
-        alt="banner meeple"
-        loading="lazy"
+      <picture
         style={{
           position: "absolute",
           width: "50%",
           left: "22%",
           top: "17%",
         }}
-      />
+      >
+        <source srcSet="/images/banner-meeple.webp" type="image/webp" />
+        <img
+          src="/images/banner-meeple.png"
+          alt="banner meeple"
+          loading="lazy"
+          style={{
+            width: "100%",
+            height: "100%",
+          }}
+        />
+      </picture>
       <SvgIcon
         component={BannerImage}
         className="banner"
