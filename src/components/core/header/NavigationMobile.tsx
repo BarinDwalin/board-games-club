@@ -139,6 +139,7 @@ export function NavigationMobile(props: {
                       <div
                         style={{
                           width: "42px",
+                          minWidth: "42px",
                           height: "42px",
                           position: "relative",
                         }}
@@ -152,6 +153,7 @@ export function NavigationMobile(props: {
                             top: "50%",
                             transform: "translateY(-50%)",
                           }}
+                          loading="lazy"
                           alt={route.key}
                           src={route.mobileIcon}
                         />
