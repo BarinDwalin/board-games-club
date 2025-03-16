@@ -1,10 +1,48 @@
-import { Box, Button, TextField, Theme, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  Dialog,
+  TextField,
+  Theme,
+  Typography,
+} from "@mui/material";
+import { useState } from "react";
 
 export interface PollsProps {
   theme: Theme;
 }
 
 export function Polls({ theme }: PollsProps) {
+  const [open, setOpen] = useState(false);
+
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  const handleSubmit = (event: any) => {
+    event.preventDefault();
+
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+    const urlSearchParams = new URLSearchParams({
+      "form-name": "polls-tournaments",
+    });
+
+    formData.forEach((value, key) => {
+      urlSearchParams.append(key, value as string);
+    });
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(urlSearchParams).toString(),
+    })
+      .then(() => {
+        setOpen(true);
+      })
+      .catch((error) => alert(error));
+  };
+
   return (
     <Box
       sx={{
@@ -21,6 +59,8 @@ export function Polls({ theme }: PollsProps) {
       <Box
         data-netlify="true"
         component="form"
+        name="polls-tournaments"
+        onSubmit={handleSubmit}
         sx={{
           display: "flex",
           flexFlow: "column",
@@ -35,6 +75,8 @@ export function Polls({ theme }: PollsProps) {
         <TextField
           id="polls-tournaments-game-list"
           label="В какие игры хотите сразиться:"
+          name="game-list"
+          type="text"
           multiline
           minRows={4}
           maxRows={10}
@@ -44,6 +86,8 @@ export function Polls({ theme }: PollsProps) {
         <TextField
           id="polls-tournaments-prize-pool"
           label="Пожелания по призам:"
+          name="prize-pool"
+          type="text"
           multiline
           maxRows={4}
           variant="outlined"
@@ -53,6 +97,8 @@ export function Polls({ theme }: PollsProps) {
           id="polls-tournaments-help"
           label="Готовы помочь с организацией турнира? "
           helperText="Напишите, что вы можете предложить и как с вами связаться"
+          name="help"
+          type="text"
           multiline
           minRows={1}
           maxRows={4}
@@ -61,6 +107,7 @@ export function Polls({ theme }: PollsProps) {
 
         <Button
           variant="contained"
+          type="submit"
           sx={{
             margin: "12px auto 40px",
             [theme.breakpoints.down("sm")]: {
@@ -70,6 +117,14 @@ export function Polls({ theme }: PollsProps) {
         >
           Отправить предложение
         </Button>
+        <Dialog
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="polls-tournaments-alert-dialog-title"
+          aria-describedby="polls-tournaments-alert-dialog-description"
+        >
+          <Box sx={{ padding: "24px" }}>Спасибо за учатие в опросе ❤️</Box>
+        </Dialog>
       </Box>
     </Box>
   );

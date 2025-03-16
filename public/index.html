@@ -64,6 +64,12 @@
   </script>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- A little help for the Netlify bots if you're not using a SSG -->
+    <form name="polls-tournaments" netlify netlify-honeypot="bot-field" hidden>
+      <textarea name="game-list"></textarea>
+      <textarea name="prize-pool"></textarea>
+      <textarea name="help"></textarea>
+    </form>
     <div id="root"></div>
     <!--
       This HTML file is a template.
