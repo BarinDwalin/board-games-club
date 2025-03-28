@@ -1,4 +1,4 @@
-import { Box, List, ListItem, Theme, Typography, styled } from "@mui/material";
+import { Box, List, ListItem, Theme, Typography } from "@mui/material";
 import { useRef, useEffect } from "react";
 
 function AboutClubVideo() {
