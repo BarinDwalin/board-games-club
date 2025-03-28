@@ -53,6 +53,7 @@ export function AboutClubBlock(props: { theme: Theme }) {
           gap: "40px",
           alignItems: "center",
           [props.theme.breakpoints.down("md")]: {
+            gap: "16px",
             gridTemplateColumns: "1fr",
           },
         }}

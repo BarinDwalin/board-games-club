@@ -1,8 +1,16 @@
-import { Box, Typography, createTheme, styled } from "@mui/material";
+import {
+  Box,
+  Divider,
+  ThemeProvider,
+  Typography,
+  createTheme,
+  styled,
+} from "@mui/material";
 import "./MainPage.css";
 import { AboutClubBlock } from "./AboutClubBlock";
 import { Banner } from "./Banner";
-import { Map } from "./Map"; 
+import { Map } from "./Map";
+import { SpecialPrices } from "./SpecialPrices";
 
 const ContentWrapper = styled(Box)(({ theme }) => ({
   display: "block",
@@ -16,59 +24,58 @@ const ContentWrapper = styled(Box)(({ theme }) => ({
 export function MainPage() {
   let theme = createTheme({});
 
+  theme.typography.h5 = {
+    ...theme.typography.h5,
+    [theme.breakpoints.down("md")]: {
+      lineHeight: "1.5rem",
+      fontSize: "1.25rem",
+    },
+  };
+  theme.typography.subtitle1 = {
+    ...theme.typography.subtitle1,
+    [theme.breakpoints.down("md")]: {
+      lineHeight: "1.5rem",
+      fontSize: "1rem",
+    },
+  };
+
   return (
-    <div className="page">
-      <ContentWrapper>
-        <Banner />
-      </ContentWrapper>
+    <ThemeProvider theme={theme}>
+      <div className="page">
+        <ContentWrapper>
+          <Banner />
+        </ContentWrapper>
 
-      <ContentWrapper
-        sx={{
-          boxSizing: "border-box",
-          padding: "0 24px",
-          textAlign: "center",
-          fontFamily: "Mulish-Bold, Mulish",
-          [theme.breakpoints.down("md")]: {
-            padding: "0 12px",
-          },
-        }}
-      >
-        <Typography
-          variant="h6"
-          component="div"
+        <ContentWrapper
           sx={{
-            fontFamily: "inherit",
-            fontWeight: "bold",
+            boxSizing: "border-box",
+            padding: "0 24px",
+            textAlign: "center",
             [theme.breakpoints.down("md")]: {
-              marginTop: "12px",
-              lineHeight: "1.5rem",
-              fontSize: "1rem",
+              padding: "0 12px",
             },
           }}
         >
-          Первое посещение: 1500 тенге с человека за весь день.
-          <br />
-          Абонемент на месяц: 15000 тенге (безлимитные посещения).
-        </Typography>
-        <Typography
-          variant="subtitle2"
-          component="div"
-          sx={{
-            margin: "12px 0",
-            fontFamily: "inherit",
-            [theme.breakpoints.down("md")]: {
-              fontSize: "0.75rem",
-            },
-          }}
-        >
-          * Время работы клуба и стоимость посещения в праздничные дни может
-          быть изменено
-        </Typography>
+          <Typography
+            variant="subtitle1"
+            component="div"
+            sx={{
+              margin: "12px 0 40px",
+            }}
+          >
+            * Время работы клуба и стоимость посещения в праздничные дни может
+            быть изменено
+          </Typography>
 
-        <AboutClubBlock theme={theme} />
-      </ContentWrapper>
+          <Divider />
+          <SpecialPrices theme={theme} />
+          <Divider />
 
-      <Map />
-    </div>
+          <AboutClubBlock theme={theme} />
+        </ContentWrapper>
+
+        <Map />
+      </div>
+    </ThemeProvider>
   );
 }
