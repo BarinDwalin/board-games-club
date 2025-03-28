@@ -82,14 +82,24 @@ export function NavigationMobile(props: {
         >
           <Box
             sx={{
+              display: "flex",
+              alignItems: "center",
               padding: "0 32px",
               height: "50px",
-              alignContent: "center",
               [theme.breakpoints.down("sm")]: {
                 padding: "0 20px",
               },
             }}
           >
+            <img
+              style={{
+                marginRight: "8px",
+                width: "36px",
+                height: "36px",
+              }}
+              src="/images/icons/astana.svg"
+              alt="лого Астаны"
+            />
             <Typography
               variant="subtitle1"
               component="span"

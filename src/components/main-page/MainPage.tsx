@@ -1,72 +1,74 @@
-import { Box, SvgIcon, Typography } from "@mui/material";
+import { Box, Typography, createTheme, styled } from "@mui/material";
 import "./MainPage.css";
-import { ReactComponent as BannerImage } from "../../images/banner.svg";
-import { Map } from "./Map";
+import { AboutClubBlock } from "./AboutClubBlock";
+import { Banner } from "./Banner";
+import { Map } from "./Map"; 
 
-function Banner() {
-  return (
-    <div
-      style={{
-        display: "block",
-        width: "100%",
-        height: "initial",
-        margin: "auto",
-        maxWidth: "920px",
-        position: "relative",
-      }}
-    >
-      <picture
-        style={{
-          position: "absolute",
-          width: "50%",
-          left: "22%",
-          top: "17%",
-        }}
-      >
-        <source srcSet="/images/banner-meeple.webp" type="image/webp" />
-        <img
-          src="/images/banner-meeple.png"
-          alt="banner meeple"
-          loading="lazy"
-          style={{
-            width: "100%",
-            height: "100%",
-          }}
-        />
-      </picture>
-      <SvgIcon
-        component={BannerImage}
-        className="banner"
-        inheritViewBox
-        sx={{
-          display: "block",
-          width: "100%",
-          height: "initial",
-        }}
-      />
-    </div>
-  );
-}
+const ContentWrapper = styled(Box)(({ theme }) => ({
+  display: "block",
+  width: "100%",
+  height: "initial",
+  margin: "auto",
+  maxWidth: "920px",
+  position: "relative",
+}));
 
 export function MainPage() {
+  let theme = createTheme({});
+
   return (
     <div className="page">
-      {/* <h1 className="page-header">Добро пожаловать, авантюрист</h1> */}
-      <Banner></Banner>
-      <div className="content">
-        <Box
+      <ContentWrapper>
+        <Banner />
+      </ContentWrapper>
+
+      <ContentWrapper
+        sx={{
+          boxSizing: "border-box",
+          padding: "0 24px",
+          textAlign: "center",
+          fontFamily: "Mulish-Bold, Mulish",
+          [theme.breakpoints.down("md")]: {
+            padding: "0 12px",
+          },
+        }}
+      >
+        <Typography
+          variant="h6"
+          component="div"
           sx={{
-            margin: "0 24px",
-            textAlign: "center",
+            fontFamily: "inherit",
+            fontWeight: "bold",
+            [theme.breakpoints.down("md")]: {
+              marginTop: "12px",
+              lineHeight: "1.5rem",
+              fontSize: "1rem",
+            },
           }}
         >
-          <Typography variant="subtitle2" component="span">
-            * Время работы клуба и стоимость посещения в праздничные дни может
-            быть изменено
-          </Typography>
-        </Box>
-        <Map></Map>
-      </div>
+          Первое посещение: 1500 тенге с человека за весь день.
+          <br />
+          Абонемент на месяц: 15000 тенге (безлимитные посещения).
+        </Typography>
+        <Typography
+          variant="subtitle2"
+          component="div"
+          sx={{
+            margin: "12px 0",
+            fontFamily: "inherit",
+            [theme.breakpoints.down("md")]: {
+              fontSize: "0.75rem",
+            },
+          }}
+        >
+          * Время работы клуба и стоимость посещения в праздничные дни может
+          быть изменено
+        </Typography>
+
+        <AboutClubBlock theme={theme} />
+      </ContentWrapper>
+
+      <Map />
     </div>
   );
 }

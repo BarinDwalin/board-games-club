@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="banner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1080">
+<svg id="banner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1020">
   <defs>
     <style>
       .cls-1 {
@@ -96,7 +96,6 @@
       </g>
       <text class="cls-7" transform="translate(640.22 221.08)"><tspan x="0" y="0">Клуб настольных игр</tspan></text>
       <text class="cls-7" transform="translate(78.18 221.08)"><tspan x="0" y="0">Туран 40/2</tspan></text>
-      <text class="cls-10" transform="translate(173.11 1047.57)"><tspan x="0" y="0">Абонемент на месяц: 15000 тенге. Первое посещение - 1500 тенге.</tspan></text>
       <g class="shedule">
         <g class="cls-17">
           <rect class="cls-14" x="102.19" y="961.81" width="258.57" height="37.75" rx="12.66" ry="12.66"/>
