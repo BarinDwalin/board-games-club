@@ -40,6 +40,7 @@ export function Header(props: {
   const onSetPageMobile = (page: MenuItem) => {
     props.setPage(page);
     setCollapsedMobileMenu(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
   const onSetPageDesktop = (page: MenuItem) => {
     closeSearchPanel();
