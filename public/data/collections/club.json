@@ -2297,6 +2297,7 @@
       "alias": "great-western-trail-argentina",
       "teseraId": 2087961,
       "title": "Великий Западный Путь. Аргентина",
+      "titleOriginal": "Great Western Trail: Argentina",
       "photoUrl": "https://s.tesera.ru/images/items/2087961,3/photo1.jpg",
       "year": 2022,
       "rating": {
@@ -2313,6 +2314,32 @@
       "age": 12,
       "timeMin": 75,
       "timeMax": 150
+    }
+  },
+  {
+    "creationDateUtc": "2025-04-06T08:42:24.78088",
+    "game": {
+      "id": 69628,
+      "alias": "pisma-prizraka",
+      "teseraId": 1764041,
+      "title": "Письма призрака",
+      "titleOriginal": "Ghost Letters",
+      "photoUrl": "https://s.tesera.ru/images/items/1764041,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.42,
+        "bggNumVotes": 299,
+        "teseraRating": 7.34,
+        "teseraNumVotes": 257
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 323784,
+      "playersMin": 2,
+      "playersMax": 12,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 60
     }
   }
 ]
