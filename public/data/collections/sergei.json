@@ -38,8 +38,8 @@
       "photoUrl": "https://s.tesera.ru/images/items/2000758,3/photo1.jpg",
       "year": 2022,
       "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
+        "bggRating": 7.42,
+        "bggNumVotes": 246,
         "teseraRating": 9.13,
         "teseraNumVotes": 2
       },
@@ -88,8 +88,8 @@
       "photoUrl": "https://s.tesera.ru/images/items/2014428,3/photo1.jpg",
       "year": 2020,
       "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
+        "bggRating": 6.48,
+        "bggNumVotes": 361,
         "teseraRating": 7,
         "teseraNumVotes": 1
       },
@@ -425,8 +425,8 @@
             "photoUrl": "https://s.tesera.ru/images/items/1640947,3/photo1.jpg",
             "year": 2018,
             "rating": {
-              "bggRating": 0,
-              "bggNumVotes": 0,
+              "bggRating": 8.79,
+              "bggNumVotes": 1027,
               "teseraRating": 8.63,
               "teseraNumVotes": 4
             },
@@ -488,8 +488,8 @@
             "photoUrl": "https://s.tesera.ru/images/items/1876610,3/photo1.jpg",
             "year": 2017,
             "rating": {
-              "bggRating": 0,
-              "bggNumVotes": 0,
+              "bggRating": 8.72,
+              "bggNumVotes": 1121,
               "teseraRating": 8.75,
               "teseraNumVotes": 4
             },
@@ -836,8 +836,8 @@
             "photoUrl": "https://s.tesera.ru/images/items/1661185,3/photo1.jpg",
             "year": 2020,
             "rating": {
-              "bggRating": 0,
-              "bggNumVotes": 0,
+              "bggRating": 7.99,
+              "bggNumVotes": 38,
               "teseraRating": 8.27,
               "teseraNumVotes": 78
             },
@@ -1316,8 +1316,8 @@
       "photoUrl": "https://s.tesera.ru/images/items/1532665,3/photo1.jpg",
       "year": 2019,
       "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
+        "bggRating": 6.3,
+        "bggNumVotes": 3425,
         "teseraRating": 7.07,
         "teseraNumVotes": 102
       },
@@ -1335,8 +1335,8 @@
             "photoUrl": "https://s.tesera.ru/images/items/1691284,3/photo1.jpg",
             "year": 0,
             "rating": {
-              "bggRating": 0,
-              "bggNumVotes": 0,
+              "bggRating": 6.54,
+              "bggNumVotes": 504,
               "teseraRating": 7.23,
               "teseraNumVotes": 26
             },
@@ -1346,7 +1346,7 @@
           }
         }
       ],
-      "bggId": 477191,
+      "bggId": 4174,
       "playersMin": 4,
       "playersMax": 6,
       "age": 16,
@@ -1880,8 +1880,8 @@
       "photoUrl": "https://s.tesera.ru/images/items/359046,3/photo1.jpg",
       "year": 2013,
       "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
+        "bggRating": 4.42,
+        "bggNumVotes": 156,
         "teseraRating": 3.72,
         "teseraNumVotes": 182
       },
@@ -1962,8 +1962,8 @@
       "photoUrl": "https://s.tesera.ru/images/items/2073962,3/photo1.jpg",
       "year": 2022,
       "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
+        "bggRating": 7.16,
+        "bggNumVotes": 1201,
         "teseraRating": 0,
         "teseraNumVotes": 0
       },
@@ -1990,8 +1990,8 @@
       "photoUrl": "https://s.tesera.ru/images/items/1510976,3/photo1.jpg",
       "year": 2019,
       "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
+        "bggRating": 8.19,
+        "bggNumVotes": 4287,
         "teseraRating": 0,
         "teseraNumVotes": 0
       },
@@ -2158,6 +2158,304 @@
       "age": 14,
       "timeMin": 15,
       "timeMax": 20
+    }
+  },
+  {
+    "relationId": 96045233,
+    "creationDateUtc": "2025-04-27T11:56:37.978141",
+    "game": {
+      "id": 71043,
+      "alias": "ark-nova",
+      "teseraId": 1916259,
+      "title": "Ark Nova",
+      "photoUrl": "https://s.tesera.ru/images/items/1916259,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 8.54,
+        "bggNumVotes": 50554,
+        "teseraRating": 8.37,
+        "teseraNumVotes": 307
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 342942,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 14,
+      "timeMin": 60,
+      "timeMax": 90
+    }
+  },
+  {
+    "relationId": 96045232,
+    "creationDateUtc": "2025-04-27T11:56:26.068511",
+    "game": {
+      "id": 56120,
+      "alias": "fields-of-arle",
+      "teseraId": 442032,
+      "title": "Fields of Arle",
+      "photoUrl": "https://s.tesera.ru/images/items/442032,3/photo1.png",
+      "year": 2014,
+      "rating": {
+        "bggRating": 8.03,
+        "bggNumVotes": 11573,
+        "teseraRating": 7.81,
+        "teseraNumVotes": 59
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 159675,
+      "playersMin": 1,
+      "playersMax": 2,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 120
+    }
+  },
+  {
+    "relationId": 96045231,
+    "creationDateUtc": "2025-04-27T11:55:31.752243",
+    "game": {
+      "id": 75365,
+      "alias": "ticket-to-ride-berlin",
+      "teseraId": 2227202,
+      "title": "Ticket To Ride: Berlin",
+      "photoUrl": "https://s.tesera.ru/images/items/2227202,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.24,
+        "bggNumVotes": 512,
+        "teseraRating": 0,
+        "teseraNumVotes": 0
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 388036,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 10,
+      "timeMax": 15
+    }
+  },
+  {
+    "relationId": 96045230,
+    "creationDateUtc": "2025-04-27T11:55:09.798445",
+    "game": {
+      "id": 77793,
+      "alias": "ticket-to-ride-paris",
+      "teseraId": 2334602,
+      "title": "Ticket To Ride: Paris",
+      "photoUrl": "https://s.tesera.ru/images/items/2334602,3/photo1.jpg",
+      "year": 2024,
+      "rating": {
+        "bggRating": 6.89,
+        "bggNumVotes": 281,
+        "teseraRating": 0,
+        "teseraNumVotes": 0
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 403221,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 8,
+      "timeMin": 10,
+      "timeMax": 15
+    }
+  },
+  {
+    "relationId": 96041904,
+    "creationDateUtc": "2025-04-25T09:24:37",
+    "game": {
+      "id": 59057,
+      "alias": "Feast-Odin",
+      "teseraId": 723678,
+      "title": "Во славу Одина",
+      "titleOriginal": "A Feast for Odin",
+      "photoUrl": "https://s.tesera.ru/images/items/723678,3/photo1.jpg",
+      "year": 2016,
+      "rating": {
+        "bggRating": 8.17,
+        "bggNumVotes": 30491,
+        "teseraRating": 8.25,
+        "teseraNumVotes": 404
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 177736,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 30,
+      "timeMax": 120
+    }
+  },
+  {
+    "relationId": 96041892,
+    "creationDateUtc": "2025-04-25T09:19:55",
+    "game": {
+      "id": 75469,
+      "alias": "Nekojima",
+      "teseraId": 2232334,
+      "title": "Nekojima",
+      "photoUrl": "https://s.tesera.ru/images/items/2232334,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.28,
+        "bggNumVotes": 1351,
+        "teseraRating": 0,
+        "teseraNumVotes": 0
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 359029,
+      "playersMin": 1,
+      "playersMax": 5,
+      "age": 7,
+      "timeMin": 15,
+      "timeMax": 30
+    }
+  },
+  {
+    "relationId": 96041886,
+    "creationDateUtc": "2025-04-25T09:18:33",
+    "game": {
+      "id": 75362,
+      "alias": "Nine-Tiles-Extreme",
+      "teseraId": 2227157,
+      "title": "Nine Tiles Extreme",
+      "photoUrl": "https://s.tesera.ru/images/items/2227157,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 6.47,
+        "bggNumVotes": 179,
+        "teseraRating": 6.38,
+        "teseraNumVotes": 2
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 391084,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 6,
+      "timeMin": 15,
+      "timeMax": 15
+    }
+  },
+  {
+    "relationId": 96041884,
+    "creationDateUtc": "2025-04-25T09:18:07",
+    "game": {
+      "id": 68913,
+      "alias": "bandida",
+      "teseraId": 1691181,
+      "title": "Bandida",
+      "photoUrl": "https://s.tesera.ru/images/items/1691181,3/photo1.png",
+      "year": 2020,
+      "rating": {
+        "bggRating": 6.47,
+        "bggNumVotes": 1366,
+        "teseraRating": 6.42,
+        "teseraNumVotes": 7
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 299571,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 6,
+      "timeMin": 15,
+      "timeMax": 15
+    }
+  },
+  {
+    "relationId": 96041883,
+    "creationDateUtc": "2025-04-25T09:17:51",
+    "game": {
+      "id": 75474,
+      "alias": "order-overload-cafe",
+      "teseraId": 2232626,
+      "title": "Order Overload: Cafe",
+      "photoUrl": "https://s.tesera.ru/images/items/2232626,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 6.79,
+        "bggNumVotes": 704,
+        "teseraRating": 6.77,
+        "teseraNumVotes": 11
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 361214,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 6,
+      "timeMin": 20,
+      "timeMax": 20
+    }
+  },
+  {
+    "relationId": 96041881,
+    "creationDateUtc": "2025-04-25T09:17:25",
+    "game": {
+      "id": 71809,
+      "alias": "Art-Robbery",
+      "teseraId": 1990178,
+      "title": "Art Robbery",
+      "photoUrl": "https://s.tesera.ru/images/items/1990178,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 6.88,
+        "bggNumVotes": 1118,
+        "teseraRating": 6.79,
+        "teseraNumVotes": 20
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 341935,
+      "playersMin": 20,
+      "playersMax": 0,
+      "age": 8,
+      "timeMin": 15,
+      "timeMax": 20
+    }
+  },
+  {
+    "relationId": 96040755,
+    "creationDateUtc": "2025-04-24T18:16:17",
+    "game": {
+      "id": 72341,
+      "alias": "thrones-of-valeria",
+      "teseraId": 2014052,
+      "title": "Thrones of Valeria",
+      "photoUrl": "https://s.tesera.ru/images/items/2014052,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.12,
+        "bggNumVotes": 180,
+        "teseraRating": 7.65,
+        "teseraNumVotes": 12
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 345894,
+      "playersMin": 2,
+      "playersMax": 6,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 45
     }
   }
 ]

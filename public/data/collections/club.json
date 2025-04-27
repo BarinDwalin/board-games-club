@@ -2341,5 +2341,58 @@
       "timeMin": 30,
       "timeMax": 60
     }
+  },
+  {
+    "creationDateUtc": "2025-04-25T09:25:23.124217",
+    "game": {
+      "id": 56116,
+      "alias": "spyfall",
+      "teseraId": 441887,
+      "title": "Находка для шпиона",
+      "titleOriginal": "Spyfall",
+      "photoUrl": "https://s.tesera.ru/images/items/441887,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 6.76,
+        "bggNumVotes": 21832,
+        "teseraRating": 6.65,
+        "teseraNumVotes": 539
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 166384,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 12,
+      "timeMin": 15,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2025-04-25T09:25:03.837954",
+    "game": {
+      "id": 66410,
+      "alias": "Undaunted-Normandy",
+      "teseraId": 1418040,
+      "title": "Неустрашимые: Нормандия",
+      "titleOriginal": "Undaunted: Normandy",
+      "photoUrl": "https://s.tesera.ru/images/items/1418040,3/photo1.jpg",
+      "year": 2019,
+
+      "rating": {
+        "bggRating": 7.78,
+        "bggNumVotes": 12851,
+        "teseraRating": 7.66,
+        "teseraNumVotes": 449
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 268864,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 14,
+      "timeMin": 45,
+      "timeMax": 60
+    }
   }
 ]
