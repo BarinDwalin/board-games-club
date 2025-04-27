@@ -2424,8 +2424,8 @@
       "isAddition": false,
       "language": "eng",
       "bggId": 341935,
-      "playersMin": 20,
-      "playersMax": 0,
+      "playersMin": 2,
+      "playersMax": 5,
       "age": 8,
       "timeMin": 15,
       "timeMax": 20

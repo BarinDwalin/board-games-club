@@ -29,11 +29,11 @@ const dataPath = "./public/data/collections/source/";
 //updateData("john.json", "john-2.json");
 //updateData("club.json", "club-2.json");
 //updateData("andrew.json", "andrew-2.json");
-updateData("guests.json", "guests-2.json");
+//updateData("guests.json", "guests-2.json");
 
 /** загрузка топ 100 BGG */
 /* loadBggTop(
-  "https://api.tesera.ru/games?offset=0&limit=100&sort=-ratinggeekbgg",
+  "https://api.tesera.ru/games?offset=0&limit=150&sort=-ratinggeekbgg",
   "top-bgg.json"
 ); */
 
