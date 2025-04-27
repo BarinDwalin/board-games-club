@@ -2378,7 +2378,6 @@
       "titleOriginal": "Undaunted: Normandy",
       "photoUrl": "https://s.tesera.ru/images/items/1418040,3/photo1.jpg",
       "year": 2019,
-
       "rating": {
         "bggRating": 7.78,
         "bggNumVotes": 12851,
@@ -2393,6 +2392,32 @@
       "age": 14,
       "timeMin": 45,
       "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-04-27T13:21:26.322787",
+    "game": {
+      "id": 67787,
+      "alias": "die-crew-reist-gemeinsam-zum-9-planeten",
+      "teseraId": 1556451,
+      "title": "Экипаж. Экспедиция к девятой планете",
+      "titleOriginal": "The Crew: The Quest for Planet Nine",
+      "photoUrl": "https://s.tesera.ru/images/items/1556451,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.8,
+        "bggNumVotes": 41570,
+        "teseraRating": 7.47,
+        "teseraNumVotes": 292
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 284083,
+      "playersMin": 3,
+      "playersMax": 5,
+      "age": 10,
+      "timeMin": 20,
+      "timeMax": 20
     }
   }
 ]
