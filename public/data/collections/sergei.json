@@ -509,33 +509,6 @@
     }
   },
   {
-    "relationId": 93779251,
-    "creationDateUtc": "2022-09-19T19:13:22",
-    "game": {
-      "id": 70778,
-      "alias": "1galaxy-trucker",
-      "teseraId": 1891772,
-      "title": "Космические дальнобойщики (новое издание)",
-      "titleOriginal": "Galaxy Trucker",
-      "photoUrl": "https://s.tesera.ru/images/items/1891772,3/photo1.png",
-      "year": 2021,
-      "rating": {
-        "bggRating": 7.47,
-        "bggNumVotes": 4797,
-        "teseraRating": 7.68,
-        "teseraNumVotes": 182
-      },
-      "tags": [],
-      "isAddition": false,
-      "bggId": 336794,
-      "playersMin": 2,
-      "playersMax": 4,
-      "age": 8,
-      "timeMin": 20,
-      "timeMax": 40
-    }
-  },
-  {
     "relationId": 93557593,
     "creationDateUtc": "2022-06-04T12:33:07",
     "game": {
@@ -2044,7 +2017,7 @@
             },
             "tags": [],
             "isAddition": true,
-            "parentId": 72041
+            "parentId": 68235
           }
         }
       ],
@@ -2456,6 +2429,80 @@
       "age": 8,
       "timeMin": 30,
       "timeMax": 45
+    }
+  },
+  {
+    "relationId": 96051131,
+    "creationDateUtc": "2025-04-30T18:36:43",
+    "eventDate": "2025-04-29T00:00:00",
+    "game": {
+      "id": 72799,
+      "alias": "conflict-of-heroes-probuzhdeniye-medvedya-operatsiya-barbarossa",
+      "teseraId": 2042094,
+      "title": "Пробуждение Медведя",
+      "titleOriginal": "Conflict of Heroes: Awakening the Bear – Operation Barbarossa 1941 (Third Edition)",
+      "photoUrl": "https://s.tesera.ru/images/items/2042094,3/photo1.png",
+      "year": 2019,
+      "rating": {
+        "bggRating": 8.13,
+        "bggNumVotes": 354,
+        "teseraRating": 7.53,
+        "teseraNumVotes": 45
+      },
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "relationId": 96051133,
+          "creationDateUtc": "2025-04-30T18:37:07",
+          "game": {
+            "id": 56349,
+            "alias": "conflict-of-heroes-awakening-the-bear-solo-expansion",
+            "teseraId": 460810,
+            "title": "Пробуждение Медведя: Дополнение для соло-игры",
+            "titleOrigin": "Conflict of Heroes: Awakening the Bear - Solo Expansion",
+            "photoUrl": "https://s.tesera.ru/images/items/460810,3/photo1.png",
+            "year": 2014,
+            "rating": {
+              "bggRating": 8.39,
+              "bggNumVotes": 620,
+              "teseraRating": 7.72,
+              "teseraNumVotes": 7
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 72799
+          }
+        },
+        {
+          "relationId": 96051132,
+          "creationDateUtc": "2025-04-30T18:36:54",
+          "game": {
+            "id": 63698,
+            "alias": "conflict-of-heroes-awakening-the-bear-firefight-generator",
+            "teseraId": 1177716,
+            "title": "Пробуждение Медведя: Генератор Сценариев",
+            "titleOriginal": "Conflict of Heroes: Awakening the Bear – Firefight Generator",
+            "photoUrl": "https://s.tesera.ru/images/items/1177716,3/photo1.png",
+            "year": 2015,
+            "rating": {
+              "bggRating": 7.9,
+              "bggNumVotes": 189,
+              "teseraRating": 8.67,
+              "teseraNumVotes": 3
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 72799
+          }
+        }
+      ],
+      "bggId": 286343,
+      "playersMin": 1,
+      "playersMax": 4,
+      "age": 12,
+      "timeMin": 60,
+      "timeMax": 240
     }
   }
 ]

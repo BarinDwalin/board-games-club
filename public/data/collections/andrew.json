@@ -672,32 +672,6 @@
     }
   },
   {
-    "creationDateUtc": "2025-01-29T07:39:24.293211",
-    "game": {
-      "id": 71169,
-      "alias": "senjutsu-battle-for-japan",
-      "teseraId": 1930655,
-      "title": "Senjutsu. Битва за Японию",
-      "titleOriginal": "Senjutsu: Battle For Japan",
-      "photoUrl": "https://s.tesera.ru/images/items/1930655,3/photo1.jpg",
-      "year": 2021,
-      "rating": {
-        "bggRating": 7.43,
-        "bggNumVotes": 684,
-        "teseraRating": 7.81,
-        "teseraNumVotes": 37
-      },
-      "tags": [],
-      "isAddition": false,
-      "bggId": 343900,
-      "playersMin": 1,
-      "playersMax": 4,
-      "age": 14,
-      "timeMin": 15,
-      "timeMax": 30
-    }
-  },
-  {
     "creationDateUtc": "2025-01-29T07:38:56.888493",
     "game": {
       "id": 56923,
@@ -900,6 +874,32 @@
       "age": 14,
       "timeMin": 30,
       "timeMax": 120
+    }
+  },
+  {
+    "creationDateUtc": "2025-04-30T18:41:36.635297",
+    "game": {
+      "id": 61553,
+      "alias": "a-song-of-ice-fire-tabletop-miniatures-game-stark-vs-lannister",
+      "teseraId": 958965,
+      "title": "Песнь льда и огня: Настольная игра с миниатюрами. Стартовый набор «Старки против Ланнистеров»",
+      "titleOriginal": "A Song of Ice & Fire: Tabletop Miniatures Game – Stark vs Lannister Starter Set",
+      "photoUrl": "https://s.tesera.ru/images/items/958965,3/photo1.png",
+      "year": 2018,
+      "rating": {
+        "bggRating": 8.06,
+        "bggNumVotes": 1094,
+        "teseraRating": 7.48,
+        "teseraNumVotes": 24
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 223376,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 14,
+      "timeMin": 45,
+      "timeMax": 60 
     }
   }
 ]
