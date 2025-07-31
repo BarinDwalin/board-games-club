@@ -2,6 +2,7 @@
 
 # calc files
 /public/data/collections/source
+/scripts/new-games.json
 
 # dependencies
 /node_modules

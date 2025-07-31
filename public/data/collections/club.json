@@ -555,8 +555,8 @@
       "photoUrl": "https://s.tesera.ru/images/items/1818187,3/photo1.jpg",
       "year": 2019,
       "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
+        "bggRating": 6.32,
+        "bggNumVotes": 199,
         "teseraRating": 6.04,
         "teseraNumVotes": 35
       },
@@ -1795,6 +1795,28 @@
       },
       "tags": [],
       "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2024-12-04T14:37:08.186615",
+          "game": {
+            "id": 78264,
+            "alias": "the-white-castle-matcha",
+            "teseraId": 2365595,
+            "title": "Белый Замок: Матча",
+            "photoUrl": "https://s.tesera.ru/images/items/2365595,3/photo1.jpg",
+            "year": 2024,
+            "rating": {
+              "bggRating": 8.48,
+              "bggNumVotes": 762,
+              "teseraRating": 7.72,
+              "teseraNumVotes": 23
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 74478
+          }
+        }
+      ],
       "bggId": 371942,
       "playersMin": 1,
       "playersMax": 4,
@@ -2418,6 +2440,252 @@
       "age": 10,
       "timeMin": 20,
       "timeMax": 20
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-31T20:38:45.237297",
+    "game": {
+      "id": 66960,
+      "alias": "Little-Town",
+      "teseraId": 1474198,
+      "bggId": 241266,
+      "title": "Городишко",
+      "titleOriginal": "Little Town",
+      "photoUrl": "https://s.tesera.ru/images/items/1474198,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.16,
+        "bggNumVotes": 4407,
+        "teseraRating": 7.16,
+        "teseraNumVotes": 102
+      },
+      "playersMin": 2,
+      "playersMax": 4,
+      "timeMin": 30,
+      "timeMax": 60,
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2025-06-07T07:49:57",
+          "game": {
+            "id": 74653,
+            "alias": "dopolnenie-dlya-igry-gorodishko",
+            "teseraId": 2188601,
+            "bggId": 286796,
+            "title": "Городишко: Хорошие здания",
+            "titleOriginal": "Little Town: Goodie Buildings",
+            "photoUrl": "https://s.tesera.ru/images/items/2188601,3/photo1.png",
+            "year": 0,
+            "rating": {
+              "bggRating": 0,
+              "bggNumVotes": 0,
+              "teseraRating": 0,
+              "teseraNumVotes": 0
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 74478
+          }
+        },
+        {
+          "creationDateUtc": "2025-06-07T07:53:39",
+          "game": {
+            "id": 73072,
+            "alias": "little-town-artisans",
+            "teseraId": 2063275,
+            "bggId": 359133,
+            "title": "Little Town: Artisans",
+            "photoUrl": "https://s.tesera.ru/images/items/2063275,3/photo1.jpg",
+            "year": 2022,
+            "rating": {
+              "bggRating": 7.426,
+              "bggNumVotes": 111,
+              "teseraRating": 0,
+              "teseraNumVotes": 0
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 74478
+          }
+        }
+      ]
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:27:57.068894",
+    "game": {
+      "id": 48682,
+      "alias": "diplomacy",
+      "teseraId": 680,
+      "bggId": 483,
+      "title": "Diplomacy",
+      "titleOriginal": "Дипломатия",
+      "photoUrl": "https://s.tesera.ru/images/items/680,3/photo1.jpg",
+      "year": 1959,
+      "rating": {
+        "bggRating": 7.04,
+        "bggNumVotes": 13588,
+        "teseraRating": 7.91,
+        "teseraNumVotes": 39
+      },
+      "playersMin": 2,
+      "playersMax": 7,
+      "timeMin": 300,
+      "timeMax": 300,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:27:28.721974",
+    "game": {
+      "id": 77535,
+      "alias": "tiny-epic-game-of-thrones",
+      "teseraId": 2311491,
+      "bggId": 409978,
+      "title": "Tiny Epic Game of Thrones",
+      "photoUrl": "https://s.tesera.ru/images/items/2311491,3/photo1.jpg",
+      "year": 2024,
+      "rating": {
+        "bggRating": 7.86,
+        "bggNumVotes": 233,
+        "teseraRating": 7.75,
+        "teseraNumVotes": 3
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 45,
+      "timeMax": 60,
+      "tags": [],
+      "language": "eng",
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:26:55.821942",
+    "game": {
+      "id": 68751,
+      "alias": "praga-caput-regni",
+      "teseraId": 1670533,
+      "bggId": 308765,
+      "title": "Прага: Сердце империи",
+      "titleOriginal": "Praga Caput Regni",
+      "photoUrl": "https://s.tesera.ru/images/items/1670533,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.87,
+        "bggNumVotes": 9484,
+        "teseraRating": 7.97,
+        "teseraNumVotes": 247
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 45,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:25:13.102604",
+    "game": {
+      "id": 77857,
+      "alias": "harmonies",
+      "teseraId": 2338701,
+      "bggId": 414317,
+      "title": "Гармония",
+      "titleOriginal": "Harmonies",
+      "photoUrl": "https://s.tesera.ru/images/items/2338701,3/photo1.jpg",
+      "year": 2024,
+      "rating": {
+        "bggRating": 8.22,
+        "bggNumVotes": 3121,
+        "teseraRating": 8.06,
+        "teseraNumVotes": 280
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 30,
+      "timeMax": 45,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-06-06T17:01:05.192873",
+    "game": {
+      "id": 79906,
+      "alias": "the-fellowship-of-the-ring-trick-taking-game",
+      "teseraId": 2436193,
+      "bggId": 0,
+      "title": "The Fellowship of the Ring: Trick-Taking Game",
+      "titleOriginal": "Братство кольца: игра на взятки",
+      "photoUrl": "https://s.tesera.ru/images/items/2436193,3/photo1.png",
+      "year": 2025,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.82,
+        "teseraNumVotes": 21
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 0,
+      "timeMax": 0,
+      "tags": [],
+      "language": "eng",
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-06-06T17:00:46.751148",
+    "game": {
+      "id": 77819,
+      "alias": "thats-not-a-hat",
+      "teseraId": 2336142,
+      "bggId": 375651,
+      "title": "That's Not a Hat",
+      "titleOriginal": "To (ne)chceš!",
+      "photoUrl": "https://s.tesera.ru/images/items/2336142,3/photo1.png",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.08,
+        "bggNumVotes": 4324,
+        "teseraRating": 7.32,
+        "teseraNumVotes": 19
+      },
+      "playersMin": 3,
+      "playersMax": 8,
+      "timeMin": 15,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-06-06T16:59:36.313276",
+    "game": {
+      "id": 75816,
+      "alias": "gloomhaven-buttons-bugs",
+      "teseraId": 2248820,
+      "bggId": 393672,
+      "title": "Gloomhaven: Buttons & Bugs",
+      "photoUrl": "https://s.tesera.ru/images/items/2248820,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.64,
+        "bggNumVotes": 2079,
+        "teseraRating": 8.67,
+        "teseraNumVotes": 9
+      },
+      "playersMin": 1,
+      "playersMax": 2,
+      "timeMin": 20,
+      "timeMax": 30,
+      "tags": [],
+      "language": "eng",
+      "isAddition": false
     }
   }
 ]

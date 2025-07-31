@@ -86,7 +86,7 @@ export function AboutClubBlock(props: { theme: Theme }) {
             ))}
             <ListItem>
               <Typography variant="subtitle1" component="div">
-                🎲 Серьезно, у нас 350+ игр, мы всегда можем собрать такую
+                🎲 Серьезно, у нас 400+ игр, мы всегда можем собрать такую
                 партию, где для каждого игрока — она будет первой
               </Typography>
             </ListItem>

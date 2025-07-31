@@ -1,5 +1,55 @@
 [
   {
+    "relationId": 96114045,
+    "creationDateUtc": "2025-06-07T07:49:35",
+    "game": {
+      "id": 74838,
+      "alias": "1919-novoe-nachalo",
+      "teseraId": 2199329,
+      "bggId": 0,
+      "title": "1919 Новое начало",
+      "photoUrl": "https://s.tesera.ru/images/items/2199329,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.73,
+        "teseraNumVotes": 11
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 80,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 96149108,
+    "creationDateUtc": "2025-07-04T11:35:19",
+    "game": {
+      "id": 73929,
+      "alias": "mysticvale",
+      "teseraId": 2147030,
+      "bggId": 308762,
+      "title": "Mystic Vale: Essential Edition",
+      "photoUrl": "https://s.tesera.ru/images/items/2147030,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.82,
+        "bggNumVotes": 642,
+        "teseraRating": 7.83,
+        "teseraNumVotes": 33
+      },
+      "playersMin": 2,
+      "playersMax": 4,
+      "timeMin": 45,
+      "timeMax": 60,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
     "creationDateUtc": "2025-04-27T12:43:16.533083",
     "game": {
       "id": 54589,

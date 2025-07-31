@@ -2151,6 +2151,29 @@
       },
       "tags": [],
       "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2025-07-27T13:26:40.066727",
+          "game": {
+            "id": 73724,
+            "alias": "ark-nova-marine-worlds",
+            "teseraId": 2123788,
+            "bggId": 368966,
+            "title": "Ark Nova: Marine Worlds",
+            "titleOriginal": "Marine Worlds: An Ark Nova Expansion",
+            "photoUrl": "https://s.tesera.ru/images/items/2123788,3/photo1.png",
+            "year": 2023,
+            "rating": {
+              "bggRating": 8.92,
+              "bggNumVotes": 5153,
+              "teseraRating": 8.73,
+              "teseraNumVotes": 28
+            },
+            "isAddition": true,
+            "parentId": 71043
+          }
+        }
+      ],
       "language": "eng",
       "bggId": 342942,
       "playersMin": 1,
