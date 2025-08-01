@@ -22,9 +22,9 @@ export function CommonSuggestion(props: { theme: Theme }) {
       <Box
         sx={{
           position: "sticky",
-          top: "-50px",
+          top: "200px",
           [props.theme.breakpoints.down("lg")]: {
-            top: "-80px",
+            top: "170px",
           },
           [props.theme.breakpoints.down("md")]: {
             display: "none",
@@ -32,31 +32,17 @@ export function CommonSuggestion(props: { theme: Theme }) {
         }}
       >
         {[
+          "Игра престолов 👑",
           "The Gang 🃏🃏🃏🃏🃏",
-          "The Gang 🃏🃏🃏🃏🃏",
-          "The Gang 🃏🃏🃏🃏🃏",
-          "The Gang 🃏🃏🃏🃏🃏",
-          "The Gang 🃏🃏🃏🃏🃏",
-          "The Gang 🃏🃏🃏🃏🃏",
-          "The Gang 🃏🃏🃏🃏",
-          "The Gang 🃏🃏🃏",
-          "The Gang 🃏🃏",
           "🕵🏻🕵🏻 Омерта 🕵🏻🕵🏻",
           "Покорение Марса Арес 🚀 🪐",
-          "Gloomhaven",
-          "Slay the Spire",
-          "Slay the Spire",
-          "Slay the Spire",
-          "Slay the Spire",
-          "Slay the Spire",
           "Slay the Spire",
           (<div>
             <img width="24" height="24" src="./images/icons/cultist.png" alt="cultist" />
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
-          </div>),
-          "WAAAAGH!"
+          </div>)
         ].map((item, index) => (
           <div key={'suggestion' + index}>{item}</div>
         ))}
@@ -69,15 +55,12 @@ export function CommonSuggestion(props: { theme: Theme }) {
         }}
       >
         {[
-          "The Gang?    🃏🃏🃏🃏🃏",
-          "The Gang      🃏🃏🃏🃏",
-          "The Gang!     🃏🃏🃏",
-          "The Gang??? 🃏🃏",
+          "Игра престолов 👑",
+          "The Gang 🃏🃏🃏🃏🃏",
           "Покорение Марса Арес 🚀 🪐",
-          (<div>
+          "Slay the Spire",
+          (<div> 
             <img width="24" height="24" src="./images/icons/cultist.png" alt="cultist" />
-            <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
-            <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
             <img width="24" height="24" src="./images/icons/donu.png" alt="donu" />
           </div>)
         ].map((item, index) => (
