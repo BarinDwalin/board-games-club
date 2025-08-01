@@ -44,7 +44,6 @@
       },
       "tags": [],
       "isAddition": false,
-      "language": "eng",
       "bggId": 219215,
       "playersMin": 4,
       "playersMax": 10,
@@ -2443,76 +2442,6 @@
     }
   },
   {
-    "creationDateUtc": "2025-07-31T20:38:45.237297",
-    "game": {
-      "id": 66960,
-      "alias": "Little-Town",
-      "teseraId": 1474198,
-      "bggId": 241266,
-      "title": "Городишко",
-      "titleOriginal": "Little Town",
-      "photoUrl": "https://s.tesera.ru/images/items/1474198,3/photo1.jpg",
-      "year": 2017,
-      "rating": {
-        "bggRating": 7.16,
-        "bggNumVotes": 4407,
-        "teseraRating": 7.16,
-        "teseraNumVotes": 102
-      },
-      "playersMin": 2,
-      "playersMax": 4,
-      "timeMin": 30,
-      "timeMax": 60,
-      "tags": [],
-      "isAddition": false,
-      "addons": [
-        {
-          "creationDateUtc": "2025-06-07T07:49:57",
-          "game": {
-            "id": 74653,
-            "alias": "dopolnenie-dlya-igry-gorodishko",
-            "teseraId": 2188601,
-            "bggId": 286796,
-            "title": "Городишко: Хорошие здания",
-            "titleOriginal": "Little Town: Goodie Buildings",
-            "photoUrl": "https://s.tesera.ru/images/items/2188601,3/photo1.png",
-            "year": 0,
-            "rating": {
-              "bggRating": 0,
-              "bggNumVotes": 0,
-              "teseraRating": 0,
-              "teseraNumVotes": 0
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 74478
-          }
-        },
-        {
-          "creationDateUtc": "2025-06-07T07:53:39",
-          "game": {
-            "id": 73072,
-            "alias": "little-town-artisans",
-            "teseraId": 2063275,
-            "bggId": 359133,
-            "title": "Little Town: Artisans",
-            "photoUrl": "https://s.tesera.ru/images/items/2063275,3/photo1.jpg",
-            "year": 2022,
-            "rating": {
-              "bggRating": 7.426,
-              "bggNumVotes": 111,
-              "teseraRating": 0,
-              "teseraNumVotes": 0
-            },
-            "tags": [],
-            "isAddition": true,
-            "parentId": 74478
-          }
-        }
-      ]
-    }
-  },
-  {
     "creationDateUtc": "2025-07-27T13:27:57.068894",
     "game": {
       "id": 48682,
@@ -2686,6 +2615,203 @@
       "tags": [],
       "language": "eng",
       "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:03:54.43407",
+    "game": {
+      "id": 69591,
+      "alias": "darwins-journey",
+      "teseraId": 1760939,
+      "bggId": 322289,
+      "title": "Путешествие Дарвина",
+      "titleOriginal": "Darwin's Journey",
+      "photoUrl": "https://s.tesera.ru/images/items/1760939,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 8.14,
+        "bggNumVotes": 9137,
+        "teseraRating": 8.44,
+        "teseraNumVotes": 90
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 60,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:03:23.620407",
+    "game": {
+      "id": 75397,
+      "alias": "PhantomInk",
+      "teseraId": 2228499,
+      "bggId": 330592,
+      "title": "Призрачные чернила",
+      "titleOriginal": "Phantom Ink",
+      "photoUrl": "https://s.tesera.ru/images/items/2228499,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.43,
+        "bggNumVotes": 1995,
+        "teseraRating": 7.53,
+        "teseraNumVotes": 70
+      },
+      "playersMin": 4,
+      "playersMax": 8,
+      "timeMin": 20,
+      "timeMax": 60,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:03:15.600015",
+    "game": {
+      "id": 79796,
+      "alias": "poeziya-neandertaltsev",
+      "teseraId": 2429367,
+      "bggId": 0,
+      "title": "Поэзия неандертальцев",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 4.25,
+        "teseraNumVotes": 3
+      },
+      "playersMin": 0,
+      "playersMax": 0,
+      "timeMin": 0,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:03:10.462579",
+    "game": {
+      "id": 72558,
+      "alias": "Earth",
+      "teseraId": 2026153,
+      "bggId": 350184,
+      "title": "Земля",
+      "titleOriginal": "Earth",
+      "photoUrl": "https://s.tesera.ru/images/items/2026153,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.65,
+        "bggNumVotes": 17261,
+        "teseraRating": 7.44,
+        "teseraNumVotes": 135
+      },
+      "playersMin": 1,
+      "playersMax": 5,
+      "timeMin": 30,
+      "timeMax": 90,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:03:05.073349",
+    "game": {
+      "id": 63589,
+      "alias": "everdell",
+      "teseraId": 1167261,
+      "bggId": 199792,
+      "title": "Эверделл",
+      "titleOriginal": "Everdell",
+      "photoUrl": "https://s.tesera.ru/images/items/1167261,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 8.02,
+        "bggNumVotes": 54598,
+        "teseraRating": 8.09,
+        "teseraNumVotes": 854
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 40,
+      "timeMax": 80,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:02:47.454358",
+    "game": {
+      "id": 52418,
+      "alias": "chudesa-sveta",
+      "teseraId": 101570,
+      "bggId": 0,
+      "title": "Чудеса света",
+      "photoUrl": "https://s.tesera.ru/images/items/101570,3/photo1.jpg",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 4.82,
+        "teseraNumVotes": 11
+      },
+      "playersMin": 0,
+      "playersMax": 0,
+      "timeMin": 0,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:02:42.012067",
+    "game": {
+      "id": 73621,
+      "alias": "raising-robots",
+      "teseraId": 2115508,
+      "bggId": 366683,
+      "title": "Мастерская роботов",
+      "titleOriginal": "Raising Robots",
+      "photoUrl": "https://s.tesera.ru/images/items/2115508,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.75,
+        "bggNumVotes": 1397,
+        "teseraRating": 7.46,
+        "teseraNumVotes": 26
+      },
+      "playersMin": 1,
+      "playersMax": 7,
+      "timeMin": 60,
+      "timeMax": 90,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:02:21.041176",
+    "game": {
+      "id": 55017,
+      "alias": "one-night-ultimate-werewolf",
+      "teseraId": 330901,
+      "bggId": 147949,
+      "title": "Однажды ночью: Оборотни",
+      "titleOriginal": "One Night Ultimate Werewolf",
+      "photoUrl": "https://s.tesera.ru/images/items/330901,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 7.04,
+        "bggNumVotes": 29094,
+        "teseraRating": 7.09,
+        "teseraNumVotes": 156
+      },
+      "playersMin": 3,
+      "playersMax": 10,
+      "timeMin": 10,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": true
     }
   }
 ]

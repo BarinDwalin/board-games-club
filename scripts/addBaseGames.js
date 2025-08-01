@@ -4,6 +4,7 @@ const dataPath = "./public/data/collections/source/";
 
 //main("https://api.tesera.ru/collections/base/own/1872664?v=1&limit=30"); //john
 //main('https://api.tesera.ru/collections/custom/4916/gamesclear?v=1&limit=30'); //club
+//main('https://api.tesera.ru/collections/custom/4997/gamesclear?v=1&limit=30'); //andrew
 
 async function main(collectionUrl) {
   const recordsBases = [];

@@ -50,6 +50,76 @@
     }
   },
   {
+    "creationDateUtc": "2025-07-31T20:38:45.237297",
+    "game": {
+      "id": 66960,
+      "alias": "Little-Town",
+      "teseraId": 1474198,
+      "bggId": 241266,
+      "title": "Городишко",
+      "titleOriginal": "Little Town",
+      "photoUrl": "https://s.tesera.ru/images/items/1474198,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.16,
+        "bggNumVotes": 4407,
+        "teseraRating": 7.16,
+        "teseraNumVotes": 102
+      },
+      "playersMin": 2,
+      "playersMax": 4,
+      "timeMin": 30,
+      "timeMax": 60,
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2025-06-07T07:49:57",
+          "game": {
+            "id": 74653,
+            "alias": "dopolnenie-dlya-igry-gorodishko",
+            "teseraId": 2188601,
+            "bggId": 286796,
+            "title": "Городишко: Хорошие здания",
+            "titleOriginal": "Little Town: Goodie Buildings",
+            "photoUrl": "https://s.tesera.ru/images/items/2188601,3/photo1.png",
+            "year": 0,
+            "rating": {
+              "bggRating": 0,
+              "bggNumVotes": 0,
+              "teseraRating": 0,
+              "teseraNumVotes": 0
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 74478
+          }
+        },
+        {
+          "creationDateUtc": "2025-06-07T07:53:39",
+          "game": {
+            "id": 73072,
+            "alias": "little-town-artisans",
+            "teseraId": 2063275,
+            "bggId": 359133,
+            "title": "Little Town: Artisans",
+            "photoUrl": "https://s.tesera.ru/images/items/2063275,3/photo1.jpg",
+            "year": 2022,
+            "rating": {
+              "bggRating": 7.426,
+              "bggNumVotes": 111,
+              "teseraRating": 0,
+              "teseraNumVotes": 0
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 74478
+          }
+        }
+      ]
+    }
+  },
+  {
     "creationDateUtc": "2025-04-27T12:43:16.533083",
     "game": {
       "id": 54589,

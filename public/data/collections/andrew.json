@@ -868,6 +868,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 331106,
       "playersMin": 2,
       "playersMax": 2,
@@ -899,7 +900,134 @@
       "playersMax": 2,
       "age": 14,
       "timeMin": 45,
-      "timeMax": 60 
+      "timeMax": 60
+    }
+  },
+
+  {
+    "creationDateUtc": "2025-07-27T13:24:47.347404",
+    "game": {
+      "id": 73127,
+      "alias": "twilight-inscription",
+      "teseraId": 2067936,
+      "bggId": 361545,
+      "title": "Сумерки империи: Летопись галактики",
+      "titleOriginal": "Twilight Inscription",
+      "photoUrl": "https://s.tesera.ru/images/items/2067936,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.45,
+        "bggNumVotes": 4465,
+        "teseraRating": 7.41,
+        "teseraNumVotes": 64
+      },
+      "playersMin": 1,
+      "playersMax": 8,
+      "timeMin": 90,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:24:20.730777",
+    "game": {
+      "id": 56052,
+      "alias": "Star-Wars-Imperial-Assault",
+      "teseraId": 434907,
+      "bggId": 164153,
+      "title": "Star Wars: Imperial Assault Core Set",
+      "titleOriginal": "Star Wars: Imperial Assault",
+      "photoUrl": "https://s.tesera.ru/images/items/434907,3/photo1.jpg",
+      "year": 2015,
+      "rating": {
+        "bggRating": 7.96,
+        "bggNumVotes": 25198,
+        "teseraRating": 8.07,
+        "teseraNumVotes": 251
+      },
+      "playersMin": 2,
+      "playersMax": 5,
+      "timeMin": 60,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": true
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:23:57.109448",
+    "game": {
+      "id": 60193,
+      "alias": "monopoly-game-of-thrones",
+      "teseraId": 843233,
+      "bggId": 0,
+      "title": "Монополия Игра Престолов",
+      "titleOriginal": "Monopoly Game of Thrones Collector's Edition",
+      "photoUrl": "https://s.tesera.ru/images/items/843233,3/photo1.jpg",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 5.31,
+        "teseraNumVotes": 36
+      },
+      "playersMin": 2,
+      "playersMax": 6,
+      "timeMin": 60,
+      "timeMax": 60,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:23:41.459351",
+    "game": {
+      "id": 55668,
+      "alias": "munchkin-deluxe",
+      "teseraId": 402764,
+      "bggId": 0,
+      "title": "Манчкин Делюкс",
+      "titleOriginal": "Munchkin Deluxe",
+      "photoUrl": "https://s.tesera.ru/images/items/402764,3/photo1.jpg",
+      "year": 2011,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 6.49,
+        "teseraNumVotes": 145
+      },
+      "playersMin": 3,
+      "playersMax": 6,
+      "timeMin": 30,
+      "timeMax": 90,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T19:59:09.881411",
+    "game": {
+      "id": 63232,
+      "alias": "root",
+      "teseraId": 1119987,
+      "bggId": 237182,
+      "title": "Корни",
+      "titleOriginal": "Root",
+      "photoUrl": "https://s.tesera.ru/images/items/1119987,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 8.07,
+        "bggNumVotes": 56452,
+        "teseraRating": 8.27,
+        "teseraNumVotes": 1178
+      },
+      "playersMin": 2,
+      "playersMax": 4,
+      "timeMin": 60,
+      "timeMax": 90,
+      "tags": [],
+      "isAddition": false,
+      "language": "eng"
     }
   }
 ]
