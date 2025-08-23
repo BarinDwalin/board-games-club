@@ -21,8 +21,6 @@ export function SpecialPrices(props: { theme: Theme }) {
           marginTop: "12px",
         }}
       >
-        Первое посещение: 1500 тенге с человека за весь день.
-        <br />
         Абонемент на месяц: 15000 тенге (безлимитные посещения).
       </Typography>
     </Box>
