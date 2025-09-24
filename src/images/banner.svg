@@ -111,8 +111,9 @@
         </g>
         <g>
           <g>
+            <text class="cls-10" transform="translate(145 875)"><tspan x="0" y="0">Вторник, Среда</tspan></text>
+            <text class="cls-10" transform="translate(135 900)"><tspan x="0" y="0">Четверг, Пятница</tspan></text>
             <text class="cls-3" transform="translate(110.62 941.7)"><tspan x="0" y="0">16:00 – 00:00</tspan></text>
-            <text class="cls-10" transform="translate(86.75 900.02)"><tspan x="0" y="0">Вторник, Четверг, Пятница</tspan></text>
           </g>
           <g>
             <text class="cls-10" transform="translate(513.49 900.02)"><tspan x="0" y="0">Суббота</tspan></text>
@@ -159,7 +160,7 @@
       </g>
       <g class="star star__lottery">
         <polygon class="cls-13" points="1013.89 735.57 946.41 729.65 886.32 760.91 871.1 694.91 822.8 647.42 880.87 612.55 911.11 551.94 962.22 596.39 1029.21 606.42 1002.72 668.76 1013.89 735.57"/>
-        <text class="cls-10" transform="translate(875 670) rotate(-13)"><tspan x="0" y="0">Розыгрыши</tspan><tspan x="22" y="28">призов</tspan></text>
+        <text class="cls-10" transform="translate(875 670) rotate(-13)"><tspan x="18" y="-26">Новые</tspan><tspan x="0" y="0">знакомства</tspan><tspan x="12" y="26">и живое</tspan><tspan x="12" y="52">общение</tspan></text>
       </g>
       <g class="star star__benefits">
         <polygon class="cls-13" points="294.02 773.41 248.18 748.35 196.06 751.85 205.73 700.51 186.3 652.02 238.12 645.36 278.23 611.9 300.58 659.11 344.8 686.92 306.8 722.76 294.02 773.41"/>

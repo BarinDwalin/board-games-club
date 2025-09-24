@@ -21,6 +21,8 @@ export function SpecialPrices(props: { theme: Theme }) {
           marginTop: "12px",
         }}
       >
+        Студентам скидка 1000 тенге.
+        <br />
         Абонемент на месяц: 15000 тенге (безлимитные посещения).
       </Typography>
     </Box>
