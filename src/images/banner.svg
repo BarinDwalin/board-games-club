@@ -160,7 +160,7 @@
       </g>
       <g class="star star__lottery">
         <polygon class="cls-13" points="1013.89 735.57 946.41 729.65 886.32 760.91 871.1 694.91 822.8 647.42 880.87 612.55 911.11 551.94 962.22 596.39 1029.21 606.42 1002.72 668.76 1013.89 735.57"/>
-        <text class="cls-10" transform="translate(875 670) rotate(-13)"><tspan x="18" y="-26">Новые</tspan><tspan x="0" y="0">знакомства</tspan><tspan x="12" y="26">и живое</tspan><tspan x="12" y="52">общение</tspan></text>
+        <text class="cls-10" transform="translate(875 670) rotate(-13)"><tspan x="22" y="-26">Новые</tspan><tspan x="-5" y="0">знакомства</tspan><tspan x="12" y="26">и живое</tspan><tspan x="8" y="52">общение</tspan></text>
       </g>
       <g class="star star__benefits">
         <polygon class="cls-13" points="294.02 773.41 248.18 748.35 196.06 751.85 205.73 700.51 186.3 652.02 238.12 645.36 278.23 611.9 300.58 659.11 344.8 686.92 306.8 722.76 294.02 773.41"/>
@@ -173,9 +173,9 @@
         <polygon class="cls-13" points="231.47 330.72 223.42 329.42 215.94 332.65 214.69 324.6 209.32 318.48 216.59 314.8 220.74 307.8 226.48 313.58 234.43 315.36 230.71 322.61 231.47 330.72"/>
       </g>
       <g class="title">
-        <text class="cls-4" transform="translate(539.64 173.97)"><tspan x="0" y="0">M</tspan><tspan class="cls-15" x="137.34" y="0">O</tspan><tspan x="259.45" y="0">VE</tspan></text>
-        <text class="cls-2" transform="translate(448.47 175.9)"><tspan x="0" y="0">&</tspan></text>
-      <text class="cls-4" transform="translate(70.86 173.97)"><tspan class="cls-16" x="0" y="0">R</tspan><tspan class="cls-1" x="110.15" y="0">OLL</tspan></text>
+        <text class="cls-4" transform="translate(539.64 173.97)"><tspan x="0" y="0">MOVE</tspan></text>
+        <text class="cls-2" transform="translate(448.47 175.9)"><tspan x="0" y="0">&</tspan></text> 
+        <text class="cls-4" transform="translate(70.86 173.97)"><tspan class="cls-16" x="0" y="0">ROLL</tspan></text>
       </g>
     </g>
   </g>
