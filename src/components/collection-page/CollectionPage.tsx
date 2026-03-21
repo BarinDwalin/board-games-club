@@ -7,6 +7,7 @@ import {
   GameBadge,
   GameBadgeType,
   GameRecord,
+  SortType,
 } from "../../interfaces";
 import {
   CategoriesPanel,
@@ -27,7 +28,7 @@ export function CollectionPage() {
     null
   );
   const [categoriesGames, setCategoriesGames] = useState<
-    { categoryId: string; gamesIds: number[] }[]
+    { categoryId: string; gamesIds: number[]; sortType?: SortType }[]
   >([]);
   const [defaultView, setDefaultView] = useState(true);
   const dataService = useMemo(() => new DataService(), []);
@@ -49,7 +50,12 @@ export function CollectionPage() {
       setFilteredCollection(
         collection.filter((record) =>
           settings.gamesIds.includes(record.game.id)
-        )
+        ).sort((a, b) => {
+          if (settings.sortType === "TopBgg") {
+            return dataService.sortGameByTopBgg(a, b);
+          }
+          return 0;
+        })
       );
     } else {
       setFilteredCollection(collection);

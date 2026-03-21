@@ -1,4 +1,11 @@
-import { Category, Game, GameRecord, GameTesera } from "../interfaces";
+import {
+  Category,
+  Game,
+  GameBadgeType,
+  GameRecord,
+  GameTesera,
+  SortType,
+} from "../interfaces";
 
 export class DataService {
   private collectionsPath = "/data/collections/";
@@ -42,6 +49,7 @@ export class DataService {
       title: "топ 100",
       image: "/images/categories/top.svg",
       file: "top-bgg.json",
+      sortType: "TopBgg",
     },
     {
       id: "party",
@@ -70,9 +78,13 @@ export class DataService {
   ] as const;
 
   async getCategoriesGames(): Promise<
-    { categoryId: string; gamesIds: number[] }[]
+    { categoryId: string; gamesIds: number[]; sortType?: SortType }[]
   > {
-    const categoriesGames: { categoryId: string; gamesIds: number[] }[] = [];
+    const categoriesGames: {
+      categoryId: string;
+      gamesIds: number[];
+      sortType?: SortType;
+    }[] = [];
 
     for (const settings of this.categories.filter(
       (settings) => settings.file
@@ -85,6 +97,7 @@ export class DataService {
       if (games.length > 0) {
         categoriesGames.push({
           categoryId: settings.id,
+          sortType: settings.sortType,
           gamesIds: games.map((game) => game.id),
         });
       }
@@ -174,6 +187,20 @@ export class DataService {
       return -1;
     }
     if (nameA > nameB) {
+      return 1;
+    }
+
+    return 0;
+  }
+
+  public sortGameByTopBgg(a: GameRecord<Game>, b: GameRecord<Game>) {
+    const positionA = a.game?.badges?.find((badge) => badge.type === GameBadgeType.Top)?.value ?? 999;
+    const positionB = b.game?.badges?.find((badge) => badge.type === GameBadgeType.Top)?.value ?? 999;
+    
+    if (positionA < positionB) {
+      return -1;
+    }
+    if (positionA > positionB) {
       return 1;
     }
 
