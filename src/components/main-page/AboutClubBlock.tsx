@@ -1,4 +1,5 @@
-import { Box, List, ListItem, Theme, Typography } from "@mui/material";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import { Box, Link, List, ListItem, Theme, Typography } from "@mui/material";
 import { useRef, useEffect } from "react";
 
 function AboutClubVideo() {
@@ -77,8 +78,8 @@ export function AboutClubBlock(props: { theme: Theme }) {
               "Левый берег, открыты до ночи",
               "Если не нашли компанию, всё равно приходите — мы подберем её на месте ",
               "Всё объясним, всем рады, особенно новичкам!",
-            ].map((text) => (
-              <ListItem>
+            ].map((text, i) => (
+              <ListItem key={i}>
                 <Typography variant="subtitle1" component="div">
                   {"✅ " + text}
                 </Typography>
@@ -88,6 +89,29 @@ export function AboutClubBlock(props: { theme: Theme }) {
               <Typography variant="subtitle1" component="div">
                 🎲 Серьезно, у нас 400+ игр, мы всегда можем собрать такую
                 партию, где для каждого игрока — она будет первой
+              </Typography>
+            </ListItem>
+            <ListItem>
+              <Box sx={{ marginTop: 2, marginRight: 2 }}>
+                <img
+                  width="128"
+                  height="128"
+                  src="/images/dnd.png"
+                  alt="логотип kaspi qr"
+                />
+              </Box>
+              <Typography variant="subtitle1" component="div">
+                Хотите поиграть в DnD? По всем вопросам пишите в 
+                <Link
+                  href="https://www.instagram.com/poltoragoblina_dnd_astana/"
+                  underline="none"
+                  target="_blank"
+                  rel="noopener"
+                  sx={{ display: "inline-flex", alignItems: "center" }}
+                >
+                  Instagram
+                  <InstagramIcon sx={{ paddingLeft: 0.5 }} />
+                </Link>
               </Typography>
             </ListItem>
           </List>
