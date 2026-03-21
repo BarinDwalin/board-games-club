@@ -2813,5 +2813,155 @@
       "tags": [],
       "isAddition": true
     }
+  },
+  {
+    "creationDateUtc": "2026-03-21T16:32:22.034674",
+    "game": {
+      "id": 63046,
+      "alias": "decrypto",
+      "teseraId": 1102736,
+      "bggId": 225694,
+      "title": "Декодер",
+      "titleOriginal": "Decrypto",
+      "photoUrl": "https://s.tesera.ru/images/items/1102736,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.77,
+        "bggNumVotes": 25633,
+        "teseraRating": 7.88,
+        "teseraNumVotes": 557
+      },
+      "playersMin": 3,
+      "playersMax": 8,
+      "timeMin": 30,
+      "timeMax": 45,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2026-03-21T16:31:42.178116",
+    "game": {
+      "id": 74885,
+      "alias": "sky-team",
+      "teseraId": 2203653,
+      "bggId": 373106,
+      "title": "Крутое пике",
+      "titleOriginal": "Sky Team",
+      "photoUrl": "https://s.tesera.ru/images/items/2203653,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 8.16,
+        "bggNumVotes": 23308,
+        "teseraRating": 7.99,
+        "teseraNumVotes": 190
+      },
+      "playersMin": 2,
+      "playersMax": 0,
+      "timeMin": 20,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2026-03-21T16:31:28.316346",
+    "game": {
+      "id": 66451,
+      "alias": "blood-on-the-clocktower",
+      "teseraId": 1422431,
+      "bggId": 240980,
+      "title": "Кровь на часовой башне",
+      "titleOriginal": "Blood on the Clocktower",
+      "photoUrl": "https://s.tesera.ru/images/items/1422431,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 8.37,
+        "bggNumVotes": 8862,
+        "teseraRating": 7.76,
+        "teseraNumVotes": 55
+      },
+      "playersMin": 5,
+      "playersMax": 20,
+      "timeMin": 30,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2026-03-21T16:31:17.059039",
+    "game": {
+      "id": 67364,
+      "alias": "dune",
+      "teseraId": 1516691,
+      "bggId": 283355,
+      "title": "Dune (2019)",
+      "titleOriginal": "Дюна (2019)",
+      "photoUrl": "https://s.tesera.ru/images/items/1516691,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.92,
+        "bggNumVotes": 10064,
+        "teseraRating": 7.94,
+        "teseraNumVotes": 138
+      },
+      "playersMin": 2,
+      "playersMax": 6,
+      "timeMin": 120,
+      "timeMax": 180,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2026-03-10T12:44:43.293437",
+    "game": {
+      "id": 75002,
+      "alias": "schadenfreude",
+      "teseraId": 2209662,
+      "bggId": 324711,
+      "title": "Schadenfreude",
+      "photoUrl": "https://s.tesera.ru/images/items/2209662,3/photo1.jpg",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.58,
+        "teseraNumVotes": 16
+      },
+      "playersMin": 0,
+      "playersMax": 0,
+      "timeMin": 0,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false,
+      "language": "eng"
+    }
+  },
+  {
+    "creationDateUtc": "2026-02-14T10:15:13.265172",
+    "game": {
+      "id": 75228,
+      "alias": "spots",
+      "teseraId": 2222619,
+      "bggId": 372559,
+      "title": "Косточки",
+      "titleOriginal": "Spots",
+      "photoUrl": "https://s.tesera.ru/images/items/2222619,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.15,
+        "bggNumVotes": 6254,
+        "teseraRating": 7.03,
+        "teseraNumVotes": 165
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 25,
+      "timeMax": 30,
+      "tags": [],
+      "isAddition": false
+    }
   }
 ]

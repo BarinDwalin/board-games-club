@@ -2,9 +2,10 @@ var fs = require("fs");
 const { resolve } = require("path");
 const dataPath = "./public/data/collections/source/";
 
+//main("https://api.tesera.ru/collections/base/own/1758637?v=1&limit=30"); //sergei
 //main("https://api.tesera.ru/collections/base/own/1872664?v=1&limit=30"); //john
 //main('https://api.tesera.ru/collections/custom/4916/gamesclear?v=1&limit=30'); //club
-//main('https://api.tesera.ru/collections/custom/4997/gamesclear?v=1&limit=30'); //andrew
+//main("https://api.tesera.ru/collections/custom/4997/gamesclear?v=1&limit=30"); //andrew
 
 async function main(collectionUrl) {
   const recordsBases = [];
@@ -12,9 +13,20 @@ async function main(collectionUrl) {
   const aliases = await read("./scripts/games.json").then((response) =>
     JSON.parse(response)
   );
-  const recordsGames = await fetch(collectionUrl).then((response) =>
-    response.json()
-  );
+  let recordsGames = await fetch(collectionUrl).then((response) => {
+    if (response.status === 200) {
+      return response.json();
+    }
+    // теперь 403, копируем ответ руками и читаем из файла
+    console.log(`Fetching collection from ${collectionUrl}`, response.status);
+  });
+
+  if (!recordsGames) {
+    console.log(`Reading collection from file`);
+    recordsGames = await read("./scripts/records.json").then((response) =>
+      JSON.parse(response)
+    );
+  }
 
   for (const alias of aliases) {
     console.log(alias);
@@ -37,10 +49,22 @@ async function main(collectionUrl) {
   save(JSON.stringify(recordsBases), destination);
 }
 
-async function getGameInfo(alias) {
-  return fetch(`https://api.tesera.ru/games/${alias}`).then((response) =>
-    response.json()
-  );
+async function getGameInfo(alias) { 
+  const url = `https://api.tesera.ru/games/${alias}`;
+  let response = await fetch(url).then((response) => {
+    if (response.status === 200) {
+      return response.json();
+    }
+    console.log(`Fetching getGameInfo from ${url}`, response.status); 
+  });
+
+  if (!response) {
+    console.log(`Reading game info from file`);
+    response = await read("./scripts/game-info.json").then((response) =>
+      JSON.parse(response)
+    );
+  }
+  return response;
 }
 
 async function read(source) {

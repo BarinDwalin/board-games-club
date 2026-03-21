@@ -1,5 +1,30 @@
 [
   {
+    "creationDateUtc": "2025-07-27T13:24:47.347404",
+    "game": {
+      "id": 73127,
+      "alias": "twilight-inscription",
+      "teseraId": 2067936,
+      "bggId": 361545,
+      "title": "Сумерки империи: Летопись галактики",
+      "titleOriginal": "Twilight Inscription",
+      "photoUrl": "https://s.tesera.ru/images/items/2067936,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.45,
+        "bggNumVotes": 4465,
+        "teseraRating": 7.41,
+        "teseraNumVotes": 64
+      },
+      "playersMin": 1,
+      "playersMax": 8,
+      "timeMin": 90,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
     "relationId": 96114045,
     "creationDateUtc": "2025-06-07T07:49:35",
     "game": {

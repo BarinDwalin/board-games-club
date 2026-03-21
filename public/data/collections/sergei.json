@@ -331,10 +331,10 @@
       "photoUrl": "https://s.tesera.ru/images/items/1806864,3/photo1.png",
       "year": 2021,
       "rating": {
-        "bggRating": 8.85,
-        "bggNumVotes": 1652,
-        "teseraRating": 9.09,
-        "teseraNumVotes": 6
+        "bggRating": 8.66,
+        "bggNumVotes": 11858,
+        "teseraRating": 8.02,
+        "teseraNumVotes": 52
       },
       "tags": [],
       "isAddition": false,
@@ -2526,6 +2526,32 @@
       "age": 12,
       "timeMin": 60,
       "timeMax": 240
+    }
+  },
+  {
+    "relationId": 96417655,
+    "creationDateUtc": "2026-03-21T14:14:18",
+    "game": {
+      "id": 73431,
+      "alias": "splendor-duel",
+      "teseraId": 2099479,
+      "bggId": 364073,
+      "title": "Роскошь. Дуэль",
+      "titleOriginal": "Splendor Duel",
+      "photoUrl": "https://s.tesera.ru/images/items/2099479,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.89,
+        "bggNumVotes": 16305,
+        "teseraRating": 7.94,
+        "teseraNumVotes": 251
+      },
+      "playersMin": 2,
+      "playersMax": 2,
+      "timeMin": 30,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false
     }
   }
 ]
