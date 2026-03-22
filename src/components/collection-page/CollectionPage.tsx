@@ -60,7 +60,7 @@ export function CollectionPage() {
     } else {
       setFilteredCollection(collection);
     }
-  }, [categoriesGames, selectedCategoryId, collection]);
+  }, [categoriesGames, selectedCategoryId, collection, dataService]);
 
   useEffect(() => {
     if (collection.length === 0) {
