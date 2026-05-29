@@ -28,7 +28,12 @@ export function CollectionPage() {
     null
   );
   const [categoriesGames, setCategoriesGames] = useState<
-    { categoryId: string; gamesIds: number[]; sortType?: SortType }[]
+    {
+      categoryId: string;
+      gamesIds?: number[];
+      gamesBggIds?: number[];
+      sortType?: SortType;
+    }[]
   >([]);
   const [defaultView, setDefaultView] = useState(true);
   const dataService = useMemo(() => new DataService(), []);
@@ -48,14 +53,17 @@ export function CollectionPage() {
 
     if (settings) {
       setFilteredCollection(
-        collection.filter((record) =>
-          settings.gamesIds.includes(record.game.id)
-        ).sort((a, b) => {
-          if (settings.sortType === "TopBgg") {
-            return dataService.sortGameByTopBgg(a, b);
-          }
-          return 0;
-        })
+        collection
+          .filter((record) => {
+            return settings?.gamesBggIds?.includes(record.game.bggId ?? 0)
+              || settings?.gamesIds?.includes(record.game.id);
+          })
+          .sort((a, b) => {
+            if (settings.sortType === "TopBgg") {
+              return dataService.sortGameByTopBgg(a, b);
+            }
+            return 0;
+          })
       );
     } else {
       setFilteredCollection(collection);
@@ -84,30 +92,52 @@ export function CollectionPage() {
     const setBadge = (
       categoryId: string,
       badgeType: GameBadgeType,
-      createBadge: (index: number) => GameBadge
+      createBadge: (index: number) => GameBadge,
+      findGame: (index: number) => Game | undefined,
+      count: number
     ) => {
-      const games = categoriesGames.find(
-        (category) => category.categoryId === categoryId
-      )?.gamesIds;
-  
-      for (let index = 0; index < (games?.length ?? 0); index++) {
-        const game = collection.find(
-          (record) => record.game.id === games![index]
-        )?.game;
+      for (let index = 0; index < count; index++) {
+        const game = findGame(index);
         if (game && !game.badges?.find((badge) => badge.type === badgeType)) {
           game.badges = [...(game?.badges ?? []), createBadge(index)];
         }
       }
     };
-  
+
+    const topCategory = categoriesGames.find(
+      (category) => category.categoryId === "top"
+    );
+    const hotnessCategory = categoriesGames.find(
+      (category) => category.categoryId === "hotness"
+    );
+
     if (collection.length !== 0 && categoriesGames.length !== 0) {
-      setBadge("top", GameBadgeType.Top, (index) => ({
-        type: GameBadgeType.Top,
-        value: index + 1,
-      }));
-      setBadge("hotness", GameBadgeType.Hot, () => ({
-        type: GameBadgeType.Hot,
-      }));
+      if (topCategory?.gamesBggIds) {
+        setBadge(
+          "top",
+          GameBadgeType.Top,
+          (index) => ({ type: GameBadgeType.Top, value: index + 1 }),
+          (index) =>
+            collection.find(
+              (record) =>
+                record.game.bggId === topCategory.gamesBggIds![index]
+            )?.game,
+          topCategory.gamesBggIds.length
+        );
+      }
+
+      if (hotnessCategory?.gamesIds) {
+        setBadge(
+          "hotness",
+          GameBadgeType.Hot,
+          () => ({ type: GameBadgeType.Hot }),
+          (index) =>
+            collection.find(
+              (record) => record.game.id === hotnessCategory.gamesIds![index]
+            )?.game,
+          hotnessCategory.gamesIds.length
+        );
+      }
     }
   }, [categoriesGames, collection]);
 

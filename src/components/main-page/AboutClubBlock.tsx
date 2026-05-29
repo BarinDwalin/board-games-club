@@ -101,7 +101,7 @@ export function AboutClubBlock(props: { theme: Theme }) {
                 />
               </Box>
               <Typography variant="subtitle1" component="div">
-                Хотите поиграть в DnD? По всем вопросам пишите в 
+                Хотите поиграть в DnD? По всем вопросам пишите в 
                 <Link
                   href="https://www.instagram.com/poltoragoblina_dnd_astana/"
                   underline="none"
