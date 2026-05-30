@@ -1,72 +1,81 @@
-import { Box, SvgIcon, Typography } from "@mui/material";
+import {
+  Box,
+  Divider,
+  ThemeProvider,
+  Typography,
+  createTheme,
+  styled,
+} from "@mui/material";
 import "./MainPage.css";
-import { ReactComponent as BannerImage } from "../../images/banner.svg";
+import { AboutClubBlock } from "./AboutClubBlock";
+import { Banner } from "./Banner";
 import { Map } from "./Map";
+import { SpecialPrices } from "./SpecialPrices";
 
-function Banner() {
-  return (
-    <div
-      style={{
-        display: "block",
-        width: "100%",
-        height: "initial",
-        margin: "auto",
-        maxWidth: "920px",
-        position: "relative",
-      }}
-    >
-      <picture
-        style={{
-          position: "absolute",
-          width: "50%",
-          left: "22%",
-          top: "17%",
-        }}
-      >
-        <source srcSet="/images/banner-meeple.webp" type="image/webp" />
-        <img
-          src="/images/banner-meeple.png"
-          alt="banner meeple"
-          loading="lazy"
-          style={{
-            width: "100%",
-            height: "100%",
-          }}
-        />
-      </picture>
-      <SvgIcon
-        component={BannerImage}
-        className="banner"
-        inheritViewBox
-        sx={{
-          display: "block",
-          width: "100%",
-          height: "initial",
-        }}
-      />
-    </div>
-  );
-}
+const ContentWrapper = styled(Box)(({ theme }) => ({
+  display: "block",
+  width: "100%",
+  height: "initial",
+  margin: "auto",
+  maxWidth: "920px",
+  position: "relative",
+}));
 
 export function MainPage() {
+  let theme = createTheme({});
+
+  theme.typography.h5 = {
+    ...theme.typography.h5,
+    [theme.breakpoints.down("md")]: {
+      lineHeight: "1.5rem",
+      fontSize: "1.25rem",
+    },
+  };
+  theme.typography.subtitle1 = {
+    ...theme.typography.subtitle1,
+    [theme.breakpoints.down("md")]: {
+      lineHeight: "1.5rem",
+      fontSize: "1rem",
+    },
+  };
+
   return (
-    <div className="page">
-      {/* <h1 className="page-header">Добро пожаловать, авантюрист</h1> */}
-      <Banner></Banner>
-      <div className="content">
-        <Box
+    <ThemeProvider theme={theme}>
+      <div className="page">
+        <ContentWrapper>
+          <Banner />
+        </ContentWrapper>
+
+        <ContentWrapper
           sx={{
-            margin: "0 24px",
+            boxSizing: "border-box",
+            padding: "0 24px",
             textAlign: "center",
+            [theme.breakpoints.down("md")]: {
+              padding: "0 12px",
+            },
           }}
         >
-          <Typography variant="subtitle2" component="span">
-            * Время работы клуба и стоимость посещения в праздничные дни может
+          <Typography
+            variant="subtitle1"
+            component="div"
+            sx={{
+              margin: "12px 0 40px",
+            }}
+          >
+            * Время работы клуба и стоимость посещения в праздничные дни может
             быть изменено
           </Typography>
-        </Box>
-        <Map></Map>
+
+          <Divider />
+          <SpecialPrices theme={theme} />
+          <Divider />
+
+          <AboutClubBlock theme={theme} />
+        </ContentWrapper>
+
+        <Map />
       </div>
-    </div>
+    </ThemeProvider>
   );
 }

@@ -130,13 +130,21 @@ export function SearchPanel(props: {
     GameRecord<Game>[]
   >([]);
   const dataService = useMemo(() => new DataService(), []);
- 
+
   useEffect(() => {
     if (collection.length === 0) {
       dataService.getGames().then((data) => {
         if (data && data.length) {
           setCollection(data);
-          setFilteredCollection(data.slice(0, itemCountLimit));
+          setFilteredCollection(
+            data
+              .sort(
+                (a, b) =>
+                  (b.game.rating.bggRating ?? 0) -
+                  (a.game.rating.bggRating ?? 0)
+              )
+              .slice(0, itemCountLimit)
+          );
         }
       });
     }

@@ -44,7 +44,6 @@
       },
       "tags": [],
       "isAddition": false,
-      "language": "eng",
       "bggId": 219215,
       "playersMin": 4,
       "playersMax": 10,
@@ -555,8 +554,8 @@
       "photoUrl": "https://s.tesera.ru/images/items/1818187,3/photo1.jpg",
       "year": 2019,
       "rating": {
-        "bggRating": 0,
-        "bggNumVotes": 0,
+        "bggRating": 6.32,
+        "bggNumVotes": 199,
         "teseraRating": 6.04,
         "teseraNumVotes": 35
       },
@@ -1795,6 +1794,28 @@
       },
       "tags": [],
       "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2024-12-04T14:37:08.186615",
+          "game": {
+            "id": 78264,
+            "alias": "the-white-castle-matcha",
+            "teseraId": 2365595,
+            "title": "Белый Замок: Матча",
+            "photoUrl": "https://s.tesera.ru/images/items/2365595,3/photo1.jpg",
+            "year": 2024,
+            "rating": {
+              "bggRating": 8.48,
+              "bggNumVotes": 762,
+              "teseraRating": 7.72,
+              "teseraNumVotes": 23
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 74478
+          }
+        }
+      ],
       "bggId": 371942,
       "playersMin": 1,
       "playersMax": 4,
@@ -2297,6 +2318,7 @@
       "alias": "great-western-trail-argentina",
       "teseraId": 2087961,
       "title": "Великий Западный Путь. Аргентина",
+      "titleOriginal": "Great Western Trail: Argentina",
       "photoUrl": "https://s.tesera.ru/images/items/2087961,3/photo1.jpg",
       "year": 2022,
       "rating": {
@@ -2313,6 +2335,633 @@
       "age": 12,
       "timeMin": 75,
       "timeMax": 150
+    }
+  },
+  {
+    "creationDateUtc": "2025-04-06T08:42:24.78088",
+    "game": {
+      "id": 69628,
+      "alias": "pisma-prizraka",
+      "teseraId": 1764041,
+      "title": "Письма призрака",
+      "titleOriginal": "Ghost Letters",
+      "photoUrl": "https://s.tesera.ru/images/items/1764041,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.42,
+        "bggNumVotes": 299,
+        "teseraRating": 7.34,
+        "teseraNumVotes": 257
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 323784,
+      "playersMin": 2,
+      "playersMax": 12,
+      "age": 8,
+      "timeMin": 30,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-04-25T09:25:23.124217",
+    "game": {
+      "id": 56116,
+      "alias": "spyfall",
+      "teseraId": 441887,
+      "title": "Находка для шпиона",
+      "titleOriginal": "Spyfall",
+      "photoUrl": "https://s.tesera.ru/images/items/441887,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 6.76,
+        "bggNumVotes": 21832,
+        "teseraRating": 6.65,
+        "teseraNumVotes": 539
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 166384,
+      "playersMin": 2,
+      "playersMax": 8,
+      "age": 12,
+      "timeMin": 15,
+      "timeMax": 30
+    }
+  },
+  {
+    "creationDateUtc": "2025-04-25T09:25:03.837954",
+    "game": {
+      "id": 66410,
+      "alias": "Undaunted-Normandy",
+      "teseraId": 1418040,
+      "title": "Неустрашимые: Нормандия",
+      "titleOriginal": "Undaunted: Normandy",
+      "photoUrl": "https://s.tesera.ru/images/items/1418040,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.78,
+        "bggNumVotes": 12851,
+        "teseraRating": 7.66,
+        "teseraNumVotes": 449
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 268864,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 14,
+      "timeMin": 45,
+      "timeMax": 60
+    }
+  },
+  {
+    "creationDateUtc": "2025-04-27T13:21:26.322787",
+    "game": {
+      "id": 67787,
+      "alias": "die-crew-reist-gemeinsam-zum-9-planeten",
+      "teseraId": 1556451,
+      "title": "Экипаж. Экспедиция к девятой планете",
+      "titleOriginal": "The Crew: The Quest for Planet Nine",
+      "photoUrl": "https://s.tesera.ru/images/items/1556451,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.8,
+        "bggNumVotes": 41570,
+        "teseraRating": 7.47,
+        "teseraNumVotes": 292
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 284083,
+      "playersMin": 3,
+      "playersMax": 5,
+      "age": 10,
+      "timeMin": 20,
+      "timeMax": 20
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:27:57.068894",
+    "game": {
+      "id": 48682,
+      "alias": "diplomacy",
+      "teseraId": 680,
+      "bggId": 483,
+      "title": "Diplomacy",
+      "titleOriginal": "Дипломатия",
+      "photoUrl": "https://s.tesera.ru/images/items/680,3/photo1.jpg",
+      "year": 1959,
+      "rating": {
+        "bggRating": 7.04,
+        "bggNumVotes": 13588,
+        "teseraRating": 7.91,
+        "teseraNumVotes": 39
+      },
+      "playersMin": 2,
+      "playersMax": 7,
+      "timeMin": 300,
+      "timeMax": 300,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:27:28.721974",
+    "game": {
+      "id": 77535,
+      "alias": "tiny-epic-game-of-thrones",
+      "teseraId": 2311491,
+      "bggId": 409978,
+      "title": "Tiny Epic Game of Thrones",
+      "photoUrl": "https://s.tesera.ru/images/items/2311491,3/photo1.jpg",
+      "year": 2024,
+      "rating": {
+        "bggRating": 7.86,
+        "bggNumVotes": 233,
+        "teseraRating": 7.75,
+        "teseraNumVotes": 3
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 45,
+      "timeMax": 60,
+      "tags": [],
+      "language": "eng",
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:26:55.821942",
+    "game": {
+      "id": 68751,
+      "alias": "praga-caput-regni",
+      "teseraId": 1670533,
+      "bggId": 308765,
+      "title": "Прага: Сердце империи",
+      "titleOriginal": "Praga Caput Regni",
+      "photoUrl": "https://s.tesera.ru/images/items/1670533,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.87,
+        "bggNumVotes": 9484,
+        "teseraRating": 7.97,
+        "teseraNumVotes": 247
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 45,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-27T13:25:13.102604",
+    "game": {
+      "id": 77857,
+      "alias": "harmonies",
+      "teseraId": 2338701,
+      "bggId": 414317,
+      "title": "Гармония",
+      "titleOriginal": "Harmonies",
+      "photoUrl": "https://s.tesera.ru/images/items/2338701,3/photo1.jpg",
+      "year": 2024,
+      "rating": {
+        "bggRating": 8.22,
+        "bggNumVotes": 3121,
+        "teseraRating": 8.06,
+        "teseraNumVotes": 280
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 30,
+      "timeMax": 45,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-06-06T17:01:05.192873",
+    "game": {
+      "id": 79906,
+      "alias": "the-fellowship-of-the-ring-trick-taking-game",
+      "teseraId": 2436193,
+      "bggId": 0,
+      "title": "The Fellowship of the Ring: Trick-Taking Game",
+      "titleOriginal": "Братство кольца: игра на взятки",
+      "photoUrl": "https://s.tesera.ru/images/items/2436193,3/photo1.png",
+      "year": 2025,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.82,
+        "teseraNumVotes": 21
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 0,
+      "timeMax": 0,
+      "tags": [],
+      "language": "eng",
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-06-06T17:00:46.751148",
+    "game": {
+      "id": 77819,
+      "alias": "thats-not-a-hat",
+      "teseraId": 2336142,
+      "bggId": 375651,
+      "title": "That's Not a Hat",
+      "titleOriginal": "To (ne)chceš!",
+      "photoUrl": "https://s.tesera.ru/images/items/2336142,3/photo1.png",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.08,
+        "bggNumVotes": 4324,
+        "teseraRating": 7.32,
+        "teseraNumVotes": 19
+      },
+      "playersMin": 3,
+      "playersMax": 8,
+      "timeMin": 15,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-06-06T16:59:36.313276",
+    "game": {
+      "id": 75816,
+      "alias": "gloomhaven-buttons-bugs",
+      "teseraId": 2248820,
+      "bggId": 393672,
+      "title": "Gloomhaven: Buttons & Bugs",
+      "photoUrl": "https://s.tesera.ru/images/items/2248820,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.64,
+        "bggNumVotes": 2079,
+        "teseraRating": 8.67,
+        "teseraNumVotes": 9
+      },
+      "playersMin": 1,
+      "playersMax": 2,
+      "timeMin": 20,
+      "timeMax": 30,
+      "tags": [],
+      "language": "eng",
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:03:54.43407",
+    "game": {
+      "id": 69591,
+      "alias": "darwins-journey",
+      "teseraId": 1760939,
+      "bggId": 322289,
+      "title": "Путешествие Дарвина",
+      "titleOriginal": "Darwin's Journey",
+      "photoUrl": "https://s.tesera.ru/images/items/1760939,3/photo1.jpg",
+      "year": 2021,
+      "rating": {
+        "bggRating": 8.14,
+        "bggNumVotes": 9137,
+        "teseraRating": 8.44,
+        "teseraNumVotes": 90
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 60,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:03:23.620407",
+    "game": {
+      "id": 75397,
+      "alias": "PhantomInk",
+      "teseraId": 2228499,
+      "bggId": 330592,
+      "title": "Призрачные чернила",
+      "titleOriginal": "Phantom Ink",
+      "photoUrl": "https://s.tesera.ru/images/items/2228499,3/photo1.jpg",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.43,
+        "bggNumVotes": 1995,
+        "teseraRating": 7.53,
+        "teseraNumVotes": 70
+      },
+      "playersMin": 4,
+      "playersMax": 8,
+      "timeMin": 20,
+      "timeMax": 60,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:03:15.600015",
+    "game": {
+      "id": 79796,
+      "alias": "poeziya-neandertaltsev",
+      "teseraId": 2429367,
+      "bggId": 0,
+      "title": "Поэзия неандертальцев",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 4.25,
+        "teseraNumVotes": 3
+      },
+      "playersMin": 0,
+      "playersMax": 0,
+      "timeMin": 0,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:03:10.462579",
+    "game": {
+      "id": 72558,
+      "alias": "Earth",
+      "teseraId": 2026153,
+      "bggId": 350184,
+      "title": "Земля",
+      "titleOriginal": "Earth",
+      "photoUrl": "https://s.tesera.ru/images/items/2026153,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.65,
+        "bggNumVotes": 17261,
+        "teseraRating": 7.44,
+        "teseraNumVotes": 135
+      },
+      "playersMin": 1,
+      "playersMax": 5,
+      "timeMin": 30,
+      "timeMax": 90,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:03:05.073349",
+    "game": {
+      "id": 63589,
+      "alias": "everdell",
+      "teseraId": 1167261,
+      "bggId": 199792,
+      "title": "Эверделл",
+      "titleOriginal": "Everdell",
+      "photoUrl": "https://s.tesera.ru/images/items/1167261,3/photo1.jpg",
+      "year": 2018,
+      "rating": {
+        "bggRating": 8.02,
+        "bggNumVotes": 54598,
+        "teseraRating": 8.09,
+        "teseraNumVotes": 854
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 40,
+      "timeMax": 80,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:02:47.454358",
+    "game": {
+      "id": 52418,
+      "alias": "chudesa-sveta",
+      "teseraId": 101570,
+      "bggId": 0,
+      "title": "Чудеса света",
+      "photoUrl": "https://s.tesera.ru/images/items/101570,3/photo1.jpg",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 4.82,
+        "teseraNumVotes": 11
+      },
+      "playersMin": 0,
+      "playersMax": 0,
+      "timeMin": 0,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:02:42.012067",
+    "game": {
+      "id": 73621,
+      "alias": "raising-robots",
+      "teseraId": 2115508,
+      "bggId": 366683,
+      "title": "Мастерская роботов",
+      "titleOriginal": "Raising Robots",
+      "photoUrl": "https://s.tesera.ru/images/items/2115508,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 7.75,
+        "bggNumVotes": 1397,
+        "teseraRating": 7.46,
+        "teseraNumVotes": 26
+      },
+      "playersMin": 1,
+      "playersMax": 7,
+      "timeMin": 60,
+      "timeMax": 90,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-08-01T20:02:21.041176",
+    "game": {
+      "id": 55017,
+      "alias": "one-night-ultimate-werewolf",
+      "teseraId": 330901,
+      "bggId": 147949,
+      "title": "Однажды ночью: Оборотни",
+      "titleOriginal": "One Night Ultimate Werewolf",
+      "photoUrl": "https://s.tesera.ru/images/items/330901,3/photo1.jpg",
+      "year": 2014,
+      "rating": {
+        "bggRating": 7.04,
+        "bggNumVotes": 29094,
+        "teseraRating": 7.09,
+        "teseraNumVotes": 156
+      },
+      "playersMin": 3,
+      "playersMax": 10,
+      "timeMin": 10,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": true
+    }
+  },
+  {
+    "creationDateUtc": "2026-03-21T16:32:22.034674",
+    "game": {
+      "id": 63046,
+      "alias": "decrypto",
+      "teseraId": 1102736,
+      "bggId": 225694,
+      "title": "Декодер",
+      "titleOriginal": "Decrypto",
+      "photoUrl": "https://s.tesera.ru/images/items/1102736,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.77,
+        "bggNumVotes": 25633,
+        "teseraRating": 7.88,
+        "teseraNumVotes": 557
+      },
+      "playersMin": 3,
+      "playersMax": 8,
+      "timeMin": 30,
+      "timeMax": 45,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2026-03-21T16:31:42.178116",
+    "game": {
+      "id": 74885,
+      "alias": "sky-team",
+      "teseraId": 2203653,
+      "bggId": 373106,
+      "title": "Крутое пике",
+      "titleOriginal": "Sky Team",
+      "photoUrl": "https://s.tesera.ru/images/items/2203653,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 8.16,
+        "bggNumVotes": 23308,
+        "teseraRating": 7.99,
+        "teseraNumVotes": 190
+      },
+      "playersMin": 2,
+      "playersMax": 0,
+      "timeMin": 20,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2026-03-21T16:31:28.316346",
+    "game": {
+      "id": 66451,
+      "alias": "blood-on-the-clocktower",
+      "teseraId": 1422431,
+      "bggId": 240980,
+      "title": "Кровь на часовой башне",
+      "titleOriginal": "Blood on the Clocktower",
+      "photoUrl": "https://s.tesera.ru/images/items/1422431,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 8.37,
+        "bggNumVotes": 8862,
+        "teseraRating": 7.76,
+        "teseraNumVotes": 55
+      },
+      "playersMin": 5,
+      "playersMax": 20,
+      "timeMin": 30,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2026-03-21T16:31:17.059039",
+    "game": {
+      "id": 67364,
+      "alias": "dune",
+      "teseraId": 1516691,
+      "bggId": 283355,
+      "title": "Dune (2019)",
+      "titleOriginal": "Дюна (2019)",
+      "photoUrl": "https://s.tesera.ru/images/items/1516691,3/photo1.jpg",
+      "year": 2019,
+      "rating": {
+        "bggRating": 7.92,
+        "bggNumVotes": 10064,
+        "teseraRating": 7.94,
+        "teseraNumVotes": 138
+      },
+      "playersMin": 2,
+      "playersMax": 6,
+      "timeMin": 120,
+      "timeMax": 180,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2026-03-10T12:44:43.293437",
+    "game": {
+      "id": 75002,
+      "alias": "schadenfreude",
+      "teseraId": 2209662,
+      "bggId": 324711,
+      "title": "Schadenfreude",
+      "photoUrl": "https://s.tesera.ru/images/items/2209662,3/photo1.jpg",
+      "year": 0,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.58,
+        "teseraNumVotes": 16
+      },
+      "playersMin": 0,
+      "playersMax": 0,
+      "timeMin": 0,
+      "timeMax": 0,
+      "tags": [],
+      "isAddition": false,
+      "language": "eng"
+    }
+  },
+  {
+    "creationDateUtc": "2026-02-14T10:15:13.265172",
+    "game": {
+      "id": 75228,
+      "alias": "spots",
+      "teseraId": 2222619,
+      "bggId": 372559,
+      "title": "Косточки",
+      "titleOriginal": "Spots",
+      "photoUrl": "https://s.tesera.ru/images/items/2222619,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.15,
+        "bggNumVotes": 6254,
+        "teseraRating": 7.03,
+        "teseraNumVotes": 165
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 25,
+      "timeMax": 30,
+      "tags": [],
+      "isAddition": false
     }
   }
 ]

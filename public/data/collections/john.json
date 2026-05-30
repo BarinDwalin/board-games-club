@@ -1,5 +1,278 @@
 [
   {
+    "creationDateUtc": "2025-07-27T13:24:47.347404",
+    "game": {
+      "id": 73127,
+      "alias": "twilight-inscription",
+      "teseraId": 2067936,
+      "bggId": 361545,
+      "title": "Сумерки империи: Летопись галактики",
+      "titleOriginal": "Twilight Inscription",
+      "photoUrl": "https://s.tesera.ru/images/items/2067936,3/photo1.png",
+      "year": 2022,
+      "rating": {
+        "bggRating": 7.45,
+        "bggNumVotes": 4465,
+        "teseraRating": 7.41,
+        "teseraNumVotes": 64
+      },
+      "playersMin": 1,
+      "playersMax": 8,
+      "timeMin": 90,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 96114045,
+    "creationDateUtc": "2025-06-07T07:49:35",
+    "game": {
+      "id": 74838,
+      "alias": "1919-novoe-nachalo",
+      "teseraId": 2199329,
+      "bggId": 0,
+      "title": "1919 Новое начало",
+      "photoUrl": "https://s.tesera.ru/images/items/2199329,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 0,
+        "bggNumVotes": 0,
+        "teseraRating": 7.73,
+        "teseraNumVotes": 11
+      },
+      "playersMin": 1,
+      "playersMax": 4,
+      "timeMin": 80,
+      "timeMax": 120,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "relationId": 96149108,
+    "creationDateUtc": "2025-07-04T11:35:19",
+    "game": {
+      "id": 73929,
+      "alias": "mysticvale",
+      "teseraId": 2147030,
+      "bggId": 308762,
+      "title": "Mystic Vale: Essential Edition",
+      "photoUrl": "https://s.tesera.ru/images/items/2147030,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.82,
+        "bggNumVotes": 642,
+        "teseraRating": 7.83,
+        "teseraNumVotes": 33
+      },
+      "playersMin": 2,
+      "playersMax": 4,
+      "timeMin": 45,
+      "timeMax": 60,
+      "tags": [],
+      "isAddition": false
+    }
+  },
+  {
+    "creationDateUtc": "2025-07-31T20:38:45.237297",
+    "game": {
+      "id": 66960,
+      "alias": "Little-Town",
+      "teseraId": 1474198,
+      "bggId": 241266,
+      "title": "Городишко",
+      "titleOriginal": "Little Town",
+      "photoUrl": "https://s.tesera.ru/images/items/1474198,3/photo1.jpg",
+      "year": 2017,
+      "rating": {
+        "bggRating": 7.16,
+        "bggNumVotes": 4407,
+        "teseraRating": 7.16,
+        "teseraNumVotes": 102
+      },
+      "playersMin": 2,
+      "playersMax": 4,
+      "timeMin": 30,
+      "timeMax": 60,
+      "tags": [],
+      "isAddition": false,
+      "addons": [
+        {
+          "creationDateUtc": "2025-06-07T07:49:57",
+          "game": {
+            "id": 74653,
+            "alias": "dopolnenie-dlya-igry-gorodishko",
+            "teseraId": 2188601,
+            "bggId": 286796,
+            "title": "Городишко: Хорошие здания",
+            "titleOriginal": "Little Town: Goodie Buildings",
+            "photoUrl": "https://s.tesera.ru/images/items/2188601,3/photo1.png",
+            "year": 0,
+            "rating": {
+              "bggRating": 0,
+              "bggNumVotes": 0,
+              "teseraRating": 0,
+              "teseraNumVotes": 0
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 74478
+          }
+        },
+        {
+          "creationDateUtc": "2025-06-07T07:53:39",
+          "game": {
+            "id": 73072,
+            "alias": "little-town-artisans",
+            "teseraId": 2063275,
+            "bggId": 359133,
+            "title": "Little Town: Artisans",
+            "photoUrl": "https://s.tesera.ru/images/items/2063275,3/photo1.jpg",
+            "year": 2022,
+            "rating": {
+              "bggRating": 7.426,
+              "bggNumVotes": 111,
+              "teseraRating": 0,
+              "teseraNumVotes": 0
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 74478
+          }
+        }
+      ]
+    }
+  },
+  {
+    "creationDateUtc": "2025-04-27T12:43:16.533083",
+    "game": {
+      "id": 54589,
+      "alias": "Eldritch-Horror",
+      "teseraId": 296979,
+      "title": "Древний ужас",
+      "titleOriginal": "Eldritch Horror",
+      "photoUrl": "https://s.tesera.ru/images/items/296979,3/photo1.jpg",
+      "year": 2013,
+      "rating": {
+        "bggRating": 7.75,
+        "bggNumVotes": 37589,
+        "teseraRating": 8.14,
+        "teseraNumVotes": 1864
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 146021,
+      "playersMin": 1,
+      "playersMax": 8,
+      "age": 14,
+      "timeMin": 120,
+      "timeMax": 240
+    }
+  },
+  {
+    "relationId": 96012558,
+    "creationDateUtc": "2025-04-08T03:43:16",
+    "game": {
+      "id": 78345,
+      "alias": "the-lord-of-the-rings-duel-for-middle-earth",
+      "teseraId": 2368349,
+      "title": "The Lord of the Rings: Duel for Middle-Earth",
+      "titleOriginal": "Lord of the Rings: Duel for Middle-Earth",
+      "photoUrl": "https://s.tesera.ru/images/items/2368349,3/photo1.jpg",
+      "year": 2024,
+      "rating": {
+        "bggRating": 8.413,
+        "bggNumVotes": 9290,
+        "teseraRating": 8.29,
+        "teseraNumVotes": 47
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "addons": [
+        {
+          "relationId": 96012560,
+          "creationDateUtc": "2025-04-08T03:45:20",
+          "game": {
+            "id": 80113,
+            "alias": "the-shire-promo-tile-2024",
+            "teseraId": 2450844,
+            "title": "промо-регион для игры The Lord of the Rings: Duel for Middle-Earth",
+            "titleOriginal": "The Shire Promo Tile (2024)",
+            "photoUrl": "https://s.tesera.ru/images/items/2450844,3/photo1.png",
+            "year": 2024,
+            "rating": {
+              "bggRating": 6.396,
+              "bggNumVotes": 108,
+              "teseraRating": 0,
+              "teseraNumVotes": 0
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 78345
+          }
+        },
+        {
+          "relationId": 96012559,
+          "creationDateUtc": "2025-04-08T03:44:30",
+          "game": {
+            "id": 80112,
+            "alias": "the-lord-of-the-rings-duel-for-middle-earth-grond-promo-tile",
+            "teseraId": 2450838,
+            "title": "промо провинция для игры The Lord of the Rings: Duel for Middle-earth",
+            "titleOriginal": "The Lord of the Rings: Duel for Middle-Earth Grond Promo Tile (2024)",
+            "photoUrl": "https://s.tesera.ru/images/items/2450838,3/photo1.png",
+            "year": 2024,
+            "rating": {
+              "bggRating": 3.682,
+              "bggNumVotes": 42,
+              "teseraRating": 0,
+              "teseraNumVotes": 0
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 78345
+          }
+        }
+      ],
+      "bggId": 421006,
+      "playersMin": 2,
+      "playersMax": 2,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 45
+    }
+  },
+  {
+    "relationId": 96012556,
+    "creationDateUtc": "2025-04-08T03:38:40",
+    "game": {
+      "id": 77256,
+      "alias": "splendor-pokmon",
+      "teseraId": 2300789,
+      "title": "Splendor: Pokémon",
+      "titleOriginal": "Splendor: Pokemon",
+      "photoUrl": "https://s.tesera.ru/images/items/2300789,3/photo1.jpg",
+      "year": 2023,
+      "rating": {
+        "bggRating": 6.218,
+        "bggNumVotes": 965,
+        "teseraRating": 8.14,
+        "teseraNumVotes": 18
+      },
+      "tags": [],
+      "isAddition": false,
+      "language": "eng",
+      "bggId": 406291,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 10,
+      "timeMin": 30,
+      "timeMax": 0
+    }
+  },
+  {
     "relationId": 95925385,
     "creationDateUtc": "2025-02-15T11:00:14",
     "game": {
@@ -43,6 +316,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 180852,
       "playersMin": 2,
       "playersMax": 4,
@@ -69,6 +343,7 @@
       },
       "tags": [],
       "isAddition": false,
+      "language": "eng",
       "bggId": 309430,
       "playersMin": 3,
       "playersMax": 4,
@@ -544,6 +819,53 @@
       },
       "tags": [],
       "isAddition": false,
+      "addons": [
+        {
+          "relationId": 95972972,
+          "creationDateUtc": "2025-03-15T10:52:17",
+          "game": {
+            "id": 75445,
+            "alias": "its-a-wonderful-world-leisure-decadence",
+            "teseraId": 2231013,
+            "title": "Этот безумный мир: Праздность и упадок",
+            "titleOriginal": "It's a Wonderful World: Leisure & Decadence",
+            "photoUrl": "https://s.tesera.ru/images/items/2231013,3/photo1.jpg",
+            "year": 2020,
+            "rating": {
+              "bggRating": 8.085,
+              "bggNumVotes": 0,
+              "teseraRating": 7.66,
+              "teseraNumVotes": 8
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 66703
+          }
+        },
+        {
+          "relationId": 95972970,
+          "creationDateUtc": "2025-03-15T10:51:58",
+          "game": {
+            "id": 75446,
+            "alias": "its-a-wonderful-world-war-or-peace",
+            "teseraId": 2231014,
+            "title": "Этот безумный мир: Война или мир",
+            "titleOriginal": "It's a Wonderful World: War or Peace",
+            "photoUrl": "https://s.tesera.ru/images/items/2231014,3/photo1.jpg",
+            "year": 2020,
+
+            "rating": {
+              "bggRating": 7.79,
+              "bggNumVotes": 1123,
+              "teseraRating": 7.78,
+              "teseraNumVotes": 9
+            },
+            "tags": [],
+            "isAddition": true,
+            "parentId": 66703
+          }
+        }
+      ],
       "bggId": 271324,
       "playersMin": 1,
       "playersMax": 5,
@@ -2068,7 +2390,29 @@
               "teseraNumVotes": 4
             },
             "tags": [],
-            "isAddition": false,
+            "isAddition": true,
+            "parentId": 56129
+          }
+        },
+        {
+          "relationId": 96012555,
+          "creationDateUtc": "2025-04-08T03:38:22",
+          "game": {
+            "id": 58219,
+            "alias": "cash-n-guns-more-cash-n-n-more-guns",
+            "teseraId": 603088,
+            "title": "Ca$h 'N Gun$: More Cash 'n more Guns",
+            "titleOriginal": "Ca$h 'N Gun$: More Cash 'n more Guns",
+            "photoUrl": "https://s.tesera.ru/images/items/603088,3/photo1.jpg",
+            "year": 2015,
+            "rating": {
+              "bggRating": 7.24,
+              "bggNumVotes": 849,
+              "teseraRating": 7.6,
+              "teseraNumVotes": 8
+            },
+            "tags": [],
+            "isAddition": true,
             "parentId": 56129
           }
         }

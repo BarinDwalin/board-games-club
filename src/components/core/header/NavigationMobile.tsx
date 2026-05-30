@@ -5,7 +5,8 @@ import {
   createTheme,
   Link,
 } from "@mui/material";
-import { Link as RouterLink } from "react-router";
+import { Link as RouterLink, useNavigate } from "react-router";
+import { AppRoute } from "../../../settings";
 import { MenuItem } from "./menu-item";
 
 export function NavigationMobile(props: {
@@ -13,8 +14,16 @@ export function NavigationMobile(props: {
   routes: MenuItem[];
   setPage: (item: MenuItem) => void;
 }) {
+  const navigate = useNavigate();
+
   const onClickMenu = (item: MenuItem) => {
     props.setPage(item);
+  };
+  const handleMapNavigate = () => {
+    const mainPage = props.routes.find((item) => item.key === AppRoute.Main);
+
+    props.setPage(mainPage!);
+    navigate("/main#map-wrapper");
   };
 
   let theme = createTheme({});
@@ -82,23 +91,29 @@ export function NavigationMobile(props: {
         >
           <Box
             sx={{
+              display: "flex",
+              alignItems: "center",
               padding: "0 32px",
               height: "50px",
-              alignContent: "center",
               [theme.breakpoints.down("sm")]: {
                 padding: "0 20px",
               },
             }}
           >
-            <Typography
-              variant="subtitle1"
-              component="span"
-              sx={{
-                fontWeight: "bold",
+            <img
+              style={{
+                marginRight: "8px",
+                width: "36px",
+                height: "36px",
               }}
-            >
-              Астана
-            </Typography>
+              src="/images/icons/astana.svg"
+              alt="лого Астаны"
+            />
+            <Link onClick={() => handleMapNavigate()} underline="none">
+              <Typography variant="subtitle1" component="span">
+                Астана, Проспект Туран, 40/2
+              </Typography>
+            </Link>
           </Box>
           <nav style={{ width: "100%", marginTop: "12px" }}>
             <ul
