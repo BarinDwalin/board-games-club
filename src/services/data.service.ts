@@ -78,28 +78,44 @@ export class DataService {
   ] as const;
 
   async getCategoriesGames(): Promise<
-    { categoryId: string; gamesIds: number[]; sortType?: SortType }[]
+    {
+      categoryId: string;
+      gamesIds?: number[];
+      gamesBggIds?: number[];
+      sortType?: SortType;
+    }[]
   > {
     const categoriesGames: {
       categoryId: string;
-      gamesIds: number[];
+      gamesIds?: number[];
+      gamesBggIds?: number[];
       sortType?: SortType;
     }[] = [];
 
     for (const settings of this.categories.filter(
-      (settings) => settings.file
+      (settings) => settings.file,
     )) {
       const games =
-        (await this.getData<{ id: number }>(
-          `${this.collectionsPath}categories/${settings.file}`
+        (await this.getData<{ id?: number; bggId?: number }>(
+          `${this.collectionsPath}categories/${settings.file}`,
         )) || [];
 
       if (games.length > 0) {
-        categoriesGames.push({
+        const entry: {
+          categoryId: string;
+          gamesIds?: number[];
+          gamesBggIds?: number[];
+          sortType?: SortType;
+        } = {
           categoryId: settings.id,
           sortType: settings.sortType,
-          gamesIds: games.map((game) => game.id),
-        });
+          gamesIds: games.filter((game) => game.id).map((game) => game.id!),
+          gamesBggIds: games
+            .filter((game) => game.bggId)
+            .map((game) => game.bggId!),
+        };
+
+        categoriesGames.push(entry);
       }
     }
 
@@ -112,16 +128,16 @@ export class DataService {
     for (const collection of this.collections) {
       const records =
         (await this.getData<GameRecord<Game>>(
-          `${this.collectionsPath}${collection.file}`
+          `${this.collectionsPath}${collection.file}`,
         )) || [];
       const unavailableGames =
         (
           await this.getData<{ id: number }>(
-            `${this.collectionsPath}${collection.unavailableFile}`
+            `${this.collectionsPath}${collection.unavailableFile}`,
           )
         ).map((value) => value.id) || [];
       const availableRecords = records.filter(
-        (record) => !unavailableGames.includes(record.game.id)
+        (record) => !unavailableGames.includes(record.game.id),
       );
       availableRecords.forEach((record) => {
         record.owner = collection.owner;
@@ -194,9 +210,13 @@ export class DataService {
   }
 
   public sortGameByTopBgg(a: GameRecord<Game>, b: GameRecord<Game>) {
-    const positionA = a.game?.badges?.find((badge) => badge.type === GameBadgeType.Top)?.value ?? 999;
-    const positionB = b.game?.badges?.find((badge) => badge.type === GameBadgeType.Top)?.value ?? 999;
-    
+    const positionA =
+      a.game?.badges?.find((badge) => badge.type === GameBadgeType.Top)
+        ?.value ?? 999;
+    const positionB =
+      b.game?.badges?.find((badge) => badge.type === GameBadgeType.Top)
+        ?.value ?? 999;
+
     if (positionA < positionB) {
       return -1;
     }
