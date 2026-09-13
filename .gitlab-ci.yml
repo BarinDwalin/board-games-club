@@ -1,0 +1,55 @@
+image: node:22
+
+stages:
+  - build
+  - deploy
+
+variables:
+  npm_config_cache: "$CI_PROJECT_DIR/.npm"
+
+cache:
+  key:
+    files:
+      - package-lock.json
+  paths:
+    - .npm/
+
+build:
+  stage: build
+
+  script:
+    - npm ci
+    - npm run build
+
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 day
+
+deploy:
+  stage: deploy
+
+  dependencies:
+    - build
+
+  before_script:
+    - apt-get update -qq
+    - apt-get install -y -qq lftp
+
+  script:
+    - |
+      lftp -c "
+        set ftp:ssl-force true;
+        set ftp:ssl-protect-data true;
+        set ssl:verify-certificate no;
+        open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_HOST;
+        mirror
+          --reverse
+          --delete
+          --verbose
+          build/
+          $FTP_PATH;
+      "
+
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
