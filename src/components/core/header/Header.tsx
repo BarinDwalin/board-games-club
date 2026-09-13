@@ -40,6 +40,7 @@ export function Header(props: {
   const onSetPageMobile = (page: MenuItem) => {
     props.setPage(page);
     setCollapsedMobileMenu(false);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
   const onSetPageDesktop = (page: MenuItem) => {
     closeSearchPanel();
@@ -175,11 +176,22 @@ export function Header(props: {
         >
           <Box
             sx={{
+              display: "flex",
+              alignItems: "center",
               [theme.breakpoints.down("lg")]: {
                 display: "none",
               },
             }}
           >
+            <img
+              style={{
+                marginRight: "8px",
+                width: "36px",
+                height: "36px",
+              }}
+              src="/images/icons/astana.svg"
+              alt="лого Астаны"
+            />
             Астана
           </Box>
           <Link

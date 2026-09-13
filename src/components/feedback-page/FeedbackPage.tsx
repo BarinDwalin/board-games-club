@@ -1,4 +1,4 @@
-import { Box, Link, Typography, createTheme } from "@mui/material";
+import { Box, Typography, createTheme } from "@mui/material";
 import { Contacts } from "../rules-page/Contacts";
 
 export function FeedbackPage() {
@@ -21,20 +21,11 @@ export function FeedbackPage() {
           textAlign: "center",
         }}
       >
-        Идеи, предложения, пожелания? Пишите нам на{" "}
-        <Link
-          href="https://forms.gle/hV1oCmzwdJy9iviV8"
-          underline="none"
-          target="_blank"
-          rel="noopener"
-          sx={{ padding: "0px 0px" }}
-        >
-          форму обратной связи
-        </Link>
+        Идеи, предложения, пожелания?
       </Typography>
 
       <Contacts
-        title="Так же любые вопросы задавайте в"
+        title="По любому вопросу пишете нам в"
         sx={{
           margin: "16px 0 64px",
           [theme.breakpoints.down("md")]: {

@@ -11,7 +11,6 @@
   { "id": 59135, "alias": "bitvy-geroyev" },
   { "id": 54130, "alias": "panic-on-wall-street" },
   { "id": 54390, "alias": "Bang-The-Dice-Game" },
-  { "id": 69666, "alias": "hegemony-lead-your-class-to-victory" },
   { "id": 53032, "alias": "Wits-and-Wagers" },
   { "id": 63587, "alias": "diamant-2016-iello-edition" },
   { "id": 69420, "alias": "dune-imperium" },
@@ -31,5 +30,7 @@
   { "id": 59857, "alias": "Citadels-2016" },
   { "id": 68852, "alias": "northgard-uncharted-lands" },
   { "id": 56923, "alias": "Forbidden-Stars" },
-  { "id": 78508, "alias": "the-gang" }
+  { "id": 78508, "alias": "the-gang" },
+  { "id": 69959, "alias": "slay-the-spire-the-board-game" },
+  { "id": 78345, "alias": "the-lord-of-the-rings-duel-for-middle-earth" }
 ]

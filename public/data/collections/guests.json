@@ -1,5 +1,30 @@
 [
   {
+    "creationDateUtc": "2025-01-29T07:49:05.24238",
+    "game": {
+      "id": 66876,
+      "alias": "titans",
+      "teseraId": 1465057,
+      "title": "Titans",
+      "photoUrl": "https://s.tesera.ru/images/items/1465057,3/photo1.jpg",
+      "year": 2020,
+      "rating": {
+        "bggRating": 7.51,
+        "bggNumVotes": 597,
+        "teseraRating": 7.84,
+        "teseraNumVotes": 40
+      },
+      "tags": [],
+      "isAddition": false,
+      "bggId": 277080,
+      "playersMin": 2,
+      "playersMax": 4,
+      "age": 13,
+      "timeMin": 80,
+      "timeMax": 160
+    }
+  },
+  {
     "creationDateUtc": "2025-01-29T19:03:05.777731",
     "game": {
       "id": 56445,
@@ -175,32 +200,6 @@
       "age": 10,
       "timeMin": 30,
       "timeMax": 45
-    }
-  },
-  {
-    "creationDateUtc": "2025-01-29T19:01:09.822926",
-    "game": {
-      "id": 63870,
-      "alias": "IceCool2",
-      "teseraId": 1186022,
-      "title": "Айс-класс 2",
-      "titleOriginal": "Ice Cool 2",
-      "photoUrl": "https://s.tesera.ru/images/items/1186022,3/photo1.jpg",
-      "year": 2018,
-      "rating": {
-        "bggRating": 7.15,
-        "bggNumVotes": 1850,
-        "teseraRating": 7.22,
-        "teseraNumVotes": 35
-      },
-      "tags": [],
-      "isAddition": false,
-      "bggId": 244513,
-      "playersMin": 2,
-      "playersMax": 8,
-      "age": 0,
-      "timeMin": 15,
-      "timeMax": 20
     }
   },
   {
@@ -446,7 +445,7 @@
       },
       "tags": [],
       "isAddition": false,
-      "bggId": 128621,
+      "bggId": 183394,
       "playersMin": 2,
       "playersMax": 6,
       "age": 12,

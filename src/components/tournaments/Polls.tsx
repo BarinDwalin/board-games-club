@@ -93,7 +93,7 @@ export function Polls({ theme }: PollsProps) {
           variant="outlined"
         />
 
-        <TextField
+        {/* <TextField
           id="polls-tournaments-help"
           label="Готовы помочь с организацией турнира? "
           helperText="Напишите, что вы можете предложить и как с вами связаться"
@@ -103,7 +103,7 @@ export function Polls({ theme }: PollsProps) {
           minRows={1}
           maxRows={4}
           variant="standard"
-        />
+        /> */}
 
         <Button
           variant="contained"

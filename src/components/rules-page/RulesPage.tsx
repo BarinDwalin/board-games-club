@@ -1,4 +1,4 @@
-import { Box, Typography, createTheme } from "@mui/material";
+import { Box, ThemeProvider, Typography, createTheme } from "@mui/material";
 import { Contacts } from "./Contacts";
 
 function RuleIcon() {
@@ -53,97 +53,108 @@ export function RulesPage() {
     },
     {
       title: "Оплата при входе",
-      description: "Kaspi или наличные. Стоимость указана за весь день. О скидках уточняйте у администратора",
+      description:
+        "Kaspi или наличные. Стоимость указана за весь день. О скидках уточняйте у администратора",
     },
   ];
 
   let theme = createTheme({});
+  
+  theme.typography.h5 = {
+    ...theme.typography.h5,
+    [theme.breakpoints.down("md")]: {
+      lineHeight: "1.5rem",
+      fontSize: "1.25rem",
+    },
+  };
 
   return (
-    <div
-      style={{
-        margin: "24px",
-      }}
-    >
-      <Box
-        sx={{
+    <ThemeProvider theme={theme}>
+      <div
+        style={{
           margin: "24px",
-          textAlign: "center",
         }}
       >
-        <Typography
-          variant="h4"
-          component="h1"
+        <Box
           sx={{
+            margin: "24px",
             textAlign: "center",
+          }}
+        >
+          <Typography
+            variant="h4"
+            component="h1"
+            sx={{
+              textAlign: "center",
+              [theme.breakpoints.down("md")]: {
+                fontSize: "1.625rem",
+              },
+            }}
+          >
+            Правила посещения клуба
+          </Typography>
+        </Box>
+
+        <Box
+          component="ul"
+          sx={{
+            margin: "48px 100px",
+            padding: 0,
+            columns: 2,
             [theme.breakpoints.down("md")]: {
-              fontSize: "1.625rem",
+              margin: 0,
+              columns: 1,
             },
           }}
         >
-          Правила посещения клуба
-        </Typography>
-      </Box>
-
-      <Box
-        component="ul"
-        sx={{
-          margin: "48px 100px",
-          padding: 0,
-          columns: 2,
-          [theme.breakpoints.down("md")]: {
-            margin: 0,
-            columns: 1,
-          },
-        }}
-      >
-        {rules.map((rule, i) => (
-          <Box
-            component="li"
-            key={i}
-            sx={{
-              margin: "12px",
-              display: "flex",
-              columnGap: "12px",
-            }}
-          >
-            <RuleIcon />
-            <div
-              style={{
+          {rules.map((rule, i) => (
+            <Box
+              component="li"
+              key={i}
+              sx={{
+                margin: "12px",
                 display: "flex",
-                flexDirection: "column",
-                overflow: "auto",
+                columnGap: "12px",
               }}
             >
-              <Typography variant="h5" component="span" sx={{}}>
-                {rule.title}
-              </Typography>
-              <Typography
-                variant="body1"
-                component="span"
-                sx={{
-                  marginTop: "4px",
-                  marginLeft: "24px",
-                  [theme.breakpoints.down("md")]: {
-                    marginLeft: 0,
-                  },
+              <RuleIcon />
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "column",
+                  overflow: "auto",
                 }}
               >
-                {rule.description}
-              </Typography>
-            </div>
-          </Box>
-        ))}
-      </Box>
+                <Typography variant="h5" component="span" sx={{}}>
+                  {rule.title}
+                </Typography>
+                <Typography
+                  variant="body1"
+                  component="span"
+                  sx={{
+                    marginTop: "4px",
+                    marginLeft: "24px",
+                    [theme.breakpoints.down("md")]: {
+                      marginLeft: 0,
+                    },
+                  }}
+                >
+                  {rule.description}
+                </Typography>
+              </div>
+            </Box>
+          ))}
+        </Box>
 
-      <Contacts
-        sx={{
-          margin: "16px 0 64px",
-          [theme.breakpoints.down("md")]: {
-            margin: "16px 0 40px",
-          },
-        }}
-      />
-    </div>
+        <Contacts
+          sx={{
+            margin: "16px 0 64px",
+            [theme.breakpoints.down("md")]: {
+              margin: "16px 0 40px",
+            },
+          }}
+        />
+      </div>
+    </ThemeProvider>
   );
 }
